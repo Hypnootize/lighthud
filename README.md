@@ -4,7 +4,7 @@ Basically my daily HUD, a side project I have been running for years now, and st
 
 This repository is public since I got some download requests, anyone is free to use it but I'm not really looking for any feedback on this please.
 
-![](https://i.imgur.com/mYnfq0q.jpg)
+![](https://i.imgur.com/Fi0YH5w.jpg)
 ![](https://i.imgur.com/SLkknry.jpg)
 ![](https://i.imgur.com/UcPU97G.jpg)
 ![](https://i.imgur.com/LPYCrpj.jpg)
