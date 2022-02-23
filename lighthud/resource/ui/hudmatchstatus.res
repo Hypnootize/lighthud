@@ -37,7 +37,7 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"north"
 			"labelText"								"0:00"
-			"font"									"HudFontSmallishBold"
+			"font"									"HudFontSmallishBoldShadow"
 			"fgcolor"								"White"
 		}
 	}
@@ -285,7 +285,7 @@
 			"tall"									"39"
 			"visible"								"1"
 			"PaintBackgroundType"					"2"
-			"bgcolor_override"						"117 107 94 255"
+			"bgcolor_override"						"White"
 		}
 		"BluePlayerList"
 		{
@@ -416,7 +416,7 @@
 			"tall"									"39"
 			"visible"								"1"
 			"PaintBackgroundType"					"2"
-			"bgcolor_override"						"117 107 94 255"
+			"bgcolor_override"						"White"
 		}
 		"RedPlayerList"
 		{

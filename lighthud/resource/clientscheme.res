@@ -30,12 +30,12 @@
 		"PartyMember5"										"255 118 108 255"
 		"PartyMember6"										"255 133 255 255"
 
-		"White"												"225 220 215 255"
+		"White"												"225 220 220 255"
 		"Red"												"255 0 0 255"
 		"RedSolid"											"192 28 0 255"
 		"Blue"												"0 160 255 255"
-		"Yellow"											"225 220 215 255"
-		"TransparentYellow"									"225 220 215 255"
+		"Yellow"											"225 220 220 255"
+		"TransparentYellow"									"225 220 220 255"
 		"BrightYellow"										"235 235 52 255"
 		"GreenSolid"		 								"76 107 34 255"
 
@@ -50,8 +50,8 @@
 		"HUDBlueTeamSolid"									"115 150 170 255"
 		"HUDRedTeamSolid"									"189 59 61 255"
 		"HUDDeathWarning"									"255 0 0 255"
-		"HudWhite"											"225 220 215 255"
-		"HudOffWhite"										"225 220 215 255"
+		"HudWhite"											"225 220 220 255"
+		"HudOffWhite"										"225 220 220 255"
 		"HudBlack"											"65 65 65 255"
 		"ProgressBarBlue"									"91 122 142 255"
 
@@ -60,34 +60,31 @@
 		"Gray"												"178 178 178 255"
 
 		"Blank"												"0 0 0 0"
-		"ForTesting"										"255 0 0 32"
-		"ForTesting_Magenta"								"255 0 255 255"
-		"ForTesting_MagentaDim"								"255 0 255 120"
 
 		"HudPanelForeground"								"123 110 59 184"
 		"HudPanelBackground"								"123 110 59 184"
 		"HudPanelBorder"									"255 255 255 102"
 
-		"HudProgressBarActive"								"225 220 215 255"
-		"HudProgressBarInActive"							"225 220 215 255"
+		"HudProgressBarActive"								"225 220 220 255"
+		"HudProgressBarInActive"							"225 220 220 255"
 		"HudProgressBarActiveLow"							"255 25 25 255"
 		"HudProgressBarInActiveLow"							"255 25 25 255"
 
-		"HudTimerProgressActive"							"225 220 215 255"
+		"HudTimerProgressActive"							"225 220 220 255"
 		"HudTimerProgressInActive"							"52 48 45 255"
 		"HudTimerProgressWarning"							"240 30 30 255"
 
 		"HudTrainingHint"									"212 160 23 255"
 
 		"TanDark"											"120 115 105 255"
-		"TanLight"											"225 220 215 255"
+		"TanLight"											"225 220 220 255"
 		"TanDarker"											"45 40 35 255"
 
 		"StoreDarkTan"										"131 121 104 255"
 		"StoreGreen"										"76 107 34 255"
 
 		"LowHealthRed"										"255 0 0 255"
-		"ProgressOffWhite"									"225 220 215 255"
+		"ProgressOffWhite"									"225 220 220 255"
 		"ProgressBackground"								"0 0 0 100"
 		"HealthBgGrey"										"72 71 69 255"
 
@@ -96,7 +93,7 @@
 		"LabelDark"											"0 0 0 255"
 		"LabelTransparent"									"0 0 0 100"
 
-		"BuildMenuActive"									"225 220 215 255"
+		"BuildMenuActive"									"225 220 220 255"
 
 		"DisguiseMenuIconRed"								"189 59 61 255"
 		"DisguiseMenuIconBlue"								"115 150 170 255"
@@ -109,9 +106,9 @@
 
 		"HTMLBackground"									"95 92 101 255"
 
-		"ItemAttribLevel"									"225 220 215 255"
-		"ItemAttribNeutral"									"225 220 215 255"
-		"ItemAttribPositive"								"225 220 215 255"
+		"ItemAttribLevel"									"225 220 220 255"
+		"ItemAttribNeutral"									"225 220 220 255"
+		"ItemAttribPositive"								"225 220 220 255"
 		"ItemAttribNegative"								"255 60 60 255"
 
 		"ItemSetName"										"225 255 15 255"
@@ -120,7 +117,7 @@
 		"ItemIsotope"										"225 255 15 255"
 		"ItemBundleItem"									"149 175 12 255"
 		"ItemLimitedUse"									"0 160 0 255"
-		"ItemFlags"											"117 107 94 255"
+		"ItemFlags"											"White"
 		"ItemLimitedQuantity"								"225 209 0 255"
 
 		"QualityColorNormal"								"178 178 178 255"
@@ -180,9 +177,9 @@
 		"LighterDarkBrown"									"60 60 60 255"
 		"DarkBrown"											"30 30 30 255"
 
-		"UpgradeDefaultFg"									"225 220 215 255"
+		"UpgradeDefaultFg"									"225 220 220 255"
 		"UpgradeDefaultBg"									"60 60 60 255"
-		"UpgradeArmedFg"									"225 220 215 255"
+		"UpgradeArmedFg"									"225 220 220 255"
 		"UpgradeArmedBg"									"80 175 115 255"
 		"UpgradeDepressedFg"								"60 60 60 255"
 		"UpgradeDepressedBg"								"80 175 115 255"
@@ -398,8 +395,8 @@
 		"MenuColor"											"233 208 173 255"
 		"MenuBoxBg"											"0 0 0 100"
 
-		"SelectionNumberFg"									"225 220 215 255"
-		"SelectionTextFg"									"225 220 215 255"
+		"SelectionNumberFg"									"225 220 220 255"
+		"SelectionTextFg"									"225 220 220 255"
 		"SelectionEmptyBoxBg" 								"0 0 0 80"
 		"SelectionBoxBg" 									"0 0 0 80"
 		"SelectionSelectedBoxBg" 							"0 0 0 190"
@@ -412,7 +409,7 @@
 		"Main.Menu.X"										"32"
 		"Main.Menu.Y"										"248"
 
-		"Main."Bottom"Border"									"32"
+		"Main.BottomBorder"									"32"
 
 		"VguiScreenCursor"									"255 208 64 255"
 	}
@@ -643,6 +640,16 @@
 				"name"										"HeeboBold"
 				"tall"										"16"
 				"antialias" 								"1"
+			}
+		}
+		"HudFontSmallishBoldShadow"
+		{
+			"1"
+			{
+				"name"										"HeeboBold"
+				"tall"										"16"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
 			}
 		}
 		"HudFontSmallBold"
@@ -1966,23 +1973,23 @@
 		}
 		"ScrollBarButtonBorder"
 		{
-			"backgroundtype" 								"2"
+			"backgroundtype" 								"0"
 		}
 		"ScrollBarButtonDepressedBorder"
 		{
-			"backgroundtype" 								"2"
+			"backgroundtype" 								"0"
 		}
 		"ButtonBorder"
 		{
-			"backgroundtype" 								"2"
+			"backgroundtype" 								"0"
 		}
 		"ButtonKeyFocusBorder"
 		{
-			"backgroundtype" 								"2"
+			"backgroundtype" 								"0"
 		}
 		"ButtonDepressedBorder"
 		{
-			"backgroundtype" 								"2"
+			"backgroundtype" 								"0"
 		}
 		"ComboBoxBorder"
 		{
@@ -2183,11 +2190,11 @@
 		}
 		"Econ.Button.Border.Default"
 		{
-			"backgroundtype" 								"2"
+			"backgroundtype" 								"0"
 		}
 		"Econ.Button.Border.Armed"
 		{
-			"backgroundtype" 								"2"
+			"backgroundtype" 								"0"
 		}
 		"LoadoutItemMouseOverBorder"
 		{

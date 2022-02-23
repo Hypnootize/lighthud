@@ -1,1 +1,96 @@
-#base "HudItemEffectMeter_SodaPopper.res"
+#base "HudItemEffectMeter.res"
+
+"Resource/UI/HudItemEffectMeter.res"
+{
+	"HudItemEffectMeter"
+	{
+		"ypos"										"r92"
+		"tall"										"6"
+	}
+	"Label0"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"Label0"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-1"
+		"wide"										"p0.25"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"0"
+		"textAlignment"								"center"
+		"font"										"SpectatorKeyHints"
+        "fgcolor"									"255 255 255 255"
+	}
+    "Label1"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"Label1"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-1"
+		"wide"										"p0.25"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"1"
+		"textAlignment"								"center"
+		"font"										"SpectatorKeyHints"
+        "fgcolor"									"255 255 255 255"
+
+        "pin_to_sibling"							"Label0"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+    "Label2"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"Label2"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-1"
+		"wide"										"p0.25"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"2"
+		"textAlignment"								"center"
+		"font"										"SpectatorKeyHints"
+        "fgcolor"									"255 255 255 255"
+
+        "pin_to_sibling"							"Label1"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+    "Label3"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"Label3"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-1"
+		"wide"										"p0.25"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labelText"									"3"
+		"textAlignment"								"center"
+		"font"										"SpectatorKeyHints"
+		"fgcolor"									"255 255 255 255"
+
+        "pin_to_sibling"							"Label2"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ItemEffectMeterLabel"
+		"xpos"										"9999"
+	}
+}

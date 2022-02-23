@@ -60,4 +60,53 @@
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 	}
+
+	"MainBackground"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"MainBackground"
+		"xpos"										"9999"
+	}
+	"MapInfo"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"MapInfo"
+		"xpos"										"9999"
+	}
+	"StatData"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"StatData"
+		"xpos"										"9999"
+	}
+	"TipImage"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"TipImage"
+		"xpos"										"9999"
+	}
+	"TipText"
+	{
+		"ControlName"								"Label"
+		"fieldName"									"TipText"
+		"xpos"										"9999"
+	}
+	"NextTipButton"
+	{
+		"ControlName"								"Button"
+		"fieldName"									"NextTipButton"
+		"xpos"										"9999"
+	}
+	"ResetStatsButton"
+	{
+		"ControlName"								"Button"
+		"fieldName"									"ResetStatsButton"
+		"xpos"										"9999"
+	}
+	"CloseButton"
+	{
+		"ControlName"								"Button"
+		"fieldName"									"CloseButton"
+		"xpos"										"9999"
+	}
 }

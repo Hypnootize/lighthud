@@ -154,7 +154,7 @@
 
 		"if_competitive"
 		{
-			"wide"									"f0"
+			"wide"									"0"
 		}
 		"if_readymode"
 		{

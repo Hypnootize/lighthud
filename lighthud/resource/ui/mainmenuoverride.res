@@ -199,7 +199,7 @@
 			"wide"								"210"
 			"tall"								"135"
 			"PaintBackgroundType"				"0"
-			"fgcolor_override"					"117 107 94 255"
+			"fgcolor_override"					"White"
 
 			"Notifications_Control"
 			{

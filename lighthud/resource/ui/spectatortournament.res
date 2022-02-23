@@ -85,7 +85,7 @@
 				"proportionaltoparent"				"1"
 				"painbackground"					"1"
 				"painbackgroundtype"				"1"
-				"bgcolor_override"					"0 0 0 75"
+				"bgcolor_override"					"0 0 0 125"
 			}
 			"HealthIcon"
 			{

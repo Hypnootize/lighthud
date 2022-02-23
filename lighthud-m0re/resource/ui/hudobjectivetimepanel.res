@@ -14,7 +14,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%servertimeleft%"
 		"textAlignment"								"center"
-		"font"										"Default"
+		"font"										"HudFontSmallestShadow"
 		"fgcolor"									"White"
 
 		"if_mvm"

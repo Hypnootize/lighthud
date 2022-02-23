@@ -1,8 +1,14 @@
+#base "../../resource/ui/reloadScheme.res"
+
 "Resource/UI/ItemSelectionPanel.res"
 {
+	"ReloadSchemeButton"
+	{
+		"ypos"										"65"
+	}
+	
 	"ItemSelectionPanel"
 	{
-
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ItemSelectionPanel"
 		"xpos"										"0"
@@ -15,7 +21,7 @@
 		"settitlebarvisible"						"0"
 		"bgcolor_override"							"46 43 42 255"
 
-		"item_ypos"									"60"
+		"item_ypos"									"90"
 		"item_ydelta"								"80"
 		"item_backpack_offcenter_x"					"-288"
 		"item_backpack_xdelta"						"4"
@@ -48,7 +54,7 @@
 			"tall"									"42"
 			"visible"								"0"
 			"bgcolor_override"						"0 0 0 0"
-			"noitem_textcolor"						"117 107 94 255"
+			"noitem_textcolor"						"White"
 			"PaintBackgroundType"					"2"
 			"paintborder"							"1"
 
@@ -86,140 +92,57 @@
 		}
 	}
 
-	"CaratLabel"
+	"NameFilterIcon"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CaratLabel"
-		"xpos"										"c-300"
-		"ypos"										"20"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"NameFilterIcon"
+		"xpos"										"c-288"
+		"ypos"										"70"
 		"zpos"										"1"
-		"wide"										"20"
+		"wide"										"130"
 		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"HudFontSmallestBold"
-		"labelText"									">>"
-		"textAlignment"								"west"
-		"fgcolor" 									"200 80 60 255"
-	}
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"31 32 33 255"
 
-	"ClassLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ClassLabel"
-		"xpos"										"c-280"
-		"ypos"										"15"
-		"zpos"										"1"
-		"wide"										"480"
-		"tall"										"25"
-		"visible"									"1"
-		"enabled"									"1"
-		"font"										"HudFontMediumBold"
-		"labelText"									"#ClassBeingEquipped"
-		"textAlignment"								"west"
-	}
-
-	"NameFilterLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"NameFilterLabel"
-		"xpos"										"c+205"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"90"
-		"tall"										"20"
-		"visible"									"1"
-		"enabled"									"1"
-		"font"										"HudFontSmallestBold"
-		"labelText"									"#Store_NameFilterLabel"
-		"textAlignment"								"west"
-		"fgcolor"									"StoreDarkTan"
+		"Icon"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"Icon"
+			"xpos"									"2"
+			"ypos"									"2"
+			"zpos"									"1"
+			"wide"									"o1"
+			"tall"									"f4"
+			"visible"								"1"
+			"enabled"								"1"
+			"scaleImage"							"1"
+			"image"									"glyph_workshop_view"
+			"drawcolor"								"White"
+			"proportionaltoparent"					"1"
+		}
 	}
 
 	"NameFilterTextEntry"
 	{
 		"ControlName"								"TextEntry"
 		"fieldName"									"NameFilterTextEntry"
-		"xpos"										"c+205"
-		"ypos"										"15"
-		"zpos"										"2"
-		"wide"										"90"
-		"tall"										"19"
+		"xpos"										"c-270"
+		"ypos"										"72"
+		"wide"										"110"
+		"zpos"										"5"
+		"tall"										"11"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"unicode"									"1"
-		"fgcolor_override"							"117 107 94 255"
-		"bgcolor_override"							"251 235 202 255"
-		"paintbackgroundtype" 						"2"
+		"fgcolor_override"							"White"
+		"bgcolor_override"							"45 45 45 255"
+		"paintbackgroundtype" 						"0"
 		"font"										"HudFontSmallest"
-	}
-
-	"TopLine"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"TopLine"
-		"xpos"										"c-305"
-		"ypos"										"40"
-		"zpos"										"2"
-		"wide"										"610"
-		"tall"										"10"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"loadout_dotted_line"
-		"tileImage"									"1"
-		"tileVertically" 							"0"
-	}
-
-	"BottomLine"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"BottomLine"
-		"xpos"										"c-305"
-		"ypos"										"330"
-		"zpos"										"2"
-		"wide"										"610"
-		"tall"										"10"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"loadout_dotted_line"
-		"tileImage"									"1"
-		"tileVertically" 							"0"
-	}
-
-	"ItemSlotLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ItemSlotLabel"
-		"xpos"										"c-55"
-		"ypos"										"15"
-		"zpos"										"1"
-		"wide"										"375"
-		"tall"										"25"
-		"visible"									"1"
-		"enabled"									"1"
-		"font"										"HudFontMediumBold"
-		"labelText"									"#PrimaryWeapon"
-		"textAlignment"								"west"
-	}
-
-	"NoItemsLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"NoItemsLabel"
-		"xpos"										"c-300"
-		"ypos"										"120"
-		"zpos"										"10"
-		"wide"										"600"
-		"tall"										"30"
-		"visible"									"0"
-		"enabled"									"1"
-		"fgcolor" 									"200 80 60 255"
-		"font"										"HudFontSmallBold"
-		"labelText"									"#NoItemsToEquip"
-		"textAlignment"								"center"
 	}
 
 	"CancelButton"
@@ -238,15 +161,14 @@
 		"textAlignment"								"center"
 		"Command"									"vguicancel"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
 	}
 
 	"OnlyAllowUniqueQuality"
 	{
 		"ControlName"								"CheckButton"
 		"fieldName"									"OnlyAllowUniqueQuality"
-		"xpos"										"c-306"
-		"ypos"										"340"
+		"xpos"										"c-293"
+		"ypos"										"310"
 		"zpos"										"1"
 		"wide"										"290"
 		"tall"										"25"
@@ -257,53 +179,15 @@
 		"textAlignment"								"east"
 	}
 
-	"ShowBackpack"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"ShowBackpack"
-		"xpos"										"c100"
-		"ypos"										"340"
-		"zpos"										"20"
-		"wide"										"200"
-		"tall"										"25"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"#Selection_ShowBackpack"
-		"font"										"HudFontSmallBold"
-		"textAlignment"								"center"
-		"Command"									"show_backpack"
-		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
-	}
-
-	"ShowSelection"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"ShowSelection"
-		"xpos"										"c100"
-		"ypos"										"340"
-		"zpos"										"20"
-		"wide"										"200"
-		"tall"										"25"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"#Selection_ShowSelection"
-		"font"										"HudFontSmallBold"
-		"textAlignment"								"center"
-		"Command"									"show_selection"
-		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
-	}
-
 	"PrevPageButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"PrevPageButton"
-		"xpos"										"c195"
-		"ypos"										"290"
+		"xpos"										"c202"
+		"ypos"										"70"
 		"zpos"										"1"
-		"wide"										"20"
-		"tall"										"20"
+		"wide"										"15"
+		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
@@ -311,7 +195,6 @@
 		"textAlignment"								"center"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
 	}
 	"PrevShortKey"
 	{
@@ -330,25 +213,25 @@
 		"font"										"HudFontSmallBold"
 		"labelText"									"%backpackpage%"
 		"textAlignment"								"center"
-		"xpos"										"c220"
-		"ypos"										"290"
+		"xpos"										"c228"
+		"ypos"										"70"
 		"zpos"										"1"
 		"wide"										"40"
-		"tall"										"20"
+		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
-		"fgcolor" 									"200 80 60 255"
+		"fgcolor" 									"White"
 	}
 
 	"NextPageButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"NextPageButton"
-		"xpos"										"c265"
-		"ypos"										"290"
+		"xpos"										"c280"
+		"ypos"										"70"
 		"zpos"										"1"
-		"wide"										"20"
-		"tall"										"20"
+		"wide"										"15"
+		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
@@ -356,7 +239,6 @@
 		"textAlignment"								"center"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
 	}
 	"NextShortKey"
 	{
@@ -379,7 +261,7 @@
 		"tall"										"300"
 		"visible"									"0"
 		"bgcolor_override"							"0 0 0 0"
-		"noitem_textcolor"							"117 107 94 255"
+		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"2"
 		"paintborder"								"1"
 
@@ -401,8 +283,21 @@
 			"enabled"								"1"
 			"labelText"								"%attriblist%"
 			"textAlignment"							"center"
-			"fgcolor"								"117 107 94 255"
+			"fgcolor"								"White"
 			"centerwrap"							"1"
 		}
+	}
+
+	"ShowBackpack"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"ShowBackpack"
+		"xpos"										"9999"
+	}
+	"ShowSelection"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"ShowSelection"
+		"xpos"										"9999"
 	}
 }
