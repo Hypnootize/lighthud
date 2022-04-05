@@ -81,12 +81,6 @@
 
 		"pin_to_sibling"							"ItemEffectMeterCount"
 	}
-	"ItemEffectMeterBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
-		"xpos"										"9999"
-	}
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"

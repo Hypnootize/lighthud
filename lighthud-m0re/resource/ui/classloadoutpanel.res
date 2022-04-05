@@ -1,12 +1,5 @@
-#base "../../resource/ui/reloadScheme.res"
-
 "Resource/UI/ClassLoadoutPanel.res"
 {
-	"ReloadSchemeButton"
-	{
-		"ypos"										"45"
-	}
-
 	"class_loadout_panel"
 	{
 		"ControlName"								"Frame"

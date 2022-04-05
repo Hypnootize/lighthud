@@ -16,7 +16,7 @@
 	"FullScreenBG"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"BG"
+		"fieldName"									"FullScreenBG"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"

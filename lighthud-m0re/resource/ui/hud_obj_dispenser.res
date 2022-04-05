@@ -12,7 +12,7 @@
 		"enabled"									"1"
 	}
 	
-	"Icon_Dispenser"
+	"Icon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Icon"

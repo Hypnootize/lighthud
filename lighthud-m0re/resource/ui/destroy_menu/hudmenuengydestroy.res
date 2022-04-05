@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/HudMenuEngyDestroy.res"
+"Resource/UI/Build_Menu/HudMenuEngyDestroy.res"
 {
 	"active_item_1"
 	{

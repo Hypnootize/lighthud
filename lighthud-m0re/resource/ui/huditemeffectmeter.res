@@ -55,10 +55,4 @@
 		"textAlignment"								"center"
 		"font"										"FontStorePriceSmall"
 	}
-	"ItemEffectMeterBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
-		"xpos"										"9999"
-	}
 }

@@ -1,12 +1,5 @@
-#base "../../resource/ui/reloadScheme.res"
-
 "Resource/UI/CraftingPanel.res"
 {
-	"ReloadSchemeButton"
-	{
-		"ypos"										"45"
-	}
-
 	"crafting_panel"
 	{
 		"ControlName"								"Frame"

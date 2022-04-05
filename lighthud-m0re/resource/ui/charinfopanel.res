@@ -1,5 +1,3 @@
-#base "../../resource/ui/reloadScheme.res"
-
 "Resource/UI/CharInfoPanel.res"
 {
 	"character_info"

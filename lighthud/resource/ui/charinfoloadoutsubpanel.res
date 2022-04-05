@@ -1,5 +1,3 @@
-#base "../../resource/ui/reloadScheme.res"
-
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
 	"CharInfoLoadoutSubPanel"

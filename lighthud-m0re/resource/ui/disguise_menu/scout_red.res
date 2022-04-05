@@ -1,4 +1,4 @@
-"Resource/UI/disguise_menu/scout_red.res"
+"Resource/UI/Disguise_Menu/Scout_Red.res"
 {
 	"TitleBG"
 	{
@@ -52,7 +52,6 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
-		"font"										"FontStorePrice"
 		"xpos"										"2"
 		"ypos"										"15"
 		"zpos"										"1"
@@ -62,6 +61,7 @@
 		"enabled"									"1"
 		"AllCaps"									"0"
 		"labelText"									"#TF_Class_Name_Scout"
+		"font"										"FontStorePrice"
 		"textAlignment"								"west"
 		"textinsetx"								"2"
 		"proportionaltoparent"						"1"
@@ -99,9 +99,7 @@
 	"NewNumberLabel"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
-		"font"										"FontStorePrice"
-		"fgcolor"									"White"
+		"fieldName"									"NewNumberLabel"
 		"xpos"										"52"
 		"ypos"										"15"
 		"zpos"										"13"
@@ -110,8 +108,10 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"1"
+		"font"										"FontStorePrice"
 		"textAlignment"								"Center"
 		"proportionaltoparent"						"1"
+		"fgcolor"									"White"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"

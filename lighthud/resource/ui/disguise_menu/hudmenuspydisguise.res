@@ -1,4 +1,4 @@
-"Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
+"Resource/UI/Disguise_Menu/HudMenuSpyDisguise.res"
 {
 	"Background"
 	{
@@ -375,19 +375,19 @@
 	"NumberBg1"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
+		"fieldName"									"NumberBg1"
 		"xpos"										"9999"
 	}
 	"NumberBg2"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
+		"fieldName"									"NumberBg2"
 		"xpos"										"9999"
 	}
 	"NumberBg3"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
+		"fieldName"									"NumberBg3"
 		"xpos"										"9999"
 	}
 }

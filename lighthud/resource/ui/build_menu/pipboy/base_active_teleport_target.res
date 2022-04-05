@@ -1,4 +1,4 @@
-"Resource/UI/Build_Menu/Tele_Exit_Cant_Afford.res"
+"Resource/UI/Build_Menu/PipBoy/Base_Active_Teleport_Target.res"
 {
 	"Background"
 	{
@@ -6,7 +6,7 @@
 		"fieldName"									"Background"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"-1"
+		"zpos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
 		"visible"									"1"
@@ -14,35 +14,17 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"2"
-		"bgcolor_override"							"225 75 75 150"
-
-		"MetalIcon"
-		{
-			"ControlName"							"CIconPanel"
-			"fieldName"								"MetalIcon"
-			"xpos"									"cs-0.5"
-			"ypos"									"cs-0.5"
-			"zpos"									"1"
-			"wide"									"25"
-			"tall"									"25"
-			"visible"								"1"
-			"enabled"								"1"
-			"scaleImage"							"1"
-			"proportionaltoparent"					"1"
-			"icon"									"ico_metal"
-			"iconColor"								"White"
-			"alpha"									"100"
-		}
+		"bgcolor_override"							"TransparentLightBlack"
 
 		"NumberBG"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"NumberBG"
-			"xpos"									"0"
-			"ypos"									"rs1"
+			"xpos"									"rs1"
+			"ypos"									"cs-0.5"
 			"zpos"									"0"
-			"wide"									"f0"
-			"tall"									"9"
+			"wide"									"8"
+			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -52,11 +34,11 @@
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"BG"
-				"xpos"								"0"
-				"ypos"								"-3"
+				"xpos"								"-3"
+				"ypos"								"0"
 				"zpos"								"0"
-				"wide"								"f0"
-				"tall"								"f-3"
+				"wide"								"f-3"
+				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
@@ -66,39 +48,42 @@
 			}
 		}
 	}
-	"CostLabel"
+
+	"ItemNameLabel"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"CostLabel"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5-4"
-		"zpos"										"5"
-		"wide"										"f0"
-		"tall"										"f2"
+		"fieldName"									"ItemNameLabel"
+		"font"										"ScoreboardVerySmall"
+		"xpos"										"2"
+		"ypos"										"cs-0.5"
+		"zpos"										"2"
+		"wide"										"f10"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
+		"AllCaps"									"1"
+		"labelText"									"#TF_Object_Sentry"
+		"textAlignment"								"west"
 		"proportionaltoparent"						"1"
-		"labelText"									"%metal%"
-		"textAlignment"								"center"
-		"font"										"HudFontSmallBold"
 		"fgcolor"									"White"
 	}
+
 	"NumberLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NumberLabel"
-		"xpos"										"cs-0.5"
-		"ypos"										"rs1"
+		"font"										"ScoreboardVerySmall"
+		"fgcolor"									"White"
+		"xpos"										"rs1"
+		"ypos"										"cs-0.5"
 		"zpos"										"6"
-		"wide"										"f0"
-		"tall"										"9"
+		"wide"										"8"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-		"labelText"									"4"
-		"textAlignment"								"center"
+		"labelText"									"1"
+		"textAlignment"								"Center"
 		"proportionaltoparent"						"1"
-		"font"										"HudFontSmallest"
-		"fgcolor"									"White"
 	}
 
 	"ItemBackground"
@@ -113,16 +98,22 @@
 		"fieldName"									"ItemNameLabel"
 		"xpos"										"9999"
 	}
+	"ModeLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ModeLabel"
+		"xpos"										"9999"
+	}
 	"BuildingIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildingIcon"
 		"xpos"										"9999"
 	}
-	"ModeLabel"
+	"CantBuildReason"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"ModeLabel"
+		"fieldName"									"CantBuildReason"
 		"xpos"										"9999"
 	}
 	"NumberBg"

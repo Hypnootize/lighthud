@@ -1,12 +1,5 @@
-#base "../../resource/ui/reloadScheme.res"
-
 "Resource/UI/ItemSelectionPanel.res"
 {
-	"ReloadSchemeButton"
-	{
-		"ypos"										"65"
-	}
-	
 	"ItemSelectionPanel"
 	{
 		"ControlName"								"EditablePanel"

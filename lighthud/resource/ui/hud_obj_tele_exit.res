@@ -12,7 +12,7 @@
 		"enabled"									"1"
 	}
 	
-	"Icon_Teleport_Exit"
+	"Icon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Icon"

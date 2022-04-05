@@ -1,12 +1,5 @@
-#base "../../../resource/ui/reloadScheme.res"
-
 "Resource/UI/BackPackPanel.res"
 {
-	"ReloadSchemeButton"
-	{
-		"ypos"										"45"
-	}
-	
 	"backpack_panel"
 	{
 		"ControlName"								"Frame"

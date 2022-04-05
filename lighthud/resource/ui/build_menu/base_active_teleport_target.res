@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base.res"
+"Resource/UI/Build_Menu/Base_Active_Teleport_Target.res"
 {
 	"Background"
 	{
@@ -85,7 +85,7 @@
 		"textAlignment"								"Center"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"								"CIconPanel"

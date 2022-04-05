@@ -39,17 +39,4 @@
 		"textAlignment"								"center"
 		"font"										"HudFontSmallestShadow"
 	}
-
-	"ItemEffectMeterBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
-		"xpos"										"9999"
-	}
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ItemEffectMeterLabel"
-		"xpos"										"9999"
-	}
 }

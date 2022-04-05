@@ -1,5 +1,3 @@
-#base "../../resource/ui/reloadScheme.res"
-
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
 	"CharInfoLoadoutSubPanel"
@@ -60,6 +58,15 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	"ScoutSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"ScoutSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&1"
+		"Command"									"loadout scout"
+		"visible"									"1"
+	}
 	"SoldierCustom"
 	{
 		"ControlName"								"CExButton"
@@ -85,6 +92,15 @@
 		"pin_to_sibling"							"PyroCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+	"SoldierSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"SoldierSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&2"
+		"Command"									"loadout soldier"
+		"visible"									"1"
 	}
 	"PyroCustom"
 	{
@@ -112,6 +128,15 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	"PyroSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"PyroSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&3"
+		"Command"									"loadout pyro"
+		"visible"									"1"
+	}
 	"DemomanCustom"
 	{
 		"ControlName"								"CExButton"
@@ -138,6 +163,15 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	"DemomanSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"DemomanSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&4"
+		"Command"									"loadout demoman"
+		"visible"									"1"
+	}
 	"HeavyCustom"
 	{
 		"ControlName"								"CExButton"
@@ -159,6 +193,15 @@
 		"paintbackground"							"0"
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"Main"
+	}
+	"HeavySelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"HeavySelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&5"
+		"Command"									"loadout heavy"
+		"visible"									"1"
 	}
 	"EngineerCustom"
 	{
@@ -186,6 +229,15 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
+	"EngineerSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"EngineerSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&6"
+		"Command"									"loadout engineer"
+		"visible"									"1"
+	}
 	"MedicCustom"
 	{
 		"ControlName"								"CExButton"
@@ -211,6 +263,15 @@
 		"pin_to_sibling"							"EngineerCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+	}
+	"MedicSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"MedicSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&7"
+		"Command"									"loadout medic"
+		"visible"									"1"
 	}
 	"SniperCustom"
 	{
@@ -238,6 +299,15 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
+	"SniperSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"SniperSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&8"
+		"Command"									"loadout sniper"
+		"visible"									"1"
+	}
 	"SpyCustom"
 	{
 		"ControlName"								"CExButton"
@@ -263,6 +333,15 @@
 		"pin_to_sibling"							"SniperCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+	}
+	"SpySelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"SpySelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&9"
+		"Command"									"loadout spy"
+		"visible"									"1"
 	}
 	"BackpackCustom"
 	{
@@ -290,7 +369,16 @@
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
+	"BackpackSelectNumber"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"BackpackSelectNumber"
+		"xpos"										"9999"
+		"labelText"									"&0"
+		"Command"									"backpack"
+		"visible"									"1"
+	}
+	
 	"ScoutButton"
 	{
 		"ControlName"								"CExImageButton"

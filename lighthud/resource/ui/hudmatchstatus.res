@@ -8,7 +8,7 @@
 		"name_width"								"57"
 		"horiz_inset"								"2"
 	}
-	
+
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -22,7 +22,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"delta_lifetime"							"0"
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
@@ -50,13 +50,13 @@
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"f0"
-		"tall"										"14"
+		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
 
-		"max_size"									"14"
+		"max_size"									"15"
 
-		"6v6_gap"									"0"
+		"6v6_gap"									"1"
 		"12v12_gap"									"0"
 
 		"team1_grow_dir" 							"west"
@@ -75,14 +75,14 @@
 			"zpos"									"1"
 			"proportionaltoparent"					"1"
 
-			"color_portrait_bg_red"					"Blank"
-			"color_portrait_bg_blue"				"Blank"
+			"color_portrait_bg_red"					"HUDRedTeamSolid"
+			"color_portrait_bg_blue"				"HUDBlueTeamSolid"
 			"color_portrait_bg_red_dead"			"White"
 			"color_portrait_bg_blue_dead"			"White"
-			"color_bar_health_high"					"Blank"
-			"color_bar_health_med"					"Blank"
+			"color_bar_health_high"					"Main"
+			"color_bar_health_med"					"255 160 100 255"
 			"percentage_health_med"					"0.6"
-			"color_bar_health_low"					"Blank"
+			"color_bar_health_low"					"Low"
 			"percentage_health_low"					"0.3"
 			"color_portrait_blend_dead_red"			"White"
 			"color_portrait_blend_dead_blue" 		"White"
@@ -94,8 +94,8 @@
 				"xpos"								"cs-0.5"
 				"ypos"								"cs-0.5"
 				"zpos"								"5"
-				"wide"								"14"
-				"tall"								"14"
+				"wide"								"15"
+				"tall"								"15"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"../hud/class_scoutred"
@@ -114,6 +114,20 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"PaintBackgroundType"				"0"
+				"proportionaltoparent"				"1"
+			}
+			"healthbar"
+			{
+				"ControlName"						"ContinuousProgressBar"
+				"fieldName"							"healthbar"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"3"
+				"wide"								"9999"
+				"tall"								"f0"
+				"visible"							"1"
+				"enabled"							"1"
+				"bgcolor_override"	   				"Blank"
 				"proportionaltoparent"				"1"
 			}
 			"respawntime"
@@ -146,6 +160,7 @@
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
 				"xpos"								"9999"
+				"visible"							"0"
 			}
 			"ReadyBG"
 			{
@@ -157,12 +172,6 @@
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ReadyImage"
-				"xpos"								"9999"
-			}
-			"healthbar"
-			{
-				"ControlName"						"ContinuousProgressBar"
-				"fieldName"							"healthbar"
 				"xpos"								"9999"
 			}
 			"overhealbar"
@@ -486,7 +495,7 @@
 			}
 		}
 
-		"paintbackground"							"0"	
+		"paintbackground"							"0"
 	}
 
 	"MatchDoors"
@@ -495,7 +504,7 @@
 		"fieldName"									"MatchDoors"
 		"xpos"										"0"
 		"ypos"										"9999"
-		"zpos"										"2"		
+		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"f0"
 		"autoResize"								"0"
@@ -505,7 +514,7 @@
 		"fov"										"70"
 		"alpha"										"0"
 		"proportionaltoparent"						"1"
-		
+
 		"model"
 		{
 			"modelname"								"models/vgui/versus_doors.mdl"
@@ -529,7 +538,7 @@
 				"name"								"open"
 				"sequence"							"open"
 			}
-			
+
 			"animation"
 			{
 				"name"								"close"
@@ -550,7 +559,7 @@
 		"xpos"										"9999"
 	}
 	"CountdownLabelShadow"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
 		"xpos"										"9999"
@@ -567,19 +576,19 @@
 		"xpos"										"9999"
 	}
 	"RankUpLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpLabel"
 		"xpos"										"9999"
 	}
 	"RankUpShadowLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"RankUpShadowLabel"
 		"xpos"										"9999"
 	}
 	"CountdownLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
 		"xpos"										"9999"
