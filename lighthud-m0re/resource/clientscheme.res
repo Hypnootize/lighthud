@@ -1232,7 +1232,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboUber"
+				"name"										"HeeboUber2"
 				"tall"										"12"
 				"antialias" 								"1"
 				"dropshadow"								"1"
@@ -3388,7 +3388,7 @@
 		"3"
 		{
 			"font" "resource/fonts/heebouber.ttf"
-			"name" "HeeboUber"
+			"name" "HeeboUber2"
 		}
 	}
 }
