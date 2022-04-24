@@ -412,7 +412,7 @@
 		"visible" 									"1"
 		"enabled" 									"1"
 		"xpos"	 									"rs1-5"
-		"ypos"	 									"17"
+		"ypos"	 									"19"
 		"wide"								 		"628"
 		"tall"	 									"468"
 		"MaxDeathNotices" 							"6"
@@ -1010,7 +1010,7 @@
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"2"
+		"zpos"										"4"
 		"wide"										"f0"
 		"tall"										"f0"
 	}

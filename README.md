@@ -1,10 +1,11 @@
 # LightHUD
 
-My daily HUD and side project. I stripped LightHUD down from any HUD elements, animations etc... I've never felt the need of, aims to be very minimal as well as trying to reduce the performance impact HUDs usually have on TF2, mainly freezes but does provide a fps boost compared to TF2's HUD as well!
+My personal HUD aimed to be very minimal and light on performance, get's rid of many elements I don't personally feel the need of and with that brings a bit more stability with less freezes and some [extra FPS](https://i.imgur.com/xOxzDt9.png).
 
-![](https://i.imgur.com/DlMifAk.png)
+It also experiments with a new technique, developed by me and lardox, which aims at keeping the TargetIDs medigun names as short as possible by replacing them with custom icons.
+![](https://i.imgur.com/6KDEEGA.png)
 
-Some of the Screenshots, you can find the full album [HERE](https://imgur.com/a/kg9i6OU)
+Here are some of the screenshots, full album [HERE](https://imgur.com/a/kg9i6OU)
 
 ![](https://i.imgur.com/Fi0YH5w.jpg)
 ![](https://i.imgur.com/SLkknry.jpg)
@@ -16,4 +17,3 @@ Some of the Screenshots, you can find the full album [HERE](https://imgur.com/a/
 ![](https://i.imgur.com/HbEZjQs.jpg)
 ![](https://i.imgur.com/ASovhNb.jpg)
 ![](https://i.imgur.com/8ZsGb9X.jpg)
-![](https://i.imgur.com/ygzHyaT.png)
