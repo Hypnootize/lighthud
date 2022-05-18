@@ -4,7 +4,7 @@
 	{
 		"xpos"										"cs-0.5" 																																																														"ControlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "zpos" "0" "enabled" "1" "textAlignment" "center"
 		"ypos"										"cs-0.5"
-		"visible"									"1"
+		"visible"									"0"
 		"font"										"HudFontSmallishBoldShadow"
 		"labeltext"									"+"
 		"fgcolor"									"White"
