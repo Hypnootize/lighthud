@@ -19,7 +19,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"font"										"HudFontSmall"
+		"font"										"HudFontSmallishBold"
 		"fgcolor"   								"White"
 	}
 	"AccountValueShadow"
@@ -36,7 +36,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"font"										"HudFontSmall"
+		"font"										"HudFontSmallishBold"
 		"fgcolor"   								"0 0 0 130"
 		"pin_to_sibling"   							"AccountValue"
 	}
