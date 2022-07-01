@@ -469,23 +469,6 @@
 				"antialias"									"1"
 			}
 		}
-		"DefaultUnderline"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"12"
-				"underline" 								"1"
-				"range"										"0x0000 0x017F"
-			}
-			"2"
-			{
-				"name"										"HeeboBold"
-				"tall"										"11"
-				"range" 									"0x0000 0x00FF"
-				"weight"									"800"
-			}
-		}
 		"DefaultSmall"
 		{
 			"1"
@@ -501,16 +484,6 @@
 			{
 				"name"										"Verdana"
 				"tall"										"7"
-				"antialias"									"1"
-				"range"										"0x0000 0x017F"
-			}
-		}
-		"DefaultLarge"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"20"
 				"antialias"									"1"
 				"range"										"0x0000 0x017F"
 			}
@@ -727,15 +700,6 @@
 				"antialias" 								"1"
 			}
 		}
-		"PerformanceModeSmall"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"4"
-				"antialias" 								"1"
-			}
-		}
 		"StorePromotionsTitle"
 		{
 			"1"
@@ -781,101 +745,13 @@
 				"antialias" 								"1"
 			}
 		}
-		"FontStorePromotion"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"12"
-				"antialias" 								"1"
-			}
-		}
-		"TextTooltipFont"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"11"
-				"antialias" 								"1"
-			}
-		}
-		"GameUIButtonText"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"18"
-				"antialias" 								"1"
-			}
-		}
-		"HudClassHealth"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"16"
-				"antialias" 								"1"
-			}
-		}
 		"SpectatorKeyHints"
 		{
 			"1"
 			{
 				"name"										"HeeboBold"
 				"tall"										"8"
-				"weight"									"500"
 				"antialias" 								"1"
-			}
-		}
-		"ClockSubText"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"9"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"ClockSubTextSuddenDeath"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"8"
-				"weight"									"500"
-				"antialias" 								"1"
-			}
-		}
-		"ClockSubTextTiny"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"8"
-				"weight"									"500"
-				"antialias" 								"1"
-			}
-		}
-		"HudSelectionText"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"15"
-				"antialias" 								"1"
-				"additive"									"1"
-				"range"										"0x0000 0x017F"
-			}
-		}
-		"DebugOverlay"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
-				"outline"									"1"
-				"range"										"0x0000 0x017F"
 			}
 		}
 		"TFTypeDeath"
@@ -895,79 +771,6 @@
 				"tall"  									"28"
 				"additive" 									"1"
 				"antialias" 								"1"
-			}
-		}
-		"BetaFont"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"90"
-				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
-			}
-		}
-		"HudNumbers"
-		{
-			"1"
-			{
-				"name"										"Team Fortress"
-				"tall"										"28"
-				"additive"									"1"
-				"antialias"									"1"
-			}
-			"2"
-			{
-				"name"										"HeeboBold"
-				"tall"										"28"
-				"additive" 									"1"
-				"antialias"									"1"
-			}
-		}
-		"CloseCaption_Normal"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"24"
-				"range"										"0x0000 0x017F"
-			}
-		}
-		"CloseCaption_Italic"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"24"
-				"italic"									"1"
-				"range"										"0x0000 0x017F"
-			}
-		}
-		"CloseCaption_Bold"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"24"
-				"range"										"0x0000 0x017F"
-			}
-		}
-		"CloseCaption_BoldItalic"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"24"
-				"range"										"0x0000 0x017F"
-			}
-		}
-		"CloseCaption_Small"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"16"
-				"range"										"0x0000 0x017F"
 			}
 		}
 		"Marlett"
@@ -1000,78 +803,12 @@
 				"dropshadow" 								"1"
 			}
 		}
-		"MenuClassBuckets"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"11"
-				"antialias" 								"1"
-			}
-		}
-		"MenuKeys"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"12"
-				"antialias"									"1"
-			}
-		}
-		"GoalText"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"13"
-				"weight"									"800"
-				"antialias" 								"1"
-			}
-		}
-		"ChalkboardTitle"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"28"
-				"antialias"									"1"
-				"weight"									"500"
-			}
-		}
-		"ChalkboardTitleBig"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"40"
-				"antialias"									"1"
-			}
-		}
-		"ChalkboardTitleMedium"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"24"
-				"antialias" 								"1"
-			}
-		}
-		"ChalkboardText"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
-				"antialias"									"1"
-			}
-		}
 		"ScoreboardSmallest"
 		{
 			"1"
 			{
 				"name"										"Verdana"
 				"tall"										"6"
-				"weight"									"400"
 				"antialias" 								"1"
 			}
 		}
@@ -1081,7 +818,6 @@
 			{
 				"name"										"HeeboBold"
 				"tall"										"8"
-				"weight"									"400"
 				"antialias" 								"1"
 			}
 		}
@@ -1114,75 +850,6 @@
 				"antialias" 								"1"
 			}
 		}
-		"ScoreboardTeamName"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"20"
-				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
-			}
-		}
-		"ScoreboardTeamCountNew"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
-				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
-			}
-		}
-		"ScoreboardTeamNameNew"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"20"
-				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
-			}
-		}
-		"ScoreboardTeamNameLarge"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"34"
-				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
-			}
-		}
-		"ScoreboardTeamScoreNew"
- 		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"36"
-				"antialias" 								"1"
-			}
-		}
-		"ScoreboardTeamScore"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"50"
-				"range" 									"0x0000 0x00FF"
-				"antialias" 								"1"
-			}
-		}
-		"MatchSummaryTeamScores"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"36"
-				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
-			}
-		}
 		"MatchSummaryStatsAndMedals"
 		{
 			"1"
@@ -1210,24 +877,6 @@
 				"antialias" 								"1"
 			}
 		}
-		"ControlPointTimer"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"10"
-				"antialias" 								"1"
-			}
-		}
-		"ControlPointTimerSmaller"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"7"
-				"antialias" 								"1"
-			}
-		}
 		"TargetID"
 		{
 			"1"
@@ -1236,15 +885,6 @@
 				"tall"										"12"
 				"antialias" 								"1"
 				"dropshadow"								"1"
-			}
-		}
-		"Link"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"10"
-				"antialias" 								"1"
 			}
 		}
 		"ChatFont"
@@ -1267,46 +907,6 @@
 				"antialias" 								"1"
 			}
 		}
-		"MenuSmallestFont"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"8"
-				"range" 									"0x0000 0x00FF"
-				"antialias"									"1"
-			}
-		}
-		"MenuSmallFont"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
-				"range" 									"0x0000 0x00FF"
-				"antialias"									"1"
-			}
-		}
-		"CapPlayerFont"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"12"
-				"range"										"0x0000 0x017F"
-				"antialias" 								"1"
-			}
-		}
-		"CapPlayerFontSmall"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"8"
-				"range"										"0x0000 0x017F"
-				"antialias" 								"1"
-			}
-		}
 		"TFFontSmall"
 		{
 			"1"
@@ -1323,138 +923,15 @@
 			{
 				"name"										"HeeboBold"
 				"tall"										"9"
-				"weight"									"400"
 				"antialias" 								"1"
 			}
 		}
-
 		"InstructionalText"
 		{
 			"1"
 			{
 				"name"										"HeeboBold"
 				"tall"										"11"
-				"weight"									"800"
-				"antialias" 								"1"
-			}
-		}
-		"MatchmakingDialogTitle"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"36"
-				"antialias" 								"1"
-			}
-		}
-		"MatchmakingDialogSessionOptionsTitle"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"30"
-				"antialias" 								"1"
-			}
-		}
-		"MatchmakingDialogMenuLarge"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"28"
-				"antialias" 								"1"
-			}
-		}
-		"MatchmakingDialogMenuBrowserHostname"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"22"
-				"antialias" 								"1"
-			}
-		}
-		"MatchmakingDialogMenuBrowserDetails"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"18"
-				"antialias" 								"1"
-			}
-		}
-		"MatchmakingDialogMenuMedium"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"22"
-				"antialias" 								"1"
-			}
-		}
-		"MatchmakingDialogMenuMediumSmall"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"18"
-				"antialias" 								"1"
-			}
-		}
-		"MatchmakingDialogMenuSmall"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"22"
-				"weight"									"900"
-				"antialias" 								"1"
-			}
-		}
-		"MatchmakingDialogMenuSmallest"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"18"
-				"weight"									"900"
-				"antialias" 								"1"
-			}
-		}
-		"RankingDialogHeaders"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"15"
-				"weight"									"900"
-				"antialias" 								"1"
-			}
-		}
-		"TeamMenuBold"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"36"
-				"antialias" 								"1"
-			}
-		}
-		"TeamMenu"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"11"
-				"antialias" 								"1"
-			}
-		}
-		"IntroMenuCaption"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"18"
 				"antialias" 								"1"
 			}
 		}
@@ -1473,7 +950,6 @@
 			{
 				"name"										"HeeboBold"
 				"tall"										"10"
-				"weight"									"600"
 				"antialias" 								"1"
 			}
 		}
@@ -1483,7 +959,6 @@
 			{
 				"name"										"HeeboBold"
 				"tall"										"10"
-				"weight"									"500"
 				"antialias" 								"1"
 			}
 		}
@@ -1493,18 +968,7 @@
 			{
 				"name"										"Verdana"
 				"tall"										"7"
-				"weight"									"400"
 				"antialias" 								"1"
-			}
-		}
-		"DefaultVerySmallFallBack"
-		{
-			"2"
-			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"range"										"0x0000 0x017F"
-				"antialias"									"1"
 			}
 		}
 		"ItemFontNameSmallest"
@@ -1772,7 +1236,6 @@
 			{
 				"name"										"HeeboBold"
 				"tall"										"8"
-				"weight"									"400"
 				"antialias" 								"1"
 			}
 		}
@@ -1978,20 +1441,6 @@
 
 	"Borders"
 	{
-		// REMOVED:
-		// TeamMenuBorder
-		// MainMenuButtonGlow
-		// MainMenuButtonGlow2
-		// MainMenuButtonDepressed
-		// MainMenuButtonDepressedArmed
-		// MainMenuBlogTabBG
-		// ReplayBrowser.ScrollBar.SliderButton.Border
-		// QuestStatusBorder
-		// InnerShadowBorder
-		// InnerShadowBorderThin
-		// OuterShadowBorder
-		// OuterShadowBorderThin
-
 		"NoBorder"
 		{
 			"Left"											{ "1" { "color" "Blank" } }
@@ -2039,17 +1488,6 @@
 			"Right"											{ "1" { "color" "SaleGreen" } }
 			"Top"											{ "1" { "color" "SaleGreen" } }
 			"Bottom"										{ "1" { "color" "SaleGreen" } }
-		}
-		"MainMenuSubButtonBorder"
-		{
-			"Left"											{ "1" { "color" "TanDarker" } }
-			"Right"											{ "1" { "color" "TanDarker" } }
-		}
-		"CrosshatchedBackground"
-		{
-			"bordertype"									"image"
-			"image"											"loadout_header"
-			"tiled"											"1"
 		}
 		"OutlinedGreyBox"
 		{
@@ -3061,16 +2499,6 @@
 			"draw_corner_width"								"0"
 			"draw_corner_height" 							"0"
 		}
-		"StoreInnerShadowBorder"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"24 20 19 255"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
 		"StoreNewBorder"
 		{
 			"bordertype"									"scalable_image"
@@ -3356,20 +2784,6 @@
 			"Right"											{ "1" { "color" "QuestMap_ActiveOrange" } "2" { "color" "QuestMap_ActiveOrange" } }
 			"Top"											{ "1" { "color" "QuestMap_ActiveOrange" } "2" { "color" "QuestMap_ActiveOrange" } }
 			"Bottom"										{ "1" { "color" "QuestMap_ActiveOrange" } "2" { "color" "QuestMap_ActiveOrange" } }
-		}
-		"FriendHighlightBorder"
-		{
-			"Left"											{ "1" { "color" "CreditsGreen" } }
-			"Right"											{ "1" { "color" "CreditsGreen" } }
-			"Top"											{ "1" { "color" "CreditsGreen" } }
-			"Bottom"										{ "1" { "color" "CreditsGreen" } }
-		}
-		"FriendHighlightBorderThick"
-		{
-			"Left"											{ "1" { "color" "CreditsGreen" } "2" { "color" "CreditsGreen" } }
-			"Right"											{ "1" { "color" "CreditsGreen" } "2" { "color" "CreditsGreen" } }
-			"Top"											{ "1" { "color" "CreditsGreen" } "2" { "color" "CreditsGreen" } }
-			"Bottom"										{ "1" { "color" "CreditsGreen" } "2" { "color" "CreditsGreen" } }
 		}
 	}
 
