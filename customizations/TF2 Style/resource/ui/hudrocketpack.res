@@ -1,0 +1,58 @@
+"Resource/UI/HudRocketPack.res"
+{
+	"HudItemEffectMeter"
+	{
+		"fieldName"									"HudItemEffectMeter"
+		"xpos"										"cs-0.5"
+		"ypos"										"r85"
+		"zpos"										"0"
+		"wide"										"80"
+		"tall"										"4"
+		"visible"									"1"
+		"enabled"									"1"
+	}
+	"ItemEffectMeter"
+	{
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter"
+		"xpos"										"0"
+		"ypos"										"cs-0.5"
+		"zpos"										"0"
+		"wide"										"40"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"bgcolor_override"							"0 0 0 50"
+	}
+	"ItemEffectMeter2"
+	{
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter2"
+		"xpos"										"rs1"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"39"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+	}
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ItemEffectMeterLabel"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
+		"zpos"										"2"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"0"
+		"proportionaltoparent"						"1"
+		"labelText"									"#TF_RocketPack_Disabled"
+		"textAlignment"								"center"
+		"font"										"FontStorePriceSmall"
+		"disabledfgcolor2_override"					"150 152 157 255"
+	}
+}

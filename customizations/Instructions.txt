@@ -1,0 +1,13 @@
+//=============================================================================
+// HUD STYLE VARIANTS
+//=============================================================================
+
+The m0re - default - TF2 style variants work as overrides
+The default style will be on by default (duh)
+You can check what each one looks like @ https://imgur.com/a/kg9i6OU
+
+To apply any style customization:
+- Open the folder of the wanted style
+- copy the folders found inside
+- paste the copied folders inside the root folder
+- when the system ask if you want to replace the files you want to selet yes!
