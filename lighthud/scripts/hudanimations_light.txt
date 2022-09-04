@@ -39,7 +39,7 @@ event HudLowAmmoPulse
 	Animate 	AmmoInClip 						FGColor 	"Low" 					Linear 	0.0 	0.0
 	Animate 	AmmoInReserve 					FgColor 	"Low" 					Linear 	0.0 	0.0
 	Animate 	AmmoNoClip 						FgColor 	"Low" 					Linear 	0.0 	0.0
-	
+
 	RunEvent 	HudLowAmmoPulseLoop				0.25
 }
 
@@ -113,6 +113,13 @@ event ActiveTimerHighlight
 event ActiveTimerDim
 {
 	Animate 	TimePanelValue 					FgColor		"White"					Linear 	0.0 	0.0
+}
+
+//=====================================================================================================================
+
+event SurveyShowSequence
+{
+	RunEventChild Survey SurveyDelete 0.1
 }
 
 //=====================================================================================================================
