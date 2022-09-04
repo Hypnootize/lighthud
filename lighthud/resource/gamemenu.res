@@ -59,12 +59,6 @@
 		"command"								"OpenMutePlayerDialog"
 		"OnlyInGame"							"1"
 	}
-	"Report"
-	{
-		"label"									"report"
-		"command"								"OpenReportPlayerDialog"
-		"OnlyInGame"							"1"
-	}
 	"Disconnect"
 	{
 		"label"									"disconnect"

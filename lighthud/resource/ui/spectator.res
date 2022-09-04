@@ -22,7 +22,7 @@
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
 		"font"										"HudFontSmallestShadow"
-		"fgcolor_override"  						"White"
+		"fgcolor"  									"White"
 	}
 	"itempanel"
 	{

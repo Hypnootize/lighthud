@@ -38,7 +38,7 @@
 	}
 	"ProgressText"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"ProgressText"
 		"wide"										"0"
 		"tall"										"0"

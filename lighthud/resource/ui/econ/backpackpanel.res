@@ -1,4 +1,4 @@
-"Resource/UI/BackPackPanel.res"
+"Resource/UI/Econ/BackPackPanel.res"
 {
 	"backpack_panel"
 	{

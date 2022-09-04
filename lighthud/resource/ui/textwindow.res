@@ -104,7 +104,7 @@
 	}
 	"MessageTitle"
 	{
-		"ControlName"	 							"Label"
+		"ControlName"	 							"CExLabel"
 		"fieldName"		 							"MessageTitle"
 		"xpos"		 								"9999"
 	}

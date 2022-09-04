@@ -87,7 +87,7 @@
 	}
 	"TipText"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"TipText"
 		"xpos"										"9999"
 	}

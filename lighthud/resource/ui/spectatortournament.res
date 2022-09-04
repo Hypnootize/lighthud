@@ -135,7 +135,7 @@
 				"proportionaltoparent"				"1"
 				"labelText"							"%chargeamount%"
 				"textAlignment"						"east"
-				"fgcolor_override"					"0 225 235 255"
+				"fgcolor"							"0 225 235 255"
 			}
 
 			"classimagebg"

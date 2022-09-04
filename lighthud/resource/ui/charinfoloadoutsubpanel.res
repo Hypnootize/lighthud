@@ -828,7 +828,7 @@
 
 	"ClassLabel"
 	{
-		"ControlName"								"Label"
+		"ControlName"								"CExLabel"
 		"fieldName"									"ClassLabel"
 		"wide"										"0"
 		"tall"										"0"

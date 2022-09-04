@@ -91,7 +91,7 @@
 		}
 		"FreezeLabel"
 		{
-			"ControlName"							"Label"
+			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabel"
 			"wide"									"0"
 			"tall"									"0"
