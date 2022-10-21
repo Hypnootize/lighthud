@@ -79,13 +79,13 @@
 				"xpos"								"cs-0.5"
 				"ypos"								"cs-0.5+1"
 				"zpos"								"1"
-				"wide"								"f4"
-				"tall"								"f4"
+				"wide"								"f7"
+				"tall"								"f7"
 				"visible"							"1"
 				"enabled"							"1"
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
-				"image"								"glyph_chat"
+				"image"								"glyph_forums"
 			}
 		}
 
@@ -394,7 +394,7 @@
 				"zpos"								"100"
 				"tall"								"15"
 
-				if_queued
+				"if_queued"
 				{
 					"xpos"							"cs-0.5"
 					"wide"							"150"
@@ -425,15 +425,15 @@
 			"xpos"									"rs1"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"o1"
+			"wide"									"35"
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"HudFontSmallBold"
-			"textAlignment"							"west"
+			"font"									"HudFontSmallestBold"
+			"textAlignment"							"center"
 			"Command"								"quit"
 			"proportionaltoparent"					"1"
-			"labeltext"								""
+			"labeltext"								"QUIT"
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
@@ -445,26 +445,6 @@
 
 			"defaultFgColor_override" 				"TanLight"
 			"armedFgColor_override" 				"TanLight"
-
-			"image_drawcolor"						"225 220 220 255"
-			"image_armedcolor"						"225 220 220 255"
-
-			"SubImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"SubImage"
-				"xpos"								"cs-0.5"
-				"ypos"								"cs-0.5"
-				"zpos"								"1"
-				"wide"								"f7"
-				"tall"								"f7"
-				"visible"							"1"
-				"enabled"							"1"
-				"scaleImage"						"1"
-				"proportionaltoparent"				"1"
-				"image"								"glyph_quit"
-				"drawcolor_override"				"225 220 220 255"
-			}
 		}
 
 		"DisconnectButton"
@@ -474,15 +454,15 @@
 			"xpos"									"rs1"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"o1"
+			"wide"									"40"
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"HudFontSmallBold"
-			"textAlignment"							"west"
+			"font"									"HudFontSmallestBold"
+			"textAlignment"							"center"
 			"Command"								"quit"
 			"proportionaltoparent"					"1"
-			"labeltext"								""
+			"labeltext"								"LEAVE"
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
@@ -491,47 +471,24 @@
 
 			"armedBgColor_override"					"116 43 43 255"
 			"defaultBgColor_override"				"225 75 75 255"
-
-			"defaultFgColor_override" 				"TanLight"
-			"armedFgColor_override" 				"TanLight"
-
-			"image_drawcolor"						"225 220 220 255"
-			"image_armedcolor"						"225 220 220 255"
-
-			"SubImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"SubImage"
-				"xpos"								"cs-0.5"
-				"ypos"								"cs-0.5"
-				"zpos"								"1"
-				"wide"								"f7"
-				"tall"								"f7"
-				"visible"							"1"
-				"enabled"							"1"
-				"scaleImage"						"1"
-				"proportionaltoparent"				"1"
-				"image"								"glyph_disconnect"
-				"drawcolor_override"				"225 220 220 255"
-			}
 		}
 
 		"ResumeButton"
 		{
 			"ControlName"							"CExImageButton"
 			"fieldName"								"ResumeButton"
-			"xpos"									"rs1-31-31"
+			"xpos"									"rs1-70"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"o1"
+			"wide"									"50"
 			"tall"									"f0"
 			"visible"								"0"
 			"enabled"								"1"
-			"font"									"HudFontSmallBold"
-			"textAlignment"							"west"
+			"font"									"HudFontSmallestBold"
+			"textAlignment"							"center"
 			"Command"								"resume_game"
 			"proportionaltoparent"					"1"
-			"labeltext"								""
+			"labeltext"								"RESUME"
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
@@ -542,43 +499,24 @@
 
 			"defaultFgColor_override" 				"TanLight"
 			"armedFgColor_override" 				"TanLight"
-			"image_drawcolor"						"225 220 220 255"
-			"image_armedcolor"						"225 220 220 255"
-
-			"SubImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"SubImage"
-				"xpos"								"cs-0.5"
-				"ypos"								"cs-0.5"
-				"zpos"								"1"
-				"wide"								"f7"
-				"tall"								"f7"
-				"visible"							"1"
-				"enabled"							"1"
-				"scaleImage"						"1"
-				"proportionaltoparent"				"1"
-				"image"								"icon_resume"
-				"drawcolor_override" 				"225 220 220 255"
-			}
 		}
 
 		"FindAGameButton"
 		{
 			"ControlName"							"CExImageButton"
 			"fieldName"								"FindAGameButton"
-			"xpos"									"rs1-31"
+			"xpos"									"rs1-60"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"o1"
+			"wide"									"35"
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"HudFontSmallBold"
-			"textAlignment"							"west"
+			"font"									"HudFontSmallestBold"
+			"textAlignment"							"center"
 			"Command"								"find_game"
 			"proportionaltoparent"					"1"
-			"labeltext"								""
+			"labeltext"								"PLAY"
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
@@ -592,25 +530,6 @@
 
 			"defaultFgColor_override" 				"TanLight"
 			"armedFgColor_override" 				"TanLight"
-			"image_drawcolor"						"225 220 220 255"
-			"image_armedcolor"						"225 220 220 255"
-
-			"SubImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"SubImage"
-				"xpos"								"cs-0.5"
-				"ypos"								"cs-0.5"
-				"zpos"								"1"
-				"wide"								"f7"
-				"tall"								"f7"
-				"visible"							"1"
-				"enabled"							"1"
-				"scaleImage"						"1"
-				"proportionaltoparent"				"1"
-				"image"								"glyph_multiplayer"
-				"drawcolor_override" 				"225 220 220 255"
-			}
 		}
 	}
 }
