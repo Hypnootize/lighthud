@@ -2,8 +2,8 @@
 {
 	"HudSpellMenu"
 	{
-		"xpos"										"c-190"
-		"ypos"										"rs1-4"
+		"xpos"										"c-163"
+		"ypos"										"rs1-60"
 		"wide"										"35"
 		"tall"										"30"
 	}
@@ -61,16 +61,16 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ActionText"
-		"font"										"DefaultVerySmall"
-		"labelText"									"%actiontext%"
-		"textAlignment"							 	"center"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1"
-		"wide"										"f0"
+		"wide"										"0"		//f0
 		"tall"										"8"
 		"fgcolor"									"White"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
+		"font"										"DefaultVerySmall"
+		"labelText"									"%actiontext%"
+		"textAlignment"							 	"center"
 	}
 
 	"ItemEffectMeterBG"
