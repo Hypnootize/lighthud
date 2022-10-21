@@ -138,10 +138,28 @@
 		"ypos"										"90"
 		"zpos"										"5"
 		"wide"										"280"
-		"tall"										"330"
+		"tall"										"310"
 		"PaintBackground"							"0"
-		"fgcolor_override"							"59 54 48 255"
+		"fgcolor_override"							"TanDark"
 		"autohide_buttons" 							"1"
+
+		"ScrollBar"
+		{
+			"ControlName"							"ScrollBar"
+			"FieldName"								"ScrollBar"
+			"xpos"									"rs1"
+			"ypos"									"0"
+			"tall"									"f0"
+			"wide"									"5"
+			"zpos"									"1000"
+			"nobuttons"								"1"
+			"proportionaltoparent"					"1"
+
+			"Slider"
+			{
+				"fgcolor_override"					"TanDark"
+			}
+		}
 	}
 	"recipecontainer"
 	{
@@ -151,10 +169,10 @@
 		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"280"
-		"tall"										"330"
+		"tall"										"310"
 		"PaintBackground"							"0"
 	}
-	
+
 	"selectedrecipecontainer"
 	{
 		"ControlName"								"EditablePanel"
