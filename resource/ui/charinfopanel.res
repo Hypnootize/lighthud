@@ -27,7 +27,7 @@
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"0"
 	}
-	
+
 	"Sheet"
 	{
 		"ControlName"								"EditablePanel"

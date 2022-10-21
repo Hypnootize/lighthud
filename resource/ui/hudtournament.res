@@ -1,6 +1,6 @@
 "Resource/UI/HudTournament.res"
 {
-	HudTournament
+	"HudTournament"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HudTournament"

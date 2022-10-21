@@ -23,7 +23,7 @@
 		"xpos"										"0"
 		"labelText"									"<"
 
-		if_left
+		"if_left"
 		{
 			"xpos"									"rs1"
 			"labelText"								">"

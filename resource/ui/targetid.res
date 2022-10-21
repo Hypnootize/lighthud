@@ -10,12 +10,12 @@
 		"wide"			           					"640"
 		"tall"			           					"11"
 		"visible"		           					"1"
-		"enabled"		           					"1"
+		"enabled"		           					"0"
 		"proportionaltoparent"						"1"
 		"labelText"		         					"%targetname%"
 		"textAlignment"								"west"
 		"font"										"FontStorePrice"
-		"fgcolor"									"White"
+		"disabledfgcolor2_override"					"White"
 	}
 	"TargetNameLabelShadow"
 	{
@@ -45,12 +45,12 @@
 		"wide"										"280"
 		"tall"										"12"
 		"visible"									"1"
-		"enabled"									"1"
+		"enabled"									"0"
 		"proportionaltoparent"						"1"
 		"labelText"									"%targetdata%"
 		"textAlignment"								"west"
 		"font"										"TargetID"
-		"fgcolor"									"White"
+		"disabledfgcolor2_override"					"White"
 	}
 
 	"SpectatorGUIHealth"

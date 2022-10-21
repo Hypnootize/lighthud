@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_dispenser.res"
+"Resource/UI/Hud_Obj_Dispenser.res"
 {
 	"BuildingStatusItem"
 	{

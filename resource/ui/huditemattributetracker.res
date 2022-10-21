@@ -1,4 +1,4 @@
-"Resource/UI/HudAchievementTrackerItem.res"
+"Resource/UI/HudItemAttributeTracker.res"
 {
 	"ItemAttributeTracker"
 	{
@@ -18,7 +18,7 @@
 		"xpos"										"rs1-10"
 		"ypos"										"120"
 		"wide"										"110"
-		"tall"										"17"
+		"tall"										"0"		//17
 		"proportionaltoparent"						"1"
 		"paintborder"								"0"
 
@@ -32,7 +32,7 @@
 			"wide"									"f0"
 			"tall"									"8"
 			"zpos"									"4"
-			"font"									"DefaultVerySmall"
+			"font"									"ItemTrackerScore_InGame"
 			"TextAlignment"							"east"
 			"proportionaltoparent" 					"1"
 			"fgcolor"								"White"
@@ -47,7 +47,7 @@
 			"wide"									"f0"
 			"tall"									"8"
 			"zpos"									"4"
-			"font"									"DefaultVerySmall"
+			"font"									"ItemTrackerScore_InGame"
 			"TextAlignment"							"east"
 			"proportionaltoparent" 					"1"
 			"fgcolor"								"White"

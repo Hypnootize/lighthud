@@ -1,4 +1,4 @@
-"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+"Resource/UI/MatchMakingPlayList.res"
 {
 	"CasualEntry"
 	{

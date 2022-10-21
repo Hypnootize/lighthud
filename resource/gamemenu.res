@@ -1,4 +1,4 @@
-"GameMenu"
+"Resource/GameMenu.res"
 {
 	"MainBG"
 	{

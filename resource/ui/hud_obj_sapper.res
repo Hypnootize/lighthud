@@ -1,4 +1,4 @@
-"Resource/UI/hud_obj_sapper.res"
+"Resource/UI/Hud_Obj_Sapper.res"
 {
 	"BuildingStatusItem"
 	{
