@@ -8,9 +8,26 @@
 		"ypos"										"r85"
 		"zpos"										"2"
 		"wide"										"80"
-		"tall"										"2"
+		"tall"										"4"
 		"visible"									"1"
 		"enabled"									"1"
+	}
+	"ChargeLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ChargeLabel"
+		"xpos"										"cs-0.5"
+		"ypos"										"r85"
+		"zpos"										"3"
+		"wide"										"80"
+		"tall"										"4"
+		"visible"									"1"
+		"enabled"									"0"
+		"proportionaltoparent"						"1"
+		"labelText"									"#TF_Charge"
+		"textAlignment"								"center"
+		"font"										"FontStorePriceSmall"
+		"disabledfgcolor2_override"					"150 152 157 255"
 	}
 	"PipesPresentPanel"
 	{
@@ -68,12 +85,6 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"background"
-		"xpos"										"9999"
-	}
-	"ChargeLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabel"
 		"xpos"										"9999"
 	}
 	"NoPipesPresentPanel"

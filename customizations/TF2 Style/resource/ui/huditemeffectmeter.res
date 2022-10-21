@@ -23,7 +23,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"0 0 0 50"
 	}
 	"ItemEffectMeterLabel"
 	{

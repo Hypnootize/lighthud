@@ -56,7 +56,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
-		"xpos"										"cs-0.5-8"
+		"xpos"										"cs-0.5"
 		"ypos"										"c20"
 		"wide"										"0"
 		"tall"										"0"
@@ -76,6 +76,8 @@
 		"image"										"../HUD/defense_buff_bullet_blue"
 		"scaleImage"								"1"
 		"pin_to_sibling"							"ResistIconAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	"HealthClusterIcon"
