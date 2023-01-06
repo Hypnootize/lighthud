@@ -11,32 +11,8 @@
 		"icon"										"obj_status_tele_entrance"
 	}
 
-	"GreenLine"
-	{
-		"visible"									"1"
-	}
-	"RedLine"
-	{
-		"visible"									"0"
-	}
-
-	"Cost"
-	{
-		"visible"									"1"
-	}
-	"CostLabel"
-	{
-		"visible"									"1"
-	}
-
-	"CantBuildReason"
-	{
-		"visible"									"0"
-	}
-	
 	"NumberLabel"
 	{	
 		"labelText"									"3"
-		"visible"									"1"
 	}
 }

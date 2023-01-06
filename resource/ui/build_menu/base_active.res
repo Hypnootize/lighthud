@@ -18,20 +18,19 @@
 
 		"MetalIcon"
 		{
-			"ControlName"							"CIconPanel"
+			"ControlName"							"ImagePanel"
 			"fieldName"								"MetalIcon"
 			"xpos"									"cs-0.5"
 			"ypos"									"cs-0.5"
 			"zpos"									"1"
-			"wide"									"25"
-			"tall"									"25"
+			"wide"									"52"
+			"tall"									"52"
 			"visible"								"1"
 			"enabled"								"1"
-			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
-			"icon"									"ico_metal"
-			"iconColor"								"White"
-			"alpha"									"100"
+			"Image"									"class_icons/filter_engineer_motd"
+			"scaleImage"							"1"
+			"drawcolor"								"255 255 255 75"
 		}
 
 		"NumberBG"
