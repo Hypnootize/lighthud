@@ -291,6 +291,18 @@
 		"tall"										"f0"
 	}
 
+	"CurrencyStatusPanel"
+	{
+		"ControlName"								"CCurrencyStatusPanel"
+		"fieldName"									"CurrencyStatusPanel"
+		"xpos"										"0"
+		"ypos"										"r100"
+		"wide"										"100"
+		"tall"										"100"
+		"visible" 									"0"
+		"enabled" 									"1"
+	}
+
 	"HudProgressBar"
 	{
 		"fieldName" 								"HudProgressBar"
