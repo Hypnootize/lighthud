@@ -46,9 +46,6 @@
 
 		"paintbackground"							"0"
 
-		"pinCorner"									"2"
-		"autoResize"								"1"
-
 		"ScrollBar"
 		{
 			"FieldName"								"ScrollBar"
@@ -91,7 +88,7 @@
 		"tall"										"15"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"21 22 23 255"
+		"bgcolor_override"							"HudBlack"
 		"fgcolor_override"							"White"
 		"RoundedCorners"							"0"
 		"font"										"Default"
@@ -120,7 +117,5 @@
 
 		"keyboardinputenabled"						"0"
 		"mouseinputenabled"							"0"
-
-		"pinCorner"									"2"
 	}
 }

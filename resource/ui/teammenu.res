@@ -63,7 +63,6 @@
 		"command"									"jointeam blue"
 		"AllCaps"									"1"
 		"default"									"1"
-		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -142,7 +141,6 @@
 		"command"									"jointeam red"
 		"AllCaps"									"1"
 		"default"									"1"
-		"use_proportional_insets" 					"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -221,7 +219,6 @@
 		"textAlignment"	  							"east"
 		"font"			  							"HudFontSmallestBold"
 		"command"									"jointeam auto"
-		"use_proportional_insets" 					"1"
 		"default"									"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -257,7 +254,6 @@
 		"textAlignment"	  							"west"
 		"font"			  							"HudFontSmallestBold"
 		"command"									"jointeam spectate"
-		"use_proportional_insets" 					"1"
 		"default"									"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"

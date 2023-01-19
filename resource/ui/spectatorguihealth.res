@@ -11,7 +11,7 @@
 		"tall"										"18"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labeltext"									"%Health%"
 		"font"										"HudFontMediumSmallBold"
 		"fgcolor"  									"White"
@@ -27,11 +27,11 @@
 		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labeltext"									"%Health%"
 		"font"										"HudFontMediumSmallBold"
 		"fgcolor"			  						"Black"
-		
+
 		"pin_to_sibling"							"PlayerStatusHealthValue"
 	}
 

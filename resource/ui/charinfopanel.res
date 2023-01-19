@@ -12,9 +12,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"46 43 42 255"
-		"infocus_bgcolor_override"					"46 43 42 255"
-		"outoffocus_bgcolor_override"				"46 43 42 255"
+		"bgcolor_override"							"DarkBrown"
+		"infocus_bgcolor_override"					"DarkBrown"
+		"outoffocus_bgcolor_override"				"DarkBrown"
 
 		"title"										""
 		"title_font"								""
@@ -72,8 +72,8 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		"defaultBgColor_override"					"31 32 33 255"
-		"armedBgColor_override"						"18 19 20 255"
+		"defaultBgColor_override"					"FooterBGBlack"
+		"armedBgColor_override"						"Main"
 
 		"armedFgColor_override"						"White"
 		"defaultFgColor_override"					"White"

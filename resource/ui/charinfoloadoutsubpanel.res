@@ -12,9 +12,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"46 43 42 255"
-		"infocus_bgcolor_override" 					"46 43 42 255"
-		"outoffocus_bgcolor_override" 				"46 43 42 255"
+		"bgcolor_override"							"DarkBrown"
+		"infocus_bgcolor_override" 					"DarkBrown"
+		"outoffocus_bgcolor_override" 				"DarkBrown"
 
 		"selectlabely_default"						"25"
 		"selectlabely_onchanges"					"15"
@@ -141,7 +141,7 @@
 		"ControlName"								"CExButton"
 		"fieldName"									"HeavyCustom"
 		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5-35"
+		"ypos"										"cs-0.5-15"
 		"zpos"										"1"
 		"wide"										"200"
 		"tall"										"18"
@@ -267,7 +267,7 @@
 		"ControlName"								"CExButton"
 		"fieldName"									"BackpackCustom"
 		"xpos"										"0"
-		"ypos"										"3"
+		"ypos"										"25"
 		"zpos"										"1"
 		"wide"										"200"
 		"tall"										"18"
@@ -691,7 +691,7 @@
 			"drawcolor_override" 					"255 255 255 255"
 		}
 
-		"pin_to_sibling"							"ScoutButton"
+		"pin_to_sibling"							"CraftingButton"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
@@ -732,7 +732,89 @@
 			"drawcolor_override" 					"255 255 255 255"
 		}
 
+		"pin_to_sibling"							"ScoutButton"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+	"CatalogButton"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CatalogButton"
+		"xpos"										"7"
+		"ypos"										"0"
+		"zpos"										"605"
+		"wide"										"20"
+		"tall"										"20"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labeltext"									""
+		"Command"									"armory"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"paintbackground"							"0"
+
+		"image_drawcolor"							"255 255 255 255"
+		"image_armedcolor"							"150 150 150 255"
+
+		"SubImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"cs-0.5"
+			"ypos"									"cs-0.5"
+			"zpos"									"1"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"scaleImage"							"1"
+			"proportionaltoparent"					"1"
+			"image"									"catalog_book"
+			"drawcolor_override" 					"255 255 255 255"
+		}
+
 		"pin_to_sibling"							"SpyButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+	"WarPaintsButton"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"WarPaintsButton"
+		"xpos"										"7"
+		"ypos"										"0"
+		"zpos"										"605"
+		"wide"										"20"
+		"tall"										"20"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"labeltext"									""
+		"Command"									"paintkit_preview"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"paintbackground"							"0"
+
+		"image_drawcolor"							"255 255 255 255"
+		"image_armedcolor"							"150 150 150 255"
+
+		"SubImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"cs-0.5"
+			"ypos"									"cs-0.5"
+			"zpos"									"1"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"scaleImage"							"1"
+			"proportionaltoparent"					"1"
+			"image"									"paintkit_tool"
+			"drawcolor_override" 					"255 255 255 255"
+		}
+
+		"pin_to_sibling"							"CatalogButton"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
@@ -744,7 +826,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
-		"tall"										"400"
+		"tall"										"f0"
 		"zpos"										"500"
 		"visible"									"0"
 	}
@@ -755,11 +837,10 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
-		"tall"										"400"
+		"tall"										"f0"
 		"zpos"										"500"
 		"visible"									"0"
 	}
-
 	"armory_panel"
 	{
 		"ControlName"								"CArmoryPanel"
@@ -767,11 +848,10 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
-		"tall"										"400"
+		"tall"										"f0"
 		"zpos"										"500"
 		"visible"									"0"
 	}
-
 	"InspectionPanel"
 	{
 		"fieldName"									"InspectionPanel"
@@ -779,10 +859,10 @@
 		"ypos"										"0"
 		"zpos"										"2000"
 		"wide"										"f0"
-		"tall"										"f100"
+		"tall"										"f0"
 		"visible"									"0"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"46 43 42 255"
+		"bgcolor_override"							"DarkBrown"
 	}
 
 	"ClassLabel"

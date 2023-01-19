@@ -7,7 +7,7 @@
 		"labelText"									"Tele Exit"
 	}
 	"NumberLabel"
-	{	
+	{
 		"labelText"									"4"
 	}
 }

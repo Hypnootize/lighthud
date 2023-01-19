@@ -22,7 +22,7 @@
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-		"fillcolor"									"46 43 42 255"
+		"fillcolor"									"DarkBrown"
 	}
 
 	"MapLabel"

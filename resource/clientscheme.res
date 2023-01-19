@@ -42,7 +42,7 @@
 		"Black"												"0 0 0 255"
 		"TransparentBlack"									"0 0 0 200"
 		"TransparentLightBlack"								"0 0 0 100"
-		"FooterBGBlack"										"32 30 30 255"
+		"FooterBGBlack"										"32 31 30 255"
 
 		"HUDBlueTeam"										"115 150 170 255"
 		"HUDRedTeam"										"190 60 60 255"
@@ -52,7 +52,7 @@
 		"HUDDeathWarning"									"255 0 0 255"
 		"HudWhite"											"225 220 220 255"
 		"HudOffWhite"										"225 220 220 255"
-		"HudBlack"											"32 30 30 255"
+		"HudBlack"											"21 20 19 255"
 		"ProgressBarBlue"									"91 122 142 255"
 
 		"CreditsGreen"										"160 210 115 255"
@@ -81,7 +81,7 @@
 		"TanDarker"											"32 30 30 255"
 
 		"StoreDarkTan"										"130 125 125 255"
-		"StoreGreen"										"80 175 115 255"
+		"StoreGreen"										"50 112 73 255"
 
 		"LowHealthRed"										"225 75 75 255"
 		"ProgressOffWhite"									"225 220 220 255"
@@ -104,7 +104,7 @@
 		"MatchmakingMenuItemTitleColor"						"225 220 220 255"
 		"MatchmakingMenuItemDescriptionColor"				"225 220 220 255"
 
-		"HTMLBackground"									"32 30 30 255"
+		"HTMLBackground"									"45 44 43 255"
 
 		"ItemAttribLevel"									"225 220 220 255"
 		"ItemAttribNeutral"									"225 220 220 255"
@@ -174,8 +174,8 @@
 
 		"LightRed"											"80 175 115 255"
 		"LighterRed"										"80 175 115 255"
-		"LighterDarkBrown"									"32 30 30 255"
-		"DarkBrown"											"32 30 30 255"
+		"LighterDarkBrown"									"72 71 70 255"
+		"DarkBrown"											"46 43 42 255"
 
 		"UpgradeDefaultFg"									"225 220 220 255"
 		"UpgradeDefaultBg"									"32 30 30 255"
@@ -198,13 +198,13 @@
 		"ReplayBrowser.CollectionTitle.FgColor"				"Main"
 		"ReplayBrowser.Warning.FgColor"						"White"
 		"ReplayBrowser.ScrollBar.SliderButton.FgColor"		"White"
-		"ReplayBrowser.Search.BgColor"						"TanDark"
+		"ReplayBrowser.Search.BgColor"						"LighterDarkBrown"
 		"ReplayBrowser.Search.FgColor"						"White"
 
 		"Replay.RenderDialog.BgColor"						"TanDarker"
 
 		"Econ.Dialog.BgColor"								"Blank"
-		"Econ.Button.BgColor"								"TanDark"
+		"Econ.Button.BgColor"								"LighterDarkBrown"
 		"Econ.Button.FgColor"								"White"
 		"Econ.Button.ArmedBgColor"							"Main"
 		"Econ.Button.ArmedFgColor"							"White"
@@ -224,7 +224,7 @@
 		"Border.Selection"									"Gray"
 
 		"Button.TextColor"									"White"
-		"Button.BgColor"									"TanDark"
+		"Button.BgColor"									"LighterDarkBrown"
 		"Button.ArmedTextColor"								"White"
 		"Button.ArmedBgColor"								"Main"
 		"Button.SelectedTextColor"							"White"
@@ -268,7 +268,7 @@
 		"GraphPanel.FgColor"								"Main"
 		"GraphPanel.BgColor"								"TransparentBlack"
 
-		"Label.TextDullColor"								"TanDark"
+		"Label.TextDullColor"								"White"
 		"Label.TextColor"									"White"
 		"Label.TextBrightColor"								"White"
 		"Label.SelectedTextColor"							"White"
@@ -1463,7 +1463,7 @@
 		"OutlinedGreyBox"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"46 43 42 255"
+			"color"											"DarkBrown"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -1473,7 +1473,7 @@
 		"OutlinedDullGreyBox"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"46 43 42 255"
+			"color"											"DarkBrown"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -1483,7 +1483,7 @@
 		"TFThinLineBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"48 44 42 255"
+			"color"											"FooterBGBlack"
 			"image"											"white"
 			"src_corner_height"								"24"
 			"src_corner_width"								"24"
@@ -1493,7 +1493,7 @@
 		"TFFatLineBorderOpaque"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"48 44 42 255"
+			"color"											"FooterBGBlack"
 			"image"											"white"
 			"src_corner_height"								"24"
 			"src_corner_width"								"24"
@@ -1503,7 +1503,7 @@
 		"TFFatLineBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"48 44 42 255"
+			"color"											"FooterBGBlack"
 			"image"											"white"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -1601,7 +1601,7 @@
 		"GrayDialogBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"40 37 37 255"
+			"color"											"FooterBGBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -1618,7 +1618,7 @@
 		"EconItemBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"40 37 37 255"
+			"color"											"FooterBGBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -1635,15 +1635,15 @@
 		}
 		"LoadoutItemMouseOverBorder"
 		{
-			"Left"											{ "1" { "color" "60 53 46 255" } "2" { "color" "60 53 46 255" } }
-			"Right"											{ "1" { "color" "60 53 46 255" } "2" { "color" "60 53 46 255" } }
-			"Top"											{ "1" { "color" "60 53 46 255" } "2" { "color" "60 53 46 255" } }
-			"Bottom"										{ "1" { "color" "60 53 46 255" } "2" { "color" "60 53 46 255" } }
+			"Left"											{ "1" { "color" "LighterDarkBrown" } "2" { "color" "LighterDarkBrown" } }
+			"Right"											{ "1" { "color" "LighterDarkBrown" } "2" { "color" "LighterDarkBrown" } }
+			"Top"											{ "1" { "color" "LighterDarkBrown" } "2" { "color" "LighterDarkBrown" } }
+			"Bottom"										{ "1" { "color" "LighterDarkBrown" } "2" { "color" "LighterDarkBrown" } }
 		}
 		"LoadoutItemPopupBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"30 27 27 255"
+			"color"											"HudBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -1652,53 +1652,53 @@
 		}
 		"BackpackItemGrayedOut"
 		{
-			"Left"											{ "1" { "color" "24 22 21 255" } "2" { "color" "24 22 21 255" } }
-			"Right"											{ "1" { "color" "24 22 21 255" } "2" { "color" "24 22 21 255" } }
-			"Top"											{ "1" { "color" "24 22 21 255" } "2" { "color" "24 22 21 255" } }
-			"Bottom"										{ "1" { "color" "24 22 21 255" } "2" { "color" "24 22 21 255" } }
+			"Left"											{ "1" { "color" "HudBlack" } "2" { "color" "HudBlack" } }
+			"Right"											{ "1" { "color" "HudBlack" } "2" { "color" "HudBlack" } }
+			"Top"											{ "1" { "color" "HudBlack" } "2" { "color" "HudBlack" } }
+			"Bottom"										{ "1" { "color" "HudBlack" } "2" { "color" "HudBlack" } }
 		}
 		"BackpackItemGrayedOut_Selected"
 		{
-			"Left"											{ "1" { "color" "200 187 162 255" } "2" { "color" "200 187 162 255" } }
-			"Right"											{ "1" { "color" "200 187 162 255" } "2" { "color" "200 187 162 255" } }
-			"Top"											{ "1" { "color" "200 187 162 255" } "2" { "color" "200 187 162 255" } }
-			"Bottom"										{ "1" { "color" "200 187 162 255" } "2" { "color" "200 187 162 255" } }
+			"Left"											{ "1" { "color" "White" } "2" { "color" "White" } }
+			"Right"											{ "1" { "color" "White" } "2" { "color" "White" } }
+			"Top"											{ "1" { "color" "White" } "2" { "color" "White" } }
+			"Bottom"										{ "1" { "color" "White" } "2" { "color" "White" } }
 		}
 		// Standard ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder"
 		{
-			"Left"											{ "1" { "color" "79 75 73 255" } "2" { "color" "79 75 73 255" } }
-			"Right"											{ "1" { "color" "79 75 73 255" } "2" { "color" "79 75 73 255" } }
-			"Top"											{ "1" { "color" "79 75 73 255" } "2" { "color" "79 75 73 255" } }
-			"Bottom"										{ "1" { "color" "79 75 73 255" } "2" { "color" "79 75 73 255" } }
+			"Left"											{ "1" { "color" "LighterDarkBrown" } "2" { "color" "LighterDarkBrown" } }
+			"Right"											{ "1" { "color" "LighterDarkBrown" } "2" { "color" "LighterDarkBrown" } }
+			"Top"											{ "1" { "color" "LighterDarkBrown" } "2" { "color" "LighterDarkBrown" } }
+			"Bottom"										{ "1" { "color" "LighterDarkBrown" } "2" { "color" "LighterDarkBrown" } }
 		}
 		"BackpackItemMouseOverBorder"
 		{
-			"Left"											{ "1" { "color" "79 75 73 255" } "2" { "color" "79 75 73 255" } }
-			"Right"											{ "1" { "color" "79 75 73 255" } "2" { "color" "79 75 73 255" } }
-			"Top"											{ "1" { "color" "79 75 73 255" } "2" { "color" "79 75 73 255" } }
-			"Bottom"										{ "1" { "color" "79 75 73 255" } "2" { "color" "79 75 73 255" } }
+			"Left"											{ "1" { "color" "LighterDarkBrown" } "2" { "color" "LighterDarkBrown" } }
+			"Right"											{ "1" { "color" "LighterDarkBrown" } "2" { "color" "LighterDarkBrown" } }
+			"Top"											{ "1" { "color" "LighterDarkBrown" } "2" { "color" "LighterDarkBrown" } }
+			"Bottom"										{ "1" { "color" "LighterDarkBrown" } "2" { "color" "LighterDarkBrown" } }
 		}
 		"BackpackItemSelectedBorder"
 		{
-			"Left"											{ "1" { "color" "200 187 162 255" } "2" { "color" "200 187 162 255" } }
-			"Right"											{ "1" { "color" "200 187 162 255" } "2" { "color" "200 187 162 255" } }
-			"Top"											{ "1" { "color" "200 187 162 255" } "2" { "color" "200 187 162 255" } }
-			"Bottom"										{ "1" { "color" "200 187 162 255" } "2" { "color" "200 187 162 255" } }
+			"Left"											{ "1" { "color" "White" } "2" { "color" "White" } }
+			"Right"											{ "1" { "color" "White" } "2" { "color" "White" } }
+			"Top"											{ "1" { "color" "White" } "2" { "color" "White" } }
+			"Bottom"										{ "1" { "color" "White" } "2" { "color" "White" } }
 		}
 		"BackpackItemGreyedOutBorder"
 		{
-			"Left"											{ "1" { "color" "24 22 21 255" } "2" { "color" "24 22 21 255" } }
-			"Right"											{ "1" { "color" "24 22 21 255" } "2" { "color" "24 22 21 255" } }
-			"Top"											{ "1" { "color" "24 22 21 255" } "2" { "color" "24 22 21 255" } }
-			"Bottom"										{ "1" { "color" "24 22 21 255" } "2" { "color" "24 22 21 255" } }
+			"Left"											{ "1" { "color" "HudBlack" } "2" { "color" "HudBlack" } }
+			"Right"											{ "1" { "color" "HudBlack" } "2" { "color" "HudBlack" } }
+			"Top"											{ "1" { "color" "HudBlack" } "2" { "color" "HudBlack" } }
+			"Bottom"										{ "1" { "color" "HudBlack" } "2" { "color" "HudBlack" } }
 		}
 		"BackpackItemGreyedOutSelectedBorder"
 		{
-			"Left"											{ "1" { "color" "200 187 162 255" } "2" { "color" "200 187 162 255" } }
-			"Right"											{ "1" { "color" "200 187 162 255" } "2" { "color" "200 187 162 255" } }
-			"Top"											{ "1" { "color" "200 187 162 255" } "2" { "color" "200 187 162 255" } }
-			"Bottom"										{ "1" { "color" "200 187 162 255" } "2" { "color" "200 187 162 255" } }
+			"Left"											{ "1" { "color" "White" } "2" { "color" "White" } }
+			"Right"											{ "1" { "color" "White" } "2" { "color" "White" } }
+			"Top"											{ "1" { "color" "White" } "2" { "color" "White" } }
+			"Bottom"										{ "1" { "color" "White" } "2" { "color" "White" } }
 		}
 		// Unique ------------------------------------------------------------------------------------------------
 		"BackpackItemBorder_Unique"
@@ -2363,7 +2363,7 @@
 		"NotificationDefault"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"206 194 162 255"
+			"color"											"Gray"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2373,7 +2373,7 @@
 		"NotificationHighPriority"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"48 43 38 255"
+			"color"											"FooterBGBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2383,7 +2383,7 @@
 		"MainMenuButtonDefault"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"197 186 161 255"
+			"color"											"LighterDarkBrown"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2393,7 +2393,7 @@
 		"MainMenuButtonArmed"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"121 62 49 255"
+			"color"											"Main"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2403,7 +2403,7 @@
 		"MainMenuButtonDisabled"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"82 77 70 255"
+			"color"											"TanDark"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2413,7 +2413,7 @@
 		"MainMenuMiniButtonDefault"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"93 85 76 255"
+			"color"											"LighterDarkBrown"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2423,7 +2423,7 @@
 		"MainMenuMiniButtonArmed"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"111 55 45 255"
+			"color"											"Main"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2433,7 +2433,7 @@
 		"MainMenuBGBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"47 43 37 255"
+			"color"											"FooterBGBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2443,7 +2443,7 @@
 		"MainMenuBGBorderAlpha"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"42 38 33 255"
+			"color"											"FooterBGBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2453,7 +2453,7 @@
 		"MainMenuHighlightBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"100 90 78 255"
+			"color"											"Gray"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2463,7 +2463,7 @@
 		"TrainingResultsBG"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"52 47 41 255"
+			"color"											"FooterBGBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2473,7 +2473,7 @@
 		"StoreNewBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"255 216 0 255"
+			"color"											"QualityColorUnique"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2483,7 +2483,7 @@
 		"StoreHighlightedBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"244 128 11 255"
+			"color"											"QualityColorStrange"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2493,7 +2493,7 @@
 		"StoreHighlightedBackgroundBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"74 69 57 255"
+			"color"											"Gray"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2503,7 +2503,7 @@
 		"StoreDiscountBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"76 107 34 255"
+			"color"											"StoreGreen"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2513,7 +2513,7 @@
 		"StorePreviewBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"50 45 41 255"
+			"color"											"FooterBGBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2523,7 +2523,7 @@
 		"StoreAddToCart"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"214 201 173 255"
+			"color"											"Gray"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2533,7 +2533,7 @@
 		"StorePreviewTabSelected"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"120 109 96 255"
+			"color"											"TanDark"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2543,7 +2543,7 @@
 		"StorePreviewTabUnselected"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"84 77 68 255"
+			"color"											"LighterDarkBrown"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2553,7 +2553,7 @@
 		"StorePromotion"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"187 181 173 255"
+			"color"											"Gray"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2563,7 +2563,7 @@
 		"ArmoryScrollbarBox"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"118 107 94 255"
+			"color"											"TanDark"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2573,7 +2573,7 @@
 		"ArmoryScrollbarWell"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"77 70 61 255"
+			"color"											"LighterDarkBrown"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2601,7 +2601,7 @@
 		"ReplayFatLineBorderRedBGOpaque"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"189 59 60 255"
+			"color"											"Main"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2611,7 +2611,7 @@
 		"ReplayFatLineBorderOpaque"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"52 48 46 255"
+			"color"											"HTMLBackground"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2621,7 +2621,7 @@
 		"ReplayGrayDialogBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"41 37 38 255"
+			"color"											"FooterBGBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2631,7 +2631,7 @@
 		"ReplayOutlinedGreyBox"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"41 37 38 255"
+			"color"											"FooterBGBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2641,7 +2641,7 @@
 		"ReplayOutlinedDullGreyBox"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"41 37 38 255"
+			"color"											"FooterBGBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2651,7 +2651,7 @@
 		"ReplayThinLineBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"52 48 46 255"
+			"color"											"HTMLBackground"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2661,7 +2661,7 @@
 		"ReplayDefaultBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"41 37 38 255"
+			"color"											"FooterBGBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2671,7 +2671,7 @@
 		"ReplayHighlightBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"41 37 38 255"
+			"color"											"FooterBGBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2681,7 +2681,7 @@
 		"ReplayBalloonBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"10 11 9 255"
+			"color"											"HudBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2711,7 +2711,7 @@
 		"CYOAScreenBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"38 38 38 255"
+			"color"											"FooterBGBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2721,7 +2721,7 @@
 		"CYOANodeViewBorder"
 		{
 			"bordertype"									"scalable_image"
-			"color"											"38 38 38 255"
+			"color"											"FooterBGBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2737,10 +2737,10 @@
 		}
 		"CYOANodeViewBorder_Inactive"
 		{
-			"Left"											{ "1" { "color" "121 122 121 255" } "2" { "color" "121 122 121 255" } }
-			"Right"											{ "1" { "color" "121 122 121 255" } "2" { "color" "121 122 121 255" } }
-			"Top"											{ "1" { "color" "121 122 121 255" } "2" { "color" "121 122 121 255" } }
-			"Bottom"										{ "1" { "color" "121 122 121 255" } "2" { "color" "121 122 121 255" } }
+			"Left"											{ "1" { "color" "TanDark" } "2" { "color" "TanDark" } }
+			"Right"											{ "1" { "color" "TanDark" } "2" { "color" "TanDark" } }
+			"Top"											{ "1" { "color" "TanDark" } "2" { "color" "TanDark" } }
+			"Bottom"										{ "1" { "color" "TanDark" } "2" { "color" "TanDark" } }
 		}
 		"CYOANodeViewBorder_TurnIn"
 		{

@@ -17,7 +17,7 @@
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 	}
-	
+
 	"StopWatchPointsLabel"
 	{
 		"ControlName"								"CExLabel"

@@ -128,7 +128,7 @@
 
 			"pin_to_sibling"						"RedTeamScore"
 		}
-		
+
 		"BlueScoreBG"
 		{
 			"ControlName"							"EditablePanel"

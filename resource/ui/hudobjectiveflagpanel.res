@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
-{	
+{
 	"ObjectiveStatusFlagPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -11,7 +11,7 @@
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-		
+
 		"if_hybrid"
 		{
 			"zpos"									"-1"
@@ -30,11 +30,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"HudFontMedium"
 		"fgcolor"									"HUDBlueTeamSolid"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -60,12 +60,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"textAlignment"								"east"	
+		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"HudFontMedium"
 		"fgcolor"									"0 0 0 130"
 		"pin_to_sibling"							"BlueScore"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -78,8 +78,8 @@
 		{
 			"visible"								"0"
 		}
-	}	
-							
+	}
+
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -92,11 +92,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"HudFontMedium"
 		"fgcolor"									"HUDRedTeamSolid"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -122,12 +122,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"textAlignment"								"west"	
+		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"HudFontMedium"
 		"fgcolor"									"0 0 0 130"
-		"pin_to_sibling"							"RedScore"	
-		
+		"pin_to_sibling"							"RedScore"
+
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -154,7 +154,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -173,7 +173,7 @@
 			"ypos"									"rs1-10"
 		}
 	}
-	
+
 	"RedFlag"
 	{
 		"ControlName"								"CTFFlagStatus"
@@ -186,7 +186,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
@@ -200,7 +200,7 @@
 			"visible"								"0"
 		}
 	}
-	
+
 	"CaptureFlag"
 	{
 		"ControlName"								"CTFArrowPanel"
@@ -214,7 +214,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"CarriedImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -228,12 +228,12 @@
 		"enabled"									"1"
 		"image"										"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"								"1"
-		
+
 		"pin_to_sibling"							"CaptureFlag"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	
+
 	"OutlineImage"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -249,7 +249,7 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"SpecCarriedImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -265,7 +265,7 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"PlayingTo"
 	{
 		"ControlName"								"CExLabel"
@@ -282,13 +282,13 @@
 		"textAlignment"								"east"
 		"font"										"DefaultVerySmall"
 		"fgcolor"									"White"
-		
+
 		"if_hybrid"
 		{
 			"visible"								"0"
 		}
 	}
-	
+
 	"LeftSideBG"
 	{
 		"ControlName"								"ImagePanel"

@@ -41,7 +41,7 @@
 			"visible"								"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"bgcolor_override"						"31 32 33 255"
+			"bgcolor_override"						"FooterBGBlack"
 			"proportionaltoparent"					"1"
 		}
 
@@ -346,7 +346,7 @@
 					"tall"							"f7"
 					"visible"						"1"
 					"enabled"						"1"
-					"image"							"close_button"
+					"image"							"glyph_close_x"
 					"scaleImage"					"1"
 					"proportionaltoparent"			"1"
 				}
@@ -493,7 +493,6 @@
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
 			"roundedcorners"						"1"
-			"use_proportional_insets"				"1"
 
 			"sound_depressed"						"UI/buttonclick.wav"
 
@@ -521,12 +520,11 @@
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
 			"roundedcorners"						"1"
-			"use_proportional_insets"				"1"
 
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"armedBgColor_override"					"50 112 73 255"
-			"defaultBgColor_override"				"80 175 115 255"
+			"armedBgColor_override"					"StoreGreen"
+			"defaultBgColor_override"				"GreenSolid"
 
 			"defaultFgColor_override" 				"TanLight"
 			"armedFgColor_override" 				"TanLight"

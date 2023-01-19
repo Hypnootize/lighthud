@@ -45,8 +45,8 @@
 		"depressedFgColor_override" 				"White"
 
 		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"0 0 0 100"
-		"depressedBgColor_override" 				"0 0 0 100"
+		"armedBgColor_override"						"TransparentLightBlack"
+		"depressedBgColor_override" 				"TransparentLightBlack"
 	}
 
 	"ModeLabelBG"
@@ -62,7 +62,7 @@
 		"enabled"									"1"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"80 75 70 255"
+		"bgcolor_override"							"HudBlack"
 		"proportionaltoparent"						"1"
 	}
 }

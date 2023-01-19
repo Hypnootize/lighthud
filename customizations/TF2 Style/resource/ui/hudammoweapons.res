@@ -12,7 +12,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-	
+
 	"AmmoInClip"
 	{
 		"ControlName"								"CExLabel"
@@ -127,7 +127,7 @@
 
 		"pin_to_sibling"							"AmmoNoClip"
 	}
-	
+
 	"HudWeaponAmmoBG"
 	{
 		"ControlName"								"CTFImagePanel"

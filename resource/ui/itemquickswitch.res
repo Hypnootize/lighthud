@@ -12,15 +12,15 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"proportionaltoparent"						"1"
-		
+
 		"PaintBackgroundType"						"2"
 		"PaintBackground"							"1"
 		"bgcolor_override"							"0 0 0 150"
-		
+
 		"itempanel_xpos"							"0"
 		"itempanel_ydelta"							"0"
-		
-		"itemskv"	
+
+		"itemskv"
 		{
 			"wide"									"210"
 			"tall"									"30"
@@ -28,17 +28,17 @@
 			"PaintBackground"						"1"
 			"paintborder"							"0"
 			"text_forcesize" 						"2"
-			
+
 			"model_xpos"							"0"
 			"model_ypos"							"5"
 			"model_wide"							"40"
 			"model_tall"							"20"
-			
+
 			"text_center"							"1"
 			"text_xpos"								"42"
 			"text_wide"								"100"
 			"name_only"								"1"
-			
+
 			"noitem_textcolor"						"White"
 		}
 	}
@@ -123,7 +123,7 @@
 			}
 		}
 	}
-	
+
 	"itemcontainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -134,7 +134,7 @@
 		"tall"										"f0"
 		"PaintBackground"							"0"
 		"proportionaltoparent"						"1"
-		
+
 		"CurrentlyEquippedBackground"
 		{
 			"ControlName"							"CExLabel"

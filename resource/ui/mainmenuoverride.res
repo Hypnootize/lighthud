@@ -33,14 +33,15 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"use_proportional_insets" 			"1"
 				"AllCaps"				 			"1"
 				"font"								"MenuMainTitle"
 				"textAlignment"						"center"
 				"default"							"1"
 				"proportionaltoparent"				"1"
 				"sound_depressed"					"UI/buttonclick.wav"
+
 				"paintbackground"					"0"
+
 				"defaultFgColor_override" 			"White"
 				"armedFgColor_override" 			"Main"
 			}
@@ -76,7 +77,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"46 43 42 255"
+			"bgcolor_override"						"DarkBrown"
 		}
 	}
 

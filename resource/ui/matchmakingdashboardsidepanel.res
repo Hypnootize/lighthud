@@ -13,7 +13,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"46 43 42 255"
+		"bgcolor_override"							"FooterBGBlack"
 	}
 
 	"ReturnButton"
@@ -25,13 +25,12 @@
 
 		"if_left"
 		{
-			"xpos"									"rs1"
-			"labelText"								">"
+			"xpos"									"9999"
 		}
 
 		"ypos"										"3"
 		"zpos"										"10000"
-		"wide"										"20"
+		"wide"										"14"
 		"tall"										"f0"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
@@ -41,8 +40,8 @@
 		"textAlignment"								"center"
 		"font"										"HudFontMediumSmall"
 
-		"armedBgColor_override"						"Main"
-		"defaultBgColor_override"					"46 43 42 255"
+		"armedBgColor_override"						"LighterDarkBrown"
+		"defaultBgColor_override"					"HudBlack"
 
 		"armedFgColor_override"						"White"
 	}

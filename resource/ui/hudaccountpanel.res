@@ -41,7 +41,6 @@
 		"pin_to_sibling"   							"AccountValue"
 	}
 
-
 	"MetalIcon"
 	{
 		"ControlName"								"CIconPanel"

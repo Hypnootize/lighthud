@@ -3,7 +3,7 @@
 "Resource/UI/HudRocketPack.res"
 {
 	"HudItemEffectMeter"{}
-	
+
 	"ItemEffectMeter"
 	{
 		"xpos"										"0"

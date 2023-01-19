@@ -438,7 +438,7 @@
 		"TeamRed"									"HUDRedTeamSolid"
 		"IconColor"									"White"
 		"LocalPlayerColor"							"HUDBlack"
-		"BaseBackgroundColor"						"0 0 0 100"
+		"BaseBackgroundColor"						"TransparentLightBlack"
 		"LocalBackgroundColor"						"White"
 	}
 

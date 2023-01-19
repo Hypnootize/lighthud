@@ -11,7 +11,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	
+
 	"Icon"
 	{
 		"ControlName"								"CIconPanel"
@@ -28,7 +28,7 @@
 		"icon"										"obj_status_tele_exit"
 		"iconColor"									"White"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -82,7 +82,7 @@
 			"xpos"									"9999"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -94,7 +94,7 @@
 		"tall"										"f2"
 		"visible"									"0"
 		"proportionaltoparent"						"1"
-		
+
 		"BuiltBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -128,7 +128,7 @@
 			"paintbackgroundtype"					"2"
 			"bgcolor_override"						"TransparentLightBlack"
 		}
-		
+
 		"Icon_Upgrade_1"
 		{
 			"ControlName"							"CIconPanel"
@@ -203,7 +203,7 @@
 			"tall"									"f0"
 			"visible"								"0"
 			"enabled"								"1"
-			"scaleImage"							"1"	
+			"scaleImage"							"1"
 			"icon"									""
 			"iconColor"								"White"
 			"paintbackground"						"1"
@@ -211,9 +211,9 @@
 			"bgcolor_override"						"HUDRedTeamSolid"
 			"proportionaltoparent"					"1"
 		}
-		
+
 		"Health"
-		{	
+		{
 			"ControlName"							"CBuildingHealthBar"
 			"fieldName"								"Health"
 			"xpos"									"rs1-2"
@@ -225,7 +225,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 		}
-	
+
 		"AlertTray"
 		{
 			"ControlName"							"CBuildingStatusAlertTray"
@@ -244,7 +244,7 @@
 			"fieldName"								"BuildingPanel"
 			"xpos"									"9999"
 		}
-	
+
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -256,9 +256,9 @@
 			"tall"									"f0"
 			"visible"								"0"
 			"proportionaltoparent"					"1"
-		
+
 			"Upgrade"
-			{	
+			{
 				"ControlName"						"ContinuousProgressBar"
 				"fieldName"							"Upgrade"
 				"xpos"								"36"
@@ -273,7 +273,7 @@
 				"bgcolor_override"					"125 120 115 255"
 			}
 			"UpgradeLabel"
-			{	
+			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"UpgradeLabel"
 				"font"								"ScoreboardVerySmall"
@@ -291,7 +291,7 @@
 				"proportionaltoparent"				"1"
 				"pin_to_sibling" 					"Upgrade"
 			}
-			
+
 			"UpgradeIcon"
 			{
 				"ControlName"						"CIconPanel"
@@ -300,7 +300,7 @@
 			}
 		}
 	}
-	
+
 	"Background"
 	{
 		"ControlName"								"CIconPanel"

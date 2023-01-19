@@ -85,7 +85,7 @@
 		"textAlignment"								"Center"
 		"proportionaltoparent"						"1"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"								"CIconPanel"

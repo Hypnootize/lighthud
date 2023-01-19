@@ -16,7 +16,7 @@
 		"paintbackgroundtype"						"2"
 		"bgcolor_override"							"225 75 75 255"
 
-		"DestroyIcon"	
+		"DestroyIcon"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"DestroyIcon"
@@ -100,21 +100,21 @@
 		"font"										"HudFontSmallest"
 		"fgcolor"									"White"
 	}
-	
-	"ItemBackground"	
+
+	"ItemBackground"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ItemBackground"
 		"xpos"										"9999"
 	}
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
 		"xpos"										"9999"
 	}
 	"NotBuiltLabel"
-	{	
+	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NotBuiltLabel"
 		"xpos"										"9999"
