@@ -2,11 +2,11 @@
 {
 	"CustomCrosshair"
 	{
-		"xpos"										"cs-0.5" 																																																														"ControlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "zpos" "0" "enabled" "1" "textAlignment" "center"
-		"ypos"										"cs-0.5"
-		"visible"									"0"
-		"font"										"HudFontSmallishBoldShadow"
-		"labeltext"									"+"
+		"xpos"										"cs-0.50209" 																																																														"ControlName" "CExLabel" "fieldName" "CustomCrosshair" "wide" "f0" "tall" "f0" "zpos" "0" "enabled" "1" "textAlignment" "center"
+		"ypos"										"cs-0.4999"
+		"visible"									"1"
+		"font"										"Seeker"
+		"labeltext"									"x"
 		"fgcolor"									"White"
 	}
 

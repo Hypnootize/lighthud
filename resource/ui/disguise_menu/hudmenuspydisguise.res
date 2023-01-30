@@ -361,7 +361,7 @@
 		"xpos"										"9999"
 	}
 	"ToggleLabel"
-	{
+	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"ToggleLabel"
 		"xpos"										"9999"
@@ -375,19 +375,19 @@
 	"NumberBg1"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg1"
+		"fieldName"									"NumberBg"
 		"xpos"										"9999"
 	}
 	"NumberBg2"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg2"
+		"fieldName"									"NumberBg"
 		"xpos"										"9999"
 	}
 	"NumberBg3"
 	{
 		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg3"
+		"fieldName"									"NumberBg"
 		"xpos"										"9999"
 	}
 }

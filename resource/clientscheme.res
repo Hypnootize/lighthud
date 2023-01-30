@@ -2,14 +2,13 @@
 {
 	"Colors"
 	{
-		"Main"												"80 175 115 255"
+		"Main"												"0 165 255 255"
 		"Low"												"225 75 75 255"
 
-		"Orange"											"80 175 115 255"
-		"OrangeDim"											"80 175 115 255"
-		"LightOrange"										"80 175 115 255"
-		"GoalOrange"										"255 133 0"
-		"TFOrange"											"80 175 115 255"
+		"Orange"											"0 165 255 255"
+		"OrangeDim"											"0 165 255 255"
+		"LightOrange"										"0 165 255 255"
+		"TFOrange"											"0 165 255 255"
 		"Purple"											"137 69 99 255"
 
 		"QuestGold"											"208 147 75 255"
@@ -30,29 +29,29 @@
 		"PartyMember5"										"255 118 108 255"
 		"PartyMember6"										"255 133 255 255"
 
-		"White"												"225 220 220 255"
+		"White"												"230 232 235 255"
 		"Red"												"225 75 75 255"
 		"RedSolid"											"225 75 75 255"
 		"Blue"												"115 150 170 255"
-		"Yellow"											"225 220 220 255"
-		"TransparentYellow"									"225 220 220 255"
+		"Yellow"											"230 232 235 255"
+		"TransparentYellow"									"230 232 235 255"
 		"BrightYellow"										"235 235 50 255"
 		"GreenSolid"		 								"80 175 115 255"
 
 		"Black"												"0 0 0 255"
 		"TransparentBlack"									"0 0 0 200"
 		"TransparentLightBlack"								"0 0 0 100"
-		"FooterBGBlack"										"32 31 30 255"
+		"FooterBGBlack"										"20 22 24 255"
 
 		"HUDBlueTeam"										"115 150 170 255"
 		"HUDRedTeam"										"190 60 60 255"
-		"HUDSpectator"										"130 125 125 255"
+		"HUDSpectator"										"125 127 130 255"
 		"HUDBlueTeamSolid"									"115 150 170 255"
 		"HUDRedTeamSolid"									"190 60 60 255"
 		"HUDDeathWarning"									"255 0 0 255"
-		"HudWhite"											"225 220 220 255"
-		"HudOffWhite"										"225 220 220 255"
-		"HudBlack"											"21 20 19 255"
+		"HudWhite"											"230 232 235 255"
+		"HudOffWhite"										"230 232 235 255"
+		"HudBlack"											"8 10 12 255"
 		"ProgressBarBlue"									"91 122 142 255"
 
 		"CreditsGreen"										"160 210 115 255"
@@ -61,54 +60,54 @@
 
 		"Blank"												"0 0 0 0"
 
-		"HudPanelForeground"								"130 125 125 255"
-		"HudPanelBackground"								"130 125 125 255"
-		"HudPanelBorder"									"130 125 125 255"
+		"HudPanelForeground"								"125 127 130 255"
+		"HudPanelBackground"								"125 127 130 255"
+		"HudPanelBorder"									"125 127 130 255"
 
-		"HudProgressBarActive"								"225 220 220 255"
-		"HudProgressBarInActive"							"225 220 220 255"
+		"HudProgressBarActive"								"230 232 235 255"
+		"HudProgressBarInActive"							"230 232 235 255"
 		"HudProgressBarActiveLow"							"225 75 75 255"
 		"HudProgressBarInActiveLow"							"225 75 75 255"
 
-		"HudTimerProgressActive"							"225 220 220 255"
-		"HudTimerProgressInActive"							"32 30 30 255"
+		"HudTimerProgressActive"							"230 232 235 255"
+		"HudTimerProgressInActive"							"29 32 33 255"
 		"HudTimerProgressWarning"							"225 75 75 255"
 
-		"HudTrainingHint"									"225 220 220 255"
+		"HudTrainingHint"									"230 232 235 255"
 
-		"TanDark"											"130 125 125 255"
-		"TanLight"											"225 220 220 255"
-		"TanDarker"											"32 30 30 255"
+		"TanDark"											"125 127 130 255"
+		"TanLight"											"230 232 235 255"
+		"TanDarker"											"29 32 33 255"
 
-		"StoreDarkTan"										"130 125 125 255"
+		"StoreDarkTan"										"125 127 130 255"
 		"StoreGreen"										"50 112 73 255"
 
 		"LowHealthRed"										"225 75 75 255"
-		"ProgressOffWhite"									"225 220 220 255"
+		"ProgressOffWhite"									"230 232 235 255"
 		"ProgressBackground"								"0 0 0 50"
-		"HealthBgGrey"										"130 125 125 255"
+		"HealthBgGrey"										"125 127 130 255"
 
-		"ProgressOffWhiteTransparent"						"225 220 220 255"
+		"ProgressOffWhiteTransparent"						"230 232 235 255"
 
 		"LabelDark"											"0 0 0 255"
 		"LabelTransparent"									"0 0 0 100"
 
-		"BuildMenuActive"									"225 220 220 255"
+		"BuildMenuActive"									"230 232 235 255"
 
 		"DisguiseMenuIconRed"								"190 60 60 255"
 		"DisguiseMenuIconBlue"								"115 150 170 255"
 
- 		"MatchmakingDialogTitleColor"						"225 220 220 255"
- 		"MatchmakingMenuItemBackground"						"32 30 30 255"
- 		"MatchmakingMenuItemBackgroundActive"				"225 220 220 255"
-		"MatchmakingMenuItemTitleColor"						"225 220 220 255"
-		"MatchmakingMenuItemDescriptionColor"				"225 220 220 255"
+ 		"MatchmakingDialogTitleColor"						"230 232 235 255"
+ 		"MatchmakingMenuItemBackground"						"29 32 33 255"
+ 		"MatchmakingMenuItemBackgroundActive"				"230 232 235 255"
+		"MatchmakingMenuItemTitleColor"						"230 232 235 255"
+		"MatchmakingMenuItemDescriptionColor"				"230 232 235 255"
 
-		"HTMLBackground"									"45 44 43 255"
+		"HTMLBackground"									"38 40 42 255"
 
-		"ItemAttribLevel"									"225 220 220 255"
-		"ItemAttribNeutral"									"225 220 220 255"
-		"ItemAttribPositive"								"225 220 220 255"
+		"ItemAttribLevel"									"230 232 235 255"
+		"ItemAttribNeutral"									"230 232 235 255"
+		"ItemAttribPositive"								"230 232 235 255"
 		"ItemAttribNegative"								"225 75 75 255"
 
 		"ItemSetName"										"225 255 15 255"
@@ -117,7 +116,7 @@
 		"ItemIsotope"										"225 255 15 255"
 		"ItemBundleItem"									"149 175 12 255"
 		"ItemLimitedUse"									"0 160 0 255"
-		"ItemFlags"											"225 220 220 255"
+		"ItemFlags"											"230 232 235 255"
 		"ItemLimitedQuantity"								"225 209 0 255"
 
 		"QualityColorNormal"								"178 178 178 255"
@@ -172,20 +171,20 @@
 
 		"SaleGreen"											"80 175 115 255"
 
-		"LightRed"											"80 175 115 255"
-		"LighterRed"										"80 175 115 255"
-		"LighterDarkBrown"									"72 71 70 255"
-		"DarkBrown"											"46 43 42 255"
+		"LightRed"											"0 165 255 255"
+		"LighterRed"										"0 165 255 255"
+		"LighterDarkBrown"									"60 63 66 255"
+		"DarkBrown"											"30 32 34 255"
 
-		"UpgradeDefaultFg"									"225 220 220 255"
-		"UpgradeDefaultBg"									"32 30 30 255"
-		"UpgradeArmedFg"									"225 220 220 255"
-		"UpgradeArmedBg"									"80 175 115 255"
-		"UpgradeDepressedFg"								"32 30 30 255"
-		"UpgradeDepressedBg"								"80 175 115 255"
-		"UpgradeSelectedFg"									"32 30 30 255"
-		"UpgradeSelectedBg"									"80 175 115 255"
-		"UpgradeDisabledFg"									"32 30 30 255"
+		"UpgradeDefaultFg"									"230 232 235 255"
+		"UpgradeDefaultBg"									"29 32 33 255"
+		"UpgradeArmedFg"									"230 232 235 255"
+		"UpgradeArmedBg"									"0 165 255 255"
+		"UpgradeDepressedFg"								"29 32 33 255"
+		"UpgradeDepressedBg"								"0 165 255 255"
+		"UpgradeSelectedFg"									"29 32 33 255"
+		"UpgradeSelectedBg"									"0 165 255 255"
+		"UpgradeDisabledFg"									"29 32 33 255"
 		"UpgradeDisabledBg"									"0 0 0 255"
 	}
 
@@ -422,14 +421,154 @@
 
 	"Fonts"
 	{
+		"Seeker"
+		{
+			"1"
+			{
+				"name"										"TF2CrossRegular"
+				"tall"										"11"
+				"antialias" 								"1"
+				"dropshadow"								"1"
+			}
+		}
 		"DamageFont"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
-				"tall"										"20"
+				"name"										"Handel Gothic BT"
+				"tall"										"22"
 				"antialias" 								"1"
 				"dropshadow"								"1"
+			}
+		}
+		"Health-Ammo"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"50"
+				"antialias" 								"1"
+			}
+		}
+		"Ammo-Reserve"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"antialias" 								"1"
+			}
+		}
+		"Uber"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"50"
+				"antialias" 								"1"
+				"dropshadow"								"1"
+			}
+		}
+		"m0re10"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"10"
+				"antialias" 								"1"
+			}
+		}
+		"m0re11"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"11"
+				"antialias" 								"1"
+			}
+		}
+		"m0re12"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"12"
+				"antialias" 								"1"
+			}
+		}
+		"m0re12Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"12"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0re14"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"14"
+				"antialias" 								"1"
+			}
+		}
+		"m0re14Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"12"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0re16"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"16"
+				"antialias" 								"1"
+			}
+		}
+		"m0re16Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"16"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0re18"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"18"
+				"antialias" 								"1"
+			}
+		}
+		"m0re20"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"20"
+				"antialias" 								"1"
+			}
+		}
+		"m0re24"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"antialias" 								"1"
 			}
 		}
 		"Default"
@@ -864,7 +1003,7 @@
 			"1"
 			{
 				"name"										"HeeboUber2"
-				"tall"										"12"
+				"tall"										"14"
 				"antialias" 								"1"
 				"dropshadow"								"1"
 			}
@@ -2769,6 +2908,21 @@
 		{
 			"font" "resource/fonts/heebouber.ttf"
 			"name" "HeeboUber2"
+		}
+		"3"
+		{
+			"font" "resource/fonts/surface.otf"
+			"name" "Surface-Medium"
+		}
+		"4"
+		{
+			"font" "resource/fonts/handel_gothic.ttf"
+			"name" "Handel Gothic BT"
+		}
+		"5"
+		{
+			"font" "resource/fonts/seeker.ttf"
+			"name" "TF2CrossRegular"
 		}
 	}
 }

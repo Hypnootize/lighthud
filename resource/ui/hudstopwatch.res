@@ -12,7 +12,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"HudFontSmallestShadow"
+		"font"										"m0re12Shadow"
 		"labelText"									"%scoretobeat%"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
@@ -32,7 +32,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%pointslabel%"
 		"textAlignment"								"west"
-		"font"										"HudFontSmallestShadow"
+		"font"										"m0re12Shadow"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"StopWatchScoreToBeat"
@@ -70,7 +70,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"textAlignment"							"east"
-			"font"									"HudFontSmallestShadow"
+			"font"									"m0re12Shadow"
 			"fgcolor"								"White"
 		}
 	}

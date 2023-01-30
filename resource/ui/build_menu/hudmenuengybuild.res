@@ -176,32 +176,32 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-
+	
 	"TitleLabel"
-	{
+	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
 		"xpos"										"9999"
 	}
 	"CancelLabel"
-	{
+	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
 		"xpos"										"9999"
 	}
-	"MainBackground"
+	"MainBackground"	
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MainBackground"
 		"xpos"										"9999"
 	}
-	"BuildIcon"
+	"BuildIcon"	
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildIcon"
 		"xpos"										"9999"
 	}
-	"BuildIconShadow"
+	"BuildIconShadow"	
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildIconShadow"
@@ -214,7 +214,7 @@
 		"xpos"										"9999"
 	}
 	"TitleLabelDropshadow"
-	{
+	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabelDropshadow"
 		"xpos"										"9999"

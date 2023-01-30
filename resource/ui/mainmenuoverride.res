@@ -39,9 +39,7 @@
 				"default"							"1"
 				"proportionaltoparent"				"1"
 				"sound_depressed"					"UI/buttonclick.wav"
-
 				"paintbackground"					"0"
-
 				"defaultFgColor_override" 			"White"
 				"armedFgColor_override" 			"Main"
 			}
@@ -215,6 +213,29 @@
 		}
 	}
 
+	"ContractsButton"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"ContractsButton"
+		"xpos"										"rs1-70"
+		"ypos"										"0"
+		"zpos"										"10003"
+		"wide"										"35"
+		"tall"										"20"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"Quest"
+		"font"										"HudFontSmallest"
+		"command"									"questlog"
+		"textAlignment"								"center"
+		"AllCaps"									"1"
+		"default"									"1"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"proportionaltoparent"						"1"
+
+		"paintbackground"							"1"
+	}
+
 	"TooltipPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -231,6 +252,18 @@
 	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"mouseoveritempanel"
+		"xpos"										"9999"
+	}
+	"RankModelPanel"
+	{
+		"ControlName"								"CPvPRankPanel"
+		"fieldName"									"RankModelPanel"
+		"xpos"										"9999"
+	}
+	"RankPanel"
+	{
+		"ControlName"								"CPvPRankPanel"
+		"fieldName"									"RankPanel"
 		"xpos"										"9999"
 	}
 	"MenuThumbMissingFix"

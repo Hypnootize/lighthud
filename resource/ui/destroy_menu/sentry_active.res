@@ -7,7 +7,7 @@
 		"labelText"									"Sentrygun"
 	}
 	"NumberLabel"
-	{
+	{	
 		"labelText"									"1"
 	}
 }

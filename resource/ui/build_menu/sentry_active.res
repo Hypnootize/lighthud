@@ -3,7 +3,7 @@
 "Resource/UI/Build_Menu/Sentry_Active.res"
 {
 	"NumberLabel"
-	{
+	{	
 		"labelText"									"1"
 	}
 }

@@ -32,8 +32,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DisguiseNameLabel"
-		"xpos"										"cs-0.5"
-		"ypos"										"r90"
+		"xpos"										"c-212"
+		"ypos"										"r68"
 		"zpos"										"1"
 		"wide"										"80"
 		"tall"										"10"

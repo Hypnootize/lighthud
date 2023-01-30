@@ -211,9 +211,9 @@
 		"visible" 									"0"
 		"enabled" 									"1"
 		"xpos"										"0"
-		"ypos"										"c50"
+		"ypos"										"c75"
 		"wide"	 									"252"
-		"tall"	 									"27"
+		"tall"	 									"50"
 		"priority"									"40"
 	}
 
@@ -223,9 +223,9 @@
 		"visible" 									"0"
 		"enabled" 									"1"
 		"xpos"										"0"
-		"ypos"										"c120"
+		"ypos"										"c140"
 		"wide"	 									"252"
-		"tall"	 									"27"
+		"tall"	 									"50"
 		"priority"									"40"
 	}
 
@@ -235,9 +235,9 @@
 		"visible" 									"0"
 		"enabled" 									"1"
 		"xpos"										"0"
-		"ypos"										"c83"
+		"ypos"										"c113"
 		"wide"	 									"252"
-		"tall"	 									"27"
+		"tall"	 									"50"
 		"priority"									"35"
 	}
 
@@ -357,19 +357,7 @@
 		"TextColor"									"255 170 0 220"
 	}
 
-	"HudDamageIndicator"
-	{
-		"fieldName"									"HudDamageIndicator"
-		"visible"									"1"
-		"enabled"									"1"
-		"MinimumWidth"								"15"
-		"MaximumWidth"								"35"
-		"StartRadius"								"80"
-		"EndRadius"									"80"
-		"MinimumHeight"								"30"
-		"MaximumHeight"								"60"
-		"MinimumTime"								"1"
-	}
+	"HudDamageIndicator" {}
 
 	"HudCommentary"
 	{
@@ -438,7 +426,7 @@
 		"TeamRed"									"HUDRedTeamSolid"
 		"IconColor"									"White"
 		"LocalPlayerColor"							"HUDBlack"
-		"BaseBackgroundColor"						"TransparentLightBlack"
+		"BaseBackgroundColor"						"0 0 0 100"
 		"LocalBackgroundColor"						"White"
 	}
 

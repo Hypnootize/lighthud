@@ -7,7 +7,7 @@
 		"labelText"									"Dispencer"
 	}
 	"NumberLabel"
-	{
+	{	
 		"labelText"									"2"
 	}
 }

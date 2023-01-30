@@ -12,7 +12,7 @@
 	}
 
 	"NumberLabel"
-	{
+	{	
 		"labelText"									"3"
 	}
 }

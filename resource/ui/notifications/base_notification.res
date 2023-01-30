@@ -1,7 +1,7 @@
 "Resource/UI/Notifications/Base_Notification.res"
 {
 	"Notification_Label"
-	{
+	{	
 		"ControlName"								"CExLabel"
 		"fieldName"									"Notification_Label"
 		"font"										"Default"
@@ -24,7 +24,7 @@
 		"wide"										"0"
 		"visible"									"0"
 	}
-	"Notification_Icon"
+	"Notification_Icon"	
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Notification_Icon"

@@ -256,8 +256,6 @@
 		"wide"										"0"
 		"tall"										"16"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"1"
 		"labelText"									"NameOfCarrier"
 
 		"pin_to_sibling"							"ProgressLevelBar"

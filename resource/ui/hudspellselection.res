@@ -2,10 +2,10 @@
 {
 	"HudSpellMenu"
 	{
-		"xpos"										"c-163"
-		"ypos"										"rs1-60"
+		"xpos"										"c-191"
+		"ypos"										"rs1"
 		"wide"										"35"
-		"tall"										"30"
+		"tall"										"20"
 	}
 
 	"SpellIcon"

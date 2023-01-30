@@ -70,7 +70,7 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"image_drawcolor"						"225 220 220 255"
-			"image_armedcolor"						"80 175 115 255"
+			"image_armedcolor"						"0 165 255 255"
 
 			"SubImage"
 			{
@@ -454,7 +454,7 @@
 			"xpos"									"rs1"
 			"ypos"									"0"
 			"zpos"									"100"
-			"wide"									"40"
+			"wide"									"35"
 			"tall"									"f5"
 			"visible"								"1"
 			"enabled"								"1"
@@ -462,7 +462,7 @@
 			"textAlignment"							"center"
 			"Command"								"quit"
 			"proportionaltoparent"					"1"
-			"labeltext"								"LEAVE"
+			"labeltext"								"QUIT"
 			"mouseinputenabled"						"1"
 			"keyboardinputenabled"					"0"
 			"actionsignallevel"						"2"
@@ -481,7 +481,7 @@
 			"ypos"									"0"
 			"zpos"									"100"
 			"wide"									"50"
-			"tall"									"f5"
+			"tall"									"0"
 			"visible"								"0"
 			"enabled"								"1"
 			"font"									"HudFontSmallestBold"

@@ -17,37 +17,15 @@
 		"desc_token"								"#MMenu_PlayList_Casual_Desc"
 		"matchgroup"								"7"
 	}
-	"CompetitiveEntry"
-	{
-		"ControlName"								"CPlayListEntry"
-		"fieldName"									"CompetitiveEntry"
-		"xpos"										"5"
-		"ypos"										"0"
-		"zpos"										"3"
-		"tall"										"56"
-		"wide"										"160"
-		"proportionaltoparent"						"0"
-
-		"image_name"								"main_menu/main_menu_button_competitive"
-		"button_token"								"#MMenu_PlayList_Competitive_Button"
-		"button_command"							"play_competitive"
-		"desc_token"								"#MMenu_PlayList_Competitive_Desc"
-		"matchgroup"								"2"
-
-		"pin_to_sibling"							"CasualEntry"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-	}
 	"MvMEntry"
 	{
 		"ControlName"								"CPlayListEntry"
 		"fieldName"									"MvMEntry"
 		"xpos"										"5"
 		"ypos"										"0"
-		"zpos"										"3"
 		"tall"										"56"
 		"wide"										"160"
-		"proportionaltoparent"						"0"
+		"proportionaltoparent"						"1"
 
 		"image_name"								"main_menu/main_menu_button_mvm"
 		"button_token"								"#MMenu_PlayList_MvM_Button"
@@ -55,23 +33,39 @@
 		"desc_token"								"#MMenu_PlayList_MvM_Desc"
 		"matchgroup"								"1"
 
-		"pin_to_sibling"							"CompetitiveEntry"
+		"pin_to_sibling"							"CasualEntry"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
-	}
-
-
-
-	"ServerBrowserEntry"
-	{
-		"ControlName"								"CPlayListEntry"
-		"fieldName"									"ServerBrowserEntry"
-		"xpos"										"9999"
 	}
 	"CreateServerEntry"
 	{
 		"ControlName"								"CPlayListEntry"
 		"fieldName"									"CreateServerEntry"
+		"xpos"										"5"
+		"ypos"										"0"
+		"tall"										"56"
+		"wide"										"160"
+		"proportionaltoparent"						"1"
+
+		"image_name"								"main_menu/main_menu_button_custom_server"
+		"button_token"								"#MMenu_PlayList_CreateServer_Button"
+		"button_command"							"create_server"
+		"desc_token"								"#MMenu_PlayList_CreateServer_Desc"
+
+		"pin_to_sibling"							"MvMEntry"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+	}
+	"CompetitiveEntry"
+	{
+		"ControlName"								"CPlayListEntry"
+		"fieldName"									"CompetitiveEntry"
+		"xpos"										"9999"
+	}
+	"ServerBrowserEntry"
+	{
+		"ControlName"								"CPlayListEntry"
+		"fieldName"									"ServerBrowserEntry"
 		"xpos"										"9999"
 	}
 	"ScrollBar"

@@ -99,7 +99,7 @@
 	"NewNumberLabel"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"NewNumberLabel"
+		"fieldName"									"NumberLabel"
 		"font"										"FontStorePrice"
 		"fgcolor"									"White"
 		"xpos"										"52"

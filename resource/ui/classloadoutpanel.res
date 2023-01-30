@@ -197,7 +197,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
 		"image_drawcolor"							"225 220 220 255"
-		"image_armedcolor"							"80 175 115 255"
+		"image_armedcolor"							"0 165 255 255"
 
 		"SubImage"
 		{
@@ -232,7 +232,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
 		"image_drawcolor"							"225 220 220 255"
-		"image_armedcolor"							"80 175 115 255"
+		"image_armedcolor"							"0 165 255 255"
 
 		"SubImage"
 		{

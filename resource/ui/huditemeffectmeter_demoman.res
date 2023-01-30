@@ -5,8 +5,8 @@
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"c143"
-		"ypos"										"rs1-90"
+		"xpos"										"c165"
+		"ypos"										"rs1-60"
 		"wide"										"30"
 		"tall"										"20"
 		"MeterFG"									"White"
@@ -17,7 +17,7 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ItemEffectMeterIcon"
 		"xpos"										"0"
-		"ypos"										"cs-0.5"
+		"ypos"										"cs-0.5+2"
 		"zpos"										"7"
 		"wide"										"13"
 		"tall"										"13"
@@ -42,7 +42,7 @@
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
 		"image"										"../vgui/marked_for_death"
-		"drawcolor"									"0 0 0 75"
+		"drawcolor"									"Black"
 		"pin_to_sibling"							"ItemEffectMeterIcon"
 	}
 	"ItemEffectMeterCount"
@@ -59,7 +59,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
-		"font"										"HudFontMediumSmall"
+		"font"										"m0re20"
 		"FgColor"									"White"
 	}
 	"ItemEffectMeterCountShadow"
@@ -76,8 +76,8 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
-		"font"										"HudFontMediumSmall"
-		"FgColor"									"0 0 0 130"
+		"font"										"m0re20"
+		"FgColor"									"Black"
 
 		"pin_to_sibling"							"ItemEffectMeterCount"
 	}

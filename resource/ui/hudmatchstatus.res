@@ -28,7 +28,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
 			"xpos"									"0"
-			"ypos"									"0"
+			"ypos"									"-2"
 			"zpos"									"3"
 			"wide"									"f0"
 			"tall"									"f0"
@@ -37,7 +37,7 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"north"
 			"labelText"								"0:00"
-			"font"									"HudFontSmallishBoldShadow"
+			"font"									"m0re16Shadow"
 			"fgcolor"								"White"
 		}
 	}
@@ -79,7 +79,7 @@
 			"color_portrait_bg_blue"				"HUDBlueTeamSolid"
 			"color_portrait_bg_red_dead"			"White"
 			"color_portrait_bg_blue_dead"			"White"
-			"color_bar_health_high"					"Main"
+			"color_bar_health_high"					"GreenSolid"
 			"color_bar_health_med"					"255 160 100 255"
 			"percentage_health_med"					"0.6"
 			"color_bar_health_low"					"Low"

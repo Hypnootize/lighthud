@@ -1,21 +1,5 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {
-	"BlueTimerBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BlueTimerBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"40"
-		"tall"										"14"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"paintbackground"							"1"
-		"bgcolor_override"   						"HUDBlueTeamSolid"
-		"alpha"   									"200"
-	}
 	"BlueTimer"
 	{
 		"ControlName"								"CTFHudTimeStatus"
@@ -34,7 +18,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
 			"xpos"									"cs-0.5"
-			"ypos"									"cs-0.5"
+			"ypos"									"cs-0.5-1"
 			"zpos"									"3"
 			"wide"									"f0"
 			"tall"									"f0"
@@ -43,25 +27,9 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"font"									"HudFontSmallBoldShadow"
+			"font"									"m0re16Shadow"
 			"fgcolor"								"White"
 		}
-	}
-	"RedTimerBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"RedTimerBG"
-		"xpos"										"rs1"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"40"
-		"tall"										"14"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"paintbackground"							"1"
-		"bgcolor_override"   						"HUDRedTeamSolid"
-		"alpha"   									"200"
 	}
 	"RedTimer"
 	{
@@ -81,7 +49,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
 			"xpos"									"cs-0.5"
-			"ypos"									"cs-0.5"
+			"ypos"									"cs-0.5-1"
 			"zpos"									"3"
 			"wide"									"f0"
 			"tall"									"f0"
@@ -90,7 +58,7 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"font"									"HudFontSmallBoldShadow"
+			"font"									"m0re16Shadow"
 			"fgcolor"								"White"
 		}
 	}
@@ -99,7 +67,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ActiveTimerBG"
 		"xpos"										"0"
-		"ypos"										"15"
+		"ypos"										"14"
 		"zpos"										"1"
 		"wide"										"40"
 		"tall"										"2"
