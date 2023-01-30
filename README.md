@@ -4,7 +4,7 @@ My personal HUD aimed to be very minimal and light on performance, get's rid of 
 
 Here are some of the screenshots, full album [HERE](https://imgur.com/a/kg9i6OU)
 
-![](https://i.imgur.com/dp61Ggz.jpg)
+![](https://i.imgur.com/dc352zw.jpg)
 ![](https://i.imgur.com/SLkknry.jpg)
 ![](https://i.imgur.com/UcPU97G.jpg)
 ![](https://i.imgur.com/gw4hLg8.jpg)
