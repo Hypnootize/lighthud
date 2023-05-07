@@ -25,7 +25,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
-		"image"										"../vgui/marked_for_death"
+		"image"										"marked_for_death"
 		"drawcolor"									"White"
 	}
 	"ItemEffectMeterIconShadow"
@@ -41,7 +41,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
-		"image"										"../vgui/marked_for_death"
+		"image"										"marked_for_death"
 		"drawcolor"									"0 0 0 75"
 		"pin_to_sibling"							"ItemEffectMeterIcon"
 	}

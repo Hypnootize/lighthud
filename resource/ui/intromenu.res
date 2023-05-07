@@ -61,7 +61,6 @@
 		"labelText"									"CONTINUE"
 		"textAlignment"								"center"
 		"command"									"skip"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 		"font"										"HudFontGiantBold"
 

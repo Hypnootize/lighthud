@@ -67,7 +67,6 @@
 		"labelText"									"BACK"
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
-		"default"									"0"
 		"Command"									"back"
 		"sound_depressed"							"UI/buttonclick.wav"
 

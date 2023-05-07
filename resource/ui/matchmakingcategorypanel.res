@@ -144,7 +144,6 @@
 			"labelText"								"%title_token%"
 			"font"									"HudFontSmallishBold"
 			"textAlignment"							"center"
-			"default"								"1"
 			"proportionaltoparent" 					"1"
 			"mouseinputenabled"						"0"
 

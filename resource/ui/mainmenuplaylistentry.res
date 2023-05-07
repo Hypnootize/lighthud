@@ -32,7 +32,6 @@
 		"font"										"HudFontSmallestBold"
 		"textAlignment"								"south"
 		"textinsety"								"-4"
-		"default"									"1"
 		"command"									"%button_command%"
 		"proportionaltoparent" 						"1"
 		"actionsignallevel"							"2"

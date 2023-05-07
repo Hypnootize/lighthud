@@ -268,7 +268,6 @@
 				"tall"								"6"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"Left"
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"125 120 115 255"
 			}

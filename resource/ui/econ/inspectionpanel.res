@@ -263,7 +263,6 @@
 			"labeltext"								""
 			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
-			"default"								"0"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			"Command"								"debug_menu"
@@ -314,7 +313,6 @@
 			"maxchars"								"-1"
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
-			"default"								"0"
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 
@@ -388,7 +386,6 @@
 			"maxchars"								"-1"
 			"NumericInputOnly"						"0"
 			"unicode"								"0"
-			"default"								"0"
 			"actionsignallevel"						"2"
 
 			"fixed_item"
@@ -554,7 +551,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"actionsignallevel" 					"2"
-			"default"								"1"
 			"NumericInputOnly"						"1"
 			"bgcolor_override"						"0 0 0 200"
 			"maxchars"								"20"

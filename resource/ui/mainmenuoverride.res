@@ -36,7 +36,6 @@
 				"AllCaps"				 			"1"
 				"font"								"MenuMainTitle"
 				"textAlignment"						"center"
-				"default"							"1"
 				"proportionaltoparent"				"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 
@@ -63,22 +62,10 @@
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-
-		"BG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BG"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"DarkBrown"
-		}
+		"proportionaltoparent"						"1"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"DarkBrown"
 	}
 
 	"Notifications_ShowButtonPanel"
@@ -108,7 +95,6 @@
 			"labelText"								"notification"
 			"font"									"MenuMainTitle"
 			"textAlignment"							"center"
-			"default"								"1"
 			"actionsignallevel"  					"2"
 			"proportionaltoparent" 					"1"
 			"Command"								"noti_show"
@@ -147,7 +133,6 @@
 			"labeltext"								""
 			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
-			"default"								"0"
 			"actionsignallevel"						"2"
 			"Command"								"noti_hide"
 			"sound_depressed"						"UI/buttonclick.wav"
@@ -240,6 +225,15 @@
 		"xpos"										"9999"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"../vgui/maps/menu_thumb_Missing"
+		"image"										"maps/menu_thumb_missing"
+	}
+	"CPHighlight"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CPHighlight"
+		"xpos"										"9999"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../sprites/obj_icons/capture_highlight"
 	}
 }

@@ -77,7 +77,6 @@
 			"labelText"								"+"
 			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 		}
 	}

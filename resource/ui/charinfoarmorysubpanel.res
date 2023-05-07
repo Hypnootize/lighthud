@@ -196,7 +196,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"paintbackground"							""
+		"paintbackground"							"0"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"Main"

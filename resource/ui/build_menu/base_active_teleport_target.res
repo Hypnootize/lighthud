@@ -28,24 +28,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"paintbackground"						"0"
-
-			"BG"
-			{
-				"ControlName"						"EditablePanel"
-				"fieldName"							"BG"
-				"xpos"								"-3"
-				"ypos"								"0"
-				"zpos"								"0"
-				"wide"								"f-3"
-				"tall"								"f0"
-				"visible"							"1"
-				"enabled"							"1"
-				"proportionaltoparent"				"1"
-				"paintbackground"					"1"
-				"paintbackgroundtype"				"2"
-				"bgcolor_override"					"TransparentLightBlack"
-			}
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"2"
+			"bgcolor_override"						"TransparentLightBlack"
+			"roundedcorners"						"10"
 		}
 	}
 

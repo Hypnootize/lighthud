@@ -4,9 +4,6 @@
 {
 	"TitleBG"
 	{
-		"BG"
-		{
-			"bgcolor_override"						"HUDBlueTeamSolid"
-		}
+		"bgcolor_override"							"HUDBlueTeamSolid"
 	}
 }

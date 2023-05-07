@@ -12,24 +12,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"paintbackground"							"0"
-
-		"BG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BG"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"0"
-			"wide"									"f0"
-			"tall"	 								"16"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"paintbackground"						"1"
-			"paintbackgroundtype"					"2"
-			"bgcolor_override"						"HUDRedTeamSolid"
-		}
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"2"
+		"roundedcorners"							"3"
+		"bgcolor_override"							"HUDRedTeamSolid"
 
 		"BottomLine"
 		{

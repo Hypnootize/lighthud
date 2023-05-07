@@ -1,3 +1,5 @@
+#base "HudInspectPanel.res"
+
 "Resource/UI/FreezePanel_Basic.res"
 {
 	"FreezePanel"
@@ -119,8 +121,8 @@
 	}
 	"itempanel"
 	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"itempanel"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"

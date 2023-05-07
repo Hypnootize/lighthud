@@ -62,7 +62,6 @@
 		"textAlignment"	  							"center"
 		"command"									"jointeam blue"
 		"AllCaps"									"1"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -140,7 +139,6 @@
 		"textAlignment"	  							"center"
 		"command"									"jointeam red"
 		"AllCaps"									"1"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -219,7 +217,6 @@
 		"textAlignment"	  							"east"
 		"font"			  							"HudFontSmallestBold"
 		"command"									"jointeam auto"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -254,7 +251,6 @@
 		"textAlignment"	  							"west"
 		"font"			  							"HudFontSmallestBold"
 		"command"									"jointeam spectate"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 

@@ -296,7 +296,6 @@
 		"maxchars"									"-1"
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
-		"default"									"0"
 		"paintborder"								"0"
 
 		"fgcolor_override"							"White"
@@ -338,7 +337,6 @@
 		"maxchars"									"-1"
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
-		"default"									"0"
 		"paintborder"								"0"
 
 		"fgcolor_override"							"White"

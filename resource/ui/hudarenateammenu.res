@@ -28,7 +28,6 @@
 		"labeltext"									"Fight"
 		"textAlignment"								"center"
 		"command"									"jointeam spectate"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -82,7 +81,6 @@
 		"labeltext"									"Spectate"
 		"textAlignment"								"center"
 		"command"									"jointeam spectatearena"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 

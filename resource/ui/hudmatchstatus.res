@@ -86,6 +86,9 @@
 			"percentage_health_low"					"0.3"
 			"color_portrait_blend_dead_red"			"White"
 			"color_portrait_blend_dead_blue" 		"White"
+			"color_portrait_bg_red_local_player"	"HUDRedTeamSolid"
+			"color_portrait_bg_blue_local_player"	"HUDBlueTeamSolid"
+			
 
 			"classimage"
 			{
@@ -524,7 +527,6 @@
 			{
 				"name"								"ref"
 				"sequence"							"ref"
-				"default"							"1"
 			}
 
 			"animation"

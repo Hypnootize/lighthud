@@ -55,23 +55,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-
-		"BG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BG"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"0"
-			"wide"									"f0"
-			"tall"									"f-3"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"2"
-			"bgcolor_override"						"White"
-		}
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"2"
+		"roundedcorners"							"3"
+		"bgcolor_override"							"White"
 	}
 	"ItemSlotLabel"
 	{
@@ -165,23 +152,10 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-
-		"BG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BG"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"0"
-			"wide"									"f-3"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"paintbackground"						"1"
-			"PaintBackgroundType"					"2"
-			"bgcolor_override"						"0 0 0 175"
-		}
+		"paintbackground"							"1"
+		"PaintBackgroundType"						"2"
+		"roundedcorners"							"4"
+		"bgcolor_override"							"0 0 0 175"
 	}
 	"loadout_preset_panel"
 	{
