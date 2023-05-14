@@ -60,36 +60,62 @@
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
-
-
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"ServerBrowserEntry"
 	{
 		"ControlName"								"CPlayListEntry"
 		"fieldName"									"ServerBrowserEntry"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CreateServerEntry"
 	{
 		"ControlName"								"CPlayListEntry"
 		"fieldName"									"CreateServerEntry"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ScrollBar"
 	{
 		"ControlName"								"ScrollBar"
 		"FieldName"									"ScrollBar"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TrainingEntry"
 	{
 		"ControlName"								"CPlayListEntry"
 		"fieldName"									"TrainingEntry"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"EventEntry"
 	{
 		"ControlName"								"CEventPlayListEntry"
 		"fieldName"									"EventEntry"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

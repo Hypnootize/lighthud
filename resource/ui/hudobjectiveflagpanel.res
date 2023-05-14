@@ -17,7 +17,6 @@
 			"zpos"									"-1"
 		}
 	}
-
 	"BlueScore"
 	{
 		"ControlName"								"CExLabel"
@@ -63,7 +62,7 @@
 		"textAlignment"								"east"
 		"labelText"									"%bluescore%"
 		"font"										"HudFontMedium"
-		"fgcolor"									"0 0 0 130"
+		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"BlueScore"
 
 		"if_hybrid"
@@ -79,7 +78,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"RedScore"
 	{
 		"ControlName"								"CExLabel"
@@ -125,7 +123,7 @@
 		"textAlignment"								"west"
 		"labelText"									"%redscore%"
 		"font"										"HudFontMedium"
-		"fgcolor"									"0 0 0 130"
+		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"RedScore"
 
 		"if_hybrid"
@@ -141,7 +139,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"BlueFlag"
 	{
 		"ControlName"								"CTFFlagStatus"
@@ -173,7 +170,6 @@
 			"ypos"									"rs1-10"
 		}
 	}
-
 	"RedFlag"
 	{
 		"ControlName"								"CTFFlagStatus"
@@ -200,7 +196,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"CaptureFlag"
 	{
 		"ControlName"								"CTFArrowPanel"
@@ -214,7 +209,6 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"CarriedImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -233,7 +227,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
 	"OutlineImage"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -249,7 +242,6 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"SpecCarriedImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -265,7 +257,6 @@
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"PlayingTo"
 	{
 		"ControlName"								"CExLabel"
@@ -289,28 +280,51 @@
 		}
 	}
 
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"LeftSideBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"LeftSideBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"RightSideBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"RightSideBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"OutlineBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"OutlineBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PlayingToBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"PlayingToBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

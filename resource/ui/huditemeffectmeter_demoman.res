@@ -42,7 +42,7 @@
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
 		"image"										"marked_for_death"
-		"drawcolor"									"0 0 0 75"
+		"drawcolor"									"LabelTransparent"
 		"pin_to_sibling"							"ItemEffectMeterIcon"
 	}
 	"ItemEffectMeterCount"
@@ -77,20 +77,34 @@
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
 		"font"										"HudFontMediumSmall"
-		"FgColor"									"0 0 0 130"
+		"FgColor"									"LabelTransparent"
 
 		"pin_to_sibling"							"ItemEffectMeterCount"
+	}
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+	"ItemEffectMeter"
+	{
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterLabel"
 		"xpos"										"9999"
-	}
-	"ItemEffectMeter"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter"
-		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

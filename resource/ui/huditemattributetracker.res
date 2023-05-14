@@ -2,9 +2,9 @@
 {
 	"ItemAttributeTracker"
 	{
-		"fieldName" 								"ItemAttributeTracker"
-		"visible" 									"1"
-		"enabled" 									"1"
+		"fieldName"									"ItemAttributeTracker"
+		"visible"									"1"
+		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -26,37 +26,31 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"Header"
-			"labeltext"								"%header%"
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"f0"
 			"tall"									"8"
 			"zpos"									"4"
+			"labeltext"								"%header%"
 			"font"									"ItemTrackerScore_InGame"
 			"TextAlignment"							"east"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 			"fgcolor"								"White"
 		}
 		"CallToAction"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CallToAction"
-			"labeltext"								"%call_to_action%"
 			"xpos"									"0"
 			"ypos"									"rs1"
 			"wide"									"f0"
 			"tall"									"8"
 			"zpos"									"4"
+			"labeltext"								"%call_to_action%"
 			"font"									"ItemTrackerScore_InGame"
 			"TextAlignment"							"east"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 			"fgcolor"								"White"
-		}
-		"Image"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"Image"
-			"xpos"									"9999"
 		}
 	}
 }

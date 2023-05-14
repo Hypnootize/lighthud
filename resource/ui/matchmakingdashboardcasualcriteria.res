@@ -13,14 +13,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-
-	"Title"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Title"
-		"xpos"										"9999"
-	}
-
 	"criteria"
 	{
 		"ControlName"								"CCasualCriteriaPanel"
@@ -33,7 +25,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"ToolTipButtonHack"
 	{
 		"ControlName"								"EditablePanel"
@@ -48,9 +39,8 @@
 		"mouseinputenabled"							"1"
 		"eatmouseinput"								"0"
 		"showtooltipswhenmousedisabled"				"1"
-		"proportionaltoparent" 						"1"
+		"proportionaltoparent"						"1"
 	}
-
 	"QueueButton"
 	{
 		"ControlName"								"CExButton"
@@ -79,10 +69,25 @@
 
 		"defaultBgColor_override"					"GreenSolid"
 		"armedBgColor_override"						"StoreGreen"
-		"depressedBgColor_override" 				"StoreGreen"
+		"depressedBgColor_override"					"StoreGreen"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
+		"depressedFgColor_override"					"White"
+	}
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+	"Title"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"Title"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

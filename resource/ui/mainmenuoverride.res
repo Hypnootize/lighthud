@@ -33,7 +33,7 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"AllCaps"				 			"1"
+				"AllCaps"							"1"
 				"font"								"MenuMainTitle"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
@@ -41,8 +41,8 @@
 
 				"paintbackground"					"0"
 
-				"defaultFgColor_override" 			"White"
-				"armedFgColor_override" 			"Main"
+				"defaultFgColor_override"			"White"
+				"armedFgColor_override"				"Main"
 			}
 		}
 		"SaxxySettings"
@@ -50,7 +50,6 @@
 			"xpos"									"9999"
 		}
 	}
-
 	"MainBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -67,7 +66,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"DarkBrown"
 	}
-
 	"Notifications_ShowButtonPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -91,20 +89,19 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"AllCaps"				 				"1"
+			"AllCaps"								"1"
 			"labelText"								"notification"
 			"font"									"MenuMainTitle"
 			"textAlignment"							"center"
-			"actionsignallevel"  					"2"
-			"proportionaltoparent" 					"1"
+			"actionsignallevel"						"2"
+			"proportionaltoparent"					"1"
 			"Command"								"noti_show"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"paintbackground"						"0"
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"Main"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"Main"
 		}
 	}
-
 	"Notifications_Panel"
 	{
 		"ControlName"								"EditablePanel"
@@ -117,7 +114,7 @@
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
 		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 130"
+		"bgcolor_override"							"LabelTransparent"
 
 		"Notifications_CloseButton"
 		{
@@ -137,9 +134,9 @@
 			"Command"								"noti_hide"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"paintbackground"						"0"
-			"defaultFgColor_override" 				"235 226 202 255"
-			"armedFgColor_override" 				"235 100 100 255"
-			"depressedFgColor_override" 			"235 226 202 255"
+			"defaultFgColor_override"				"235 226 202 255"
+			"armedFgColor_override"					"235 100 100 255"
+			"depressedFgColor_override"				"235 226 202 255"
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
 
@@ -158,24 +155,22 @@
 				"scaleImage"						"1"
 			}
 		}
-
 		"Notifications_TitleLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"Notifications_TitleLabel"
-			"font"									"HudFontSmallBold"
-			"labelText"								"%notititle%"
-			"textAlignment"							"north-west"
 			"xpos"									"12"
 			"ypos"									"8"
 			"wide"									"250"
 			"tall"									"20"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"235 226 202 255"
+			"font"									"HudFontSmallBold"
+			"labelText"								"%notititle%"
+			"textAlignment"							"north-west"
 			"wrap"									"1"
+			"fgcolor"								"White"
 		}
-
 		"Notifications_Scroller"
 		{
 			"ControlName"							"ScrollableEditablePanel"
@@ -200,24 +195,9 @@
 		}
 	}
 
-	"TooltipPanel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"TooltipPanel"
-		"xpos"										"9999"
-	}
-	"MOTD_Panel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"MOTD_Panel"
-		"xpos"										"9999"
-	}
-	"mouseoveritempanel"
-	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"mouseoveritempanel"
-		"xpos"										"9999"
-	}
+	//==================================================================================================================================================
+	// PRELOADING
+	//==================================================================================================================================================
 	"MenuThumbMissingFix"
 	{
 		"ControlName"								"ImagePanel"
@@ -235,5 +215,42 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../sprites/obj_icons/capture_highlight"
+	}
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+	"TooltipPanel"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TooltipPanel"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"MOTD_Panel"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"MOTD_Panel"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"mouseoveritempanel"
+	{
+		"ControlName"								"CItemModelPanel"
+		"fieldName"									"mouseoveritempanel"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

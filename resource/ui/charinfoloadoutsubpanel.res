@@ -13,11 +13,11 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"DarkBrown"
-		"infocus_bgcolor_override" 					"DarkBrown"
-		"outoffocus_bgcolor_override" 				"DarkBrown"
+		"infocus_bgcolor_override"					"DarkBrown"
+		"outoffocus_bgcolor_override"				"DarkBrown"
 
-		"selectlabely_default"						"25"
-		"selectlabely_onchanges"					"15"
+		"selectlabely_default"						"9999"
+		"selectlabely_onchanges"					"9999"
 
 		"class_ypos"								"9999"
 		"class_xdelta"								"100"
@@ -31,7 +31,9 @@
 		"itemcountcolor"							"Blank"
 		"itemcountcolor_noitems"					"Blank"
 	}
-
+	//==================================================================================================================================================
+	// SCOUT
+	//==================================================================================================================================================
 	"ScoutCustom"
 	{
 		"ControlName"								"CExButton"
@@ -46,18 +48,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Scout"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout scout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"							"Main"
 
 		"pin_to_sibling"							"SoldierCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	//==================================================================================================================================================
+	// SOLDIER
+	//==================================================================================================================================================
 	"SoldierCustom"
 	{
 		"ControlName"								"CExButton"
@@ -72,18 +77,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Soldier"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout soldier"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"PyroCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	//==================================================================================================================================================
+	// PYRO
+	//==================================================================================================================================================
 	"PyroCustom"
 	{
 		"ControlName"								"CExButton"
@@ -98,18 +106,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Pyro"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout pyro"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"DemomanCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	//==================================================================================================================================================
+	// DEMOMAN
+	//==================================================================================================================================================
 	"DemomanCustom"
 	{
 		"ControlName"								"CExButton"
@@ -124,18 +135,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Demoman"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout demoman"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"HeavyCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	//==================================================================================================================================================
+	// HEAVY
+	//==================================================================================================================================================
 	"HeavyCustom"
 	{
 		"ControlName"								"CExButton"
@@ -150,14 +164,17 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Heavy"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout heavy"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 	}
+	//==================================================================================================================================================
+	// ENGINEER
+	//==================================================================================================================================================
 	"EngineerCustom"
 	{
 		"ControlName"								"CExButton"
@@ -172,18 +189,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Engineer"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout engineer"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"HeavyCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
+	//==================================================================================================================================================
+	// MEDIC
+	//==================================================================================================================================================
 	"MedicCustom"
 	{
 		"ControlName"								"CExButton"
@@ -198,18 +218,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Medic"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout medic"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"EngineerCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
+	//==================================================================================================================================================
+	// SNIPER
+	//==================================================================================================================================================
 	"SniperCustom"
 	{
 		"ControlName"								"CExButton"
@@ -224,18 +247,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Sniper"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout sniper"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"MedicCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
+	//==================================================================================================================================================
+	// SPY
+	//==================================================================================================================================================
 	"SpyCustom"
 	{
 		"ControlName"								"CExButton"
@@ -250,18 +276,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Spy"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout spy"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"SniperCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
+	//==================================================================================================================================================
+	// BACKPACK
+	//==================================================================================================================================================
 	"BackpackCustom"
 	{
 		"ControlName"								"CExButton"
@@ -276,19 +305,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Backpack"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"backpack"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"ScoutCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
+	//==================================================================================================================================================
+	// SCOUT QUICK-SELECT
+	//==================================================================================================================================================
 	"ScoutButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -323,13 +354,16 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"../hud/leaderboard_class_scout"
-			"drawcolor_override" 					"255 255 255 255"
+			"drawcolor_override"					"255 255 255 255"
 		}
 
 		"pin_to_sibling"							"SoldierButton"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	//==================================================================================================================================================
+	// SOLDIER QUICK-SELECT
+	//==================================================================================================================================================
 	"SoldierButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -364,13 +398,16 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"../hud/leaderboard_class_soldier"
-			"drawcolor_override" 					"255 255 255 255"
+			"drawcolor_override"					"255 255 255 255"
 		}
 
 		"pin_to_sibling"							"PyroButton"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	//==================================================================================================================================================
+	// PYRO QUICK-SELECT
+	//==================================================================================================================================================
 	"PyroButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -405,13 +442,16 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"../hud/leaderboard_class_pyro"
-			"drawcolor_override" 					"255 255 255 255"
+			"drawcolor_override"					"255 255 255 255"
 		}
 
 		"pin_to_sibling"							"DemomanButton"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	//==================================================================================================================================================
+	// DEMOMAN QUICK-SELECT
+	//==================================================================================================================================================
 	"DemomanButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -446,13 +486,16 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"../hud/leaderboard_class_demo"
-			"drawcolor_override" 					"255 255 255 255"
+			"drawcolor_override"					"255 255 255 255"
 		}
 
 		"pin_to_sibling"							"HeavyButton"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	//==================================================================================================================================================
+	// HEAVY QUICK-SELECT
+	//==================================================================================================================================================
 	"HeavyButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -487,9 +530,12 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"../hud/leaderboard_class_heavy"
-			"drawcolor_override" 					"255 255 255 255"
+			"drawcolor_override"					"255 255 255 255"
 		}
 	}
+	//==================================================================================================================================================
+	// ENGINEER QUICK-SELECT
+	//==================================================================================================================================================
 	"EngineerButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -524,13 +570,16 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"../hud/leaderboard_class_engineer"
-			"drawcolor_override" 					"255 255 255 255"
+			"drawcolor_override"					"255 255 255 255"
 		}
 
 		"pin_to_sibling"							"HeavyButton"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
+	//==================================================================================================================================================
+	// MEDIC QUICK-SELECT
+	//==================================================================================================================================================
 	"MedicButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -565,13 +614,16 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"../hud/leaderboard_class_medic"
-			"drawcolor_override" 					"255 255 255 255"
+			"drawcolor_override"					"255 255 255 255"
 		}
 
 		"pin_to_sibling"							"EngineerButton"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
+	//==================================================================================================================================================
+	// SNIPER QUICK-SELECT
+	//==================================================================================================================================================
 	"SniperButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -606,13 +658,16 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"../hud/leaderboard_class_sniper"
-			"drawcolor_override" 					"255 255 255 255"
+			"drawcolor_override"					"255 255 255 255"
 		}
 
 		"pin_to_sibling"							"MedicButton"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
+	//==================================================================================================================================================
+	// SPY QUICK-SELECT
+	//==================================================================================================================================================
 	"SpyButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -647,13 +702,16 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"../hud/leaderboard_class_spy"
-			"drawcolor_override" 					"255 255 255 255"
+			"drawcolor_override"					"255 255 255 255"
 		}
 
 		"pin_to_sibling"							"SniperButton"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
+	//==================================================================================================================================================
+	// BACKPACK QUICK-SELECT
+	//==================================================================================================================================================
 	"BackPackButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -688,13 +746,16 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"../hud/backpack_01"
-			"drawcolor_override" 					"255 255 255 255"
+			"drawcolor_override"					"255 255 255 255"
 		}
 
 		"pin_to_sibling"							"CraftingButton"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	//==================================================================================================================================================
+	// CRAFTING QUICK-SELECT
+	//==================================================================================================================================================
 	"CraftingButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -729,13 +790,16 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"crafting_anvil"
-			"drawcolor_override" 					"255 255 255 255"
+			"drawcolor_override"					"255 255 255 255"
 		}
 
 		"pin_to_sibling"							"ScoutButton"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	//==================================================================================================================================================
+	// CATALOG QUICK-SELECT
+	//==================================================================================================================================================
 	"CatalogButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -770,13 +834,16 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"catalog_book"
-			"drawcolor_override" 					"255 255 255 255"
+			"drawcolor_override"					"255 255 255 255"
 		}
 
 		"pin_to_sibling"							"SpyButton"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
+	//==================================================================================================================================================
+	// WARPAINTS QUICK-SELECT
+	//==================================================================================================================================================
 	"WarPaintsButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -811,14 +878,16 @@
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			"image"									"paintkit_tool"
-			"drawcolor_override" 					"255 255 255 255"
+			"drawcolor_override"					"255 255 255 255"
 		}
 
 		"pin_to_sibling"							"CatalogButton"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-	
+	//==================================================================================================================================================
+	// SUB LOADOUT PANELS
+	//==================================================================================================================================================
 	"class_loadout_panel"
 	{
 		"ControlName"								"CClassLoadoutPanel"
@@ -865,7 +934,10 @@
 		"bgcolor_override"							"DarkBrown"
 	}
 
-	"ClassLabel"
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+	"ClassLabel"									// Game crashes if deleted
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassLabel"

@@ -4,7 +4,6 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"ScoreboardSmallest"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
@@ -12,6 +11,7 @@
 		"tall"										"11"
 		"visible"									"1"
 		"enabled"									"1"
+		"font"										"ScoreboardSmallest"
 		"labelText"									"#Hud_Menu_Teleport_Title"
 		"textinsetx"								"5"
 		"textAlignment"								"center"
@@ -67,40 +67,73 @@
 		"visible"									"1"
 	}
 
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"MainBackground"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MainBackground"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BuildIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BuildIconShadow"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"BuildIconShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Divider"
 	{
 		"ControlName"		     					"ImagePanel"
 		"fieldName"									"Divider"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TitleLabelDropshadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabelDropshadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CancelLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CancelLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

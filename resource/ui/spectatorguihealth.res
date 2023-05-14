@@ -14,7 +14,7 @@
 		"textAlignment"								"east"
 		"labeltext"									"%Health%"
 		"font"										"HudFontMediumSmallBold"
-		"fgcolor"  									"White"
+		"fgcolor"									"White"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
@@ -30,39 +30,67 @@
 		"textAlignment"								"east"
 		"labeltext"									"%Health%"
 		"font"										"HudFontMediumSmallBold"
-		"fgcolor"			  						"Black"
+		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"PlayerStatusHealthValue"
 	}
 
-	"PlayerStatusPlayerLevel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusPlayerLevel"
-		"xpos"										"9999"
-	}
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"PlayerStatusPlayerLevel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"PlayerStatusPlayerLevel"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImageBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthBonusImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BuildingStatusHealthImageBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

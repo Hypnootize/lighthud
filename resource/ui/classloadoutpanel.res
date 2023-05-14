@@ -12,7 +12,7 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"DarkBrown"
-		"infocus_bgcolor_override" 					"DarkBrown"
+		"infocus_bgcolor_override"					"DarkBrown"
 		"outoffocus_bgcolor_override"				"DarkBrown"
 
 		"item_xpos_offcenter_a"						"-310"
@@ -28,7 +28,7 @@
 		"button_xpos_offcenter"						"175"
 		"button_ypos"								"85"
 		"button_ydelta"								"80"
-		"button_override_delete_xpos" 				"0"
+		"button_override_delete_xpos"				"0"
 
 		"modelpanels_kv"
 		{
@@ -59,7 +59,7 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
 			}
 		}
@@ -80,7 +80,6 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 		}
 	}
-
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
@@ -101,21 +100,20 @@
 		{
 			"force_pos"								"1"
 
-			"angles_x" 								"0"
-			"angles_y" 								"170"
-			"angles_z" 								"0"
-			"origin_x" 								"190"
-			"origin_y" 								"0"
-			"origin_z" 								"-50"
+			"angles_x"								"0"
+			"angles_y"								"170"
+			"angles_z"								"0"
+			"origin_x"								"190"
+			"origin_y"								"0"
+			"origin_z"								"-50"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
-			"spotlight" 							"1"
+			"spotlight"								"1"
 
 			"modelname"								""
 		}
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -139,7 +137,6 @@
 
 		"attriblabel"
 		{
-			"font"									"ItemFontAttribLarge"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"2"
@@ -147,13 +144,13 @@
 			"tall"									"60"
 			"visible"								"1"
 			"enabled"								"1"
+			"font"									"ItemFontAttribLarge"
 			"labelText"								"%attriblist%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
 			"centerwrap"							"1"
 		}
 	}
-
 	"loadout_preset_panel"
 	{
 		"ControlName"								"CLoadoutPresetPanel"
@@ -165,7 +162,6 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 	}
-
 	"ItemOptionsPanel"
 	{
 		"ControlName"								"CLoadoutParticleSlider"
@@ -179,12 +175,10 @@
 		"bgcolor_override"							"69 64 63 255"
 		"PaintBackgroundType"						"0"
 	}
-
 	"CharacterLoadoutButton"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"CharacterLoadoutButton"
-		"labelText"									""
 		"xpos"										"c-85"
 		"ypos"										"63"
 		"zpos"										"90"
@@ -192,6 +186,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
+		"labelText"									""
 		"Command"									"characterloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
@@ -214,12 +209,10 @@
 			"image"									"glyph_items"
 		}
 	}
-
 	"TauntLoadoutButton"
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"TauntLoadoutButton"
-		"labelText"									""
 		"xpos"										"c60"
 		"ypos"										"63"
 		"zpos"										"90"
@@ -227,6 +220,7 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
+		"labelText"									""
 		"Command"									"tauntloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"

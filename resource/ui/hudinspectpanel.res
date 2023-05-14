@@ -1,9 +1,9 @@
 "Resource/UI/HudInspectPanel.res"
 {
-	"itempanel"
+	"ItemPanel"
 	{
 		"ControlName"								"CItemModelPanel"
-		"fieldName"									"itempanel"
+		"fieldName"									"ItemPanel"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"10"
@@ -12,7 +12,7 @@
 		"visible"									"0"
 		"paintborder"								"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 50"
+		"bgcolor_override"							"TransparentLightBlack"
 
 		"model_ypos"								"10"
 		"model_center_x"							"1"
@@ -35,7 +35,6 @@
 			"use_item_rendertarget"					"0"
 			"useparentbg"							"1"
 		}
-
 		"ItemLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -51,12 +50,16 @@
 			"labelText"								"#FreezePanel_Item"
 			"textAlignment"							"west"
 		}
-
 		"attriblabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"attriblabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

@@ -11,8 +11,8 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"DarkBrown"
-		"infocus_bgcolor_override" 					"DarkBrown"
-		"outoffocus_bgcolor_override" 				"DarkBrown"
+		"infocus_bgcolor_override"					"DarkBrown"
+		"outoffocus_bgcolor_override"				"DarkBrown"
 
 		"thumbnail_bgcolor"							"LighterDarkBrown"
 		"thumbnail_bgcolor_mouseover"				"Main"
@@ -51,13 +51,12 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"1"
 				"allow_rot"							"0"
 			}
 		}
 	}
-
 	"ItemsBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -74,7 +73,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"FooterBGBlack"
 	}
-
 	"FilterComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -95,15 +93,15 @@
 
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"FooterBGBlack"
-		"disabledFgColor_override" 					"White"
-		"disabledBgColor_override" 					"Blank"
-		"selectionColor_override" 					"Blank"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"Blank"
+		"disabledFgColor_override"					"White"
+		"disabledBgColor_override"					"Blank"
+		"selectionColor_override"					"Blank"
+		"selectionTextColor_override"				"White"
+		"defaultSelectionBG2Color_override"			"Blank"
 
-		"pin_to_sibling" 							"ItemsBG"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling"							"ItemsBG"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
 		"Button"
 		{
@@ -114,7 +112,6 @@
 			"paintbackgroundtype"					"0"
 		}
 	}
-
 	"CurPageLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -129,17 +126,16 @@
 		"font"										"HudFontSmallBold"
 		"labelText"									"%thumbnailpage%"
 		"textAlignment"								"center"
-		"fgcolor" 									"White"
+		"fgcolor"									"White"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"FooterBGBlack"
 
-		"pin_to_sibling" 							"ItemsBG"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"ItemsBG"
+		"pin_corner_to_sibling"						"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"PrevPageButton"
 	{
 		"ControlName"								"CExButton"
@@ -164,9 +160,9 @@
 		"armedFgColor_override"						"Main"
 		"depressedFgColor_override"					"Main"
 
-		"pin_to_sibling" 							"CurPageLabel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_LEFT"
+		"pin_to_sibling"							"CurPageLabel"
+		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
 	"PrevPageShortCut"
 	{
@@ -177,7 +173,6 @@
 		"Command"									"prevpage"
 		"visible"									"1"
 	}
-
 	"NextPageButton"
 	{
 		"ControlName"								"CExButton"
@@ -202,9 +197,9 @@
 		"armedFgColor_override"						"Main"
 		"depressedFgColor_override"					"Main"
 
-		"pin_to_sibling" 							"CurPageLabel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 					"PIN_CENTER_RIGHT"
+		"pin_to_sibling"							"CurPageLabel"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
 	"NextPageShortCut"
 	{
@@ -215,7 +210,6 @@
 		"Command"									"nextpage"
 		"visible"									"1"
 	}
-
 	"DataPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -230,25 +224,25 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"FooterBGBlack"
 
-		"pin_to_sibling" 							"ItemsBG"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_to_sibling"							"ItemsBG"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
 		"Data_TextRichText"
 		{
 			"ControlName"							"CEconItemDetailsRichText"
 			"fieldName"								"Data_TextRichText"
-			"font"									"ScoreboardSmall"
-			"labelText"								"%datatext%"
-			"textAlignment"							"north-west"
 			"xpos"									"5"
 			"ypos"									"0"
 			"wide"									"0"
 			"tall"									"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"TanLight"
+			"font"									"ScoreboardSmall"
+			"labelText"								"%datatext%"
+			"textAlignment"							"north-west"
 			"wrap"									"1"
+			"fgcolor"								"White"
 			"highlight_color"						"177 168 149 255"
 			"itemset_color"							"216 244 9 255"
 			"link_color"							"252 191 27 255"
@@ -260,7 +254,6 @@
 			"image_box"								"ArmoryScrollbarBox"
 		}
 	}
-
 	"SelectedItemModelPanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -276,20 +269,19 @@
 
 		"model_hide"								"1"
 		"text_center"								"1"
-		"resize_to_text" 							"0"
+		"resize_to_text"							"0"
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"inventory_image_type" 					"1"
+			"use_item_rendertarget"					"0"
+			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 
-		"pin_to_sibling" 							"DataPanel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"DataPanel"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"SelectedItemImageModelPanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -312,16 +304,15 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"inventory_image_type" 					"1"
+			"use_item_rendertarget"					"0"
+			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 
-		"pin_to_sibling" 							"DataPanel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"DataPanel"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -354,12 +345,11 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
-			"inventory_image_type" 					"1"
+			"use_item_rendertarget"					"0"
+			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 	}
-
 	"WikiButton"
 	{
 		"ControlName"								"CExButton"
@@ -379,11 +369,10 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 
-		"pin_to_sibling" 							"DataPanel"
-		"pin_corner_to_sibling" 					"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"pin_to_sibling"							"DataPanel"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-
 	"StoreButton"
 	{
 		"ControlName"								"CExButton"
@@ -407,35 +396,58 @@
 
 		"defaultBgColor_override"					"GreenSolid"
 		"armedBgColor_override"						"StoreGreen"
-		"depressedBgColor_override" 				"StoreGreen"
+		"depressedBgColor_override"					"StoreGreen"
 
-		"pin_to_sibling" 							"DataPanel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"DataPanel"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"CaratLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CaratLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ArmoryLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ArmoryLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"FiltersLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"FiltersLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ViewSetButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ViewSetButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

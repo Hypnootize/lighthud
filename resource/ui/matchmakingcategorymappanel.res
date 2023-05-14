@@ -11,7 +11,6 @@
 
 		"skip_autoresize"							"1"
 	}
-
 	"MapCheckbutton"
 	{
 		"ControlName"								"CExCheckButton"
@@ -30,7 +29,6 @@
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 	}
-
 	"MapNameLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -50,7 +48,6 @@
 
 		"mouseinputenabled"							"0"
 	}
-
 	"HealthProgressBar"
 	{
 		"ControlName"								"ContinuousProgressBar"

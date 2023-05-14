@@ -46,7 +46,7 @@
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
 		"font"										"HudFontBiggerBold"
-		"fgcolor"									"0 0 0 130"
+		"fgcolor"									"LabelTransparent"
 
 		"pin_to_sibling"							"AmmoInClip"
 	}
@@ -84,7 +84,7 @@
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
 		"font"										"HudFontMediumSmallBold"
-		"fgcolor"									"0 0 0 130"
+		"fgcolor"									"LabelTransparent"
 
 		"pin_to_sibling"							"AmmoInReserve"
 	}
@@ -93,7 +93,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClip"
 		"xpos"										"0"
-		"ypos"    									"0"
+		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"80"
 		"tall"										"40"
@@ -122,21 +122,34 @@
 		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
 		"font"										"HudFontBiggerBold"
-		"fgcolor"									"0 0 0 130"
+		"fgcolor"									"LabelTransparent"
 
 		"pin_to_sibling"							"AmmoNoClip"
 	}
 
-	"HudWeaponAmmoBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"HudWeaponAmmoBG"
-		"xpos"										"9999"
-	}
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HudWeaponLowAmmoImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"HudWeaponAmmoBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"HudWeaponAmmoBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

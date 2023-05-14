@@ -29,7 +29,6 @@
 			"PaintBackgroundType"					"0"
 			"bgcolor_override"						"HudBlack"
 		}
-
 		"RankImage"
 		{
 			"ControlName"							"CTFLocalPlayerBadgePanel"
@@ -45,7 +44,6 @@
 			"mouseinputenabled"						"0"
 			"matchgroup"							"MatchGroup_Casual_12v12"
 		}
-
 		"RankPanel"
 		{
 			"ControlName"							"CPvPRankPanel"
@@ -64,7 +62,6 @@
 			"show_model"							"0"
 			"show_name"								"0"
 		}
-
 		"RestoreCasualSearchCriteria"
 		{
 			"ControlName"							"CExButton"
@@ -84,7 +81,6 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 		}
-
 		"SaveCasualSearchCriteria"
 		{
 			"ControlName"							"CExButton"
@@ -104,14 +100,6 @@
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 		}
-
-		"ShowExplanationsButton"
-		{
-			"ControlName"							"CExButton"
-			"fieldName"								"ShowExplanationsButton"
-			"xpos"									"9999"
-		}
-
 		"SelectedCount"
 		{
 			"ControlName"							"CExLabel"
@@ -129,7 +117,6 @@
 			"AllCaps"								"1"
 			"mouseinputenabled"						"1"
 		}
-
 		"QueueEstimation"
 		{
 			"ControlName"							"CExLabel"
@@ -148,20 +135,6 @@
 			"AllCaps"								"1"
 			"mouseinputenabled"						"0"
 		}
-
-		"Title"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"Title"
-			"xpos"									"9999"
-		}
-		"PlayListDropShadow"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"PlayListDropShadow"
-			"xpos"									"9999"
-		}
-
 		"GameModesList"
 		{
 			"ControlName"							"CScrollableList"
@@ -172,7 +145,7 @@
 			"tall"									"f60"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
-			"restrict_width" 						"0"
+			"restrict_width"						"0"
 			"paintborder"							"0"
 
 			"ScrollBar"
@@ -191,14 +164,12 @@
 				{
 					"fgcolor_override"				"Gray"
 				}
-
 				"UpButton"
 				{
 					"ControlName"					"Button"
 					"FieldName"						"UpButton"
 					"visible"						"0"
 				}
-
 				"DownButton"
 				{
 					"ControlName"					"Button"
@@ -206,6 +177,43 @@
 					"visible"						"0"
 				}
 			}
+		}
+
+		//================================================================================================================================================
+		// REMOVED ELEMENTS
+		//================================================================================================================================================
+		"ShowExplanationsButton"
+		{
+			"ControlName"							"CExButton"
+			"fieldName"								"ShowExplanationsButton"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Title"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Title"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"PlayListDropShadow"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"PlayListDropShadow"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

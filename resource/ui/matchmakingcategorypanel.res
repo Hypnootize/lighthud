@@ -11,9 +11,7 @@
 
 		"collapsed_height"							"27"
 		"resize_time"								"0.1"
-
 	}
-
 	"TopContainer"
 	{
 		"Controlname"								"EditablePanel"
@@ -39,18 +37,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"mouseinputenabled"						"0"
-
 			"proportionaltoparent"					"1"
 			"bgcolor_override"						"LighterDarkBrown"
 		}
-
-		"BGImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"BGImage"
-			"xpos"									"9999"
-		}
-
 		"EntryToggleButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -61,14 +50,12 @@
 			"wide"									"f26"
 			"tall"									"f0"
 			"proportionaltoparent"					"1"
-
 			"actionsignallevel"						"2"
 			"command"								"toggle_collapse"
 			"labeltext"								""
 			"textAlignment"							"center"
 			"font"									""
 			"textinsetx"							"9999"
-
 			"stay_armed_on_click"					"1"
 
 			"paintbackground"						"0"
@@ -97,7 +84,6 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-
 		"Shade"
 		{
 			"fieldName"								"Shade"
@@ -112,7 +98,6 @@
 			"proportionaltoparent"					"1"
 			"bgcolor_override"						"Blank"
 		}
-
 		"Checkbutton"
 		{
 			"ControlName"							"CExCheckButton"
@@ -129,7 +114,6 @@
 			"sound_depressed"						"UI/buttonclickrelease.wav"
 			"button_activation_type"				"1"
 		}
-
 		"Title"
 		{
 			"ControlName"							"CExLabel"
@@ -144,34 +128,56 @@
 			"labelText"								"%title_token%"
 			"font"									"HudFontSmallishBold"
 			"textAlignment"							"center"
-			"proportionaltoparent" 					"1"
+			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
-
 			"AllCaps"								"1"
-
 			"fgcolor"								"White"
 		}
-
+		"BGImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"BGImage"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
 		"TitleShadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TitleShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"DescLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DescLabel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"DescLabelShadow"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"DescLabelShadow"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
-
 	"MapsContainer"
 	{
 		"Controlname"								"EditablePanel"
@@ -183,20 +189,24 @@
 		"tall"										"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
-
-		"border"									"NoBorder"
-
-
 		"skip_autoresize"							"1"
-
+		"proportionaltoparent"						"1"
+		"border"									"NoBorder"
 		"bgcolor_override"							"HudBlack"
 	}
 
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"PlayListDropShadow"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PlayListDropShadow"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

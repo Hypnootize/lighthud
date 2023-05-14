@@ -9,7 +9,6 @@
 
 		"screenshot_move_panel_to_corner"			"0"
 	}
-
 	"FreezePanelBase"
 	{
 		"ControlName"								"EditablePanel"
@@ -20,7 +19,7 @@
 		"tall"										"f0"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"ForceStereoRenderToFrameBuffer" 			"1"
+		"ForceStereoRenderToFrameBuffer"			"1"
 
 		"FreezeLabelKiller"
 		{
@@ -54,8 +53,8 @@
 			"font"									"HudFontSmallest"
 			"labelText"								"%killername%"
 			"textAlignment"							"center"
-			"fgcolor"								"0 0 0 130"
-			"pin_to_sibling" 						"FreezeLabelKiller"
+			"fgcolor"								"LabelTransparent"
+			"pin_to_sibling"						"FreezeLabelKiller"
 		}
 		"FreezePanelHealth"
 		{
@@ -91,10 +90,12 @@
 			"color_outline"							"Blank"
 			"proportionaltoparent"					"1"
 		}
-		"FreezeLabel"
+		"FreezeLabel"								// Game crashes if deleted
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"FreezeLabel"
+			"xpos"									"9999"
+			"ypos"									"9999"
 			"wide"									"0"
 			"tall"									"0"
 			"visible"								"0"
@@ -104,6 +105,8 @@
 		{
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"FreezePanelBG"
+			"xpos"									"9999"
+			"ypos"									"9999"
 			"wide"									"0"
 			"tall"									"0"
 			"visible"								"0"
@@ -113,26 +116,31 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"NemesisSubPanel"
+			"xpos"									"9999"
+			"ypos"									"9999"
 			"wide"									"0"
 			"tall"									"0"
 			"visible"								"0"
 			"enabled"								"0"
 		}
 	}
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"itempanel"
 	{
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
+		"alpha"										"0"
 	}
 	"ScreenshotPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ScreenshotPanel"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
+		"enabled"									"0"
 	}
 }

@@ -20,7 +20,6 @@
 		"slider_w"									"500"
 		"slider_h"									"25"
 	}
-
 	"TitleBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -53,9 +52,8 @@
 		"labelText"									"#TF_AdvancedOptions"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 	}
-
 	"PanelListPanel"
 	{
 		"ControlName"								"CPanelListPanel"
@@ -70,7 +68,6 @@
 		"bgcolor_override"							"Blank"
 		"proportionaltoparent"						"1"
 	}
-
 	"TooltipPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -89,9 +86,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"HudFontSmallest"
-			"labelText"								"%tiptext%"
-			"textAlignment"							"center"
 			"xpos"									"20"
 			"ypos"									"10"
 			"zpos"									"2"
@@ -101,10 +95,11 @@
 			"enabled"								"1"
 			"fgcolor"								"White"
 			"wrap"									"1"
-			//"centerwrap"							"1"
+			"font"									"HudFontSmallest"
+			"labelText"								"%tiptext%"
+			"textAlignment"							"center"
 		}
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -157,7 +152,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -186,6 +180,6 @@
 
 		"defaultBgColor_override"					"GreenSolid"
 		"armedBgColor_override"						"StoreGreen"
-		"depressedBgColor_override" 				"StoreGreen"
+		"depressedBgColor_override"					"StoreGreen"
 	}
 }

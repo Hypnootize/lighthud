@@ -12,7 +12,6 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
 	"AmmoInClip"
 	{
 		"ControlName"								"CExLabel"
@@ -47,7 +46,7 @@
 		"font"										"Health-Ammo"
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
-		"fgcolor"									"0 0 0 200"
+		"fgcolor"									"TransparentBlack"
 
 		"pin_to_sibling"							"AmmoInClip"
 	}
@@ -85,7 +84,7 @@
 		"font"										"Ammo-Reserve"
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
-		"fgcolor"									"0 0 0 200"
+		"fgcolor"									"TransparentBlack"
 
 		"pin_to_sibling"							"AmmoInReserve"
 	}
@@ -94,7 +93,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClip"
 		"xpos"										"0"
-		"ypos"    									"0"
+		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"150"
 		"tall"										"80"
@@ -123,21 +122,34 @@
 		"font"										"Health-Ammo"
 		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
-		"fgcolor"									"0 0 0 200"
+		"fgcolor"									"TransparentBlack"
 
 		"pin_to_sibling"							"AmmoNoClip"
 	}
 
-	"HudWeaponAmmoBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"HudWeaponAmmoBG"
-		"xpos"										"9999"
-	}
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HudWeaponLowAmmoImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"HudWeaponAmmoBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"HudWeaponAmmoBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

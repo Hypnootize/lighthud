@@ -13,8 +13,8 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"bgcolor_override"   						"HUDBlueTeamSolid"
-		"alpha"   									"200"
+		"bgcolor_override"							"HUDBlueTeamSolid"
+		"alpha"										"200"
 	}
 	"BlueTimer"
 	{
@@ -28,7 +28,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
@@ -60,8 +59,8 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"bgcolor_override"   						"HUDRedTeamSolid"
-		"alpha"   									"200"
+		"bgcolor_override"							"HUDRedTeamSolid"
+		"alpha"										"200"
 	}
 	"RedTimer"
 	{
@@ -107,6 +106,6 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"bgcolor_override"   						"White"
+		"bgcolor_override"							"White"
 	}
 }

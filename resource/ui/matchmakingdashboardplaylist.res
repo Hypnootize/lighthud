@@ -13,7 +13,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"playlist"
 	{
 		"fieldName"									"playlist"
@@ -25,7 +24,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"DashboardDimmer"
 	{
 		"ControlName"								"EditablePanel"

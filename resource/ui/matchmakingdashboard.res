@@ -16,7 +16,6 @@
 		"expanded_height"							"25"
 		"resize_time"								"0.2"
 	}
-
 	"TopBar"
 	{
 		"ControlName"								"EditablePanel"
@@ -44,7 +43,6 @@
 			"bgcolor_override"						"FooterBGBlack"
 			"proportionaltoparent"					"1"
 		}
-
 		"ToggleChatButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -66,7 +64,6 @@
 			"actionsignallevel"						"2"
 			"roundedcorners"						"0"
 			"paintbackground"						"0"
-
 			"sound_depressed"						"UI/buttonclick.wav"
 
 			"image_drawcolor"						"225 220 220 255"
@@ -88,7 +85,6 @@
 				"image"								"glyph_forums"
 			}
 		}
-
 		"PartySlot0"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -110,7 +106,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot1"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -132,7 +127,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot2"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -154,7 +148,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot3"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -176,7 +169,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot4"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -198,7 +190,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot5"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -220,7 +211,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"QueueContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -267,7 +257,6 @@
 					}
 				}
 			}
-
 			"MultiQueuesManageButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -308,7 +297,6 @@
 					"proportionaltoparent"			"1"
 				}
 			}
-
 			"CloseButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -350,7 +338,6 @@
 				}
 			}
 		}
-
 		"JoinPartyLobbyContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -381,7 +368,6 @@
 				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 			}
-
 			"JoinNowButton"
 			{
 				"ControlName"						"CExButton"
@@ -409,13 +395,12 @@
 				"keyboardinputenabled"				"0"
 				"actionsignallevel"					"3"
 
-				"armedBgColor_override"				"CreditsGreen"
-				"defaultBgColor_override"			"SaleGreen"
+				"armedBgColor_override"				"StoreGreen"
+				"defaultBgColor_override"			"GreenSolid"
 
 				"sound_depressed"					"UI/buttonclick.wav"
 			}
 		}
-
 		"QuitButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -441,10 +426,9 @@
 			"armedBgColor_override"					"116 43 43 255"
 			"defaultBgColor_override"				"225 75 75 255"
 
-			"defaultFgColor_override" 				"TanLight"
-			"armedFgColor_override" 				"TanLight"
+			"defaultFgColor_override"				"TanLight"
+			"armedFgColor_override"					"TanLight"
 		}
-
 		"DisconnectButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -470,7 +454,6 @@
 			"armedBgColor_override"					"116 43 43 255"
 			"defaultBgColor_override"				"225 75 75 255"
 		}
-
 		"ResumeButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -494,10 +477,9 @@
 
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"defaultFgColor_override" 				"TanLight"
-			"armedFgColor_override" 				"TanLight"
+			"defaultFgColor_override"				"TanLight"
+			"armedFgColor_override"					"TanLight"
 		}
-
 		"FindAGameButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -524,8 +506,8 @@
 			"armedBgColor_override"					"StoreGreen"
 			"defaultBgColor_override"				"GreenSolid"
 
-			"defaultFgColor_override" 				"TanLight"
-			"armedFgColor_override" 				"TanLight"
+			"defaultFgColor_override"				"TanLight"
+			"armedFgColor_override"					"TanLight"
 		}
 	}
 }

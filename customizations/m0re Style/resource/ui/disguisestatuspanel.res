@@ -8,7 +8,7 @@
 		"ypos"										"1"
 		"zpos"										"-1"
 		"wide"										"50"
-		"tall"	 									"2"
+		"tall"										"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -19,14 +19,14 @@
 		"teambg_2"									"../hud/color_panel_red"
 		"teambg_3"									"../hud/color_panel_blu"
 
-		"src_corner_height"	  						"15"
-		"src_corner_width"	  						"15"
-		"draw_corner_width"	 						"0"
-		"draw_corner_height"  						"0"
+		"src_corner_height"							"15"
+		"src_corner_width"							"15"
+		"draw_corner_width"							"0"
+		"draw_corner_height"						"0"
 
-		"pin_to_sibling" 							"DisguiseNameLabel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 					"PIN_CENTER_BOTTOM"
+		"pin_to_sibling"							"DisguiseNameLabel"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
 	"DisguiseNameLabel"
 	{
@@ -42,7 +42,7 @@
 		"labelText"									"%disguisename%"
 		"textAlignment"								"center"
 		"font"										"StorePromotionsTitle"
-		"fgcolor"   								"White"
+		"fgcolor"									"White"
 	}
 	"DisguiseNameLabelShadow"
 	{
@@ -58,8 +58,8 @@
 		"labelText"									"%disguisename%"
 		"textAlignment"								"center"
 		"font"										"StorePromotionsTitle"
-		"fgcolor"   								"0 0 0 130"
-		"pin_to_sibling" 							"DisguiseNameLabel"
+		"fgcolor"									"LabelTransparent"
+		"pin_to_sibling"							"DisguiseNameLabel"
 	}
 	"WeaponNameLabel"
 	{
@@ -75,11 +75,11 @@
 		"labelText"									"%weaponname%"
 		"textAlignment"								"center"
 		"font"										"FontStorePrice"
-		"fgcolor"   								"White"
+		"fgcolor"									"White"
 
-		"pin_to_sibling" 							"DisguiseNameLabel"
-		"pin_corner_to_sibling" 					"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 					"PIN_CENTER_TOP"
+		"pin_to_sibling"							"DisguiseNameLabel"
+		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"WeaponNameLabelShadow"
 	{
@@ -95,19 +95,33 @@
 		"labelText"									"%weaponname%"
 		"textAlignment"								"center"
 		"font"										"FontStorePrice"
-		"fgcolor"   								"0 0 0 130"
-		"pin_to_sibling" 							"WeaponNameLabel"
+		"fgcolor"									"LabelTransparent"
+		"pin_to_sibling"							"WeaponNameLabel"
 	}
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"SpectatorGUIHealth"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"SpectatorGUIHealth"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"itemmodelpanel"
 	{
 		"ControlName"								"CEmbeddedItemModelPanel"
 		"fieldName"									"itemmodelpanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

@@ -4,7 +4,6 @@
 	{
 		"delta_lifetime"							"0"
 	}
-
 	"AccountValue"
 	{
 		"ControlName"								"CExLabel"
@@ -20,7 +19,7 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"font"										"HudFontSmallishBold"
-		"fgcolor"   								"White"
+		"fgcolor"									"White"
 	}
 	"AccountValueShadow"
 	{
@@ -37,20 +36,33 @@
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
 		"font"										"HudFontSmallishBold"
-		"fgcolor"   								"0 0 0 130"
-		"pin_to_sibling"   							"AccountValue"
+		"fgcolor"									"LabelTransparent"
+		"pin_to_sibling"							"AccountValue"
 	}
 
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"MetalIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"MetalIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"AccountBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"AccountBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

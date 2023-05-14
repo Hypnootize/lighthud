@@ -12,7 +12,6 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-
 	"ItemEffectIcon"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -28,7 +27,6 @@
 		"image"										"../hud/ico_powerup_critboost_red"
 		"scaleImage"								"1"
 	}
-
 	"ItemEffectMeterCount"
 	{
 		"ControlName"								"CExLabel"
@@ -46,7 +44,6 @@
 		"font"										"HudFontMediumSmallBold"
 		"fgcolor"									"White"
 	}
-
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"								"CExLabel"
@@ -67,22 +64,29 @@
 		"pin_to_sibling"							"ItemEffectMeterCount"
 	}
 
-	"ItemEffectMeterBG"
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+	"ItemEffectMeter"
 	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterLabel"
 		"xpos"										"9999"
-	}
-	"ItemEffectMeter"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter"
-		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

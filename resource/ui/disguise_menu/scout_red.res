@@ -8,7 +8,7 @@
 		"ypos"										"0"
 		"zpos"										"-1"
 		"wide"										"f0"
-		"tall"	 									"13"
+		"tall"										"13"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -25,7 +25,7 @@
 			"ypos"									"rs1"
 			"zpos"									"1"
 			"wide"									"f0"
-			"tall"	 								"2"
+			"tall"									"2"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -38,7 +38,6 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemNameLabel"
-		"font"										"FontStorePrice"
 		"xpos"										"2"
 		"ypos"										"15"
 		"zpos"										"1"
@@ -47,6 +46,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"AllCaps"									"0"
+		"font"										"FontStorePrice"
 		"labelText"									"#TF_Class_Name_Scout"
 		"textAlignment"								"west"
 		"textinsetx"								"2"
@@ -79,15 +79,13 @@
 		"bgcolor_override"							"TransparentLightBlack"
 
 		"pin_to_sibling"							"ItemNameLabel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"NewNumberLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NewNumberLabel"
-		"font"										"FontStorePrice"
-		"fgcolor"									"White"
 		"xpos"										"52"
 		"ypos"										"15"
 		"zpos"										"13"
@@ -95,24 +93,39 @@
 		"tall"										"10"
 		"visible"									"0"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"labelText"									"1"
 		"textAlignment"								"Center"
-		"proportionaltoparent"						"1"
+		"font"										"FontStorePrice"
+		"fgcolor"									"White"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"
 	}
 
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"ClassIcon"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"ClassIcon"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NumberBg"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"NumberBg"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

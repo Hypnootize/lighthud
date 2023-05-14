@@ -45,14 +45,13 @@
 			"tall"									"18"
 			"zpos"									"1"
 
-			"color_ready"							"0 255 0 220"
-			"color_notready"						"0 0 0 220"
+			"color_ready"							"GreenSolid"
+			"color_notready"						"TransparentBlack"
 
 			"playername"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"playername"
-				"font"								"FontStorePriceSmall"
 				"xpos"								"0"
 				"ypos"								"rs1"
 				"zpos"								"5"
@@ -60,6 +59,7 @@
 				"tall"								"6"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
+				"font"								"FontStorePriceSmall"
 				"labelText"							"%playername%"
 				"textAlignment"						"north-west"
 				"paintbackground"					"1"
@@ -96,46 +96,30 @@
 				"image"								"hud/checkmark"
 				"scaleImage"						"1"
 			}
-
-			"classimagebg"
-			{
-				"ControlName"						"Panel"
-				"fieldName"							"classimagebg"
-				"xpos"								"9999"
-			}
 			"HealthIcon"
 			{
 				"ControlName"						"EditablePanel"
 				"fieldName"							"HealthIcon"
 				"xpos"								"9999"
-			}
-			"respawntime"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"respawntime"
-				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 			"ReadyBG"
 			{
 				"ControlName"						"ScalableImagePanel"
 				"fieldName"							"ReadyBG"
 				"xpos"								"9999"
-			}
-			"chargeamount"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"chargeamount"
-				"xpos"								"9999"
-			}
-			"specindex"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"specindex"
-				"xpos"								"9999"
+				"ypos"								"9999"
+				"wide"								"0"
+				"tall"								"0"
+				"visible"							"0"
+				"enabled"							"0"
 			}
 		}
 	}
-
 	"ReadyUpBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -165,7 +149,6 @@
 			"wide"									"0"
 		}
 	}
-
 	"TournamentBLUEStateLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -181,7 +164,7 @@
 		"font"										"FontStorePrice"
 		"labelText"									"%bluestate%"
 		"textAlignment"								"east"
-		"fgcolor" 									"HUDBlueTeamSolid"
+		"fgcolor"									"HUDBlueTeamSolid"
 
 		"if_competitive"
 		{
@@ -203,7 +186,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
-		"wide"										"51"
+		"wide"										"50"
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
@@ -211,7 +194,7 @@
 		"font"										"FontStorePrice"
 		"labelText"									"%bluestate%"
 		"textAlignment"								"east"
-		"fgcolor" 									"0 0 0 130"
+		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"TournamentBLUEStateLabel"
 
 		"if_competitive"
@@ -227,7 +210,6 @@
 			"visible"								"0"
 		}
 	}
-
 	"TournamentREDStateLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -243,7 +225,7 @@
 		"font"										"FontStorePrice"
 		"labelText"									"%redstate%"
 		"textAlignment"								"west"
-		"fgcolor" 									"HUDRedTeamSolid"
+		"fgcolor"									"HUDRedTeamSolid"
 
 		"if_competitive"
 		{
@@ -265,7 +247,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
-		"wide"										"51"
+		"wide"										"50"
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
@@ -273,7 +255,7 @@
 		"font"										"FontStorePrice"
 		"labelText"									"%redstate%"
 		"textAlignment"								"west"
-		"fgcolor" 									"0 0 0 130"
+		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"TournamentREDStateLabel"
 
 		"if_competitive"
@@ -289,36 +271,33 @@
 			"visible"								"0"
 		}
 	}
-
 	"TournamentConditionLabel"
 	{
-		"ControlName"		          				"CExLabel"
-		"fieldName"		           					"TournamentConditionLabel"
-		"xpos"			              				"cs-0.5"
-		"ypos"	              						"15"
-		"zpos"			              				"1"
-		"wide"			              				"f0"
-		"tall"			              				"10"
-		"visible"		              				"1"
-		"enabled"		              				"1"
+		"ControlName"								"CExLabel"
+		"fieldName"									"TournamentConditionLabel"
+		"xpos"										"cs-0.5"
+		"ypos"										"15"
+		"zpos"										"1"
+		"wide"										"f0"
+		"tall"										"10"
+		"visible"									"1"
+		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"			              				"DefaultVerySmall"
-		"labelText" 	          					"%winconditions%"
-		"textAlignment"		        				"center"
-		"fgcolor"                					"White"
-		"alpha"                						"150"
+		"font"										"DefaultVerySmall"
+		"labelText"									"%winconditions%"
+		"textAlignment"								"center"
+		"fgcolor"									"White"
+		"alpha"										"150"
 
 		"if_mvm"
 		{
-			"visible"		              			"0"
+			"visible"								"0"
 		}
 	}
-
 	"CountdownLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
-		"font"										"HudFontMedium"
 		"xpos"										"cs-0.5"
 		"ypos"										"r55"
 		"wide"										"40"
@@ -326,6 +305,7 @@
 		"zpos"										"5"
 		"visible"									"0"
 		"enabled"									"1"
+		"font"										"HudFontMedium"
 		"labelText"									"%tournamentstatelabel%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
@@ -334,7 +314,6 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabelShadow"
-		"font"										"HudFontMedium"
 		"xpos"										"cs-0.5+1"
 		"ypos"										"r54"
 		"wide"										"40"
@@ -342,67 +321,113 @@
 		"zpos"										"4"
 		"visible"									"0"
 		"enabled"									"1"
+		"font"										"HudFontMedium"
 		"labelText"									"%tournamentstatelabel%"
 		"textAlignment"								"center"
 		"fgcolor"									"Black"
 		"proportionaltoparent"						"1"
 	}
 
-
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"HudTournamentBG"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"HudTournamentBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"CountdownBG"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"CountdownBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HudTournamentBLUEBG"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HudTournamentBLUEBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HudTournamentREDBG"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HudTournamentREDBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TournamentBLUELabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentBLUELabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TournamentREDLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentREDLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TournamentLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HudTournamentBGHelp"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"HudTournamentBGHelp"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TournamentInstructionsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentInstructionsLabel"
 		"xpos"										"9999"
-	}
-	"CountdownBG"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"CountdownBG"
 		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

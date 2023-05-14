@@ -14,8 +14,8 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"DarkBrown"
-		"infocus_bgcolor_override" 					"DarkBrown"
-		"outoffocus_bgcolor_override" 				"DarkBrown"
+		"infocus_bgcolor_override"					"DarkBrown"
+		"outoffocus_bgcolor_override"				"DarkBrown"
 
 		"item_ypos"									"75"
 		"output_item_ypos"							"262"
@@ -43,8 +43,8 @@
 			"model_tall"							"35"
 			"text_center"							"0"
 			"name_only"								"1"
-			"text_forcesize" 						"3"
-			"noitem_use_fullpanel" 					"1"
+			"text_forcesize"						"3"
+			"noitem_use_fullpanel"					"1"
 
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
@@ -62,11 +62,10 @@
 
 				"itemmodelpanel"
 				{
-					"use_item_rendertarget" 		"0"
+					"use_item_rendertarget"			"0"
 					"inventory_image_type"			"1"
 					"allow_rot"						"0"
 				}
-
 				"namelabel"
 				{
 					"ControlName"					"CExLabel"
@@ -88,7 +87,6 @@
 				}
 			}
 		}
-
 		"recipebuttons_kv"
 		{
 			"font"									"HudFontSmallestBold"
@@ -104,12 +102,12 @@
 			"paintborder"							"0"
 
 
-			"defaultFgColor_override" 				"White"
-			"defaultBgColor_override" 				"LighterDarkBrown"
-			"armedFgColor_override" 				"White"
-			"armedBgColor_override" 				"Main"
-			"depressedFgColor_override" 			"White"
-			"depressedBgColor_override" 			"Main"
+			"defaultFgColor_override"				"White"
+			"defaultBgColor_override"				"LighterDarkBrown"
+			"armedFgColor_override"					"White"
+			"armedBgColor_override"					"Main"
+			"depressedFgColor_override"				"White"
+			"depressedBgColor_override"				"Main"
 		}
 
 		"filter_xoffset"							"-204"
@@ -133,7 +131,6 @@
 			"sound_released"						"UI/buttonclickrelease.wav"
 		}
 	}
-
 	"FiltersBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -184,7 +181,6 @@
 		"bgcolor_override"							"FooterBGBlack"
 		"proportionaltoparent"						"1"
 	}
-
 	"recipecontainerscroller"
 	{
 		"ControlName"								"EditablePanel"
@@ -196,13 +192,13 @@
 		"tall"										"263"
 		"fgcolor_override"							"TanDark"
 		"paintbackground"							"0"
-		"autohide_buttons" 							"1"
+		"autohide_buttons"							"1"
 
 		"Scrollbar"
 		{
 			"xpos"									"rs1"
 			"ypos"									"0"
-			"wide"									"0" //4
+			"wide"									"0"	//4
 			"tall"									"f0"
 			"zpos"									"1000"
 			"proportionaltoparent"					"1"
@@ -214,27 +210,8 @@
 			}
 
 			"nobuttons"								"1"
-
-			"UpButton"
-			{
-				"ControlName"						"Button"
-				"FieldName"							"UpButton"
-				"visible"							"0"
-				"tall"								"0"
-				"wide"								"0"
-			}
-
-			"DownButton"
-			{
-				"ControlName"						"Button"
-				"FieldName"							"DownButton"
-				"visible"							"0"
-				"tall"								"0"
-				"wide"								"0"
-			}
 		}
 	}
-
 	"recipecontainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -246,7 +223,6 @@
 		"tall"										"263"
 		"paintbackground"							"0"
 	}
-
 	"selectedrecipecontainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -285,19 +261,18 @@
 			"tall"									"24"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"use_proportional_insets"				"1"
 			"AllCaps"								"1"
 			"font"									"HudFontMediumSmallBold"
 			"labelText"								"#Craft_Recipe_Inputs"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
 			"fgcolor"								"White"
-			"use_proportional_insets"				"1"
-			"proportionaltoparent"					"1"
 			"PaintBackgroundType"					"0"
 			"PaintBackground"						"1"
 			"bgcolor_override"						"LighterDarkBrown"
 		}
-
 		"OutputBG"
 		{
 			"ControlName"							"EditablePanel"
@@ -325,19 +300,18 @@
 			"tall"									"24"
 			"visible"								"1"
 			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"use_proportional_insets"				"1"
 			"AllCaps"								"1"
 			"font"									"HudFontMediumSmallBold"
 			"labelText"								"#Craft_Recipe_Outputs"
 			"textAlignment"							"west"
 			"textinsetx"							"5"
 			"fgcolor"								"White"
-			"use_proportional_insets"				"1"
-			"proportionaltoparent"					"1"
 			"PaintBackgroundType"					"0"
 			"PaintBackground"						"1"
 			"bgcolor_override"						"LighterDarkBrown"
 		}
-
 		"CraftButton"
 		{
 			"ControlName"							"CExButton"
@@ -363,13 +337,12 @@
 
 			"defaultBgColor_override"				"GreenSolid"
 			"armedBgColor_override"					"StoreGreen"
-			"depressedBgColor_override" 			"StoreGreen"
+			"depressedBgColor_override"				"StoreGreen"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override" 			"White"
+			"depressedFgColor_override"				"White"
 		}
-
 		"FreeAccountLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -411,25 +384,11 @@
 
 			"paintbackground"						"1"
 
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
-		}
-
-		"RecipeTitle"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"RecipeTitle"
-			"xpos"									"9999"
-		}
-		"RecipeInputStringLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"RecipeInputStringLabel"
-			"xpos"									"9999"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White"
+			"depressedFgColor_override"				"White"
 		}
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"								"CItemModelPanel"
@@ -453,7 +412,6 @@
 
 		"attriblabel"
 		{
-			"font"									"ItemFontAttribLarge"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"
@@ -461,18 +419,17 @@
 			"tall"									"60"
 			"visible"								"1"
 			"enabled"								"1"
+			"font"									"ItemFontAttribLarge"
 			"labelText"								"%attriblist%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
 			"centerwrap"							"1"
 		}
 	}
-
 	"mousedragitempanel"
 	{
 		"ControlName"								"CItemModelPanel"
 		"fieldName"									"mousedragitempanel"
-
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"100"
@@ -492,12 +449,11 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"1"
 			"allow_rot"								"0"
 		}
 	}
-
 	"TooltipPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -510,15 +466,12 @@
 		"visible"									"0"
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"1"
-		"bgcolor_override"							"LighterDarkBrown"
+		"bgcolor_override"							"FooterBGBlack"
 
 		"TipLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"HudFontSmallest"
-			"labelText"								"%tiptext%"
-			"textAlignment"							"center"
 			"xpos"									"20"
 			"ypos"									"10"
 			"zpos"									"2"
@@ -526,16 +479,12 @@
 			"tall"									"30"
 			"visible"								"1"
 			"enabled"								"1"
+			"font"									"HudFontSmallest"
+			"labelText"								"%tiptext%"
+			"textAlignment"							"center"
 			"fgcolor"								"White"
 			"wrap"									"1"
 			"centerwrap"							"1"
 		}
-	}
-
-	"ClassLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ClassLabel"
-		"xpos"										"9999"
 	}
 }

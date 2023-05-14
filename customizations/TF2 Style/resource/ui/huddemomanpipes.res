@@ -27,7 +27,7 @@
 		"labelText"									"#TF_Charge"
 		"textAlignment"								"center"
 		"font"										"FontStorePriceSmall"
-		"disabledfgcolor2_override"					"150 152 157 255"
+		"disabledfgcolor2_override"					"Gray"
 	}
 	"PipesPresentPanel"
 	{
@@ -70,7 +70,7 @@
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
 			"font"									"HudFontMediumSmallBold"
-			"fgcolor"								"0 0 0 130"
+			"fgcolor"								"LabelTransparent"
 			"pin_to_sibling"						"NumPipesLabel"
 		}
 		"PipeIcon"
@@ -78,19 +78,37 @@
 			"ControlName"							"CTFImagePanel"
 			"fieldName"								"PipeIcon"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"background"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"background"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"NoPipesPresentPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"NoPipesPresentPanel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

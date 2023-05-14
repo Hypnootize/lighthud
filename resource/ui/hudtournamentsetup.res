@@ -18,7 +18,7 @@
 		"wrap"										"0"
 		"RoundedCorners"							"0"
 		"proportionaltoparent"						"1"
-		"font" 										"StorePromotionsTitle"
+		"font"										"StorePromotionsTitle"
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"TransparentLightBlack"
 		"labelText"									"%teamname%"
@@ -41,10 +41,10 @@
 		"proportionaltoparent"						"1"
 		"font"										"FontStorePrice"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 		"depressedFgColor_override"					"Main"
-		"selectedFgColor_override" 					"Main"
+		"selectedFgColor_override"					"Main"
 		"paintbackground"							"0"
 	}
 	"TournamentNotReadyButton"
@@ -64,36 +64,58 @@
 		"proportionaltoparent"						"1"
 		"font"										"FontStorePrice"
 		"fgcolor"									"White"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"HUDRedTeamSolid"
-		"depressedFgColor_override" 				"HUDRedTeamSolid"
-		"selectedFgColor_override" 					"HUDRedTeamSolid"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"HUDRedTeamSolid"
+		"depressedFgColor_override"					"HUDRedTeamSolid"
+		"selectedFgColor_override"					"HUDRedTeamSolid"
 		"paintbackground"							"0"
 	}
 
-
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"HudTournamentSetupBG"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"HudTournamentSetupBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TournamentSetupLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentSetupLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TournamentTeamNameLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TournamentTeamNameLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HudTournamentNameBG"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"HudTournamentNameBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

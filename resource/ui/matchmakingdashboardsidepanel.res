@@ -15,7 +15,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"FooterBGBlack"
 	}
-
 	"ReturnButton"
 	{
 		"ControlName"								"CExButton"
@@ -25,7 +24,8 @@
 
 		"if_left"
 		{
-			"xpos"									"9999"
+			"wide"									"0"
+			"visible"								"0"
 		}
 
 		"ypos"										"3"
@@ -46,10 +46,18 @@
 		"armedFgColor_override"						"White"
 	}
 
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"CloseButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"CloseButton"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

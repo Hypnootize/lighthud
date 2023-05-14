@@ -39,6 +39,6 @@
 		"labelText"									"#TF_Ball"
 		"textAlignment"								"center"
 		"font"										"FontStorePriceSmall"
-		"disabledfgcolor2_override"					"150 152 157 255"
+		"disabledfgcolor2_override"					"Gray"
 	}
 }

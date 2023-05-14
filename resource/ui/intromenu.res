@@ -10,7 +10,7 @@
 		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
-	    "paintbackground"							"0"
+		"paintbackground"							"0"
 	}
 	"FullScreenBG"
 	{
@@ -24,7 +24,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
+		"bgcolor_override"							"TransparentBlack"
 	}
 	"Explanation"
 	{
@@ -45,7 +45,7 @@
 		"fgcolor"									"White"
 		"font"										"FontStorePrice"
 		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
+		"bgcolor_override"							"TransparentBlack"
 	}
 	"Skip"
 	{
@@ -68,8 +68,8 @@
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 	}
 	"SkipShortKey"
 	{
@@ -81,52 +81,95 @@
 		"visible"									"1"
 	}
 
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"VideoPanel"
 	{
 		"ControlName"								"CTFVideoPanel"
 		"fieldName"									"VideoPanel"
 		"xpos"										"9999"
-	}
-	"VideoCaption"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"VideoCaption"
-		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Back"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"Back"
 		"xpos"										"9999"
-	}
-	"titlelabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"titlelabel"
-		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ReplayVideo"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ReplayVideo"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"VideoCaption"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"VideoCaption"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"titlelabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"titlelabel"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ShadedBar"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBar"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MenuBG"
 	{
 		"ControlName"								"CModelPanel"
 		"fieldName"									"MenuBG"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Continue"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"Continue"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

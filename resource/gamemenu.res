@@ -7,18 +7,18 @@
 	}
 	"LightHUD"
 	{
-		"label" 								"LightHUD"
-		"command" 								"engine con_enable 1; toggleconsole; echo LightHUD by Hypnotize"
+		"label"									"LightHUD"
+		"command"								"engine con_enable 1; toggleconsole; echo LightHUD by Hypnotize"
 	}
 	"Servers"
 	{
 		"label"									"servers"
-		"command" 								"OpenServerBrowser"
+		"command"								"OpenServerBrowser"
 	}
 	"Create"
 	{
-		"label" 								"create"
-		"command" 								"OpenCreateMultiplayerGameDialog"
+		"label"									"create"
+		"command"								"OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu"							"1"
 	}
 	"Items"
@@ -44,8 +44,8 @@
 	}
 	"Contracker"
 	{
-		"label" 								"contracker"
-		"command" 								"questlog"
+		"label"									"contracker"
+		"command"								"questlog"
 	}
 	"Vote"
 	{
