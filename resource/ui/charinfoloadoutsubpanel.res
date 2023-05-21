@@ -54,7 +54,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"							"Main"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"SoldierCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"

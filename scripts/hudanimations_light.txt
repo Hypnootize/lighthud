@@ -215,8 +215,6 @@ event PvPRankLevelUpXPBar{}
 event PvPRankLevelUpModel{}
 event PvPRankLevelDownXPBar{}
 event PvPRankLevelDownModel{}
-event CompetitiveGame_ShowPvPRankPanel{}
-event PvPRankPanelShowXPChange{}
 event PyroVsHeavyWar_ShowChooseScene{}
 event PyroVsHeavyWar_PyroWinnerScene{}
 event CasualCategory_Checkbox_Hide{}

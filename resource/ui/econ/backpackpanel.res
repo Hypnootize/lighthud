@@ -140,7 +140,7 @@
 	}
 	"BackpackBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"BackpackBG"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5-40"
@@ -156,7 +156,7 @@
 	}
 	"FiltersBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"FiltersBG"
 		"xpos"										"0"
 		"ypos"										"2"
@@ -246,7 +246,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
-
 	"NameFilterTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -262,7 +261,7 @@
 		"editable"									"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"0 0 0 150"
+		"bgcolor_override"							"LabelTransparent"
 		"paintbackgroundtype"						"0"
 		"font"										"HudFontSmallest"
 
@@ -270,7 +269,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-
 	"SortByComboBox"
 	{
 		"ControlName"								"ComboBox"
@@ -351,10 +349,10 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
-	"mouseoveritempanel"
+	"MouseOverItemPanel"
 	{
 		"ControlName"								"CItemModelPanel"
-		"fieldName"									"mouseoveritempanel"
+		"fieldName"									"MouseOverItemPanel"
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"102"
@@ -387,10 +385,10 @@
 			"centerwrap"							"1"
 		}
 	}
-	"mousedragitempanel"
+	"MouseDragItemPanel"
 	{
 		"ControlName"								"CItemModelPanel"
-		"fieldName"									"mousedragitempanel"
+		"fieldName"									"MouseDragItemPanel"
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"100"

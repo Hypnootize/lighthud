@@ -22,7 +22,7 @@
 	}
 	"TitleBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"TitleBG"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -112,13 +112,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"labelText"									""
-		"font"										""
+		"labelText"									"X"
+		"font"										"HudFontMediumSmallBold"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"Command"									"Close"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"1"
 
@@ -128,25 +127,6 @@
 
 		"armedBgColor_override"						"116 43 43 255"
 		"defaultBgColor_override"					"225 75 75 255"
-
-		"image_drawcolor"							"230 232 235 255"
-		"image_armedcolor"							"230 232 235 255"
-
-		"SubImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"cs-0.5"
-			"ypos"									"cs-0.5"
-			"zpos"									"1"
-			"wide"									"f5"
-			"tall"									"f5"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"image"									"glyph_close_x"
-			"scaleImage"							"1"
-		}
 
 		"pin_to_sibling"							"TitleBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -170,7 +150,6 @@
 		"AllCaps"									"1"
 		"Command"									"Ok"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"1"
 

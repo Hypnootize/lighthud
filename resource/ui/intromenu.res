@@ -14,7 +14,7 @@
 	}
 	"FullScreenBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"FullScreenBG"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -110,61 +110,6 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ReplayVideo"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"VideoCaption"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"VideoCaption"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"titlelabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"titlelabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ShadedBar"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"ShadedBar"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MenuBG"
-	{
-		"ControlName"								"CModelPanel"
-		"fieldName"									"MenuBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Continue"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"Continue"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"

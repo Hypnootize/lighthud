@@ -48,7 +48,7 @@
 	}
 	"ModeLabelBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"ModeLabelBG"
 		"xpos"										"cs-0.5"
 		"ypos"										"rs1"

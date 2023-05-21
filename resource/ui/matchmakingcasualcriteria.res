@@ -15,7 +15,7 @@
 
 		"RankBG"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"RankBG"
 			"xpos"									"cs-0.5"
 			"ypos"									"0"
@@ -177,43 +177,6 @@
 					"visible"						"0"
 				}
 			}
-		}
-
-		//================================================================================================================================================
-		// REMOVED ELEMENTS
-		//================================================================================================================================================
-		"ShowExplanationsButton"
-		{
-			"ControlName"							"CExButton"
-			"fieldName"								"ShowExplanationsButton"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"Title"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"Title"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"PlayListDropShadow"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"PlayListDropShadow"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
 		}
 	}
 }

@@ -41,7 +41,7 @@
 
 		"NotBuiltBG"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"NotBuiltBG"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -57,7 +57,7 @@
 		}
 		"IconBackgound"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"IconBackgound"
 			"xpos"									"2"
 			"ypos"									"cs-0.5"
@@ -86,7 +86,7 @@
 
 		"BuiltBG"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"BuiltBG"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -102,7 +102,7 @@
 		}
 		"IconBackgound"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"IconBackgound"
 			"xpos"									"2"
 			"ypos"									"cs-0.5"
@@ -208,39 +208,6 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 		}
-		"AlertTray"
-		{
-			"ControlName"							"CBuildingStatusAlertTray"
-			"fieldName"								"AlertTray"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"WrenchIcon"
-		{
-			"ControlName"							"CIconPanel"
-			"fieldName"								"WrenchIcon"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"BuildingPanel"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BuildingPanel"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -317,28 +284,6 @@
 				"AllCaps"							"1"
 				"fgcolor"							"Black"
 				"pin_to_sibling"					"Upgrade"
-			}
-			"UpgradeIcon"
-			{
-				"ControlName"						"CIconPanel"
-				"fieldName"							"UpgradeIcon"
-				"xpos"								"9999"
-				"ypos"								"9999"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
-			}
-			"AmmoIcon"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"AmmoIcon"
-				"xpos"								"9999"
-				"ypos"								"9999"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
 			}
 		}
 		"BuildingPanel"

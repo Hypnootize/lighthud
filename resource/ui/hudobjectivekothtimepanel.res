@@ -2,7 +2,7 @@
 {
 	"BlueTimerBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"BlueTimerBG"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -48,7 +48,7 @@
 	}
 	"RedTimerBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"RedTimerBG"
 		"xpos"										"rs1"
 		"ypos"										"0"
@@ -95,7 +95,7 @@
 	}
 	"ActiveTimerBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"ActiveTimerBG"
 		"xpos"										"0"
 		"ypos"										"15"

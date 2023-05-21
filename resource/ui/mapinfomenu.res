@@ -15,7 +15,7 @@
 	}
 	"FullScreenBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"FullScreenBG"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -111,72 +111,6 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"MapInfoWatchIntro"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MenuBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"MenuBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MapImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"MapImage"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MapInfoType"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"MapInfoType"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ShadedBar"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"ShadedBar"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MapInfoText"
-	{
-		"ControlName"								"CExRichText"
-		"fieldName"									"MapInfoText"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MapInfoTitle"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"MapInfoTitle"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"

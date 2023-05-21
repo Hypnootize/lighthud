@@ -1,9 +1,9 @@
 "Resource/UI/CraftingPanel.res"
 {
-	"crafting_panel"
+	"Crafting_Panel"
 	{
 		"ControlName"								"Frame"
-		"fieldName"									"crafting_panel"
+		"fieldName"									"Crafting_Panel"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -51,7 +51,7 @@
 
 			"MainContentsContainer"
 			{
-				"ControlName"						"EditablePanel"
+				"ControlName"						"Panel"
 				"fieldName"							"MainContentsContainer"
 				"xpos"								"0"
 				"ypos"								"0"
@@ -63,13 +63,13 @@
 				"itemmodelpanel"
 				{
 					"use_item_rendertarget"			"0"
-					"inventory_image_type"			"1"
+					"inventory_image_type"			"0"
 					"allow_rot"						"0"
 				}
-				"namelabel"
+				"NameLabel"
 				{
 					"ControlName"					"CExLabel"
-					"fieldName"						"namelabel"
+					"fieldName"						"NameLabel"
 					"xpos"							"cs-0.5"
 					"ypos"							"cs-0.5"
 					"zpos"							"2"
@@ -87,9 +87,8 @@
 				}
 			}
 		}
-		"recipebuttons_kv"
+		"RecipeButtons_KV"
 		{
-			"font"									"HudFontSmallestBold"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"1"
@@ -97,10 +96,10 @@
 			"tall"									"15"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"HudFontSmallestBold"
 			"textAlignment"							"center"
 			"AllCaps"								"1"
 			"paintborder"							"0"
-
 
 			"defaultFgColor_override"				"White"
 			"defaultBgColor_override"				"LighterDarkBrown"
@@ -115,7 +114,7 @@
 		"filter_xdelta"								"12"
 		"filter_ydelta"								"12"
 
-		"recipefilterbuttons_kv"
+		"RecipeFilterButtons_KV"
 		{
 			"zpos"									"2"
 			"wide"									"20"
@@ -128,7 +127,6 @@
 			"font"									"MenuKeys"
 			"scaleImage"							"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
 		}
 	}
 	"FiltersBG"
@@ -149,7 +147,7 @@
 
 		"InnerBG"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"InnerBG"
 			"xpos"									"cs-0.5"
 			"ypos"									"cs-0.5"
@@ -166,7 +164,7 @@
 	}
 	"ButtonsBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"ButtonsBG"
 		"xpos"										"cs-1-8"
 		"ypos"										"cs-0.5+13"
@@ -275,7 +273,7 @@
 		}
 		"OutputBG"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"OutputBG"
 			"xpos"									"cs-0.5"
 			"ypos"									"232"
@@ -331,7 +329,6 @@
 			"AllCaps"								"1"
 			"Command"								"craft"
 			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"1"
 
@@ -380,7 +377,6 @@
 			"AllCaps"								"1"
 			"Command"								"upgrade"
 			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"paintbackground"						"1"
 
@@ -389,10 +385,10 @@
 			"depressedFgColor_override"				"White"
 		}
 	}
-	"mouseoveritempanel"
+	"MouseOverItemPanel"
 	{
 		"ControlName"								"CItemModelPanel"
-		"fieldName"									"mouseoveritempanel"
+		"fieldName"									"MouseOverItemPanel"
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"100"
@@ -426,10 +422,10 @@
 			"centerwrap"							"1"
 		}
 	}
-	"mousedragitempanel"
+	"MouseDragItemPanel"
 	{
 		"ControlName"								"CItemModelPanel"
-		"fieldName"									"mousedragitempanel"
+		"fieldName"									"MouseDragItemPanel"
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"100"
@@ -450,7 +446,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
-			"inventory_image_type"					"1"
+			"inventory_image_type"					"0"
 			"allow_rot"								"0"
 		}
 	}

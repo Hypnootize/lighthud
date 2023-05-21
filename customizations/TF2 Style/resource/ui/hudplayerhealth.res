@@ -2,7 +2,7 @@
 {
 	"HudPlayerHealth"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"HudPlayerHealth"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -158,7 +158,7 @@
 	}
 	"PlayerStatusAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"PlayerStatusAnchor"
 		"xpos"										"-105"
 		"ypos"										"-30"
@@ -710,20 +710,5 @@
 		"pin_to_sibling"							"PlayerStatusAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
-	}
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-	"PlayerStatusMaxHealthValue"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusMaxHealthValue"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }

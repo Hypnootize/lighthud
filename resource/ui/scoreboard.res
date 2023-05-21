@@ -56,7 +56,7 @@
 	}
 	"PlayerListBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"PlayerListBG"
 		"xpos"										"-2"
 		"ypos"										"-3"
@@ -96,7 +96,7 @@
 
 		"Blue"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"Blue"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -114,7 +114,7 @@
 		}
 		"Red"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"Red"
 			"xpos"									"rs1"
 			"ypos"									"0"
@@ -132,7 +132,7 @@
 		}
 		"Line"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"Line"
 			"xpos"									"0"
 			"ypos"									"rs1"
@@ -254,7 +254,7 @@
 	}
 	"InfoBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"InfoBG"
 		"xpos"										"0"
 		"ypos"										"1"

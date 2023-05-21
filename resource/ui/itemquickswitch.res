@@ -44,7 +44,7 @@
 	}
 	"ItemSlotLabelBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"ItemSlotLabelBG"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -138,7 +138,7 @@
 	}
 	"PresetPanelBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"PresetPanelBG"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -168,40 +168,10 @@
 		"proportionaltoparent"						"1"
 	}
 
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-	"CaratLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CaratLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ClassLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ClassLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
 	"NoItemsLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"NoItemsLabel"
 		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }

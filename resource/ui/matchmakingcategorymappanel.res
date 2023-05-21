@@ -60,6 +60,6 @@
 		"progress"									"0.5"
 
 		"fgcolor_override"							"117 107 94 30"
-		"bgcolor_override"							"0 0 0 0"
+		"bgcolor_override"							"Blank"
 	}
 }

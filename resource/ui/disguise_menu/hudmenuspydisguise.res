@@ -1,8 +1,49 @@
+#base "panels1.res"
+#base "panels2.res"
+#base "panels3.res"
+#base "panels4.res"
+#base "panels5.res"
+#base "panels6.res"
+#base "panels7.res"
+#base "panels8.res"
+#base "panels9.res"
+#base "panels10.res"
+#base "panels11.res"
+#base "panels12.res"
+#base "panels13.res"
+#base "panels14.res"
+#base "panels15.res"
+#base "panels16.res"
+#base "panels17.res"
+#base "panels18.res"
+#base "panels19.res"
+#base "panels20.res"
+#base "panels21.res"
+#base "panels22.res"
+#base "panels23.res"
+#base "panels24.res"
+#base "panels25.res"
+#base "panels26.res"
+#base "panels27.res"
+#base "panels28.res"
+#base "panels29.res"
+#base "panels30.res"
+#base "panels31.res"
+#base "panels32.res"
+#base "panels33.res"
+#base "panels34.res"
+#base "panels35.res"
+#base "panels36.res"
+#base "panels37.res"
+#base "panels38.res"
+#base "panels39.res"
+#base "panels40.res"
+
 "Resource/UI/Disguise_Menu/HudMenuSpyDisguise.res"
 {
 	"Background"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"Background"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -287,6 +328,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"
 	}
+
 	"NumberLabel2"
 	{
 		"ControlName"								"CExLabel"
@@ -308,6 +350,7 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"
 	}
+
 	"NumberLabel3"
 	{
 		"ControlName"								"CExLabel"
@@ -328,86 +371,5 @@
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"TransparentLightBlack"
-	}
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-	"MainBackground"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"MainBackground"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Divider"
-	{
-		"ControlName"		     					"ImagePanel"
-		"fieldName"									"Divider"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ToggleLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ToggleLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"CancelLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CancelLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"NumberBg1"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg1"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"NumberBg2"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg2"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"NumberBg3"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg3"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }

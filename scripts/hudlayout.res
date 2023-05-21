@@ -145,9 +145,9 @@
 		"PlaySelectSounds"							"1"
 		"Alpha"										"220"
 		"SelectionAlpha"							"220"
-		"BoxColor"									"0 0 0 220"
-		"SelectedBoxClor"							"0 0 0 220"
-		"SelectionNumberFg"							"200 187 161 255"
+		"BoxColor"									"TransparentBlack"
+		"SelectedBoxClor"							"TransparentBlack"
+		"SelectionNumberFg"							"White"
 		"NumberFont"								"HudFontSmallishBold"
 	}
 	"CHudAccountPanel"
@@ -225,7 +225,7 @@
 	}
 	"BuildingAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"BuildingAnchor"
 		"xpos"										"1"
 		"ypos"										"139"
@@ -352,7 +352,7 @@
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-		"BackgroundOverrideColor"					"0 0 0 128"
+		"BackgroundOverrideColor"					"TransparentLightBlack"
 		"bar_xpos"									"50"
 		"bar_ypos"									"20"
 		"bar_height"								"8"

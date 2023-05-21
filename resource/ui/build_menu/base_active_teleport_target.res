@@ -18,7 +18,7 @@
 
 		"NumberBG"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"NumberBG"
 			"xpos"									"rs1"
 			"ypos"									"cs-0.5"
@@ -68,75 +68,5 @@
 		"textAlignment"								"Center"
 		"font"										"ScoreboardVerySmall"
 		"fgcolor"									"White"
-	}
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-	"ItemBackground"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"ItemBackground"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ItemNameLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ItemNameLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ModeLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ModeLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"BuildingIcon"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"BuildingIcon"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"CantBuildReason"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CantBuildReason"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"NumberBg"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }

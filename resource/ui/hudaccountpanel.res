@@ -9,7 +9,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"AccountValue"
 		"xpos"										"cs-0.5"
-		"ypos"										"c115"
+		"ypos"										"rs1-100"
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"20"
@@ -38,31 +38,5 @@
 		"font"										"HudFontSmallishBold"
 		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"AccountValue"
-	}
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-	"MetalIcon"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"MetalIcon"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"AccountBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"AccountBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }

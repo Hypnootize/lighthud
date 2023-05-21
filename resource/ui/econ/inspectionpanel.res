@@ -2,7 +2,7 @@
 {
 	"WeaponBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"WeaponBG"
 		"xpos"										"cs-0.5"
 		"ypos"										"50"
@@ -49,7 +49,7 @@
 		{
 			"use_item_rendertarget"					"0"
 			"allow_rot"								"0"
-			"inventory_image_type"					"1"
+			"inventory_image_type"					"0"
 			"continued_velocity"					"1"
 		}
 	}
@@ -156,8 +156,6 @@
 			"depressedFgColor_override"				"TanDark"
 
 			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-			"sound_armed"							"UI/buttonrollover.wav"
 
 			"paintbackground"						"0"
 			"paintbackgroundtype"					"0"
@@ -257,7 +255,6 @@
 			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
 			"Command"								"debug_menu"
 			"proportionaltoparent"					"1"
 			"actionsignallevel"						"2"
@@ -504,7 +501,6 @@
 			"keyboardinputenabled"					"0"
 
 			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"command"								"random_seed"
 
@@ -579,9 +575,7 @@
 			"armedBgColor_override"					"StoreGreen"
 			"depressedBgColor_override"				"StoreGreen"
 
-			"sound_armed"							"ui/item_info_mouseover.wav"
 			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
 
 			"fixed_item"
 			{

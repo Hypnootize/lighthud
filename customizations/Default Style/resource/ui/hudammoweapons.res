@@ -2,7 +2,7 @@
 {
 	"AmmoAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"AmmoAnchor"
 		"xpos"										"c150"
 		"ypos"										"c90"
@@ -134,17 +134,6 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HudWeaponLowAmmoImage"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"HudWeaponAmmoBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"HudWeaponAmmoBG"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"

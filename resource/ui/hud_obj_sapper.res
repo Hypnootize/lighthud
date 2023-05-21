@@ -13,7 +13,7 @@
 	}
 	"BackgroundCustom"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"BackgroundCustom"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -29,7 +29,7 @@
 	}
 	"IconBackgound"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"IconBackgound"
 		"xpos"										"2"
 		"ypos"										"cs-0.5"
@@ -143,10 +143,10 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-		"Health"
+		"BuildingPanel"
 		{
-			"ControlName"							"CBuildingHealthBar"
-			"fieldName"								"Health"
+			"ControlName"							"EditablePanel"
+			"fieldName"								"BuildingPanel"
 			"xpos"									"9999"
 			"ypos"									"9999"
 			"wide"									"0"
@@ -154,10 +154,10 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-		"BuildingPanel"
+		"Health"
 		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BuildingPanel"
+			"ControlName"							"CBuildingHealthBar"
+			"fieldName"								"Health"
 			"xpos"									"9999"
 			"ypos"									"9999"
 			"wide"									"0"

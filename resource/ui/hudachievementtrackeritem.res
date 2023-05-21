@@ -72,7 +72,7 @@
 
 	"HudAchievementTrackerItem"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"HudAchievementTrackerItem"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -94,7 +94,7 @@
 		"tall"										"10"
 		"zpos"										"4"
 		"textinsetx"								"5"
-		"font"										"AchievementTracker_Name"
+		"font"										"Default"
 		"textAlignment"								"north-west"
 	}
 	"AchievementNameGlow"
@@ -108,7 +108,7 @@
 		"tall"										"10"
 		"zpos"										"4"
 		"fgcolor"									"235 226 202 255"
-		"font"										"AchievementTracker_NameGlow"
+		"font"										"Default"
 		"textinsetx"								"5"
 		"textAlignment"								"north-west"
 	}
@@ -124,7 +124,7 @@
 		"zpos"										"4"
 		"textinsetx"								"5"
 		"fgcolor"									"235 226 202 255"
-		"font"										"AchievementTracker_Desc"
+		"font"										"Default"
 		"wrap"										"1"
 		"TextAlignment"								"north-west"
 	}

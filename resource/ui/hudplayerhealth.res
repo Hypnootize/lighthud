@@ -17,7 +17,7 @@
 	}
 	"HealthAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"HealthAnchor"
 		"xpos"										"c-150"
 		"ypos"										"c90"
@@ -69,7 +69,7 @@
 	}
 	"PlayerStatusAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"PlayerStatusAnchor"
 		"xpos"										"0"
 		"ypos"										"1"
@@ -630,39 +630,6 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImage"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImageBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthBonusImage"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"PlayerStatusMaxHealthValue"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusMaxHealthValue"
-		"xpos"										"9999"
-		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"

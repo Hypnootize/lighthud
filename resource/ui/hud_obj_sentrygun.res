@@ -73,7 +73,7 @@
 
 		"NotBuiltBG"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"NotBuiltBG"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -89,7 +89,7 @@
 		}
 		"IconBackgound"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"IconBackgound"
 			"xpos"									"2"
 			"ypos"									"cs-0.5"
@@ -118,7 +118,7 @@
 
 		"BuiltBG"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"BuiltBG"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -134,7 +134,7 @@
 		}
 		"IconBackgound"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"IconBackgound"
 			"xpos"									"2"
 			"ypos"									"cs-0.5"
@@ -239,39 +239,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-		}
-		"AlertTray"
-		{
-			"ControlName"							"CBuildingStatusAlertTray"
-			"fieldName"								"AlertTray"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"WrenchIcon"
-		{
-			"ControlName"							"CIconPanel"
-			"fieldName"								"WrenchIcon"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"BuildingPanel"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BuildingPanel"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
 		}
 		"RunningPanel"
 		{
@@ -412,50 +379,6 @@
 				"fgcolor"							"Black"
 				"proportionaltoparent"				"1"
 				"pin_to_sibling"					"Upgrade"
-			}
-			"UpgradeIcon"
-			{
-				"ControlName"						"CIconPanel"
-				"fieldName"							"UpgradeIcon"
-				"xpos"								"9999"
-				"ypos"								"9999"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
-			}
-			"KillIcon"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"KillIcon"
-				"xpos"								"9999"
-				"ypos"								"9999"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
-			}
-			"ShellIcon"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"ShellIcon"
-				"xpos"								"9999"
-				"ypos"								"9999"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
-			}
-			"RocketIcon"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"RocketIcon"
-				"xpos"								"9999"
-				"ypos"								"9999"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
 			}
 		}
 		"BuildingPanel"

@@ -225,7 +225,7 @@
 	}
 	"BuildingAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"BuildingAnchor"
 		"xpos"										"1"
 		"ypos"										"139"

@@ -122,7 +122,7 @@
 	}
 	"ReadyUpBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"ReadyUpBG"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -134,7 +134,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"26 24 22 255"
+		"bgcolor_override"							"HudBlack"
 
 		"if_competitive"
 		{
@@ -186,7 +186,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
-		"wide"										"50"
+		"wide"										"51"
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
@@ -247,7 +247,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
-		"wide"										"50"
+		"wide"										"51"
 		"tall"										"16"
 		"visible"									"1"
 		"enabled"									"1"
@@ -346,83 +346,6 @@
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"CountdownBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"HudTournamentBLUEBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"HudTournamentBLUEBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"HudTournamentREDBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"HudTournamentREDBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"TournamentBLUELabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TournamentBLUELabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"TournamentREDLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TournamentREDLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"TournamentLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TournamentLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"HudTournamentBGHelp"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"HudTournamentBGHelp"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"TournamentInstructionsLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TournamentInstructionsLabel"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"

@@ -2,7 +2,7 @@
 {
 	"UberAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"UberAnchor"
 		"xpos"										"c190"
 		"ypos"										"rs1-50"
@@ -54,7 +54,7 @@
 	}
 	"ResistIconAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"ResistIconAnchor"
 		"xpos"										"cs-0.5"
 		"ypos"										"c20"
@@ -81,30 +81,8 @@
 	}
 
 	//==================================================================================================================================================
-	// REMOVED ELEMENTS
+	//REMOVEDELEMENTS
 	//==================================================================================================================================================
-	"HealthClusterIcon"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"HealthClusterIcon"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Background"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"Background"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
 	"ChargeMeter"
 	{
 		"ControlName"								"ContinuousProgressBar"

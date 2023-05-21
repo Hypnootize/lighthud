@@ -2,7 +2,7 @@
 {
 	"Background"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"Background"
 		"xpos"										"rs1-2"
 		"ypos"										"rs1-30"
@@ -40,7 +40,7 @@
 
 		"ItemBackground"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"ItemBackground"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -63,7 +63,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
-			"inventory_image_type"					"1"
+			"inventory_image_type"					"0"
 			"allow_rot"								"0"
 		}
 
@@ -80,7 +80,7 @@
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"SpectatorKeyHints"
+		"font"										"ScoreboardVerySmall"
 		"labelText"									"1"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
@@ -116,7 +116,7 @@
 
 		"ItemBackground"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"ItemBackground"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -139,7 +139,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
-			"inventory_image_type"					"1"
+			"inventory_image_type"					"0"
 			"allow_rot"								"0"
 		}
 		"pin_to_sibling"							"TauntModelPanel1"
@@ -157,7 +157,7 @@
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"SpectatorKeyHints"
+		"font"										"ScoreboardVerySmall"
 		"labelText"									"2"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
@@ -193,7 +193,7 @@
 
 		"ItemBackground"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"ItemBackground"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -216,7 +216,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
-			"inventory_image_type"					"1"
+			"inventory_image_type"					"0"
 			"allow_rot"								"0"
 		}
 
@@ -235,7 +235,7 @@
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"SpectatorKeyHints"
+		"font"										"ScoreboardVerySmall"
 		"labelText"									"3"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
@@ -271,7 +271,7 @@
 
 		"ItemBackground"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"ItemBackground"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -294,7 +294,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
-			"inventory_image_type"					"1"
+			"inventory_image_type"					"0"
 			"allow_rot"								"0"
 		}
 
@@ -313,7 +313,7 @@
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"SpectatorKeyHints"
+		"font"										"ScoreboardVerySmall"
 		"labelText"									"4"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
@@ -349,7 +349,7 @@
 
 		"ItemBackground"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"ItemBackground"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -372,7 +372,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
-			"inventory_image_type"					"1"
+			"inventory_image_type"					"0"
 			"allow_rot"								"0"
 		}
 
@@ -391,7 +391,7 @@
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"SpectatorKeyHints"
+		"font"										"ScoreboardVerySmall"
 		"labelText"									"5"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
@@ -427,7 +427,7 @@
 
 		"ItemBackground"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"ItemBackground"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -450,7 +450,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
-			"inventory_image_type"					"1"
+			"inventory_image_type"					"0"
 			"allow_rot"								"0"
 		}
 
@@ -469,7 +469,7 @@
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"SpectatorKeyHints"
+		"font"										"ScoreboardVerySmall"
 		"labelText"									"6"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
@@ -505,7 +505,7 @@
 
 		"ItemBackground"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"ItemBackground"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -528,7 +528,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
-			"inventory_image_type"					"1"
+			"inventory_image_type"					"0"
 			"allow_rot"								"0"
 		}
 
@@ -547,7 +547,7 @@
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"SpectatorKeyHints"
+		"font"										"ScoreboardVerySmall"
 		"labelText"									"7"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
@@ -583,7 +583,7 @@
 
 		"ItemBackground"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"ItemBackground"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -606,7 +606,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
-			"inventory_image_type"					"1"
+			"inventory_image_type"					"0"
 			"allow_rot"								"0"
 		}
 
@@ -625,7 +625,7 @@
 		"tall"										"8"
 		"visible"									"1"
 		"enabled"									"1"
-		"font"										"SpectatorKeyHints"
+		"font"										"ScoreboardVerySmall"
 		"labelText"									"8"
 		"textAlignment"								"Center"
 		"fgcolor"									"White"
@@ -636,163 +636,5 @@
 		"pin_to_sibling"							"TauntModelPanel8"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-	}
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-	"MainBackground"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"MainBackground"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Divider"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"Divider"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"IcoReelIcon"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"IcoReelIcon"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"TitleLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TitleLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"WeaponTauntLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"WeaponTauntLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"CancelLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CancelLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"NumberBg1"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg1"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"NumberBg2"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg2"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"NumberBg3"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg3"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"NumberBg4"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg4"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"NumberBg5"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg5"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"NumberBg6"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg6"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"NumberBg7"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg7"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"NumberBg8"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg8"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }

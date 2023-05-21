@@ -55,21 +55,21 @@
 		"max_size"									"15"
 
 		"6v6_gap"									"1"
-		"12v12_gap"									"0"
+		"12v12_gap"									"1"
 
 		"team1_grow_dir"							"west"
 		"team1_base_x"								"c-45"
-		"team1_max_expand"							"150"
+		"team1_max_expand"							"180"
 
 		"team2_grow_dir"							"east"
 		"team2_base_x"								"c45"
-		"team2_max_expand"							"150"
+		"team2_max_expand"							"180"
 
 		"PlayerPanels_KV"
 		{
 			"visible"								"0"
-			"wide"									"f0"
-			"tall"									"f0"
+			"wide"									"15"
+			"tall"									"15"
 			"zpos"									"1"
 			"proportionaltoparent"					"1"
 
@@ -78,7 +78,7 @@
 			"color_portrait_bg_red_dead"			"White"
 			"color_portrait_bg_blue_dead"			"White"
 			"color_bar_health_high"					"Main"
-			"color_bar_health_med"					"255 160 100 255"
+			"color_bar_health_med"					"OrangeSolid"
 			"percentage_health_med"					"0.6"
 			"color_bar_health_low"					"Low"
 			"percentage_health_low"					"0.3"
@@ -144,7 +144,7 @@
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
-				"fgcolor"							"255 255 0 255"
+				"fgcolor"							"BrightYellow"
 			}
 			"HealthIcon"
 			{

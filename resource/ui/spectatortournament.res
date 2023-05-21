@@ -25,12 +25,12 @@
 			"wide"									"110"
 			"tall"									"12"
 			"zpos"									"1"
-			"color_ready"							"0 255 0 220"
-			"color_notready"						"0 0 0 220"
+			"color_ready"							"GreenSolid"
+			"color_notready"						"TransparentBlack"
 
 			"BottomLine"
 			{
-				"ControlName"						"EditablePanel"
+				"ControlName"						"Panel"
 				"fieldName"							"BottomLine"
 				"xpos"								"0"
 				"ypos"								"rs1"
@@ -76,7 +76,7 @@
 			}
 			"HPBG"
 			{
-				"ControlName"						"EditablePanel"
+				"ControlName"						"Panel"
 				"fieldName"							"HPBG"
 				"xpos"								"rs1"
 				"ypos"								"0"
@@ -143,39 +143,6 @@
 			{
 				"ControlName"						"ScalableImagePanel"
 				"fieldName"							"ReadyBG"
-				"xpos"								"9999"
-				"ypos"								"9999"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
-			}
-			"classimagebg"
-			{
-				"ControlName"						"Panel"
-				"fieldName"							"classimagebg"
-				"xpos"								"9999"
-				"ypos"								"9999"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
-			}
-			"ReadyImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"ReadyImage"
-				"xpos"								"9999"
-				"ypos"								"9999"
-				"wide"								"0"
-				"tall"								"0"
-				"visible"							"0"
-				"enabled"							"0"
-			}
-			"specindex"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"specindex"
 				"xpos"								"9999"
 				"ypos"								"9999"
 				"wide"								"0"
@@ -254,108 +221,5 @@
 		"fieldName"									"bottombarblank"
 		"visible"									"0"
 		"ypos"										"480"
-	}
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-	"MapLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"MapLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ClassOrTeamLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ClassOrTeamLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"SwitchCamModeKeyLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"SwitchCamModeKeyLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"SwitchCamModeLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"SwitchCamModeLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"CycleTargetFwdKeyLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CycleTargetFwdKeyLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"CycleTargetFwdLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CycleTargetFwdLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"CycleTargetRevKeyLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CycleTargetRevKeyLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"CycleTargetRevLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CycleTargetRevLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"TipLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TipLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }

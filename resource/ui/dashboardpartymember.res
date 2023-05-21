@@ -57,7 +57,7 @@
 		"scaleImage"								"1"
 		"mouseinputenabled"							"0"
 		"proportionaltoparent"						"1"
-		"drawcolor"									"255 0 0 255"
+		"drawcolor"									"Red"
 	}
 	"OutOfDateIcon"
 	{
@@ -104,7 +104,7 @@
 		"tall"										"f2"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"0 0 0 240"
+		"bgcolor_override"							"TransparentBlack"
 	}
 	"InteractButton"
 	{
@@ -146,6 +146,6 @@
 
 		"radius"									"26"
 		"velocity"									"60"
-		"fgcolor_override"							"Orange"
+		"fgcolor_override"							"Main"
 	}
 }

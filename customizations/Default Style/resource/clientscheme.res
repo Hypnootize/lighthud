@@ -8,7 +8,6 @@
 		"Orange"											"80 175 115 255"
 		"OrangeDim"											"80 175 115 255"
 		"LightOrange"										"80 175 115 255"
-		"GoalOrange"										"255 133 0"
 		"TFOrange"											"80 175 115 255"
 		"Purple"											"137 69 99 255"
 
@@ -34,9 +33,10 @@
 		"Red"												"225 75 75 255"
 		"RedSolid"											"225 75 75 255"
 		"Blue"												"115 150 170 255"
+		"OrangeSolid"										"255 160 100 255"
 		"Yellow"											"225 220 220 255"
 		"TransparentYellow"									"225 220 220 255"
-		"BrightYellow"										"235 235 50 255"
+		"BrightYellow"										"255 255 0 255"
 		"GreenSolid"										"80 175 115 255"
 
 		"Black"												"0 0 0 255"
@@ -97,12 +97,6 @@
 
 		"DisguiseMenuIconRed"								"190 60 60 255"
 		"DisguiseMenuIconBlue"								"115 150 170 255"
-
-		"MatchmakingDialogTitleColor"						"225 220 220 255"
-		"MatchmakingMenuItemBackground"						"32 30 30 255"
-		"MatchmakingMenuItemBackgroundActive"				"225 220 220 255"
-		"MatchmakingMenuItemTitleColor"						"225 220 220 255"
-		"MatchmakingMenuItemDescriptionColor"				"225 220 220 255"
 
 		"HTMLBackground"									"45 44 43 255"
 
@@ -426,7 +420,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"20"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -436,7 +430,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"11"
 				"antialias"									"1"
 			}
@@ -445,7 +439,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"12"
 				"antialias"									"1"
 			}
@@ -464,7 +458,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
 				"antialias"									"1"
 				"additive"									"1"
@@ -474,7 +468,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"11"
 				"antialias"									"1"
 			}
@@ -483,7 +477,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"24"
 				"antialias"									"1"
 			}
@@ -492,7 +486,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"46"
 				"antialias"									"1"
 			}
@@ -501,7 +495,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"35"
 				"antialias"									"1"
 			}
@@ -510,7 +504,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"35"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -520,7 +514,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"36"
 				"antialias"									"1"
 			}
@@ -529,7 +523,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"30"
 				"antialias"									"1"
 			}
@@ -538,7 +532,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"30"
 				"antialias"									"1"
 			}
@@ -547,7 +541,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"24"
 				"antialias"									"1"
 			}
@@ -556,7 +550,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"24"
 				"antialias"									"1"
 			}
@@ -565,7 +559,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"24"
 				"antialias"									"1"
 			}
@@ -574,7 +568,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -583,7 +577,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -592,7 +586,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -601,7 +595,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"14"
 				"antialias"									"1"
 			}
@@ -610,7 +604,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"16"
 				"antialias"									"1"
 			}
@@ -619,7 +613,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"16"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -629,7 +623,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"14"
 				"antialias"									"1"
 			}
@@ -638,7 +632,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -648,7 +642,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"11"
 				"antialias"									"1"
 			}
@@ -657,7 +651,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"11"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -667,7 +661,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"12"
 				"antialias"									"1"
 			}
@@ -676,7 +670,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"10"
 				"antialias"									"1"
 			}
@@ -685,7 +679,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"16"
 				"antialias"									"1"
 			}
@@ -694,7 +688,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"9"
 				"antialias"									"1"
 			}
@@ -703,7 +697,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"9"
 				"antialias"									"1"
 			}
@@ -712,17 +706,8 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"6"
-				"antialias"									"1"
-			}
-		}
-		"SpectatorKeyHints"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"8"
 				"antialias"									"1"
 			}
 		}
@@ -769,7 +754,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -788,7 +773,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
 				"antialias"									"1"
 			}
@@ -797,7 +782,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"10"
 				"antialias"									"1"
 			}
@@ -806,7 +791,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"14"
 				"range"										"0x0000 0x007F"
 				"antialias"									"1"
@@ -816,46 +801,9 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"20"
 				"range"										"0x0000 0x007F"
-				"antialias"									"1"
-			}
-		}
-		"MatchSummaryTeamScores"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"36"
-				"range"										"0x0000 0x007F"
-				"antialias"									"1"
-			}
-		}
-		"MatchSummaryStatsAndMedals"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
-				"antialias"									"1"
-			}
-		}
-		"MatchSummaryWinner"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"20"
-				"antialias"									"1"
-			}
-		}
-		"CompMatchStartTeamNames"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
 				"antialias"									"1"
 			}
 		}
@@ -863,28 +811,19 @@
 		{
 			"1"
 			{
-				"name"										"HeeboUber2"
+				"name"										"Heebo Icons"
 				"tall"										"12"
 				"antialias"									"1"
 				"dropshadow"								"1"
+				"range"										"0x021 0xFFFF"
 			}
 		}
 		"ChatFont"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"16"
-				"dropshadow"								"1"
-				"antialias"									"1"
-			}
-		}
-		"ChatMiniFont"
-		{
-			"4"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
 				"dropshadow"								"1"
 				"antialias"									"1"
 			}
@@ -893,7 +832,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
 				"antialias"									"1"
 			}
@@ -902,26 +841,8 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"9"
-				"antialias"									"1"
-			}
-		}
-		"InstructionalText"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"11"
-				"antialias"									"1"
-			}
-		}
-		"AchievementNotification"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
 				"antialias"									"1"
 			}
 		}
@@ -929,7 +850,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"10"
 				"antialias"									"1"
 			}
@@ -938,7 +859,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"10"
 				"antialias"									"1"
 			}
@@ -956,7 +877,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
 				"antialias"									"1"
 			}
@@ -965,7 +886,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"9"
 				"antialias"									"1"
 			}
@@ -974,7 +895,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"12"
 				"antialias"									"1"
 			}
@@ -983,7 +904,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -992,7 +913,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"7"
 				"antialias"									"1"
 			}
@@ -1001,7 +922,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
 				"antialias"									"1"
 			}
@@ -1010,7 +931,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
 				"antialias"									"1"
 			}
@@ -1019,7 +940,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"11"
 				"antialias"									"1"
 			}
@@ -1028,39 +949,17 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"14"
 				"antialias"									"1"
 			}
 		}
-
 		"AchievementTracker_Name"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"9"
-				"antialias"									"1"
-			}
-		}
-		"AchievementTracker_NameGlow"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"9"
-				"blur"										"3"
-				"additive"									"1"
-				"antialias"									"1"
-			}
-		}
-		"AchievementTracker_Desc"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"7"
-				"additive"									"1"
 				"antialias"									"1"
 			}
 		}
@@ -1068,7 +967,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"7"
 				"additive"									"1"
 				"antialias"									"1"
@@ -1078,7 +977,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"7"
 				"antialias"									"1"
 			}
@@ -1087,7 +986,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"7"
 				"blur"										"3"
 				"additive"									"1"
@@ -1098,7 +997,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"7"
 				"antialias"									"1"
 			}
@@ -1107,7 +1006,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -1116,7 +1015,7 @@
 		{
 			"13"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -1125,7 +1024,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"16"
 				"antialias"									"1"
 			}
@@ -1134,7 +1033,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"20"
 				"antialias"									"1"
 			}
@@ -1143,7 +1042,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"22"
 				"antialias"									"1"
 			}
@@ -1152,7 +1051,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"22"
 				"antialias"									"1"
 			}
@@ -1161,7 +1060,7 @@
 		{
 			"3"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -1170,7 +1069,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"13"
 				"antialias"									"1"
 			}
@@ -1179,7 +1078,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"16"
 				"antialias"									"1"
 			}
@@ -1188,7 +1087,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"10"
 				"antialias"									"1"
 			}
@@ -1197,7 +1096,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
 				"antialias"									"1"
 			}
@@ -1206,7 +1105,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
 				"antialias"									"1"
 			}
@@ -1215,7 +1114,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
 				"antialias"									"1"
 			}
@@ -1224,91 +1123,17 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"9"
 				"antialias"									"1"
 				"italic"									"1"
-			}
-		}
-		"ReplayVerySmall"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"12"
-				"range"										"0x0000 0x017F"
-				"antialias"									"1"
-			}
-		}
-		"ReplayBrowserSmallest"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"11"
-				"antialias"									"1"
-			}
-		}
-		"ReplaySmaller"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
-				"range"										"0x0000 0x017F"
-				"antialias"									"1"
-			}
-		}
-		"ReplayMediumSmall"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"11"
-				"antialias"									"1"
-			}
-		}
-		"ReplayMedium"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
-				"antialias"									"1"
-			}
-		}
-		"ReplayMediumBig"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"18"
-				"antialias"									"1"
-			}
-		}
-		"ReplayBrowserTab"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"24"
-				"antialias"									"1"
-			}
-		}
-		"ReplayLarger"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"18"
-				"antialias"									"1"
 			}
 		}
 		"EconFontSmall"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"14"
 				"antialias"									"1"
 			}
@@ -1317,7 +1142,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"24"
 				"antialias"									"1"
 			}
@@ -1326,7 +1151,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"9"
 				"antialias"									"1"
 			}
@@ -1335,7 +1160,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"11"
 				"antialias"									"1"
 			}
@@ -1344,7 +1169,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"11"
 				"blur"										"3"
 				"additive"									"1"
@@ -1355,7 +1180,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"12"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -1365,7 +1190,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"7"
 				"blur"										"3"
 				"additive"									"1"
@@ -1376,7 +1201,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"7"
 				"antialias"									"1"
 			}
@@ -1385,7 +1210,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"10"
 				"antialias"									"1"
 			}
@@ -1394,7 +1219,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"14"
 				"antialias"									"1"
 			}
@@ -1403,7 +1228,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"30"
 				"antialias"									"1"
 			}
@@ -1459,26 +1284,6 @@
 			"Right"											{ "1" { "color" "SaleGreen" } }
 			"Top"											{ "1" { "color" "SaleGreen" } }
 			"Bottom"										{ "1" { "color" "SaleGreen" } }
-		}
-		"OutlinedGreyBox"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"DarkBrown"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
-		"OutlinedDullGreyBox"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"DarkBrown"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
 		}
 		"TFThinLineBorder"
 		{
@@ -1607,13 +1412,6 @@
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
 			"draw_corner_height"							"0"
-		}
-		"StoreFreeTrialBorder"
-		{
-			"Left"											{ "1" { "color" "195 80 55 255" } "2" { "color" "195 80 55 255" } }
-			"Right"											{ "1" { "color" "195 80 55 255" } "2" { "color" "195 80 55 255" } }
-			"Top"											{ "1" { "color" "195 80 55 255" } "2" { "color" "195 80 55 255" } }
-			"Bottom"										{ "1" { "color" "195 80 55 255" } "2" { "color" "195 80 55 255" } }
 		}
 		"EconItemBorder"
 		{
@@ -2339,27 +2137,6 @@
 			"Top"											{ "1" { "color" "ItemRarityAncient_GreyedOut" } "2" { "color" "ItemRarityAncient_GreyedOut" } }
 			"Bottom"										{ "1" { "color" "ItemRarityAncient_GreyedOut" } "2" { "color" "ItemRarityAncient_GreyedOut" } }
 		}
-		"StoreItemBorder"
-		{
-			"Left"											{ "1" { "color" "TanDarker" } }
-			"Right"											{ "1" { "color" "TanDarker" } }
-			"Top"											{ "1" { "color" "TanDarker" } }
-			"Bottom"										{ "1" { "color" "TanDarker" } }
-		}
-		"StoreItemBorderMouseOver"
-		{
-			"Left"											{ "1" { "color" "TanDark" } }
-			"Right"											{ "1" { "color" "TanDark" } }
-			"Top"											{ "1" { "color" "TanDark" } }
-			"Bottom"										{ "1" { "color" "TanDark" } }
-		}
-		"StoreItemBorderSelected"
-		{
-			"Left"											{ "1" { "color" "TanLight" } }
-			"Right"											{ "1" { "color" "TanLight" } }
-			"Top"											{ "1" { "color" "TanLight" } }
-			"Bottom"										{ "1" { "color" "TanLight" } }
-		}
 		"NotificationDefault"
 		{
 			"bordertype"									"scalable_image"
@@ -2374,36 +2151,6 @@
 		{
 			"bordertype"									"scalable_image"
 			"color"											"FooterBGBlack"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
-		"MainMenuButtonDefault"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"LighterDarkBrown"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
-		"MainMenuButtonArmed"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"Main"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
-		"MainMenuButtonDisabled"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"TanDark"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2460,16 +2207,6 @@
 			"draw_corner_width"								"0"
 			"draw_corner_height"							"0"
 		}
-		"TrainingResultsBG"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"FooterBGBlack"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
 		"StoreNewBorder"
 		{
 			"bordertype"									"scalable_image"
@@ -2484,16 +2221,6 @@
 		{
 			"bordertype"									"scalable_image"
 			"color"											"QualityColorStrange"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
-		"StoreHighlightedBackgroundBorder"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"Gray"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2560,26 +2287,6 @@
 			"draw_corner_width"								"0"
 			"draw_corner_height"							"0"
 		}
-		"ArmoryScrollbarBox"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"TanDark"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
-		"ArmoryScrollbarWell"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"LighterDarkBrown"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
 		"QuickplayBorder"
 		{
 			"Left"											{ "1" { "color" "TanDark" } }
@@ -2587,101 +2294,10 @@
 			"Top"											{ "1" { "color" "TanDark" } }
 			"Bottom"										{ "1" { "color" "TanDark" } }
 		}
-		"SortCategoryBorder"
-		{
-			"Right"											{ "1" { "color" "TanDark" } }
-		}
-		"SteamWorkshopBorder"
-		{
-			"Left"											{ "1" { "color" "TanDark" } }
-			"Right"											{ "1" { "color" "TanDark" } }
-			"Top"											{ "1" { "color" "TanDark" } }
-			"Bottom"										{ "1" { "color" "TanDark" } }
-		}
-		"ReplayFatLineBorderRedBGOpaque"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"Main"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
-		"ReplayFatLineBorderOpaque"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"HTMLBackground"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
-		"ReplayGrayDialogBorder"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"FooterBGBlack"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
-		"ReplayOutlinedGreyBox"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"FooterBGBlack"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
-		"ReplayOutlinedDullGreyBox"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"FooterBGBlack"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
-		"ReplayThinLineBorder"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"HTMLBackground"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
 		"ReplayDefaultBorder"
 		{
 			"bordertype"									"scalable_image"
 			"color"											"FooterBGBlack"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
-		"ReplayHighlightBorder"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"FooterBGBlack"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height"							"0"
-		}
-		"ReplayBalloonBorder"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"HudBlack"
 			"image"											"White"
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
@@ -2757,18 +2373,150 @@
 			"Bottom"										{ "1" { "color" "QuestMap_ActiveOrange" } "2" { "color" "QuestMap_ActiveOrange" } }
 		}
 	}
-
 	"CustomFontFiles"
 	{
 		"1"
 		{
 			"font" "resource/fonts/heebo.ttf"
-			"name" "HeeboBold"
+			"name" "Heebo Bold Edit"
 		}
 		"2"
 		{
-			"font" "resource/fonts/heebouber.ttf"
-			"name" "HeeboUber2"
+			"font" "resource/fonts/heeboicons.ttf"
+			"name" "Heebo Icons"
+
+			"arabic"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"brazilian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"czech"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"danish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"dutch"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"english"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"finnish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"french"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"german"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"greek"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"hebrew"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"italian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"japanese"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"korean"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"koreana"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"latvian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"lithuanian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"pirate"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"polish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"portuguese"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"romanian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"russian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"schinese"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"slovak"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"spanish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"swedish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"tchinese"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"thai"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"turkish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"ukrainian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
 		}
 	}
 }

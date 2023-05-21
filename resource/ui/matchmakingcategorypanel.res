@@ -27,7 +27,7 @@
 
 		"BGColor"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"BGColor"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -57,32 +57,9 @@
 			"font"									""
 			"textinsetx"							"9999"
 			"stay_armed_on_click"					"1"
-
 			"paintbackground"						"0"
-
-			"sound_armed"							"ui/item_info_mouseover.wav"
 			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-
-			"image_default"							"glyph_expand"
-
 			"button_activation_type"				"1"
-
-			"SubImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"SubImage"
-				"xpos"								"cs-0.5"
-				"ypos"								"cs-0.5"
-				"zpos"								"1"
-				"wide"								"f7"
-				"tall"								"0"
-				"visible"							"1"
-				"enabled"							"1"
-				"scaleImage"						"1"
-
-				"proportionaltoparent"				"1"
-			}
 		}
 		"Shade"
 		{
@@ -133,50 +110,6 @@
 			"AllCaps"								"1"
 			"fgcolor"								"White"
 		}
-		"BGImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"BGImage"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"TitleShadow"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"TitleShadow"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"DescLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"DescLabel"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"DescLabelShadow"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"DescLabelShadow"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
 	}
 	"MapsContainer"
 	{
@@ -193,20 +126,5 @@
 		"proportionaltoparent"						"1"
 		"border"									"NoBorder"
 		"bgcolor_override"							"HudBlack"
-	}
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-	"PlayListDropShadow"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"PlayListDropShadow"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }

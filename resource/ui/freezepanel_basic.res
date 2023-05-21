@@ -101,28 +101,6 @@
 			"visible"								"0"
 			"enabled"								"0"
 		}
-		"FreezePanelBG"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"FreezePanelBG"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"NemesisSubPanel"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"NemesisSubPanel"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
 	}
 
 	//==================================================================================================================================================
@@ -131,16 +109,5 @@
 	"itempanel"
 	{
 		"alpha"										"0"
-	}
-	"ScreenshotPanel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"ScreenshotPanel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }

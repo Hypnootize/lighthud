@@ -52,14 +52,14 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"				"0"
-				"inventory_image_type"				"1"
+				"inventory_image_type"				"0"
 				"allow_rot"							"0"
 			}
 		}
 	}
 	"ItemsBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"ItemsBG"
 		"xpos"										"cs-1-9"
 		"ypos"										"cs-0.5-20"
@@ -152,7 +152,6 @@
 		"textAlignment"								"center"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
 
@@ -189,7 +188,6 @@
 		"textAlignment"								"center"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
 
@@ -274,7 +272,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
-			"inventory_image_type"					"1"
+			"inventory_image_type"					"0"
 			"allow_rot"								"0"
 		}
 
@@ -305,7 +303,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
-			"inventory_image_type"					"1"
+			"inventory_image_type"					"0"
 			"allow_rot"								"0"
 		}
 
@@ -313,10 +311,10 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	"mouseoveritempanel"
+	"MouseOverItemPanel"
 	{
 		"ControlName"								"CItemModelPanel"
-		"fieldName"									"mouseoveritempanel"
+		"fieldName"									"MouseOverItemPanel"
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"10000"
@@ -346,7 +344,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget"					"0"
-			"inventory_image_type"					"1"
+			"inventory_image_type"					"0"
 			"allow_rot"								"0"
 		}
 	}
@@ -367,7 +365,6 @@
 		"AllCaps"									"1"
 		"Command"									"wiki"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"							"DataPanel"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
@@ -390,7 +387,6 @@
 		"AllCaps"									"1"
 		"Command"									"openstore"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"1"
 
@@ -401,53 +397,5 @@
 		"pin_to_sibling"							"DataPanel"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
-	}
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-	"CaratLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CaratLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ArmoryLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ArmoryLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"FiltersLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"FiltersLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ViewSetButton"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"ViewSetButton"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }

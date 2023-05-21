@@ -65,7 +65,7 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget"			"0"
+				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
 			}
 
@@ -79,12 +79,12 @@
 			"enabled"								"1"
 			"font"									"ItemFontNameSmallest"
 			"textAlignment"							"center"
-			"fgcolor"								"153 204 255 255"
+			"fgcolor"								"Main"
 		}
 	}
 	"BackpackBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"BackpackBG"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5-40"
@@ -100,7 +100,7 @@
 	}
 	"FiltersBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"FiltersBG"
 		"xpos"										"0"
 		"ypos"										"2"
@@ -169,7 +169,7 @@
 		"editable"									"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"0 0 0 150"
+		"bgcolor_override"							"LabelTransparent"
 		"paintbackgroundtype"						"0"
 		"font"										"HudFontSmallest"
 
@@ -289,7 +289,6 @@
 		"AllCaps"									"1"
 		"Command"									"show_backpack"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"							"FiltersBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -312,16 +311,15 @@
 		"AllCaps"									"1"
 		"Command"									"show_selection"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"							"FiltersBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-	"mouseoveritempanel"
+	"MouseOverItemPanel"
 	{
 		"ControlName"								"CItemModelPanel"
-		"fieldName"									"mouseoveritempanel"
+		"fieldName"									"MouseOverItemPanel"
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"100"
@@ -354,20 +352,5 @@
 			"fgcolor"								"White"
 			"centerwrap"							"1"
 		}
-	}
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-	"CancelButton"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"CancelButton"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }

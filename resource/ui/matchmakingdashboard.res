@@ -30,7 +30,7 @@
 
 		"BGPanel"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"BGPanel"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -308,8 +308,8 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"labeltext"							""
-				"font"								"HudFontSmallBold"
+				"labeltext"							"X"
+				"font"								"HudFontSmallishBold"
 				"textAlignment"						"center"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"Command"							"leave_queue"
@@ -317,25 +317,9 @@
 				"actionsignallevel"					"3"
 
 				"paintbackground"					"0"
-
-				"image_drawcolor"					"225 220 220 255"
-				"image_armedcolor"					"225 75 75 255"
-
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"cs-0.5"
-					"ypos"							"cs-0.5"
-					"zpos"							"1"
-					"wide"							"f7"
-					"tall"							"f7"
-					"visible"						"1"
-					"enabled"						"1"
-					"image"							"glyph_close_x"
-					"scaleImage"					"1"
-					"proportionaltoparent"			"1"
-				}
+				"defaultFgColor_override"			"White"
+				"armedFgColor_override"				"Red"
+				"depressedFgColor_override"			"White"
 			}
 		}
 		"JoinPartyLobbyContainer"

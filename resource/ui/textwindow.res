@@ -15,7 +15,7 @@
 	}
 	"FullScreenBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"FullScreenBG"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -102,61 +102,6 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MessageTitle"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"TextMessage"
-	{
-		"ControlName"	 							"TextEntry"
-		"fieldName"		 							"TextMessage"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MenuBG"
-	{
-		"ControlName"	 							"CTFImagePanel"
-		"fieldName"		 							"MenuBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ShadedBG"
-	{
-		"ControlName"	 							"ImagePanel"
-		"fieldName"		 							"ShadedBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"TFTextMessage"
-	{
-		"ControlName"	 							"CExRichText"
-		"fieldName"		 							"TFTextMessage"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"TFMessageTitle"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"		 							"TFMessageTitle"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"wide"										"0"
