@@ -16,13 +16,11 @@
 		"scaleImage"								"1"
 		"teambg_2"									"../hud/color_panel_clear"
 		"teambg_3"									"../hud/color_panel_clear"
-
 		"src_corner_height"							"23"
 		"src_corner_width"							"23"
 		"draw_corner_width"							"5"
-		"draw_corner_height" 						"5"
+		"draw_corner_height"						"5"
 	}
-
 	"Title"
 	{
 		"ControlName"								"CExLabel"
@@ -34,11 +32,11 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"font"										"HudFontMediumSmall"
 		"labelText"									"#TF_Arena_Team_Layout"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
-		"proportionaltoparent"						"1"
 	}
 	"TitleShadow"
 	{
@@ -51,14 +49,13 @@
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"font"										"HudFontMediumSmall"
 		"labelText"									"#TF_Arena_Team_Layout"
 		"textAlignment"								"center"
-		"fgcolor"									"0 0 0 130"
-
+		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"title"
 	}
-
 	"classImage0"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -228,28 +225,18 @@
 		"scaleImage"								"1"
 	}
 
-
-
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-
 	"background"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"background"
+		"xpos"										"9999"
 		"ypos"										"9999"
-	}
-	"ChangeLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChangeLabel"
-		"xpos"										"9999"
-	}
-	"ChangeLabelShadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChangeLabelShadow"
-		"xpos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

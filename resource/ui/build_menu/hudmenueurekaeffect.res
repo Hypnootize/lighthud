@@ -4,7 +4,6 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TitleLabel"
-		"font"										"ScoreboardSmallest"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
@@ -12,6 +11,7 @@
 		"tall"										"11"
 		"visible"									"1"
 		"enabled"									"1"
+		"font"										"ScoreboardSmallest"
 		"labelText"									"#Hud_Menu_Teleport_Title"
 		"textinsetx"								"5"
 		"textAlignment"								"center"
@@ -65,42 +65,5 @@
 		"wide"										"34"
 		"tall"										"12"
 		"visible"									"1"
-	}
-
-	"MainBackground"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"MainBackground"
-		"xpos"										"9999"
-	}
-	"BuildIcon"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"BuildIcon"
-		"xpos"										"9999"
-	}
-	"BuildIconShadow"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"BuildIconShadow"
-		"xpos"										"9999"
-	}
-	"Divider"
-	{
-		"ControlName"		     					"ImagePanel"
-		"fieldName"									"Divider"
-		"xpos"										"9999"
-	}
-	"TitleLabelDropshadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TitleLabelDropshadow"
-		"xpos"										"9999"
-	}
-	"CancelLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CancelLabel"
-		"xpos"										"9999"
 	}
 }

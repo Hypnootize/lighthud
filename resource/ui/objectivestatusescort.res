@@ -20,7 +20,6 @@
 			"tall"									"100"
 		}
 	}
-
 	"LevelBar"
 	{
 		"ControlName"								"ImagePanel"
@@ -42,14 +41,12 @@
 			"tall"									"12"
 			"image"									"../hud/cart_track_neutral_opaque"
 		}
-
 		"if_single_with_hills"
 		{
 			"tall"									"10"
 			"image"									"../hud/cart_track_neutral_opaque"
 		}
 	}
-
 	"ProgressBar"
 	{
 		"ControlName"								"CTFHudEscortProgressBar"
@@ -71,7 +68,6 @@
 			"visible"								"1"
 		}
 	}
-
 	"HomeCPIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -92,43 +88,35 @@
 		{
 			"image"									"../hud/cart_home_red"
 		}
-
 		"if_single_with_hills_blue"
 		{
 			"image"									"../hud/cart_home_blue_opaque"
 		}
-
 		"if_single_with_hills_red"
 		{
 			"image"									"../hud/cart_home_red_opaque"
 		}
-
 		"if_multiple_trains"
 		{
 			"image"									"../hud/cart_track_neutral_opaque"
 		}
-
 		"if_multiple_trains_top"
 		{
 			"xpos"									"7"
 		}
-
 		"if_multiple_trains_bottom"
 		{
 			"xpos"									"7"
 		}
-
 		"if_multiple_trains_red"
 		{
 			"image"									"../hud/cart_home_red_square"
 		}
-
 		"if_multiple_trains_blue"
 		{
 			"image"									"../hud/cart_home_blue_square"
 		}
 	}
-
 	"SimpleControlPointTemplate"
 	{
 		"ControlName"								"ImagePanel"
@@ -150,7 +138,6 @@
 			"zpos"									"5"
 		}
 	}
-
 	"EscortItemPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -170,12 +157,10 @@
 			"wide"									"47"
 			"tall"									"170"
 		}
-
 		"RecedeTime"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"RecedeTime"
-			"font"									"DefaultVerySmall"
 			"xpos"									"14"
 			"ypos"									"3"
 			"zpos"									"2"
@@ -184,6 +169,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"DefaultVerySmall"
 			"labelText"								"%recede%"
 			"textAlignment"							"center"
 
@@ -191,13 +177,11 @@
 			{
 				"ypos"								"4"
 			}
-
 			"if_multiple_trains_bottom"
 			{
 				"ypos"								"36"
 			}
 		}
-
 		"EscortItemImage"
 		{
 			"ControlName"							"ImagePanel"
@@ -218,7 +202,6 @@
 			{
 				"image"								"../hud/cart_blue"
 			}
-
 			"if_team_red"
 			{
 				"image"								"../hud/cart_red"
@@ -245,13 +228,11 @@
 			{
 				"image"								"../hud/cart_blue_bottom"
 			}
-
 			"if_team_red"
 			{
 				"image"								"../hud/cart_red_bottom"
 			}
 		}
-
 		"Speed_Backwards"
 		{
 			"ControlName"							"ImagePanel"
@@ -272,18 +253,15 @@
 			{
 				"ypos"								"3"
 			}
-
 			"if_multiple_trains_bottom"
 			{
 				"ypos"								"36"
 			}
 		}
-
 		"CapNumPlayers"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CapNumPlayers"
-			"font"									"DefaultVerySmall"
 			"xpos"									"13"
 			"ypos"									"3"
 			"zpos"									"4"
@@ -292,6 +270,7 @@
 			"visible"								"0"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
+			"font"									"DefaultVerySmall"
 			"labelText"								"#ControlPointIconCappers"
 			"textAlignment"							"center"
 
@@ -299,18 +278,16 @@
 			{
 				"ypos"								"3"
 			}
-
 			"if_multiple_trains_bottom"
 			{
 				"ypos"								"36"
 			}
 		}
-
 		"Blocked"
 		{
 			"ControlName"							"ImagePanel"
 			"fieldName"								"Blocked"
-			"xpos"									"21"
+			"xpos"									"20"
 			"ypos"									"3"
 			"zpos"									"2"
 			"wide"									"7"
@@ -326,30 +303,25 @@
 			{
 				"ypos"								"3"
 			}
-
 			"if_multiple_trains_bottom"
 			{
 				"ypos"								"36"
 			}
 		}
 
-		"EscortItemImageAlert"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"EscortItemImageAlert"
-			"xpos"									"9999"
-		}
-		"CapPlayerImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"CapPlayerImage"
-			"xpos"									"9999"
-		}
+		//================================================================================================================================================
+		// REMOVED ELEMENTS
+		//================================================================================================================================================
 		"EscortTeardrop"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"EscortTeardrop"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 }

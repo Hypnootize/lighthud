@@ -3,7 +3,7 @@
 	"Colors"
 	{
 		"Main"												"0 165 255 255"
-		"Low"												"225 75 75 255"
+		"Low"												"255 0 0 255"
 
 		"Orange"											"0 165 255 255"
 		"OrangeDim"											"0 165 255 255"
@@ -33,10 +33,11 @@
 		"Red"												"225 75 75 255"
 		"RedSolid"											"225 75 75 255"
 		"Blue"												"115 150 170 255"
+		"OrangeSolid"										"255 160 100 255"
 		"Yellow"											"230 232 235 255"
 		"TransparentYellow"									"230 232 235 255"
-		"BrightYellow"										"235 235 50 255"
-		"GreenSolid"		 								"80 175 115 255"
+		"BrightYellow"										"255 255 0 255"
+		"GreenSolid"										"80 175 115 255"
 
 		"Black"												"0 0 0 255"
 		"TransparentBlack"									"0 0 0 200"
@@ -45,7 +46,7 @@
 
 		"HUDBlueTeam"										"115 150 170 255"
 		"HUDRedTeam"										"190 60 60 255"
-		"HUDSpectator"										"125 127 130 255"
+		"HUDSpectator"										"130 125 125 255"
 		"HUDBlueTeamSolid"									"115 150 170 255"
 		"HUDRedTeamSolid"									"190 60 60 255"
 		"HUDDeathWarning"									"255 0 0 255"
@@ -54,15 +55,15 @@
 		"HudBlack"											"8 10 12 255"
 		"ProgressBarBlue"									"91 122 142 255"
 
-		"CreditsGreen"										"160 210 115 255"
+		"CreditsGreen"										"75 140 100 255"
 
-		"Gray"												"178 178 178 255"
+		"Gray"												"150 152 157 255"
 
 		"Blank"												"0 0 0 0"
 
-		"HudPanelForeground"								"125 127 130 255"
-		"HudPanelBackground"								"125 127 130 255"
-		"HudPanelBorder"									"125 127 130 255"
+		"HudPanelForeground"								"130 125 125 255"
+		"HudPanelBackground"								"130 125 125 255"
+		"HudPanelBorder"									"130 125 125 255"
 
 		"HudProgressBarActive"								"230 232 235 255"
 		"HudProgressBarInActive"							"230 232 235 255"
@@ -70,7 +71,7 @@
 		"HudProgressBarInActiveLow"							"225 75 75 255"
 
 		"HudTimerProgressActive"							"230 232 235 255"
-		"HudTimerProgressInActive"							"29 32 33 255"
+		"HudTimerProgressInActive"							"30 32 34 255"
 		"HudTimerProgressWarning"							"225 75 75 255"
 
 		"HudTrainingHint"									"230 232 235 255"
@@ -80,30 +81,26 @@
 		"TanDarker"											"29 32 33 255"
 
 		"StoreDarkTan"										"125 127 130 255"
+
+		"StoreDarkTan"										"130 125 125 255"
 		"StoreGreen"										"50 112 73 255"
 
 		"LowHealthRed"										"225 75 75 255"
 		"ProgressOffWhite"									"230 232 235 255"
 		"ProgressBackground"								"0 0 0 50"
-		"HealthBgGrey"										"125 127 130 255"
+		"HealthBgGrey"										"130 125 125 255"
 
 		"ProgressOffWhiteTransparent"						"230 232 235 255"
 
 		"LabelDark"											"0 0 0 255"
-		"LabelTransparent"									"0 0 0 100"
+		"LabelTransparent"									"0 0 0 130"
 
 		"BuildMenuActive"									"230 232 235 255"
 
 		"DisguiseMenuIconRed"								"190 60 60 255"
 		"DisguiseMenuIconBlue"								"115 150 170 255"
 
- 		"MatchmakingDialogTitleColor"						"230 232 235 255"
- 		"MatchmakingMenuItemBackground"						"29 32 33 255"
- 		"MatchmakingMenuItemBackgroundActive"				"230 232 235 255"
-		"MatchmakingMenuItemTitleColor"						"230 232 235 255"
-		"MatchmakingMenuItemDescriptionColor"				"230 232 235 255"
-
-		"HTMLBackground"									"38 40 42 255"
+		"HTMLBackground"									"45 44 43 255"
 
 		"ItemAttribLevel"									"230 232 235 255"
 		"ItemAttribNeutral"									"230 232 235 255"
@@ -177,14 +174,14 @@
 		"DarkBrown"											"30 32 34 255"
 
 		"UpgradeDefaultFg"									"230 232 235 255"
-		"UpgradeDefaultBg"									"29 32 33 255"
+		"UpgradeDefaultBg"									"30 32 34 255"
 		"UpgradeArmedFg"									"230 232 235 255"
 		"UpgradeArmedBg"									"0 165 255 255"
-		"UpgradeDepressedFg"								"29 32 33 255"
+		"UpgradeDepressedFg"								"30 32 34 255"
 		"UpgradeDepressedBg"								"0 165 255 255"
-		"UpgradeSelectedFg"									"29 32 33 255"
+		"UpgradeSelectedFg"									"30 32 34 255"
 		"UpgradeSelectedBg"									"0 165 255 255"
-		"UpgradeDisabledFg"									"29 32 33 255"
+		"UpgradeDisabledFg"									"30 32 34 255"
 		"UpgradeDisabledBg"									"0 0 0 255"
 	}
 
@@ -234,8 +231,8 @@
 		"CheckButton.TextColor"								"White"
 		"CheckButton.SelectedTextColor"						"White"
 		"CheckButton.BgColor"								"TransparentBlack"
-		"CheckButton.Border1"  								"White"
-		"CheckButton.Border2" 								"White"
+		"CheckButton.Border1"								"White"
+		"CheckButton.Border2"								"White"
 		"CheckButton.Check"									"White"
 		"CheckButton.HighlightFgColor"						"White"
 
@@ -396,12 +393,12 @@
 
 		"SelectionNumberFg"									"White"
 		"SelectionTextFg"									"White"
-		"SelectionEmptyBoxBg" 								"TransparentLightBlack"
-		"SelectionBoxBg" 									"TransparentLightBlack"
-		"SelectionSelectedBoxBg" 							"TransparentBlack"
+		"SelectionEmptyBoxBg"								"TransparentLightBlack"
+		"SelectionBoxBg"									"TransparentLightBlack"
+		"SelectionSelectedBoxBg"							"TransparentBlack"
 
 		"HintMessageFg"										"White"
-		"HintMessageBg" 									"TransparentLightBlack"
+		"HintMessageBg"										"TransparentLightBlack"
 
 		"ProgressBarFg"										"Red"
 
@@ -427,55 +424,8 @@
 			{
 				"name"										"TF2CrossRegular"
 				"tall"										"11"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"dropshadow"								"1"
-			}
-		}
-		"DamageFont"
-		{
-			"1"
-			{
-				"name"										"Handel Gothic BT"
-				"tall"										"22"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		"Health-Ammo"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"50"
-				"antialias" 								"1"
-			}
-		}
-		"Ammo-Reserve"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"24"
-				"antialias" 								"1"
-			}
-		}
-		"Uber"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"50"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		"m0re10"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"10"
-				"antialias" 								"1"
 			}
 		}
 		"m0re11"
@@ -484,72 +434,6 @@
 			{
 				"name"										"Surface-Medium"
 				"tall"										"11"
-				"antialias" 								"1"
-			}
-		}
-		"m0re12"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"12"
-				"antialias" 								"1"
-			}
-		}
-		"m0re12Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"12"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"m0re14"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"14"
-				"antialias" 								"1"
-			}
-		}
-		"m0re14Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"12"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"m0re16"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"16"
-				"antialias" 								"1"
-			}
-		}
-		"m0re16Shadow"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"16"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"m0re18"
-		{
-			"1"
-			{
-				"name"										"Surface-Medium"
-				"tall"										"18"
 				"antialias" 								"1"
 			}
 		}
@@ -562,6 +446,16 @@
 				"antialias" 								"1"
 			}
 		}
+		"m0re22Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"22"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
 		"m0re24"
 		{
 			"1"
@@ -571,11 +465,30 @@
 				"antialias" 								"1"
 			}
 		}
+		"m0re60"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"60"
+				"antialias" 								"1"
+			}
+		}
+		"m0re60Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"60"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
 		"Default"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"11"
 				"antialias"									"1"
 			}
@@ -584,7 +497,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"12"
 				"antialias"									"1"
 			}
@@ -603,9 +516,9 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"additive"									"1"
 			}
 		}
@@ -613,173 +526,173 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"11"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontGiant"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"24"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontGiantBold"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"46"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontBiggerBold"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"35"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontBiggerBoldShadow"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"35"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"HudFontBig"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"36"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumBig"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"30"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumBigBold"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"30"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMedium"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"24"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumSecondary"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"24"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumBold"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"24"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumSmallBold"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumSmall"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontMediumSmallSecondary"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmall"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"14"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmallishBold"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"16"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmallishBoldShadow"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"16"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"HudFontSmallBold"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"14"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmallBoldShadow"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
-				"antialias"								 	"1"
+				"antialias"									"1"
 				"dropshadow"								"1"
 			}
 		}
@@ -787,18 +700,18 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"11"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"HudFontSmallestShadow"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"11"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"dropshadow"								"1"
 			}
 		}
@@ -806,82 +719,73 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"12"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"StorePromotionsTitle"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"10"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"FontCartPrice"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"16"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"FontStorePrice"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"9"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"FontStoreOriginalPrice"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"9"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"FontStorePriceSmall"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"6"
-				"antialias" 								"1"
-			}
-		}
-		"SpectatorKeyHints"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"8"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"TFTypeDeath"
 		{
 			"1"
 			{
-				"name"  									"tfd"
-				"tall"  									"28"
-				"antialias" 								"1"
+				"name"										"tfd"
+				"tall"										"28"
+				"antialias"									"1"
 			}
 		}
 		"Icons"
 		{
 			"1"
-			 {
-				"name"  									"Team Fortress"
-				"tall"  									"28"
-				"additive" 									"1"
-				"antialias" 								"1"
+			{
+				"name"										"Team Fortress"
+				"tall"										"28"
+				"additive"									"1"
+				"antialias"									"1"
 			}
 		}
 		"Marlett"
@@ -908,10 +812,10 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"ScoreboardSmallest"
@@ -920,166 +824,102 @@
 			{
 				"name"										"Verdana"
 				"tall"										"6"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardVerySmall"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardSmall"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"10"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardMediumSmall"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"14"
 				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ScoreboardMedium"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"20"
 				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
-			}
-		}
-		"MatchSummaryTeamScores"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"36"
-				"range"										"0x0000 0x007F"
-				"antialias" 								"1"
-			}
-		}
-		"MatchSummaryStatsAndMedals"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
-				"antialias" 								"1"
-			}
-		}
-		"MatchSummaryWinner"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"20"
-				"antialias" 								"1"
-			}
-		}
-		"CompMatchStartTeamNames"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"TargetID"
 		{
 			"1"
 			{
-				"name"										"HeeboUber2"
-				"tall"										"14"
-				"antialias" 								"1"
+				"name"										"Heebo Icons"
+				"tall"										"12"
+				"antialias"									"1"
 				"dropshadow"								"1"
+				"range"										"0x021 0xFFFF"
 			}
 		}
 		"ChatFont"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"16"
 				"dropshadow"								"1"
-				"antialias" 								"1"
-			}
-		}
-		"ChatMiniFont"
-		{
-			"4"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
-				"dropshadow"								"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"TFFontSmall"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"TFFontMedium"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"9"
-				"antialias" 								"1"
-			}
-		}
-		"InstructionalText"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"11"
-				"antialias" 								"1"
-			}
-		}
-		"AchievementNotification"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ImportToolSmallestBold"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"10"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ImportToolSmallest"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"10"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"SpectatorVerySmall"
@@ -1088,165 +928,143 @@
 			{
 				"name"										"Verdana"
 				"tall"										"7"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontNameSmallest"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontNameSmall"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"9"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontNameLarge"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"12"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontNameLarger"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
-				"antialias"								 	"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontAttribSmallest"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"7"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontAttribSmallv2"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontAttribSmall"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontAttribLarge"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"11"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemFontAttribLarger"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"14"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
-
 		"AchievementTracker_Name"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"9"
-				"antialias" 								"1"
-			}
-		}
-		"AchievementTracker_NameGlow"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"9"
-				"blur"										"3"
-				"additive"									"1"
-				"antialias" 								"1"
-			}
-		}
-		"AchievementTracker_Desc"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"7"
-				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestObjectiveTracker_Desc"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"7"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestObjectiveTracker_DescGlow"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"7"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestObjectiveTracker_DescBlur"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"7"
 				"blur"										"3"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"ItemTrackerScore_InGame"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"7"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestFlavorText"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -1255,7 +1073,7 @@
 		{
 			"13"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -1264,16 +1082,16 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"16"
-				"antialias"								 	"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestStickyText"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"20"
 				"antialias"									"1"
 			}
@@ -1282,7 +1100,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"22"
 				"antialias"									"1"
 			}
@@ -1291,7 +1109,7 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"22"
 				"antialias"									"1"
 			}
@@ -1300,7 +1118,7 @@
 		{
 			"3"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -1309,194 +1127,120 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"13"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestLargeText_Merasmus"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"16"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"AdFont_ItemName"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"10"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"AdFont_AdText"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"AdFont_PurchaseButton"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"TradeUp_Text"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"8"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"TradeUp_Quote"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"9"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"italic"									"1"
-			}
-		}
-		"ReplayVerySmall"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"12"
-				"range"										"0x0000 0x017F"
-				"antialias" 								"1"
-			}
-		}
-		"ReplayBrowserSmallest"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"11"
-				"antialias" 								"1"
-			}
-		}
-		"ReplaySmaller"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
-				"range"										"0x0000 0x017F"
-				"antialias" 								"1"
-			}
-		}
-		"ReplayMediumSmall"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"11"
-				"antialias" 								"1"
-			}
-		}
-		"ReplayMedium"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"14"
-				"antialias"								 	"1"
-			}
-		}
-		"ReplayMediumBig"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"18"
-				"antialias" 								"1"
-			}
-		}
-		"ReplayBrowserTab"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"24"
-				"antialias" 								"1"
-			}
-		}
-		"ReplayLarger"
-		{
-			"1"
-			{
-				"name"										"HeeboBold"
-				"tall"										"18"
-				"antialias" 								"1"
 			}
 		}
 		"EconFontSmall"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"14"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"EconFontMedium"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"24"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"MMenuPlayListDesc"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"9"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"XPSource"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"11"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"XPSource_Glow"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"11"
 				"blur"										"3"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"MapVotesPercentage"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"12"
-				"antialias" 								"1"
+				"antialias"									"1"
 				"dropshadow"								"1"
 			}
 		}
@@ -1504,47 +1248,47 @@
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"7"
 				"blur"										"3"
 				"additive"									"1"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestMap_Small"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"7"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestMap_Medium"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"10"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestMap_Large"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"14"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 		"QuestMap_Huge"
 		{
 			"1"
 			{
-				"name"										"HeeboBold"
+				"name"										"Heebo Bold Edit"
 				"tall"										"30"
-				"antialias" 								"1"
+				"antialias"									"1"
 			}
 		}
 	}
@@ -1560,23 +1304,23 @@
 		}
 		"ScrollBarButtonBorder"
 		{
-			"backgroundtype" 								"0"
+			"backgroundtype"								"0"
 		}
 		"ScrollBarButtonDepressedBorder"
 		{
-			"backgroundtype" 								"0"
+			"backgroundtype"								"0"
 		}
 		"ButtonBorder"
 		{
-			"backgroundtype" 								"0"
+			"backgroundtype"								"0"
 		}
 		"ButtonKeyFocusBorder"
 		{
-			"backgroundtype" 								"0"
+			"backgroundtype"								"0"
 		}
 		"ButtonDepressedBorder"
 		{
-			"backgroundtype" 								"0"
+			"backgroundtype"								"0"
 		}
 		"ComboBoxBorder"
 		{
@@ -1599,26 +1343,6 @@
 			"Top"											{ "1" { "color" "SaleGreen" } }
 			"Bottom"										{ "1" { "color" "SaleGreen" } }
 		}
-		"OutlinedGreyBox"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"DarkBrown"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"OutlinedDullGreyBox"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"DarkBrown"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
 		"TFThinLineBorder"
 		{
 			"bordertype"									"scalable_image"
@@ -1627,7 +1351,7 @@
 			"src_corner_height"								"24"
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderOpaque"
 		{
@@ -1637,7 +1361,7 @@
 			"src_corner_height"								"24"
 			"src_corner_width"								"24"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorder"
 		{
@@ -1647,7 +1371,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderRedBGOpaque"
 		{
@@ -1657,7 +1381,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderRedBGOpaque_Store"
 		{
@@ -1667,7 +1391,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderRedBG"
 		{
@@ -1677,7 +1401,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderRedBGMoreOpaque"
 		{
@@ -1687,7 +1411,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderBlueBG"
 		{
@@ -1697,7 +1421,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderBlueBGMoreOpaque"
 		{
@@ -1707,7 +1431,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderBlueBGOpaque"
 		{
@@ -1717,7 +1441,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"TFFatLineBorderClearBG"
 		{
@@ -1745,14 +1469,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"StoreFreeTrialBorder"
-		{
-			"Left"											{ "1" { "color" "195 80 55 255" } "2" { "color" "195 80 55 255" } }
-			"Right"											{ "1" { "color" "195 80 55 255" } "2" { "color" "195 80 55 255" } }
-			"Top"											{ "1" { "color" "195 80 55 255" } "2" { "color" "195 80 55 255" } }
-			"Bottom"										{ "1" { "color" "195 80 55 255" } "2" { "color" "195 80 55 255" } }
+			"draw_corner_height"							"0"
 		}
 		"EconItemBorder"
 		{
@@ -1762,15 +1479,15 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"Econ.Button.Border.Default"
 		{
-			"backgroundtype" 								"0"
+			"backgroundtype"								"0"
 		}
 		"Econ.Button.Border.Armed"
 		{
-			"backgroundtype" 								"0"
+			"backgroundtype"								"0"
 		}
 		"LoadoutItemMouseOverBorder"
 		{
@@ -1787,7 +1504,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"BackpackItemGrayedOut"
 		{
@@ -2478,27 +2195,6 @@
 			"Top"											{ "1" { "color" "ItemRarityAncient_GreyedOut" } "2" { "color" "ItemRarityAncient_GreyedOut" } }
 			"Bottom"										{ "1" { "color" "ItemRarityAncient_GreyedOut" } "2" { "color" "ItemRarityAncient_GreyedOut" } }
 		}
-		"StoreItemBorder"
-		{
-			"Left"											{ "1" { "color" "TanDarker" } }
-			"Right"											{ "1" { "color" "TanDarker" } }
-			"Top"											{ "1" { "color" "TanDarker" } }
-			"Bottom"										{ "1" { "color" "TanDarker" } }
-		}
-		"StoreItemBorderMouseOver"
-		{
-			"Left"											{ "1" { "color" "TanDark" } }
-			"Right"											{ "1" { "color" "TanDark" } }
-			"Top"											{ "1" { "color" "TanDark" } }
-			"Bottom"										{ "1" { "color" "TanDark" } }
-		}
-		"StoreItemBorderSelected"
-		{
-			"Left"											{ "1" { "color" "TanLight" } }
-			"Right"											{ "1" { "color" "TanLight" } }
-			"Top"											{ "1" { "color" "TanLight" } }
-			"Bottom"										{ "1" { "color" "TanLight" } }
-		}
 		"NotificationDefault"
 		{
 			"bordertype"									"scalable_image"
@@ -2507,7 +2203,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"NotificationHighPriority"
 		{
@@ -2517,37 +2213,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"MainMenuButtonDefault"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"LighterDarkBrown"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"MainMenuButtonArmed"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"Main"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"MainMenuButtonDisabled"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"TanDark"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"MainMenuMiniButtonDefault"
 		{
@@ -2557,7 +2223,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"MainMenuMiniButtonArmed"
 		{
@@ -2567,7 +2233,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"MainMenuBGBorder"
 		{
@@ -2577,7 +2243,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"MainMenuBGBorderAlpha"
 		{
@@ -2587,7 +2253,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"MainMenuHighlightBorder"
 		{
@@ -2597,17 +2263,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"TrainingResultsBG"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"FooterBGBlack"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"StoreNewBorder"
 		{
@@ -2617,7 +2273,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"StoreHighlightedBorder"
 		{
@@ -2627,17 +2283,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"StoreHighlightedBackgroundBorder"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"Gray"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"StoreDiscountBorder"
 		{
@@ -2647,7 +2293,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"StorePreviewBorder"
 		{
@@ -2657,7 +2303,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"StoreAddToCart"
 		{
@@ -2667,7 +2313,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"StorePreviewTabSelected"
 		{
@@ -2677,7 +2323,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"StorePreviewTabUnselected"
 		{
@@ -2687,7 +2333,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"StorePromotion"
 		{
@@ -2697,27 +2343,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"ArmoryScrollbarBox"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"TanDark"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"ArmoryScrollbarWell"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"LighterDarkBrown"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"QuickplayBorder"
 		{
@@ -2725,77 +2351,6 @@
 			"Right"											{ "1" { "color" "TanDark" } }
 			"Top"											{ "1" { "color" "TanDark" } }
 			"Bottom"										{ "1" { "color" "TanDark" } }
-		}
-		"SortCategoryBorder"
-		{
-			"Right"											{ "1" { "color" "TanDark" } }
-		}
-		"SteamWorkshopBorder"
-		{
-			"Left"											{ "1" { "color" "TanDark" } }
-			"Right"											{ "1" { "color" "TanDark" } }
-			"Top"											{ "1" { "color" "TanDark" } }
-			"Bottom"										{ "1" { "color" "TanDark" } }
-		}
-		"ReplayFatLineBorderRedBGOpaque"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"Main"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"ReplayFatLineBorderOpaque"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"HTMLBackground"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"ReplayGrayDialogBorder"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"FooterBGBlack"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"ReplayOutlinedGreyBox"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"FooterBGBlack"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"ReplayOutlinedDullGreyBox"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"FooterBGBlack"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"ReplayThinLineBorder"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"HTMLBackground"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
 		}
 		"ReplayDefaultBorder"
 		{
@@ -2805,27 +2360,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"ReplayHighlightBorder"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"FooterBGBlack"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
-		}
-		"ReplayBalloonBorder"
-		{
-			"bordertype"									"scalable_image"
-			"color"											"HudBlack"
-			"image"											"White"
-			"src_corner_height"								"16"
-			"src_corner_width"								"16"
-			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"RedWithThinBorder"
 		{
@@ -2835,7 +2370,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"BlueWithThinBorder"
 		{
@@ -2845,7 +2380,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"CYOAScreenBorder"
 		{
@@ -2855,7 +2390,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"CYOANodeViewBorder"
 		{
@@ -2865,7 +2400,7 @@
 			"src_corner_height"								"16"
 			"src_corner_width"								"16"
 			"draw_corner_width"								"0"
-			"draw_corner_height" 							"0"
+			"draw_corner_height"							"0"
 		}
 		"CYOANodeViewBorder_Active"
 		{
@@ -2883,10 +2418,10 @@
 		}
 		"CYOANodeViewBorder_TurnIn"
 		{
-			"Left"											{ "1" { "color" "CreditsGreen" } "2" { "color" "CreditsGreen" } }
-			"Right"											{ "1" { "color" "CreditsGreen" } "2" { "color" "CreditsGreen" } }
-			"Top"											{ "1" { "color" "CreditsGreen" } "2" { "color" "CreditsGreen" } }
-			"Bottom"										{ "1" { "color" "CreditsGreen" } "2" { "color" "CreditsGreen" } }
+			"Left"											{ "1" { "color" "GreenSolid" } "2" { "color" "GreenSolid" } }
+			"Right"											{ "1" { "color" "GreenSolid" } "2" { "color" "GreenSolid" } }
+			"Top"											{ "1" { "color" "GreenSolid" } "2" { "color" "GreenSolid" } }
+			"Bottom"										{ "1" { "color" "GreenSolid" } "2" { "color" "GreenSolid" } }
 		}
 		"CYOAPopupBorder"
 		{
@@ -2896,30 +2431,157 @@
 			"Bottom"										{ "1" { "color" "QuestMap_ActiveOrange" } "2" { "color" "QuestMap_ActiveOrange" } }
 		}
 	}
-
 	"CustomFontFiles"
 	{
 		"1"
 		{
 			"font" "resource/fonts/heebo.ttf"
-			"name" "HeeboBold"
+			"name" "Heebo Bold Edit"
 		}
 		"2"
-		{
-			"font" "resource/fonts/heebouber.ttf"
-			"name" "HeeboUber2"
-		}
-		"3"
 		{
 			"font" "resource/fonts/surface.otf"
 			"name" "Surface-Medium"
 		}
-		"4"
+		"3"
 		{
-			"font" "resource/fonts/handel_gothic.ttf"
-			"name" "Handel Gothic BT"
+			"font" "resource/fonts/heeboicons.ttf"
+			"name" "Heebo Icons"
+
+			"arabic"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"brazilian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"bulgarian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"czech"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"danish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"dutch"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"english"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"finnish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"french"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"german"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"greek"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"hebrew"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"hungarian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"italian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"japanese"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"korean"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"koreana"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"latvian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"lithuanian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"norwegian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"pirate"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"polish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"portuguese"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"romanian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"russian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"schinese"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"slovak"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"spanish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"swedish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"tchinese"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"thai"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"turkish"
+			{
+				"range"		"0x021 0xFFFF"
+			}
+			"ukrainian"
+			{
+				"range"		"0x021 0xFFFF"
+			}
 		}
-		"5"
+		"4"
 		{
 			"font" "resource/fonts/seeker.ttf"
 			"name" "TF2CrossRegular"

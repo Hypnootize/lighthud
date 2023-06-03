@@ -16,7 +16,6 @@
 		"datacenter_y"								"3"
 		"datacenter_y_space"						"1"
 	}
-
 	"BGPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -32,7 +31,6 @@
 		"bgcolor_override"							"FooterBGBlack"
 		"proportionaltoparent"						"1"
 	}
-
 	"Title"
 	{
 		"ControlName"								"CExLabel"
@@ -51,7 +49,6 @@
 
 		"mouseinputenabled"							"0"
 	}
-
 	"InviteModeLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -75,7 +72,6 @@
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 	}
-
 	"InviteModeComboBox"
 	{
 	//	"ControlName"								"ComboBox"
@@ -100,10 +96,10 @@
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"HudBlack"
 		"disabledfgcolor_override"					"White"
-		"disabledBgColor_override" 					"Blank"
-		"selectionColor_override" 					"Blank"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"Blank"
+		"disabledBgColor_override"					"Blank"
+		"selectionColor_override"					"Blank"
+		"selectionTextColor_override"				"White"
+		"defaultSelectionBG2Color_override"			"Blank"
 
 		"Button"
 		{
@@ -114,7 +110,6 @@
 			"paintbackgroundtype"					"0"
 		}
 	}
-
 	"CheckBoxesBG"
 	{
 		"ControlName"								"EditablePanel"
@@ -131,7 +126,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"HudBlack"
 	}
-
 	"IgnorePartyInvites"
 	{
 		"ControlName"								"CvarToggleCheckButton"
@@ -153,9 +147,8 @@
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 
-		"cvar_name" 								"tf_party_ignore_invites"
+		"cvar_name"									"tf_party_ignore_invites"
 	}
-
 	"KeepPartyOnSameTeam"
 	{
 		"ControlName"								"CvarToggleCheckButton"
@@ -178,7 +171,6 @@
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 	}
-
 	"KeepPartyOnSameTeamLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -200,7 +192,6 @@
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 	}
-
 	"CustomPingCheckButton"
 	{
 		"ControlName"								"CvarToggleCheckButton"
@@ -225,9 +216,6 @@
 
 		"cvar_name"									"tf_mm_custom_ping_enabled"
 	}
-
-	// VGUI is weird and makes some checkboxes have their text lower than it's supposed to be
-	// and the above checkbox has that behavior.  To get around it, make another label
 	"CheckLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -248,7 +236,6 @@
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 	}
-
 	"DescLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -269,7 +256,6 @@
 		"sound_depressed"							"UI/buttonclickrelease.wav"
 		"button_activation_type"					"1"
 	}
-
 	"CurrentPingLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -293,7 +279,6 @@
 
 		"mouseinputenabled"							"0"
 	}
-
 	"PingSlider"
 	{
 		"ControlName"								"CCvarSlider"
@@ -308,13 +293,12 @@
 		"proportionaltoparent"						"1"
 
 		"cvar_name"									"tf_mm_custom_ping"
-		"use_convar_minmax" 						"1"
+		"use_convar_minmax"							"1"
 
 		"pin_to_sibling"							"CurrentPingLabel"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
-
 	"DataCenterContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -339,7 +323,7 @@
 			"tall"									"f4"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
-			"restrict_width" 						"0"
+			"restrict_width"						"0"
 
 			"ScrollBar"
 			{
@@ -357,14 +341,12 @@
 				{
 					"fgcolor_override"				"White"
 				}
-
 				"UpButton"
 				{
 					"ControlName"					"Button"
 					"FieldName"						"UpButton"
 					"visible"						"0"
 				}
-
 				"DownButton"
 				{
 					"ControlName"					"Button"
@@ -373,7 +355,6 @@
 				}
 			}
 		}
-
 		"Background"
 		{
 			"ControlName"							"EditablePanel"
@@ -389,36 +370,5 @@
 			"bgcolor_override"						"HudBlack"
 			"proportionaltoparent"					"1"
 		}
-		"Frame"
-		{
-			"Controlname"							"EditablePanel"
-			"fieldName"								"Frame"
-			"xpos"									"9999"
-		}
-	}
-
-	"CloseButton"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"CloseButton"
-		"xpos"										"9999"
-	}
-	"ReturnButton"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"ReturnButton"
-		"xpos"										"9999"
-	}
-	"InnerGradient"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"InnerGradient"
-		"xpos"										"9999"
-	}
-	"OuterGradient"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"OuterGradient"
-		"xpos"										"9999"
 	}
 }

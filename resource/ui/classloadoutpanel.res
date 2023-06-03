@@ -12,7 +12,7 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"DarkBrown"
-		"infocus_bgcolor_override" 					"DarkBrown"
+		"infocus_bgcolor_override"					"DarkBrown"
 		"outoffocus_bgcolor_override"				"DarkBrown"
 
 		"item_xpos_offcenter_a"						"-310"
@@ -28,7 +28,7 @@
 		"button_xpos_offcenter"						"175"
 		"button_ypos"								"85"
 		"button_ydelta"								"80"
-		"button_override_delete_xpos" 				"0"
+		"button_override_delete_xpos"				"0"
 
 		"modelpanels_kv"
 		{
@@ -59,7 +59,7 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
 			}
 		}
@@ -77,11 +77,9 @@
 			"labelText"								"+"
 			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
-			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
 		}
 	}
-
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
@@ -102,25 +100,24 @@
 		{
 			"force_pos"								"1"
 
-			"angles_x" 								"0"
-			"angles_y" 								"170"
-			"angles_z" 								"0"
-			"origin_x" 								"190"
-			"origin_y" 								"0"
-			"origin_z" 								"-50"
+			"angles_x"								"0"
+			"angles_y"								"170"
+			"angles_z"								"0"
+			"origin_x"								"190"
+			"origin_y"								"0"
+			"origin_z"								"-50"
 			"frame_origin_x"						"0"
 			"frame_origin_y"						"0"
 			"frame_origin_z"						"0"
-			"spotlight" 							"1"
+			"spotlight"								"1"
 
 			"modelname"								""
 		}
 	}
-
-	"mouseoveritempanel"
+	"MouseOverItemPanel"
 	{
 		"ControlName"								"CItemModelPanel"
-		"fieldName"									"mouseoveritempanel"
+		"fieldName"									"MouseOverItemPanel"
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"100"
@@ -140,7 +137,6 @@
 
 		"attriblabel"
 		{
-			"font"									"ItemFontAttribLarge"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"2"
@@ -148,13 +144,13 @@
 			"tall"									"60"
 			"visible"								"1"
 			"enabled"								"1"
+			"font"									"ItemFontAttribLarge"
 			"labelText"								"%attriblist%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
 			"centerwrap"							"1"
 		}
 	}
-
 	"loadout_preset_panel"
 	{
 		"ControlName"								"CLoadoutPresetPanel"
@@ -166,7 +162,6 @@
 		"enabled"									"1"
 		"paintbackground"							"0"
 	}
-
 	"ItemOptionsPanel"
 	{
 		"ControlName"								"CLoadoutParticleSlider"
@@ -177,77 +172,45 @@
 		"wide"										"140"
 		"tall"										"75"
 		"visible"									"0"
-		"bgcolor_override"							"69 64 63 255"
+		"bgcolor_override"							"FooterBGBlack"
 		"PaintBackgroundType"						"0"
 	}
-
 	"CharacterLoadoutButton"
 	{
-		"ControlName"								"CExImageButton"
+		"ControlName"								"CExButton"
 		"fieldName"									"CharacterLoadoutButton"
-		"labelText"									""
-		"xpos"										"c-85"
-		"ypos"										"63"
+		"xpos"										"cs-1.07"
+		"ypos"										"45"
 		"zpos"										"90"
-		"wide"										"20"
-		"tall"										"20"
+		"wide"										"52"
+		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
+		"AllCaps"									"1"
+		"font"										"HudFontSmallestBold"
+		"labelText"									"Items"
+		"textalignment"								"center"
 		"Command"									"characterloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"paintbackground"							"0"
-		"image_drawcolor"							"225 220 220 255"
-		"image_armedcolor"							"0 165 255 255"
-
-		"SubImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"cs-0.5"
-			"ypos"									"cs-0.5"
-			"zpos"									"1"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"scaleImage"							"1"
-			"image"									"glyph_items"
-		}
+		"paintbackground"							"1"
 	}
-
 	"TauntLoadoutButton"
 	{
-		"ControlName"								"CExImageButton"
+		"ControlName"								"CExButton"
 		"fieldName"									"TauntLoadoutButton"
-		"labelText"									""
-		"xpos"										"c60"
-		"ypos"										"63"
+		"xpos"										"cs+0"
+		"ypos"										"45"
 		"zpos"										"90"
-		"wide"										"20"
-		"tall"										"20"
+		"wide"										"52"
+		"tall"										"12"
 		"visible"									"1"
 		"enabled"									"1"
+		"AllCaps"									"1"
+		"font"										"HudFontSmallestBold"
+		"textalignment"								"center"
+		"labelText"									"Taunts"
 		"Command"									"tauntloadout"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"paintbackground"							"0"
-		"image_drawcolor"							"225 220 220 255"
-		"image_armedcolor"							"0 165 255 255"
-
-		"SubImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"cs-0.5"
-			"ypos"									"cs-0.5"
-			"zpos"									"1"
-			"wide"									"f0"
-			"tall"									"f0"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"scaleImage"							"1"
-			"image"									"../hud/ico_reel"
-		}
+		"paintbackground"							"1"
 	}
 }

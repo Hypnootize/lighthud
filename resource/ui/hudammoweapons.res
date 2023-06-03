@@ -2,7 +2,7 @@
 {
 	"AmmoAnchor"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"AmmoAnchor"
 		"xpos"										"c175"
 		"ypos"										"c95"
@@ -12,7 +12,6 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
-
 	"AmmoInClip"
 	{
 		"ControlName"								"CExLabel"
@@ -24,7 +23,7 @@
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"Health-Ammo"
+		"font"										"m0re60"
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
 		"fgcolor"									"White"
@@ -44,7 +43,7 @@
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"Health-Ammo"
+		"font"										"m0re60"
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
 		"fgcolor"									"Black"
@@ -62,7 +61,7 @@
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"Ammo-Reserve"
+		"font"										"m0re24"
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
 		"fgcolor"									"White"
@@ -82,7 +81,7 @@
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"Ammo-Reserve"
+		"font"										"m0re24"
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
 		"fgcolor"									"Black"
@@ -94,13 +93,13 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmonoClip"
 		"xpos"										"0"
-		"ypos"    									"0"
+		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"150"
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"Health-Ammo"
+		"font"										"m0re60"
 		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
 		"fgcolor"									"White"
@@ -120,7 +119,7 @@
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"Health-Ammo"
+		"font"										"m0re60"
 		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
 		"fgcolor"									"Black"
@@ -128,16 +127,18 @@
 		"pin_to_sibling"							"AmmoNoClip"
 	}
 
-	"HudWeaponAmmoBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"HudWeaponAmmoBG"
-		"xpos"										"9999"
-	}
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"HudWeaponLowAmmoImage"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

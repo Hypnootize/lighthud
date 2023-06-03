@@ -11,7 +11,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"Icon"
 	{
 		"ControlName"								"CIconPanel"
@@ -43,7 +42,7 @@
 
 		"NotBuiltBG"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"NotBuiltBG"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -57,10 +56,9 @@
 			"paintbackgroundtype"					"2"
 			"bgcolor_override"						"TransparentLightBlack"
 		}
-
 		"IconBackgound"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"IconBackgound"
 			"xpos"									"2"
 			"ypos"									"cs-0.5"
@@ -73,13 +71,6 @@
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"2"
 			"bgcolor_override"						"TransparentLightBlack"
-		}
-
-		"NotBuiltLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"NotBuiltLabel"
-			"xpos"									"9999"
 		}
 	}
 
@@ -97,7 +88,7 @@
 
 		"BuiltBG"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"BuiltBG"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -111,10 +102,9 @@
 			"paintbackgroundtype"					"2"
 			"bgcolor_override"						"TransparentLightBlack"
 		}
-
 		"IconBackgound"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"IconBackgound"
 			"xpos"									"2"
 			"ypos"									"cs-0.5"
@@ -128,7 +118,6 @@
 			"paintbackgroundtype"					"2"
 			"bgcolor_override"						"TransparentLightBlack"
 		}
-
 		"Icon_Upgrade_1"
 		{
 			"ControlName"							"CIconPanel"
@@ -145,11 +134,10 @@
 			"iconColor"								"White"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"IconBackgound"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"IconBackgound"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"Icon_Upgrade_2"
 		{
 			"ControlName"							"CIconPanel"
@@ -166,11 +154,10 @@
 			"iconColor"								"White"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"IconBackgound"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"IconBackgound"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"Icon_Upgrade_3"
 		{
 			"ControlName"							"CIconPanel"
@@ -187,11 +174,10 @@
 			"iconColor"								"White"
 			"proportionaltoparent"					"1"
 
-			"pin_to_sibling" 						"IconBackgound"
-			"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
+			"pin_to_sibling"						"IconBackgound"
+			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"SapperIcon"
 		{
 			"ControlName"							"CIconPanel"
@@ -211,7 +197,6 @@
 			"bgcolor_override"						"HUDRedTeamSolid"
 			"proportionaltoparent"					"1"
 		}
-
 		"Health"
 		{
 			"ControlName"							"CBuildingHealthBar"
@@ -225,26 +210,6 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 		}
-
-		"AlertTray"
-		{
-			"ControlName"							"CBuildingStatusAlertTray"
-			"fieldName"								"AlertTray"
-			"xpos"									"9999"
-		}
-		"WrenchIcon"
-		{
-			"ControlName"							"CIconPanel"
-			"fieldName"								"WrenchIcon"
-			"xpos"									"9999"
-		}
-		"BuildingPanel"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BuildingPanel"
-			"xpos"									"9999"
-		}
-
 		"RunningPanel"
 		{
 			"ControlName"							"EditablePanel"
@@ -268,15 +233,13 @@
 				"tall"								"6"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"Left"
 				"proportionaltoparent"				"1"
-				"bgcolor_override"					"125 120 115 255"
+				"bgcolor_override"					"Gray"
 			}
 			"UpgradeLabel"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"UpgradeLabel"
-				"font"								"ScoreboardVerySmall"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"3"
@@ -284,27 +247,40 @@
 				"tall"								"6"
 				"visible"							"0"
 				"enabled"							"1"
+				"proportionaltoparent"				"1"
+				"font"								"ScoreboardVerySmall"
 				"labelText"							"Upgrade"
 				"textAlignment"						"center"
 				"AllCaps"							"1"
 				"fgcolor"							"Black"
-				"proportionaltoparent"				"1"
-				"pin_to_sibling" 					"Upgrade"
+				"pin_to_sibling"					"Upgrade"
 			}
-
-			"UpgradeIcon"
-			{
-				"ControlName"						"CIconPanel"
-				"fieldName"							"UpgradeIcon"
-				"xpos"								"9999"
-			}
+		}
+		"BuildingPanel"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"BuildingPanel"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"Background"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Background"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

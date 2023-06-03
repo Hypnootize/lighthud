@@ -1,78 +1,52 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthBonusImage"
-		"xpos"										"6"
-		"ypos"										"7"
-		"zpos"										"-1"
-		"wide"										"26"
-		"tall"										"26"
-		"visible"									"0"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"image"										"../hud/health_over_bg"
-		"scaleImage"								"1"
-	}
-
-	"TargetHealth"
+	"PlayerStatusHealthValue"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"TargetHealth"
+		"fieldName"									"PlayerStatusHealthValue"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"20"
-		"wide"										"38"
-		"tall"										"35"
+		"wide"										"35"
+		"tall"										"18"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"
+		"textAlignment"								"east"
 		"labeltext"									"%Health%"
-		"font"										"m0re24"
-		"fgcolor"  									"White"
+		"font"										"m0re20"
+		"fgcolor"									"White"
 	}
-	"TargetHealthShadow"
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"TargetHealthShadow"
-		"xpos"										"-1"
-		"ypos"										"-1"
+		"fieldName"									"PlayerStatusHealthValueShadow"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"19"
-		"wide"										"38"
-		"tall"										"35"
+		"wide"										"35"
+		"tall"										"19"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"center"
+		"textAlignment"								"east"
 		"labeltext"									"%Health%"
-		"font"										"m0re24"
-		"fgcolor"			  						"Black"
+		"font"										"m0re20"
+		"fgcolor"									"Black"
 
-		"pin_to_sibling"							"TargetHealth"
+		"pin_to_sibling"							"PlayerStatusHealthValue"
 	}
 
-	"PlayerStatusPlayerLevel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusPlayerLevel"
-		"xpos"										"9999"
-	}
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImage"
 		"xpos"										"9999"
-	}
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImageBG"
-		"xpos"										"9999"
-	}
-	"BuildingStatusHealthImageBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"BuildingStatusHealthImageBG"
-		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

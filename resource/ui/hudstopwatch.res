@@ -12,12 +12,11 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"font"										"m0re12Shadow"
+		"font"										"HudFontSmallestShadow"
 		"labelText"									"%scoretobeat%"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
 	}
-
 	"StopWatchPointsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -32,14 +31,13 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%pointslabel%"
 		"textAlignment"								"west"
-		"font"										"m0re12Shadow"
+		"font"										"HudFontSmallestShadow"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"StopWatchScoreToBeat"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -70,40 +68,34 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"textAlignment"							"east"
-			"font"									"m0re12Shadow"
+			"font"									"HudFontSmallestShadow"
 			"fgcolor"								"White"
 		}
 	}
 
-	"StopWatchLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"StopWatchLabel"
-		"xpos"										"99999"
-	}
-
-	"HudStopWatchBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"HudStopWatchBG"
-		"xpos"										"9999"
-	}
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"StopWatchImageCaptureTime"
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"StopWatchImageCaptureTime"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"HudStopWatchDescriptionBG"
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"HudStopWatchDescriptionBG"
 		"xpos"										"9999"
-	}
-	"StopWatchDescriptionLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"StopWatchDescriptionLabel"
-		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

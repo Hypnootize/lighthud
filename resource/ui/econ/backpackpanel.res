@@ -12,8 +12,8 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"DarkBrown"
-		"infocus_bgcolor_override" 					"DarkBrown"
-		"outoffocus_bgcolor_override" 				"DarkBrown"
+		"infocus_bgcolor_override"					"DarkBrown"
+		"outoffocus_bgcolor_override"				"DarkBrown"
 
 		"item_xpos_offcenter_a"						"-310"
 		"item_xpos_offcenter_b"						"165"
@@ -28,13 +28,13 @@
 		"button_xpos_offcenter"						"175"
 		"button_ypos"								"85"
 		"button_ydelta"								"80"
-		"button_override_delete_xpos" 				"0"
+		"button_override_delete_xpos"				"0"
 
 		"page_button_y"								"318"
-		"page_button_x_delta" 						"3"
-		"page_button_y_delta" 						"3"
-		"page_button_per_row" 						"20"
-		"page_button_height" 						"13"
+		"page_button_x_delta"						"3"
+		"page_button_y_delta"						"3"
+		"page_button_per_row"						"20"
+		"page_button_height"						"13"
 
 		"pagebuttons_kv"
 		{
@@ -63,13 +63,10 @@
 				"font"								"HudFontSmallestBold"
 				"sound_depressed"					"UI/buttonclick.wav"
 			}
-
 			"New"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"New"
-				"font"								"FontStorePrice"
-				"textAlignment"						"center"
 				"ypos"								"0"
 				"xpos"								"0"
 				"zpos"								"0"
@@ -77,15 +74,16 @@
 				"tall"								"f0"
 				"visible"							"0"
 				"enabled"							"1"
-				"labelText"							"#Store_Price_New"
-				"mouseinputenabled"				 	"0"
-				"paintbackground"					"0"
+				"mouseinputenabled"					"0"
 				"proportionaltoparent"				"1"
-				"border"							"StoreNewBorder"
+				"font"								"FontStorePrice"
+				"textAlignment"						"center"
+				"labelText"							"#Store_Price_New"
 				"fgcolor"							"Black"
+				"paintbackground"					"0"
+				"border"							"StoreNewBorder"
 			}
 		}
-
 		"modelpanels_kv"
 		{
 			"ControlName"							"CItemModelPanel"
@@ -115,13 +113,10 @@
 				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
 			}
-
 			"New"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"New"
-				"font"								"FontStorePrice"
-				"textAlignment"						"east"
 				"xpos"								"rs1"
 				"ypos"								"0"
 				"zpos"								"15"
@@ -131,21 +126,21 @@
 				"skip_autoresize"					"1"
 				"visible"							"0"
 				"enabled"							"1"
-				"labelText"							"#Store_Price_New"
-				"mouseinputenabled" 				"0"
-				"paintbackground"					"0"
+				"mouseinputenabled"					"0"
 				"proportionaltoparent"				"1"
-				"border"							"StoreNewBorder"
+				"font"								"FontStorePrice"
+				"textAlignment"						"east"
+				"labelText"							"#Store_Price_New"
 				"fgcolor"							"Black"
+				"paintbackground"					"0"
+				"border"							"StoreNewBorder"
 			}
-
 			"use_item_sounds"						"1"
 		}
 	}
-
 	"BackpackBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"BackpackBG"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5-40"
@@ -161,7 +156,7 @@
 	}
 	"FiltersBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"FiltersBG"
 		"xpos"										"0"
 		"ypos"										"2"
@@ -179,7 +174,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-
 	"tool_icon"
 	{
 		"ControlName"								"ScalableImagePanel"
@@ -196,14 +190,10 @@
 		"tileVertically"							"0"
 		"drawcolor"									"112 176 74 255"
 	}
-
 	"ShowBaseItemsCheckbox"
 	{
 		"ControlName"								"CheckButton"
 		"fieldName"									"ShowBaseItemsCheckbox"
-		"labelText"									"#ShowBaseItemsCheckBox"
-		"Font"										"StorePromotionsTitle"
-		"textAlignment"								"east"
 		"xpos"										"5"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -212,12 +202,14 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"smallcheckimage"							"1"
+		"labelText"									"#ShowBaseItemsCheckBox"
+		"Font"										"StorePromotionsTitle"
+		"textAlignment"								"east"
 
 		"pin_to_sibling"							"NameFilterIcon"
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-
 	"NameFilterIcon"
 	{
 		"ControlName"								"EditablePanel"
@@ -254,7 +246,6 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
-
 	"NameFilterTextEntry"
 	{
 		"ControlName"								"TextEntry"
@@ -270,20 +261,18 @@
 		"editable"									"1"
 		"unicode"									"1"
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"0 0 0 150"
-		"paintbackgroundtype" 						"0"
+		"bgcolor_override"							"LabelTransparent"
+		"paintbackgroundtype"						"0"
 		"font"										"HudFontSmallest"
 
 		"pin_to_sibling"							"NameFilterIcon"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-
 	"SortByComboBox"
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"SortByComboBox"
-		"Font"										"HudFontSmallestBold"
 		"xpos"										"-2"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -296,16 +285,16 @@
 		"maxchars"									"-1"
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
-		"default"									"0"
+		"Font"										"HudFontSmallestBold"
 		"paintborder"								"0"
 
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"LighterDarkBrown"
-		"disabledFgColor_override" 					"White"
-		"disabledBgColor_override" 					"LighterDarkBrown"
-		"selectionColor_override" 					"LighterDarkBrown"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"LighterDarkBrown"
+		"disabledFgColor_override"					"White"
+		"disabledBgColor_override"					"LighterDarkBrown"
+		"selectionColor_override"					"LighterDarkBrown"
+		"selectionTextColor_override"				"White"
+		"defaultSelectionBG2Color_override"			"LighterDarkBrown"
 
 		"Button"
 		{
@@ -320,12 +309,10 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-
 	"ShowRarityComboBox"
 	{
 		"ControlName"								"ComboBox"
 		"fieldName"									"ShowRarityComboBox"
-		"Font"										"HudFontSmallestBold"
 		"xpos"										"2"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -338,16 +325,16 @@
 		"maxchars"									"-1"
 		"NumericInputOnly"							"0"
 		"unicode"									"0"
-		"default"									"0"
+		"Font"										"HudFontSmallestBold"
 		"paintborder"								"0"
 
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"LighterDarkBrown"
-		"disabledFgColor_override" 					"White"
-		"disabledBgColor_override" 					"LighterDarkBrown"
-		"selectionColor_override" 					"LighterDarkBrown"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"LighterDarkBrown"
+		"disabledFgColor_override"					"White"
+		"disabledBgColor_override"					"LighterDarkBrown"
+		"selectionColor_override"					"LighterDarkBrown"
+		"selectionTextColor_override"				"White"
+		"defaultSelectionBG2Color_override"			"LighterDarkBrown"
 
 		"Button"
 		{
@@ -362,11 +349,10 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
-
-	"mouseoveritempanel"
+	"MouseOverItemPanel"
 	{
 		"ControlName"								"CItemModelPanel"
-		"fieldName"									"mouseoveritempanel"
+		"fieldName"									"MouseOverItemPanel"
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"102"
@@ -385,7 +371,6 @@
 
 		"attriblabel"
 		{
-			"font"									"ItemFontAttribLarge"
 			"xpos"									"0"
 			"ypos"									"30"
 			"zpos"									"2"
@@ -393,18 +378,17 @@
 			"tall"									"60"
 			"visible"								"1"
 			"enabled"								"1"
+			"font"									"ItemFontAttribLarge"
 			"labelText"								"%attriblist%"
 			"textAlignment"							"center"
 			"fgcolor"								"White"
 			"centerwrap"							"1"
 		}
 	}
-
-	"mousedragitempanel"
+	"MouseDragItemPanel"
 	{
 		"ControlName"								"CItemModelPanel"
-		"fieldName"									"mousedragitempanel"
-
+		"fieldName"									"MouseDragItemPanel"
 		"xpos"										"c-70"
 		"ypos"										"270"
 		"zpos"										"100"
@@ -425,7 +409,7 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 				"0"
+			"use_item_rendertarget"					"0"
 			"allow_rot"								"0"
 		}
 	}
@@ -448,7 +432,6 @@
 		"Command"									"nextpage"
 		"visible"									"1"
 	}
-
 	"DragToNextPageButton"
 	{
 		"ControlName"								"CExButton"
@@ -483,7 +466,6 @@
 		"Command"									""
 		"sound_depressed"							"UI/buttonclick.wav"
 	}
-
 	"CancelApplyToolButton"
 	{
 		"ControlName"								"CExButton"

@@ -16,7 +16,7 @@
 		"paintbackgroundtype"						"2"
 		"bgcolor_override"							"225 75 75 255"
 
-		"DestroyIcon"	
+		"DestroyIcon"
 		{
 			"ControlName"							"CIconPanel"
 			"fieldName"								"DestroyIcon"
@@ -32,10 +32,9 @@
 			"icon"									"ico_demolish"
 			"iconColor"								"255 255 255 255"
 		}
-
 		"NumberBG"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"NumberBG"
 			"xpos"									"0"
 			"ypos"									"rs1"
@@ -45,24 +44,10 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
-			"paintbackground"						"0"
-
-			"BG"
-			{
-				"ControlName"						"EditablePanel"
-				"fieldName"							"BG"
-				"xpos"								"0"
-				"ypos"								"-3"
-				"zpos"								"0"
-				"wide"								"f0"
-				"tall"								"f-3"
-				"visible"							"1"
-				"enabled"							"1"
-				"proportionaltoparent"				"1"
-				"paintbackground"					"1"
-				"paintbackgroundtype"				"2"
-				"bgcolor_override"					"TransparentLightBlack"
-			}
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"2"
+			"roundedcorners"						"12"
+			"bgcolor_override"						"TransparentLightBlack"
 		}
 	}
 	"BuildingName"
@@ -99,30 +84,5 @@
 		"proportionaltoparent"						"1"
 		"font"										"HudFontSmallest"
 		"fgcolor"									"White"
-	}
-	
-	"ItemBackground"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"ItemBackground"
-		"xpos"										"9999"
-	}
-	"ItemNameLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"ItemNameLabel"
-		"xpos"										"9999"
-	}
-	"NotBuiltLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"NotBuiltLabel"
-		"xpos"										"9999"
-	}
-	"BuildingIcon"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"BuildingIcon"
-		"xpos"										"9999"
 	}
 }

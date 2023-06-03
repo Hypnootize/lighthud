@@ -15,7 +15,6 @@
 		"paintbackgroundtype"						"0"
 		"bgcolor_override"							"FooterBGBlack"
 	}
-
 	"ReturnButton"
 	{
 		"ControlName"								"CExButton"
@@ -25,7 +24,8 @@
 
 		"if_left"
 		{
-			"xpos"									"9999"
+			"wide"									"0"
+			"visible"								"0"
 		}
 
 		"ypos"										"3"
@@ -44,12 +44,5 @@
 		"defaultBgColor_override"					"HudBlack"
 
 		"armedFgColor_override"						"White"
-	}
-
-	"CloseButton"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"CloseButton"
-		"xpos"										"9999"
 	}
 }

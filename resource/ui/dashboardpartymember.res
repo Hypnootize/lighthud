@@ -1,8 +1,8 @@
 "Resource/UI/DashboardPartyMember.res"
 {
-	"avatar"
+	"Avatar"
 	{
-		"fieldName"									"avatar"
+		"fieldName"									"Avatar"
 		"xpos"										"1"
 		"ypos"										"1"
 		"zpos"										"101"
@@ -12,7 +12,6 @@
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
 	}
-
 	"EmptyImage"
 	{
 		"ControlName"								"ImagePanel"
@@ -28,7 +27,6 @@
 		"image"										"class_portraits/silhouette_alpha"
 		"mouseinputenabled"							"0"
 	}
-
 	"LeaderIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -44,7 +42,6 @@
 		"scaleImage"								"1"
 		"mouseinputenabled"							"0"
 	}
-
 	"BannedIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -60,9 +57,8 @@
 		"scaleImage"								"1"
 		"mouseinputenabled"							"0"
 		"proportionaltoparent"						"1"
-		"drawcolor"									"255 0 0 255"
+		"drawcolor"									"Red"
 	}
-
 	"OutOfDateIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -80,7 +76,6 @@
 		"proportionaltoparent"						"1"
 		"drawcolor"									"OrangeDim"
 	}
-
 	"OfflineIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -98,7 +93,6 @@
 		"proportionaltoparent"						"1"
 		"drawcolor"									"OrangeDim"
 	}
-
 	"StatusDimmer"
 	{
 		"ControlName"								"Panel"
@@ -110,9 +104,8 @@
 		"tall"										"f2"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"0 0 0 240"
+		"bgcolor_override"							"TransparentBlack"
 	}
-
 	"InteractButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -137,7 +130,6 @@
 		"paintborder"								"0"
 		"paintbackground"							"0"
 	}
-
 	"Spinner"
 	{
 		"ControlName"								"CTFLogoPanel"
@@ -154,6 +146,6 @@
 
 		"radius"									"26"
 		"velocity"									"60"
-		"fgcolor_override"							"Orange"
+		"fgcolor_override"							"Main"
 	}
 }

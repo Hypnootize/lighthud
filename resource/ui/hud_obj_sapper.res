@@ -11,10 +11,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"BackgroundCustom"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"BackgroundCustom"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -28,10 +27,9 @@
 		"paintbackgroundtype"						"2"
 		"bgcolor_override"							"TransparentLightBlack"
 	}
-
 	"IconBackgound"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"IconBackgound"
 		"xpos"										"2"
 		"ypos"										"cs-0.5"
@@ -45,7 +43,6 @@
 		"paintbackgroundtype"						"2"
 		"bgcolor_override"							"TransparentLightBlack"
 	}
-
 	"Icon"
 	{
 		"ControlName"								"CIconPanel"
@@ -62,7 +59,6 @@
 		"icon"										"obj_status_icon_sapper"
 		"iconColor"									"White"
 	}
-
 	"NotBuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -75,13 +71,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 
-		"NotBuiltBG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"NotBuiltBG"
-			"xpos"									"9999"
-		}
-
 		"NotBuiltLabel"
 		{
 			"ControlName"							"CExLabel"
@@ -93,16 +82,15 @@
 			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
-			"labelText"								"#Building_hud_sentry_not_built"
-			"textAlignment"							"center"
-			"fgcolor"								"White"
+			"proportionaltoparent"					"1"
 			"wrap"									"1"
 			"centerwrap"							"1"
 			"AllCaps"								"1"
-			"proportionaltoparent"					"1"
+			"labelText"								"#Building_hud_sentry_not_built"
+			"textAlignment"							"center"
+			"fgcolor"								"White"
 		}
 	}
-
 	"BuiltPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -141,7 +129,6 @@
 				"iconColor"							"White"
 				"proportionaltoparent"				"1"
 			}
-
 			"TargetHealth"
 			{
 				"ControlName"						"ContinuousProgressBar"
@@ -152,29 +139,46 @@
 				"tall"								"5"
 				"visible"							"1"
 				"enabled"							"1"
-				"bgcolor_override"					"125 120 115 255"
+				"bgcolor_override"					"Gray"
 				"proportionaltoparent"				"1"
 			}
-		}
-
-		"Health"
-		{
-			"ControlName"							"CBuildingHealthBar"
-			"fieldName"								"Health"
-			"xpos"									"9999"
 		}
 		"BuildingPanel"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BuildingPanel"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Health"
+		{
+			"ControlName"							"CBuildingHealthBar"
+			"fieldName"								"Health"
+			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"Background"
 	{
 		"ControlName"								"CIconPanel"
 		"fieldName"									"Background"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

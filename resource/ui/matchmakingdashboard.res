@@ -16,7 +16,6 @@
 		"expanded_height"							"25"
 		"resize_time"								"0.2"
 	}
-
 	"TopBar"
 	{
 		"ControlName"								"EditablePanel"
@@ -31,7 +30,7 @@
 
 		"BGPanel"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"Panel"
 			"fieldName"								"BGPanel"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -44,7 +43,6 @@
 			"bgcolor_override"						"FooterBGBlack"
 			"proportionaltoparent"					"1"
 		}
-
 		"ToggleChatButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -66,10 +64,9 @@
 			"actionsignallevel"						"2"
 			"roundedcorners"						"0"
 			"paintbackground"						"0"
-
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"image_drawcolor"						"225 220 220 255"
+			"image_drawcolor"						"230 232 235 255"
 			"image_armedcolor"						"0 165 255 255"
 
 			"SubImage"
@@ -88,7 +85,6 @@
 				"image"								"glyph_forums"
 			}
 		}
-
 		"PartySlot0"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -110,7 +106,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot1"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -132,7 +127,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot2"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -154,7 +148,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot3"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -176,7 +169,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot4"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -198,7 +190,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"PartySlot5"
 		{
 			"ControlName"							"CDashboardPartyMember"
@@ -220,7 +211,6 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		}
-
 		"QueueContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -228,18 +218,21 @@
 			"xpos"									"cs-0.5"
 			"ypos"									"-50"
 			"zpos"									"111"
-			"wide"									"220"
+			"wide"									"180"
 			"tall"									"f5"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"Black"
 
 			"QueueText"
 			{
 				"ControlName"						"CAutoFittingLabel"
 				"fieldName"							"QueueText"
-				"xpos"								"0"
+				"xpos"								"5"
 				"ypos"								"cs-0.5"
-				"wide"								"f55"
+				"wide"								"f60"
 				"zpos"								"100"
 				"tall"								"f0"
 				"visible"							"1"
@@ -267,7 +260,6 @@
 					}
 				}
 			}
-
 			"MultiQueuesManageButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -279,37 +271,15 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"labeltext"							""
-				"font"								"HudFontSmallBold"
+				"labeltext"							"+"
+				"font"								"HudFontSmallishBold"
 				"textAlignment"						"center"
-				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"Command"							"manage_queues"
 				"proportionaltoparent"				"1"
 				"actionsignallevel"					"3"
-
-				"paintbackground"					"0"
-
-				"image_drawcolor"					"225 220 220 255"
-				"image_armedcolor"					"225 75 75 255"
-
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"cs-0.5"
-					"ypos"							"cs-0.5"
-					"zpos"							"1"
-					"wide"							"f7"
-					"tall"							"f7"
-					"visible"						"1"
-					"enabled"						"1"
-					"image"							"glyph_options"
-					"scaleImage"					"1"
-					"proportionaltoparent"			"1"
-				}
+				"paintbackground"					"1"
 			}
-
 			"CloseButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -321,38 +291,16 @@
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"labeltext"							""
-				"font"								"HudFontSmallBold"
+				"labeltext"							"X"
+				"font"								"HudFontSmallishBold"
 				"textAlignment"						"center"
-				"default"							"1"
 				"sound_depressed"					"UI/buttonclick.wav"
 				"Command"							"leave_queue"
 				"proportionaltoparent"				"1"
 				"actionsignallevel"					"3"
-
-				"paintbackground"					"0"
-
-				"image_drawcolor"					"225 220 220 255"
-				"image_armedcolor"					"225 75 75 255"
-
-				"SubImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"SubImage"
-					"xpos"							"cs-0.5"
-					"ypos"							"cs-0.5"
-					"zpos"							"1"
-					"wide"							"f7"
-					"tall"							"f7"
-					"visible"						"1"
-					"enabled"						"1"
-					"image"							"glyph_close_x"
-					"scaleImage"					"1"
-					"proportionaltoparent"			"1"
-				}
+				"paintbackground"					"1"
 			}
 		}
-
 		"JoinPartyLobbyContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -360,7 +308,7 @@
 			"xpos"									"cs-0.5"
 			"ypos"									"-50"
 			"zpos"									"110"
-			"wide"									"220"
+			"wide"									"180"
 			"tall"									"f5"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
@@ -369,21 +317,20 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"PromptText"
-				"xpos"								"0"
+				"xpos"								"5"
 				"ypos"								"0"
-				"wide"								"f35"
+				"wide"								"f40"
 				"zpos"								"100"
 				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"HudFontSmallestBold"
-				"fgcolor"							"TanLight"
+				"font"								"FontStorePrice"
+				"fgcolor"							"White"
 				"textAlignment"						"west"
 				"labelText"							"#TF_MM_JoinPartyLobby_Prompt"
 				"proportionaltoparent"				"1"
 				"mouseinputenabled"					"0"
 			}
-
 			"JoinNowButton"
 			{
 				"ControlName"						"CExButton"
@@ -402,7 +349,7 @@
 
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"HudFontSmallestBold"
+				"font"								"FontStorePrice"
 				"textAlignment"						"center"
 				"Command"							"join_party_match"
 				"proportionaltoparent"				"1"
@@ -411,13 +358,12 @@
 				"keyboardinputenabled"				"0"
 				"actionsignallevel"					"3"
 
-				"armedBgColor_override"				"CreditsGreen"
-				"defaultBgColor_override"			"SaleGreen"
+				"armedBgColor_override"				"StoreGreen"
+				"defaultBgColor_override"			"GreenSolid"
 
 				"sound_depressed"					"UI/buttonclick.wav"
 			}
 		}
-
 		"QuitButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -440,13 +386,12 @@
 			"RoundedCorners"						"0"
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"armedBgColor_override"					"116 43 43 255"
-			"defaultBgColor_override"				"225 75 75 255"
+			"defaultBgColor_override"				"Red"
+			"armedBgColor_override"					"Black"
 
-			"defaultFgColor_override" 				"TanLight"
-			"armedFgColor_override" 				"TanLight"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White"
 		}
-
 		"DisconnectButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -468,11 +413,13 @@
 			"actionsignallevel"						"2"
 			"RoundedCorners"						"0"
 			"sound_depressed"						"UI/buttonclick.wav"
+			
+			"defaultBgColor_override"				"Red"
+			"armedBgColor_override"					"Black"
 
-			"armedBgColor_override"					"116 43 43 255"
-			"defaultBgColor_override"				"225 75 75 255"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White"
 		}
-
 		"ResumeButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -496,10 +443,9 @@
 
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"defaultFgColor_override" 				"TanLight"
-			"armedFgColor_override" 				"TanLight"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White"
 		}
-
 		"FindAGameButton"
 		{
 			"ControlName"							"CExImageButton"
@@ -523,11 +469,11 @@
 
 			"sound_depressed"						"UI/buttonclick.wav"
 
-			"armedBgColor_override"					"StoreGreen"
 			"defaultBgColor_override"				"GreenSolid"
+			"armedBgColor_override"					"Black"
 
-			"defaultFgColor_override" 				"TanLight"
-			"armedFgColor_override" 				"TanLight"
+			"defaultFgColor_override"				"White"
+			"armedFgColor_override"					"White"
 		}
 	}
 }

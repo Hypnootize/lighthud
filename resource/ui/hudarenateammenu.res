@@ -11,16 +11,15 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"FightButton"
 	{
 		"ControlName"								"CExButton"
 		"fieldname"									"FightButton"
-		"xpos"			  							"cs-0.5"
-		"ypos"			  							"cs-0.5"
-		"zpos"			  							"1"
-		"wide"			  							"125"
-		"tall"			  							"30"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
+		"zpos"										"1"
+		"wide"										"125"
+		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"HudFontMediumBig"
@@ -28,7 +27,6 @@
 		"labeltext"									"Fight"
 		"textAlignment"								"center"
 		"command"									"jointeam spectate"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -42,16 +40,16 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldname"									"FightShadow"
-		"xpos"			  							"-1"
-		"ypos"			  							"-1"
-		"zpos"			  							"0"
-		"wide"			  							"125"
-		"tall"			  							"30"
+		"xpos"										"-1"
+		"ypos"										"-1"
+		"zpos"										"0"
+		"wide"										"125"
+		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
 		"labeltext"									"Fight"
 		"font"										"HudFontMediumBig"
-		"textAlignment"	  							"center"
+		"textAlignment"								"center"
 		"AllCaps"									"1"
 		"proportionaltoparent"						"1"
 		"FgColor"									"Black"
@@ -70,11 +68,11 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldname"									"SpectateButton"
-		"xpos"			  							"0"
-		"ypos"			  							"0"
-		"zpos"			  							"1"
-		"wide"			  							"125"
-		"tall"			  							"18"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"125"
+		"tall"										"18"
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"HudFontSmallestShadow"
@@ -82,7 +80,6 @@
 		"labeltext"									"Spectate"
 		"textAlignment"								"center"
 		"command"									"jointeam spectatearena"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -106,64 +103,29 @@
 		"visible"									"1"
 	}
 
-	"MapName"
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+	"CancelButton"
 	{
-		"ControlName"	  							"CExLabel"
-		"fieldName"		  							"MapName"
-		"xpos"			  							"9999"
-	}
-	"teambutton2"
-	{
-		"ControlName"								"CTFTeamButton"
-		"fieldName"									"teambutton2"
-		"xpos"			  							"9999"
-	}
-	"teambutton3"
-	{
-		"ControlName"								"CTFTeamButton"
-		"fieldName"									"teambutton3"
-		"xpos"			  							"9999"
-	}
-	"MenuBG"
-	{
-		"ControlName"								"CModelPanel"
-		"fieldName"									"MenuBG"
+		"ControlName"								"CExButton"
+		"fieldName"									"CancelButton"
 		"xpos"										"9999"
-	}
-	"autodoor"
-	{
-		"ControlName"								"CModelPanel"
-		"fieldName"									"autodoor"
-		"xpos"										"9999"
-	}
-	"spectate"
-	{
-		"ControlName"								"CModelPanel"
-		"fieldName"									"spectate"
-		"xpos"										"9999"
-	}
-	"SysMenu"
-	{
-		"ControlName"	  							"Menu"
-		"fieldName"		  							"SysMenu"
-		"xpos"			  							"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MapInfo"
 	{
 		"ControlName"								"HTML"
 		"fieldName"									"MapInfo"
 		"xpos"										"9999"
-	}
-	"CancelButton"
-	{
-		"ControlName"	  							"CExButton"
-		"fieldName"		  							"CancelButton"
-		"xpos"										"9999"
-	}
-	"ShadedBar"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"ShadedBar"
-		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

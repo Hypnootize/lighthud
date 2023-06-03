@@ -17,7 +17,7 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ItemEffectMeterIcon"
 		"xpos"										"0"
-		"ypos"										"cs-0.5+2"
+		"ypos"										"cs-0.5"
 		"zpos"										"7"
 		"wide"										"13"
 		"tall"										"13"
@@ -25,7 +25,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
-		"image"										"../vgui/marked_for_death"
+		"image"										"marked_for_death"
 		"drawcolor"									"White"
 	}
 	"ItemEffectMeterIconShadow"
@@ -41,8 +41,8 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
-		"image"										"../vgui/marked_for_death"
-		"drawcolor"									"Black"
+		"image"										"marked_for_death"
+		"drawcolor"									"LabelTransparent"
 		"pin_to_sibling"							"ItemEffectMeterIcon"
 	}
 	"ItemEffectMeterCount"
@@ -50,7 +50,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterCount"
 		"xpos"										"15"
-		"ypos"										"cs-0.5"
+		"ypos"										"cs-0.5-2"
 		"zpos"										"2"
 		"wide"										"20"
 		"tall"										"20"
@@ -77,20 +77,34 @@
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
 		"font"										"m0re20"
-		"FgColor"									"Black"
+		"FgColor"									"LabelTransparent"
 
 		"pin_to_sibling"							"ItemEffectMeterCount"
+	}
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+	"ItemEffectMeter"
+	{
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterLabel"
 		"xpos"										"9999"
-	}
-	"ItemEffectMeter"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter"
-		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

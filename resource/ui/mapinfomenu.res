@@ -15,7 +15,7 @@
 	}
 	"FullScreenBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"FullScreenBG"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -25,7 +25,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
+		"bgcolor_override"							"TransparentBlack"
 	}
 	"Explanation"
 	{
@@ -46,7 +46,7 @@
 		"fgcolor"									"White"
 		"font"										"FontStorePrice"
 		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 200"
+		"bgcolor_override"							"TransparentBlack"
 	}
 	"ok"
 	{
@@ -62,7 +62,6 @@
 		"labelText"									"CONTINUE"
 		"textAlignment"								"center"
 		"command"									"continue"
-		"default"									"1"
 		"proportionaltoparent"						"1"
 		"font"										"HudFontGiantBold"
 
@@ -70,8 +69,8 @@
 		"paintborder"								"0"
 
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"White"
 	}
 	"OKShortKey"
 	{
@@ -83,59 +82,40 @@
 		"visible"									"1"
 	}
 
-
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"MapInfoBack"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"MapInfoBack"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MapInfoContinue"
 	{
-		"ControlName"								"CTFButton"
+		"ControlName"								"CExButton"
 		"fieldName"									"MapInfoContinue"
 		"xpos"										"9999"
-	}
-	"MenuBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"MenuBG"
-		"xpos"										"9999"
-	}
-	"MapImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"MapImage"
-		"xpos"										"9999"
-	}
-	"MapInfoType"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"MapInfoType"
-		"xpos"										"9999"
-	}
-	"ShadedBar"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"ShadedBar"
-		"xpos"										"9999"
-	}
-	"MapInfoText"
-	{
-		"ControlName"								"CExRichText"
-		"fieldName"									"MapInfoText"
-		"xpos"										"9999"
-	}
-	"MapInfoTitle"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"MapInfoTitle"
-		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"MapInfoWatchIntro"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"MapInfoWatchIntro"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

@@ -13,11 +13,11 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"DarkBrown"
-		"infocus_bgcolor_override" 					"DarkBrown"
-		"outoffocus_bgcolor_override" 				"DarkBrown"
+		"infocus_bgcolor_override"					"DarkBrown"
+		"outoffocus_bgcolor_override"				"DarkBrown"
 
-		"selectlabely_default"						"25"
-		"selectlabely_onchanges"					"15"
+		"selectlabely_default"						"9999"
+		"selectlabely_onchanges"					"9999"
 
 		"class_ypos"								"9999"
 		"class_xdelta"								"100"
@@ -31,7 +31,9 @@
 		"itemcountcolor"							"Blank"
 		"itemcountcolor_noitems"					"Blank"
 	}
-
+	//==================================================================================================================================================
+	// SCOUT
+	//==================================================================================================================================================
 	"ScoutCustom"
 	{
 		"ControlName"								"CExButton"
@@ -46,18 +48,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Scout"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout scout"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"SoldierCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	//==================================================================================================================================================
+	// SOLDIER
+	//==================================================================================================================================================
 	"SoldierCustom"
 	{
 		"ControlName"								"CExButton"
@@ -72,18 +77,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Soldier"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout soldier"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"PyroCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	//==================================================================================================================================================
+	// PYRO
+	//==================================================================================================================================================
 	"PyroCustom"
 	{
 		"ControlName"								"CExButton"
@@ -98,18 +106,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Pyro"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout pyro"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"DemomanCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	//==================================================================================================================================================
+	// DEMOMAN
+	//==================================================================================================================================================
 	"DemomanCustom"
 	{
 		"ControlName"								"CExButton"
@@ -124,24 +135,27 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Demoman"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout demoman"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"HeavyCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
+	//==================================================================================================================================================
+	// HEAVY
+	//==================================================================================================================================================
 	"HeavyCustom"
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"HeavyCustom"
 		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5-75"
+		"ypos"										"cs-0.5-30"
 		"zpos"										"1"
 		"wide"										"200"
 		"tall"										"18"
@@ -150,14 +164,17 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Heavy"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout heavy"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 	}
+	//==================================================================================================================================================
+	// ENGINEER
+	//==================================================================================================================================================
 	"EngineerCustom"
 	{
 		"ControlName"								"CExButton"
@@ -172,18 +189,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Engineer"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout engineer"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"HeavyCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
+	//==================================================================================================================================================
+	// MEDIC
+	//==================================================================================================================================================
 	"MedicCustom"
 	{
 		"ControlName"								"CExButton"
@@ -198,18 +218,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Medic"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout medic"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"EngineerCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
+	//==================================================================================================================================================
+	// SNIPER
+	//==================================================================================================================================================
 	"SniperCustom"
 	{
 		"ControlName"								"CExButton"
@@ -224,18 +247,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Sniper"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout sniper"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"MedicCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
+	//==================================================================================================================================================
+	// SPY
+	//==================================================================================================================================================
 	"SpyCustom"
 	{
 		"ControlName"								"CExButton"
@@ -250,18 +276,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Spy"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"loadout spy"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"SniperCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
+	//==================================================================================================================================================
+	// BACKPACK
+	//==================================================================================================================================================
 	"BackpackCustom"
 	{
 		"ControlName"								"CExButton"
@@ -276,18 +305,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Backpack"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"backpack"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"SpyCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
+	//==================================================================================================================================================
+	// CRAFTING
+	//==================================================================================================================================================
 	"CraftingCustom"
 	{
 		"ControlName"								"CExButton"
@@ -302,71 +334,21 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"Crafting"
 		"textAlignment"								"center"
-		"AllCaps"				 					"1"
+		"AllCaps"									"1"
 		"font"										"MenuMainTitle"
 		"Command"									"crafting"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
+		"defaultFgColor_override"					"White"
+		"armedFgColor_override"						"Main"
 
 		"pin_to_sibling"							"BackpackCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
-	"ArmoryCustom"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"ArmoryCustom"
-		"xpos"										"0"
-		"ypos"										"3"
-		"zpos"										"1"
-		"wide"										"200"
-		"tall"										"18"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labeltext"									"Catalog"
-		"textAlignment"								"center"
-		"AllCaps"				 					"1"
-		"font"										"MenuMainTitle"
-		"Command"									"armory"
-		"sound_depressed"							"UI/buttonclick.wav"
-		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
-
-		"pin_to_sibling"							"CraftingCustom"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-	}
-	"PaintkitsCustom"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"PaintkitsCustom"
-		"xpos"										"0"
-		"ypos"										"3"
-		"zpos"										"1"
-		"wide"										"200"
-		"tall"										"18"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labeltext"									"War Paints"
-		"textAlignment"								"center"
-		"AllCaps"				 					"1"
-		"font"										"MenuMainTitle"
-		"Command"									"paintkit_preview"
-		"sound_depressed"							"UI/buttonclick.wav"
-		"paintbackground"							"0"
-		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"Main"
-
-		"pin_to_sibling"							"ArmoryCustom"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
-	}
-
+	//==================================================================================================================================================
+	// SUB LOADOUT PANELS
+	//==================================================================================================================================================
 	"class_loadout_panel"
 	{
 		"ControlName"								"CClassLoadoutPanel"
@@ -389,7 +371,6 @@
 		"zpos"										"500"
 		"visible"									"0"
 	}
-
 	"armory_panel"
 	{
 		"ControlName"								"CArmoryPanel"
@@ -401,7 +382,6 @@
 		"zpos"										"500"
 		"visible"									"0"
 	}
-
 	"InspectionPanel"
 	{
 		"fieldName"									"InspectionPanel"
@@ -415,7 +395,10 @@
 		"bgcolor_override"							"DarkBrown"
 	}
 
-	"ClassLabel"
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+	"ClassLabel"									// Game crashes if deleted
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassLabel"

@@ -7,7 +7,6 @@
 		"wide"										"35"
 		"tall"										"20"
 	}
-
 	"SpellIcon"
 	{
 		"ControlName"								"ImagePanel"
@@ -24,39 +23,37 @@
 		"image"										"../signs/death_wheel_whammy"
 		"fgcolor"									"White"
 	}
-
 	"CountText"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountText"
-		"font"										"HudFontMediumSmallBold"
-		"labelText"									"%counttext%"
-		"textAlignment" 							"center"
 		"xpos"										"rs1"
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"20"
 		"tall"										"20"
 		"proportionaltoparent"						"1"
+		"font"										"HudFontMediumSmallBold"
+		"labelText"									"%counttext%"
+		"textAlignment"								"center"
 		"fgcolor"									"White"
 	}
 	"CountTextShadow"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountTextShadow"
-		"font"										"HudFontMediumSmallBold"
-		"labelText"									"%counttext%"
-		"textAlignment" 							"center"
 		"xpos"										"-1"
 		"ypos"										"-1"
 		"wide"										"20"
 		"tall"										"20"
 		"proportionaltoparent"						"1"
+		"font"										"HudFontMediumSmallBold"
+		"labelText"									"%counttext%"
+		"textAlignment"								"center"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"CountText"
 	}
-
 	"ActionText"
 	{
 		"ControlName"								"CExLabel"
@@ -70,25 +67,6 @@
 		"proportionaltoparent"						"1"
 		"font"										"DefaultVerySmall"
 		"labelText"									"%actiontext%"
-		"textAlignment"							 	"center"
-	}
-
-	"ItemEffectMeterBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
-		"xpos"										"9999"
-	}
-	"Spellbook"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"Spellbook"
-		"xpos"										"9999"
-	}
-	"SpellText"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"SpellText"
-		"xpos"										"9999"
+		"textAlignment"								"center"
 	}
 }

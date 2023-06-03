@@ -89,35 +89,4 @@
 		"font"										"DefaultVerySmall"
 		"fgcolor"									"White"
 	}
-
-	"LeftSideBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"LeftSideBG"
-		"xpos"										"9999"
-	}
-	"RightSideBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"RightSideBG"
-		"xpos"										"9999"
-	}
-	"OutlineBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"OutlineBG"
-		"xpos"										"9999"
-	}
-	"PlayingToBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"PlayingToBG"
-		"xpos"										"9999"
-	}
-	"GameImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"GameImage"
-		"xpos"										"9999"
-	}
 }

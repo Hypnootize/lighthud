@@ -23,9 +23,10 @@
 		"fieldName"									"MvMEntry"
 		"xpos"										"5"
 		"ypos"										"0"
+		"zpos"										"3"
 		"tall"										"56"
 		"wide"										"160"
-		"proportionaltoparent"						"1"
+		"proportionaltoparent"						"0"
 
 		"image_name"								"main_menu/main_menu_button_mvm"
 		"button_token"								"#MMenu_PlayList_MvM_Button"
@@ -56,34 +57,63 @@
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
-	"CompetitiveEntry"
-	{
-		"ControlName"								"CPlayListEntry"
-		"fieldName"									"CompetitiveEntry"
-		"xpos"										"9999"
-	}
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"ServerBrowserEntry"
 	{
 		"ControlName"								"CPlayListEntry"
 		"fieldName"									"ServerBrowserEntry"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	"CompetitiveEntry"
+	{
+		"ControlName"								"CPlayListEntry"
+		"fieldName"									"CompetitiveEntry"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ScrollBar"
 	{
 		"ControlName"								"ScrollBar"
 		"FieldName"									"ScrollBar"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"TrainingEntry"
 	{
 		"ControlName"								"CPlayListEntry"
 		"fieldName"									"TrainingEntry"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"EventEntry"
 	{
 		"ControlName"								"CEventPlayListEntry"
 		"fieldName"									"EventEntry"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

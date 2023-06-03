@@ -8,7 +8,7 @@
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"20"
-		"tall"										"20"
+		"tall"										"16"
 		"visible"									"1"
 
 		"Count"
@@ -43,25 +43,11 @@
 			"font"									"HudFontSmallishBold"
 			"labelText"								"%blue_alive%"
 			"textAlignment"							"center"
-			"fgcolor"								"0 0 0 130"
+			"fgcolor"								"LabelTransparent"
 
 			"pin_to_sibling"						"count"
 		}
-
-		"background"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"background"
-			"xpos"									"9999"
-		}
-		"playerimage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"playerimage"
-			"xpos"									"9999"
-		}
 	}
-
 	"RedTeam"
 	{
 		"ControlName"								"EditablePanel"
@@ -70,7 +56,7 @@
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"20"
-		"tall"										"20"
+		"tall"										"16"
 		"visible"									"1"
 
 		"Count"
@@ -105,22 +91,9 @@
 			"font"									"HudFontSmallishBold"
 			"labelText"								"%red_alive%"
 			"textAlignment"							"center"
-			"fgcolor"								"0 0 0 130"
+			"fgcolor"								"LabelTransparent"
 
 			"pin_to_sibling"						"count"
-		}
-
-		"background"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"background"
-			"xpos"									"9999"
-		}
-		"playerimage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"playerimage"
-			"xpos"									"9999"
 		}
 	}
 }

@@ -176,47 +176,4 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	
-	"TitleLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"TitleLabel"
-		"xpos"										"9999"
-	}
-	"CancelLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"CancelLabel"
-		"xpos"										"9999"
-	}
-	"MainBackground"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"MainBackground"
-		"xpos"										"9999"
-	}
-	"BuildIcon"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"BuildIcon"
-		"xpos"										"9999"
-	}
-	"BuildIconShadow"	
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"BuildIconShadow"
-		"xpos"										"9999"
-	}
-	"Divider"
-	{
-		"ControlName"		     					"ImagePanel"
-		"fieldName"									"Divider"
-		"xpos"										"9999"
-	}
-	"TitleLabelDropshadow"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"TitleLabelDropshadow"
-		"xpos"										"9999"
-	}
 }

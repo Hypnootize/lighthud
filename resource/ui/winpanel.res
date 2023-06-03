@@ -43,10 +43,9 @@
 			"font"									"HudFontSmallBold"
 			"labelText"								"vs"
 			"textAlignment"							"center"
-			"fgcolor"								"0 0 0 130"
+			"fgcolor"								"LabelTransparent"
 			"pin_to_sibling"						"VS"
 		}
-
 		"BlueTeamScore"
 		{
 			"ControlName"							"CExLabel"
@@ -60,7 +59,7 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"font"									"HudFontMediumBold"
-			"fgcolor"   							"HUDBlueTeamSolid"
+			"fgcolor"								"HUDBlueTeamSolid"
 			"labelText"								"%blueteamscore%"
 			"textAlignment"							"east"
 
@@ -81,13 +80,12 @@
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
 			"font"									"HudFontMediumBold"
-			"fgcolor"   							"0 0 0 130"
+			"fgcolor"								"LabelTransparent"
 			"labelText"								"%blueteamscore%"
 			"textAlignment"							"east"
 
 			"pin_to_sibling"						"BlueTeamScore"
 		}
-
 		"RedTeamScore"
 		{
 			"ControlName"							"CExLabel"
@@ -103,7 +101,7 @@
 			"font"									"HudFontMediumBold"
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"west"
-			"fgcolor"   							"HUDRedTeamSolid"
+			"fgcolor"								"HUDRedTeamSolid"
 
 			"pin_to_sibling"						"VS"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -124,172 +122,145 @@
 			"font"									"HudFontMediumBold"
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"west"
-			"fgcolor"   							"0 0 0 130"
+			"fgcolor"								"LabelTransparent"
 
 			"pin_to_sibling"						"RedTeamScore"
 		}
-
 		"BlueScoreBG"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"BlueScoreBG"
 			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 		"RedScoreBG"
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"RedScoreBG"
 			"xpos"									"9999"
-		}
-		"BlueTeamLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"BlueTeamLabel"
-			"xpos"									"9999"
-		}
-		"RedTeamLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"RedTeamLabel"
-			"xpos"									"9999"
+			"ypos"									"9999"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
-	"ShadedBar"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"ShadedBar"
-		"xpos"										"9999"
-	}
-	"Player1Avatar"
-	{
-		"ControlName"								"CAvatarImagePanel"
-		"fieldName"	  								"Player1Avatar"
-		"xpos"										"9999"
-	}
-	"Player1Name"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"	  								"Player1Name"
-		"xpos"										"9999"
-	}
-	"Player1Score"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"		  							"Player1Score"
-		"xpos"										"9999"
-	}
-	"Player2Avatar"
-	{
-		"ControlName"								"CAvatarImagePanel"
-		"fieldName"		  							"Player2Avatar"
-		"xpos"										"9999"
-	}
-	"Player2Name"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"	  								"Player2Name"
-		"xpos"										"9999"
-	}
-	"Player2Score"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"	  								"Player2Score"
-		"xpos"										"9999"
-	}
-	"Player3Avatar"
-	{
-		"ControlName"								"CAvatarImagePanel"
-		"fieldName"	  								"Player3Avatar"
-		"xpos"										"9999"
-	}
-	"Player3Name"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"	  								"Player3Name"
-		"xpos"										"9999"
-	}
-	"Player3Score"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"	  								"Player3Score"
-		"xpos"										"9999"
-	}
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"WinPanelBGBorder"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"WinPanelBGBorder"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
-	"WinningTeamLabel"
+	"Player1Name"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"	  								"WinningTeamLabel"
+		"fieldName"									"Player1Name"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
-	"WinningTeamLabelDropshadow"
+	"Player1Score"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"WinningTeamLabelDropshadow"
+		"fieldName"									"Player1Score"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
-	"AdvancingTeamLabel"
+	"Player2Name"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"AdvancingTeamLabel"
+		"fieldName"									"Player2Name"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
-	"AdvancingTeamLabelDropshadow"
+	"Player2Score"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"AdvancingTeamLabelDropshadow"
+		"fieldName"									"Player2Score"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
-	"WinReasonLabel"
+	"Player3Name"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"WinReasonLabel"
+		"fieldName"									"Player3Name"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
-	"DetailsLabel"
+	"Player3Score"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"DetailsLabel"
+		"fieldName"									"Player3Score"
 		"xpos"										"9999"
-	}
-	"TopPlayersLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TopPlayersLabel"
-		"xpos"										"9999"
-	}
-	"PointsThisRoundLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PointsThisRoundLabel"
-		"xpos"										"9999"
-	}
-	"HorizontalLine"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"HorizontalLine"
-		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Player1Class"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"		  							"Player1Class"
+		"fieldName"									"Player1Class"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Player2Class"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player2Class"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"Player3Class"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"	  								"Player3Class"
+		"fieldName"									"Player3Class"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

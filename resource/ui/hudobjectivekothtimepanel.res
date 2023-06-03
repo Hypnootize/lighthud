@@ -1,5 +1,21 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {
+	"BlueTimerBG"
+	{
+		"ControlName"								"Panel"
+		"fieldName"									"BlueTimerBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"40"
+		"tall"										"14"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"paintbackground"							"1"
+		"bgcolor_override"							"HUDBlueTeamSolid"
+		"alpha"										"200"
+	}
 	"BlueTimer"
 	{
 		"ControlName"								"CTFHudTimeStatus"
@@ -12,13 +28,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
 			"xpos"									"cs-0.5"
-			"ypos"									"cs-0.5-1"
+			"ypos"									"cs-0.5"
 			"zpos"									"3"
 			"wide"									"f0"
 			"tall"									"f0"
@@ -27,9 +42,25 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"font"									"m0re16Shadow"
+			"font"									"HudFontSmallBoldShadow"
 			"fgcolor"								"White"
 		}
+	}
+	"RedTimerBG"
+	{
+		"ControlName"								"Panel"
+		"fieldName"									"RedTimerBG"
+		"xpos"										"rs1"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"40"
+		"tall"										"14"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"paintbackground"							"1"
+		"bgcolor_override"							"HUDRedTeamSolid"
+		"alpha"										"200"
 	}
 	"RedTimer"
 	{
@@ -49,7 +80,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
 			"xpos"									"cs-0.5"
-			"ypos"									"cs-0.5-1"
+			"ypos"									"cs-0.5"
 			"zpos"									"3"
 			"wide"									"f0"
 			"tall"									"f0"
@@ -58,16 +89,16 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"font"									"m0re16Shadow"
+			"font"									"HudFontSmallBoldShadow"
 			"fgcolor"								"White"
 		}
 	}
 	"ActiveTimerBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"ActiveTimerBG"
 		"xpos"										"0"
-		"ypos"										"14"
+		"ypos"										"15"
 		"zpos"										"1"
 		"wide"										"40"
 		"tall"										"2"
@@ -75,6 +106,6 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"bgcolor_override"   						"White"
+		"bgcolor_override"							"White"
 	}
 }

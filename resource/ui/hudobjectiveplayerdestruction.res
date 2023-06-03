@@ -19,15 +19,13 @@
 		"robot_x_step"								"23"
 		"robot_y_step"								"0"
 
-
-		"color_blue"								"84 111 127 255"
-		"color_red"									"171 59 59 255"
+		"color_blue"								"Blue"
+		"color_red"									"Red"
 
 		"if_hybrid"
 		{
 			"zpos"									"-1"
 		}
-
 		"robot_kv"
 		{
 			"ControlName"							"CTFHudRobotDestruction_RobotIndicator"
@@ -36,12 +34,11 @@
 			"wide"									"20"
 			"tall"									"20"
 			"visible"								"1"
-			"skip_autoresize" 						"1"
+			"skip_autoresize"						"1"
 			"PaintBackground"						"0"
 			"paintborder"							"0"
 		}
 	}
-
 	"PlayingTo"
 	{
 		"ControlName"								"CExLabel"
@@ -59,7 +56,6 @@
 		"font"										"DefaultVerySmall"
 		"fgcolor"									"White"
 	}
-
 	"CarriedContainer"
 	{
 		"ControlName"								"EditablePanel"
@@ -71,7 +67,7 @@
 		"tall"										"13"
 		"visible"									"0"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
+		"proportionaltoparent"						"0"
 		"PaintBackground"							"1"
 		"PaintBackgroundtype"						"0"
 		"bgcolor_override"							"100 255 0 100"
@@ -91,7 +87,6 @@
 			"scaleImage"							"1"
 			"proportionalToParent"					"1"
 		}
-
 		"FlagValue"
 		{
 			"ControlName"							"CExLabel"
@@ -127,35 +122,10 @@
 			"textAlignment"							"west"
 			"labelText"								"%flagvalue%"
 			"font"									"HudFontSmallestBold"
-			"fgcolor"								"0 0 0 130"
+			"fgcolor"								"LabelTransparent"
 			"proportionalToParent"					"1"
 
 			"pin_to_sibling"						"FlagValue"
-		}
-
-		"CarriedProgressBar"
-		{
-			"fieldName"								"CarriedProgressBar"
-			"ControlName"							"ImagePanel"
-			"xpos"									"9999"
-		}
-		"WhiteBG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"WhiteBG"
-			"xpos"									"9999"
-		}
-		"GreenBG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"GreenBG"
-			"xpos"									"9999"
-		}
-		"TeamLeaderImage"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"TeamLeaderImage"
-			"xpos"									"9999"
 		}
 	}
 
@@ -168,7 +138,6 @@
 		"zpos"										"0"
 		"wide"										"400"
 		"tall"										"120"
-		"scaleimage"								"0"
 		"visible"									"1"
 		"enabled"									"1"
 
@@ -200,7 +169,6 @@
 				"scaleImage"						"1"
 				"proportionalToParent"				"1"
 			}
-
 			"EscrowBlue"
 			{
 				"ControlName"						"CExLabel"
@@ -236,12 +204,11 @@
 				"textAlignment"						"east"
 				"labelText"							"%blue_escrow%"
 				"font"								"HudFontSmallishBold"
-				"fgcolor"							"0 0 0 130"
+				"fgcolor"							"LabelTransparent"
 				"proportionalToParent"				"1"
 
 				"pin_to_sibling"					"EscrowBlue"
 			}
-
 			"FlagImageRed"
 			{
 				"ControlName"						"ImagePanel"
@@ -257,7 +224,6 @@
 				"scaleImage"						"1"
 				"proportionalToParent"				"1"
 			}
-
 			"EscrowRed"
 			{
 				"ControlName"						"CExLabel"
@@ -293,7 +259,7 @@
 				"textAlignment"						"west"
 				"labelText"							"%red_escrow%"
 				"font"								"HudFontSmallishBold"
-				"fgcolor"							"0 0 0 130"
+				"fgcolor"							"LabelTransparent"
 				"proportionalToParent"				"1"
 
 				"pin_to_sibling"					"EscrowRed"
@@ -329,7 +295,6 @@
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 				}
-
 				"VictoryLabelShadow2"
 				{
 					"ControlName"					"CExLabel"
@@ -344,12 +309,11 @@
 					"textAlignment"					"center"
 					"labelText"						"WIN:"
 					"font"							"StorePromotionsTitle"
-					"fgcolor"						"0 0 0 130"
+					"fgcolor"						"LabelTransparent"
 					"proportionalToParent"			"1"
 
 					"pin_to_sibling"				"VictoryLabel2"
 				}
-
 				"VictoryLabelTime"
 				{
 					"ControlName"					"CExLabel"
@@ -367,11 +331,10 @@
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 
-					"pin_to_sibling"               	"VictoryLabel2"
-					"pin_corner_to_sibling"        	"PIN_CENTER_TOP"
-					"pin_to_sibling_corner"        	"PIN_CENTER_BOTTOM"
+					"pin_to_sibling"				"VictoryLabel2"
+					"pin_corner_to_sibling"			"PIN_CENTER_TOP"
+					"pin_to_sibling_corner"			"PIN_CENTER_BOTTOM"
 				}
-
 				"VictoryLabelTimeShadow"
 				{
 					"ControlName"					"CExLabel"
@@ -386,23 +349,10 @@
 					"textAlignment"					"center"
 					"labelText"						"%victorytime%"
 					"font"							"HudFontSmallestBold"
-					"fgcolor"						"0 0 0 130"
+					"fgcolor"						"LabelTransparent"
 					"proportionalToParent"			"1"
 
-					"pin_to_sibling"              	"VictoryLabelTime"
-				}
-
-				"VictoryLabel"
-				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabel"
-					"xpos"							"9999"
-				}
-				"VictoryLabelShadow"
-				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabelShadow"
-					"xpos"							"9999"
+					"pin_to_sibling"				"VictoryLabelTime"
 				}
 			}
 
@@ -436,7 +386,6 @@
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 				}
-
 				"VictoryLabelShadow2"
 				{
 					"ControlName"					"CExLabel"
@@ -451,12 +400,11 @@
 					"textAlignment"					"center"
 					"labelText"						"WIN:"
 					"font"							"StorePromotionsTitle"
-					"fgcolor"						"0 0 0 130"
+					"fgcolor"						"LabelTransparent"
 					"proportionalToParent"			"1"
 
 					"pin_to_sibling"				"VictoryLabel2"
 				}
-
 				"VictoryLabelTime"
 				{
 					"ControlName"					"CExLabel"
@@ -474,11 +422,10 @@
 					"fgcolor"						"White"
 					"proportionalToParent"			"1"
 
-					"pin_to_sibling"               	"VictoryLabel2"
-					"pin_corner_to_sibling"        	"PIN_CENTER_TOP"
-					"pin_to_sibling_corner"        	"PIN_CENTER_BOTTOM"
+					"pin_to_sibling"				"VictoryLabel2"
+					"pin_corner_to_sibling"			"PIN_CENTER_TOP"
+					"pin_to_sibling_corner"			"PIN_CENTER_BOTTOM"
 				}
-
 				"VictoryLabelTimeShadow"
 				{
 					"ControlName"					"CExLabel"
@@ -493,55 +440,11 @@
 					"textAlignment"					"center"
 					"labelText"						"%victorytime%"
 					"font"							"HudFontSmallestBold"
-					"fgcolor"						"0 0 0 130"
+					"fgcolor"						"LabelTransparent"
 					"proportionalToParent"			"1"
 
-					"pin_to_sibling"              	"VictoryLabelTime"
+					"pin_to_sibling"				"VictoryLabelTime"
 				}
-
-				"VictoryLabel"
-				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabel"
-					"xpos"							"9999"
-				}
-				"VictoryLabelShadow"
-				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabelShadow"
-					"xpos"							"9999"
-				}
-			}
-
-			"ScoreOutline"
-			{
-				"fieldName"							"ScoreOutline"
-				"ControlName"						"ImagePanel"
-				"xpos"								"9999"
-			}
-			"BlueProgressBarFill"
-			{
-				"fieldName"							"BlueProgressBarFill"
-				"ControlName"						"ImagePanel"
-				"xpos"								"9999"
-			}
-			"BlueProgressBarEscrow"
-			{
-				"fieldName"							"BlueProgressBarEscrow"
-				"ControlName"						"ImagePanel"
-				"xpos"								"9999"
-			}
-			"RedProgressBarFill"
-			{
-				"fieldName"							"RedProgressBarFill"
-				"ControlName"						"ImagePanel"
-				"xpos"								"9999"
-			}
-			"RedProgressBarEscrow"
-			{
-				"fieldName"							"RedProgressBarEscrow"
-				"ControlName"						"ImagePanel"
-				"xpos"								"9999"
 			}
 		}
 
@@ -589,7 +492,7 @@
 				"textAlignment"						"east"
 				"labelText"							"%score%"
 				"font"								"HudFontMediumBold"
-				"fgcolor"							"0 0 0 130"
+				"fgcolor"							"LabelTransparent"
 				"proportionalToParent"				"1"
 
 				"pin_to_sibling"					"Score"
@@ -641,214 +544,10 @@
 				"textAlignment"						"west"
 				"labelText"							"%score%"
 				"font"								"HudFontMediumBold"
-				"fgcolor"							"0 0 0 130"
+				"fgcolor"							"LabelTransparent"
 				"proportionalToParent"				"1"
 
 				"pin_to_sibling"					"Score"
-			}
-		}
-
-		"BlueStolenContainer"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BlueStolenContainer"
-			"xpos"									"c-110"
-			"ypos"									"r55"
-			"zpos"									"1"
-			"wide"									"30"
-			"tall"									"40"
-			"visible"								"1"
-			"enabled"								"1"
-			"bgcolor_override"						"Blank"
-			"proportionalToParent"					"1"
-
-			"IntelImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"IntelImage"
-				"xpos"								"5"
-				"ypos"								"19"
-				"zpos"								"10"
-				"wide"								"21"
-				"tall"								"21"
-				"visible"							"0"
-				"enabled"							"1"
-				"image"								"../HUD/obj_thief_red"
-				"scaleImage"						"1"
-				"proportionalToParent"				"1"
-			}
-
-			"DroppedIntelContainer"
-			{
-				"ControlName"						"EditablePanel"
-				"fieldName"							"DroppedIntelContainer"
-				"xpos"								"0"
-				"ypos"								"20"
-				"zpos"								"1"
-				"wide"								"f0"
-				"tall"								"f0"
-				"visible"							"1"
-				"enabled"							"1"
-				"bgcolor_override"					"Blank"
-
-				"proportionalToParent"				"1"
-
-				"DroppedIntelImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"DroppedIntelImage"
-					"xpos"							"0"
-					"ypos"							"0"
-					"zpos"							"0"
-					"wide"							"f0"
-					"tall"							"20"
-					"visible"						"1"
-					"enabled"						"1"
-					"image"							"../HUD/obj_rd_thief_dropped_blue"
-					"scaleImage"					"1"
-					"proportionalToParent"			"1"
-				}
-			}
-
-			"IntelValue"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"IntelValue"
-				"xpos"								"0"
-				"ypos"								"0"
-				"zpos"								"12"
-				"wide"								"f0"
-				"tall"								"20"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"center"
-				"labelText"							"%intelvalue%"
-				"font"								"HudFontSmall"
-				"fgcolor"							"White"
-				"bgcolor_override"					"Blank"
-				"proportionalToParent"				"1"
-			}
-
-			"IntelValueShadow"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"IntelValueShadow"
-				"xpos"								"-1"
-				"ypos"								"-1"
-				"zpos"								"11"
-				"wide"								"f0"
-				"tall"								"20"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"center"
-				"labelText"							"%intelvalue%"
-				"font"								"HudFontSmall"
-				"fgcolor"							"0 0 0 130"
-				"proportionalToParent"				"1"
-
-				"pin_to_sibling"					"IntelValue"
-			}
-		}
-
-		"RedStolenContainer"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"RedStolenContainer"
-			"xpos"									"c80"
-			"ypos"									"r55"
-			"zpos"									"1"
-			"wide"									"30"
-			"tall"									"40"
-			"visible"								"1"
-			"enabled"								"1"
-			"bgcolor_override"						"Blank"
-			"proportionalToParent"					"1"
-
-			"IntelImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"IntelImage"
-				"xpos"								"5"
-				"ypos"								"19"
-				"zpos"								"10"
-				"wide"								"21"
-				"tall"								"21"
-				"visible"							"0"
-				"enabled"							"1"
-				"image"								"../HUD/obj_thief_blue"
-				"scaleImage"						"1"
-				"proportionalToParent"				"1"
-			}
-
-			"DroppedIntelContainer"
-			{
-				"ControlName"						"EditablePanel"
-				"fieldName"							"DroppedIntelContainer"
-				"xpos"								"0"
-				"ypos"								"20"
-				"zpos"								"1"
-				"wide"								"f0"
-				"tall"								"f0"
-				"visible"							"1"
-				"enabled"							"1"
-				"bgcolor_override"					"Blank"
-
-				"proportionalToParent"				"1"
-
-				"DroppedIntelImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"DroppedIntelImage"
-					"xpos"							"0"
-					"ypos"							"0"
-					"zpos"							"0"
-					"wide"							"f0"
-					"tall"							"20"
-					"visible"						"1"
-					"enabled"						"1"
-					"image"							"../HUD/obj_rd_thief_dropped_red"
-					"scaleImage"					"1"
-					"proportionalToParent"			"1"
-				}
-			}
-
-			"IntelValue"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"IntelValue"
-				"xpos"								"0"
-				"ypos"								"0"
-				"zpos"								"12"
-				"wide"								"f0"
-				"tall"								"20"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"center"
-				"labelText"							"%intelvalue%"
-				"font"								"HudFontSmall"
-				"fgcolor"							"White"
-				"bgcolor_override"					"Blank"
-				"proportionalToParent"				"1"
-			}
-
-			"IntelValueShadow"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"IntelValueShadow"
-				"xpos"								"-1"
-				"ypos"								"-1"
-				"zpos"								"11"
-				"wide"								"f0"
-				"tall"								"20"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"center"
-				"labelText"							"%intelvalue%"
-				"font"								"HudFontSmall"
-				"fgcolor"							"0 0 0 130"
-				"proportionalToParent"				"1"
-
-				"pin_to_sibling"					"IntelValue"
 			}
 		}
 	}
@@ -858,28 +557,27 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"CountdownContainer"
 		"xpos"										"cs-0.5"
-		"ypos"										"rs1"
+		"ypos"										"rs1-26"
 		"zpos"										"1"
-		"wide"										"300"
-		"tall"										"110"
+		"wide"										"60"
+		"tall"										"20"
 		"visible"									"0"
 		"enabled"									"1"
-		"proportionaltoparent"						"1"
 
 		"CountdownLabelTime"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"CountdownLabelTime"
-			"xpos"									"c-18"
-			"ypos"									"52"
+			"xpos"									"cs-0.5"
+			"ypos"									"cs-0.5"
 			"zpos"									"8"
-			"wide"									"40"
-			"tall"									"40"
+			"wide"									"f0"
+			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"%countdowntime%"
-			"font"									"HudFontSmallBold"
+			"font"									"HudFontSmallishBold"
 			"fgcolor"								"White"
 			"proportionalToParent"					"1"
 		}
@@ -890,38 +588,17 @@
 			"xpos"									"-1"
 			"ypos"									"-1"
 			"zpos"									"7"
-			"wide"									"40"
-			"tall"									"40"
+			"wide"									"f0"
+			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"%countdowntime%"
-			"font"									"HudFontSmallBold"
-			"fgcolor"								"0 0 0 130"
+			"font"									"HudFontSmallishBold"
+			"fgcolor"								"LabelTransparent"
 			"proportionalToParent"					"1"
 
 			"pin_to_sibling"						"CountdownLabelTime"
 		}
-
-		"Background"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"Background"
-			"xpos"									"9999"
-		}
-		"CountdownImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"CountdownImage"
-			"xpos"									"9999"
-		}
-	}
-
-
-	"PlayingToBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"PlayingToBG"
-		"xpos"										"9999"
 	}
 }

@@ -1,3 +1,5 @@
+#base "HudInspectPanel.res"
+
 "Resource/UI/Spectator.res"
 {
 	"Spectator"
@@ -25,59 +27,7 @@
 		"labelText"									"#game_respawntime_in_secs"
 		"textAlignment"								"center"
 		"font"										"HudFontSmallestShadow"
-		"fgcolor"  									"White"
-	}
-	"itempanel"
-	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"itempanel"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"10"
-		"wide"										"190"
-		"tall"										"100"
-		"visible"									"0"
-		"paintborder"								"0"
-		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 50"
-
-		"model_ypos"								"10"
-		"model_center_x"							"1"
-		"model_wide"								"90"
-		"model_tall"								"60"
-
-		"text_xpos"									"10"
-		"text_ypos"									"10"
-		"text_wide"									"170"
-		"text_center"								"1"
-
-		"max_text_height"							"100"
-		"padding_height"							"10"
-		"resize_to_text"							"1"
-		"text_forcesize"							"2"
-
-		"itemmodelpanel"
-		{
-			"fieldName"								"itemmodelpanel"
-			"use_item_rendertarget" 				"0"
-			"useparentbg"							"1"
-		}
-
-		"ItemLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"ItemLabel"
-			"font"									"Default"
-			"xpos"									"10"
-			"ypos"									"3"
-			"zpos"									"1"
-			"wide"									"270"
-			"tall"									"9"
-			"visible"								"1"
-			"enabled"								"1"
-			"labelText"								"#FreezePanel_Item"
-			"textAlignment"							"Left"
-		}
+		"fgcolor"									"White"
 	}
 	"spectator_extras"
 	{
@@ -90,9 +40,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
-
-
 	"topbar"
 	{
 		"ControlName"								"Panel"
@@ -125,59 +72,96 @@
 		"visible"									"0"
 		"enabled"									"1"
 	}
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
 	"MapLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"MapLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"ClassOrTeamLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ClassOrTeamLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SwitchCamModeKeyLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchCamModeKeyLabel"
 		"xpos"										"9999"
-
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"SwitchCamModeLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SwitchCamModeLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CycleTargetFwdKeyLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CycleTargetFwdLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CycleTargetFwdLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CycleTargetRevKeyLabel"
 		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CycleTargetRevLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CycleTargetRevLabel"
 		"xpos"										"9999"
-	}
-	"TipLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TipLabel"
-		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 }

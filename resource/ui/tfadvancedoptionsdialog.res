@@ -20,10 +20,9 @@
 		"slider_w"									"500"
 		"slider_h"									"25"
 	}
-
 	"TitleBG"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"TitleBG"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -53,9 +52,8 @@
 		"labelText"									"#TF_AdvancedOptions"
 		"textAlignment"								"west"
 		"AllCaps"									"1"
-		"fgcolor"		 							"White"
+		"fgcolor"									"White"
 	}
-
 	"PanelListPanel"
 	{
 		"ControlName"								"CPanelListPanel"
@@ -70,7 +68,6 @@
 		"bgcolor_override"							"Blank"
 		"proportionaltoparent"						"1"
 	}
-
 	"TooltipPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -89,9 +86,6 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"HudFontSmallest"
-			"labelText"								"%tiptext%"
-			"textAlignment"							"center"
 			"xpos"									"20"
 			"ypos"									"10"
 			"zpos"									"2"
@@ -101,10 +95,11 @@
 			"enabled"								"1"
 			"fgcolor"								"White"
 			"wrap"									"1"
-			//"centerwrap"							"1"
+			"font"									"HudFontSmallest"
+			"labelText"								"%tiptext%"
+			"textAlignment"							"center"
 		}
 	}
-
 	"CancelButton"
 	{
 		"ControlName"								"CExImageButton"
@@ -117,14 +112,12 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"labelText"									""
-		"font"										""
+		"labelText"									"X"
+		"font"										"HudFontMediumSmallBold"
 		"textAlignment"								"center"
-		"default"									"1"
 		"AllCaps"									"1"
 		"Command"									"Close"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"1"
 
@@ -135,30 +128,10 @@
 		"armedBgColor_override"						"116 43 43 255"
 		"defaultBgColor_override"					"225 75 75 255"
 
-		"image_drawcolor"							"230 232 235 255"
-		"image_armedcolor"							"230 232 235 255"
-
-		"SubImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"cs-0.5"
-			"ypos"									"cs-0.5"
-			"zpos"									"1"
-			"wide"									"f5"
-			"tall"									"f5"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionaltoparent"					"1"
-			"image"									"glyph_close_x"
-			"scaleImage"							"1"
-		}
-
 		"pin_to_sibling"							"TitleBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_RIGHT"
 	}
-
 	"OkButton"
 	{
 		"ControlName"								"CExButton"
@@ -174,11 +147,9 @@
 		"labelText"									"Apply changes!"
 		"font"										"HudFontSmall"
 		"textAlignment"								"center"
-		"default"									"1"
 		"AllCaps"									"1"
 		"Command"									"Ok"
 		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"1"
 
@@ -188,6 +159,6 @@
 
 		"defaultBgColor_override"					"GreenSolid"
 		"armedBgColor_override"						"StoreGreen"
-		"depressedBgColor_override" 				"StoreGreen"
+		"depressedBgColor_override"					"StoreGreen"
 	}
 }

@@ -2,14 +2,14 @@
 {
 	"CDamageAccountPanel"
 	{
-		"PositiveColor"	  							"White"
+		"PositiveColor"								"White"
 		"fieldName"									"CDamageAccountPanel"
 		"text_x"									"0"
 		"text_y"									"0"
 		"delta_item_end_y"							"0"
-		"delta_lifetime"	  						"1"
-		"delta_item_font"	  						"DamageFont"
-		"delta_item_font_big"						"DamageFont"
+		"delta_lifetime"							"1"
+		"delta_item_font"							"m0re22Shadow"
+		"delta_item_font_big"						"m0re22Shadow"
 		"alpha"										"255"
 	}
 	"DamageAccountValue"
@@ -41,7 +41,7 @@
 		"enabled"									"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"fgcolor"									"0 0 0 130"
+		"fgcolor"									"LabelTransparent"
 		"font"										"HudFontSmall"
 		"pin_to_sibling"							"DamageAccountValue"
 	}

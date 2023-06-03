@@ -11,7 +11,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-
 	"BlueEscortPanel"
 	{
 		"ControlName"								"CTFHudEscort"
@@ -31,7 +30,6 @@
 			"ypos"									"rs1-16"
 		}
 	}
-
 	"RedEscortPanel"
 	{
 		"ControlName"								"CTFHudEscort"

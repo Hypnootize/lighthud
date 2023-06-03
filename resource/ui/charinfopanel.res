@@ -27,7 +27,6 @@
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"0"
 	}
-
 	"Sheet"
 	{
 		"ControlName"								"EditablePanel"
@@ -36,7 +35,7 @@
 		"tabxdelta"									"0"
 		"tabwidth"									"0"
 		"tabheight"									"0"
-		"transition_time" 							"0"
+		"transition_time"							"0"
 		"yoffset"									"0"
 
 		"tabskv"
@@ -48,10 +47,9 @@
 			"defaultBgColor_override"				"Blank"
 			"paintbackground"						"0"
 			"activeborder_override"					"NoBorder"
-			"normalborder_override" 				"NoBorder"
+			"normalborder_override"					"NoBorder"
 		}
 	}
-
 	"BackButton"
 	{
 		"ControlName"								"CExButton"
@@ -67,7 +65,6 @@
 		"labelText"									"BACK"
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
-		"default"									"0"
 		"Command"									"back"
 		"sound_depressed"							"UI/buttonclick.wav"
 
@@ -87,16 +84,26 @@
 		"Command"									"back"
 		"visible"									"1"
 	}
+	"CloseShortKey"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"CloseShortKey"
+		"xpos"										"9999"
+		"labelText"									"&E"
+		"Command"									"close"
+		"visible"									"1"
+	}
 	"NotificationsPresentPanel"
 	{
 		"ControlName"								"CNotificationsPresentPanel"
 		"fieldName"									"NotificationsPresentPanel"
-		"xpos"										"r200"
+		"xpos"										"rs1-5"
 		"ypos"										"10"
 		"zpos"										"10000"
 		"wide"										"190"
 		"tall"										"50"
 		"visible"									"0"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 	}
 }

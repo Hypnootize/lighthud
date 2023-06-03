@@ -27,7 +27,7 @@
 		"labelText"									"#TF_Charge"
 		"textAlignment"								"center"
 		"font"										"FontStorePriceSmall"
-		"disabledfgcolor2_override"					"150 152 157 255"
+		"disabledfgcolor2_override"					"Gray"
 	}
 	"PipesPresentPanel"
 	{
@@ -60,37 +60,18 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NumPipesLabelDropshadow"
-			"xpos"									"-1"
-			"ypos"									"-1"
+			"xpos"									"0"
+			"ypos"									"0"
 			"zpos"									"1"
-			"wide"									"30"
-			"tall"									"20"
+			"wide"									"31"
+			"tall"									"21"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
 			"font"									"m0re20"
-			"fgcolor"								"Black"
+			"fgcolor"								"LabelTransparent"
 			"pin_to_sibling"						"NumPipesLabel"
 		}
-		"PipeIcon"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"PipeIcon"
-			"xpos"									"9999"
-		}
-	}
-
-	"background"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"background"
-		"xpos"										"9999"
-	}
-	"NoPipesPresentPanel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"NoPipesPresentPanel"
-		"xpos"										"9999"
 	}
 }
