@@ -499,10 +499,10 @@
 		"fieldName"									"HudHistoryResource"
 		"visible"									"0"
 		"enabled"									"0"
-		"xpos"										"9999"
-		"wide"										"9999"
-		"tall"										"0"
-		"history_gap"								"0"
+		"xpos"										"r640"
+		"wide"										"640"
+		"tall"										"330"
+		"history_gap"								"55"
 	}
 	"HudGeiger"
 	{

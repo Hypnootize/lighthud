@@ -1,7 +1,12 @@
 //=====================================================================================================================
 event HudHealthBonusPulse
 {
+	Animate			PlayerStatusHealthBonusImage	Alpha		"255"					Linear		0.0		0.2
+	Animate			PlayerStatusHealthBonusImage	Alpha		"0"						Linear		0.2		0.4
+
 	Animate			PlayerStatusHealthValue			FgColor		"Main"					Linear		0.0		0.0
+	Animate			HPShadow						FgColor		"Main"					Linear		0.0		0.0
+	Animate			HPShadowExtra					Alpha		"255"					Linear		0.0		0.0
 
 	RunEvent		HudHealthBonusPulseLoop			0.4
 }
@@ -11,11 +16,18 @@ event HudHealthBonusPulseStop
 	StopEvent		HudHealthBonusPulseLoop			0.0
 
 	Animate			PlayerStatusHealthValue			FgColor		"White"					Linear		0.0		0.0
+	Animate			HPShadow						FgColor		"Black"					Linear		0.0		0.0
+	Animate			HPShadowExtra					Alpha		"0"						Linear		0.0		0.0
 }
 //=====================================================================================================================
 event HudHealthDyingPulse
 {
+	Animate			PlayerStatusHealthBonusImage	Alpha		"255"					Linear		0.0		0.075
+	Animate			PlayerStatusHealthBonusImage	Alpha		"0"						Linear		0.125	0.075
+
 	Animate			PlayerStatusHealthValue			FgColor		"Low"					Linear		0.0		0.0
+	Animate			HPShadow						FgColor		"Low"					Linear		0.0		0.0
+	Animate			HPShadowExtra					Alpha		"255"					Linear		0.0		0.0
 
 	RunEvent		HudHealthDyingPulseLoop			0.25
 }
@@ -25,13 +37,15 @@ event HudHealthDyingPulseStop
 	StopEvent		HudHealthDyingPulseLoop			0.0
 
 	Animate			PlayerStatusHealthValue			FgColor		"White"					Linear		0.0		0.0
+	Animate			HPShadow						FgColor		"Black"					Linear		0.0		0.0
+	Animate			HPShadowExtra					Alpha		"0"						Linear		0.0		0.0
 }
 //=====================================================================================================================
 event HudLowAmmoPulse
 {
-	Animate			AmmoInClip						FgColor		"Low"					Linear		0.0		0.0
-	Animate			AmmoInReserve					FgColor		"Low"					Linear		0.0		0.0
-	Animate			AmmoNoClip						FgColor		"Low"					Linear		0.0		0.0
+	Animate			AmmoInClipShadow				FgColor		"Low"					Linear		0.0		0.0
+	Animate			AmmoInReserveShadow				FgColor		"Low"					Linear		0.0		0.0
+	Animate			AmmoNoClipShadow				FgColor		"Low"					Linear		0.0		0.0
 
 	RunEvent		HudLowAmmoPulseLoop				0.25
 }
@@ -40,9 +54,9 @@ event HudLowAmmoPulseStop
 	StopEvent		HudLowAmmoPulse					0.0
 	StopEvent		HudLowAmmoPulseLoop				0.0
 
-	Animate			AmmoInClip						FgColor		"White"					Linear		0.0		0.0
-	Animate			AmmoInReserve					FgColor		"White"					Linear		0.0		0.0
-	Animate			AmmoNoClip						FgColor		"White"					Linear		0.0		0.0
+	Animate			AmmoInClipShadow				FgColor		"Black"					Linear		0.0		0.0
+	Animate			AmmoInReserveShadow				FgColor		"Black"					Linear		0.0		0.0
+	Animate			AmmoNoClipShadow				FgColor		"Black"					Linear		0.0		0.0
 }
 //=====================================================================================================================
 event HudMedicCharged
@@ -98,7 +112,7 @@ event ActiveTimerDim
 //=====================================================================================================================
 event SurveyShowSequence
 {
-	RunEventChild	Survey	SurveyDelete	0.1
+	RunEventChild	Survey	SurveyDelete 0.1
 }
 //=====================================================================================================================
 event HintMessageShow
