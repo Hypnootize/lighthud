@@ -20,7 +20,7 @@
 		"itempanel_xpos"							"0"
 		"itempanel_ydelta"							"0"
 
-		"itemskv"
+		"ItemsKV"
 		{
 			"wide"									"210"
 			"tall"									"30"
@@ -77,10 +77,10 @@
 		"fgcolor"									"Black"
 		"pin_to_sibling"							"ItemSlotLabelBG"
 	}
-	"itemcontainerscroller"
+	"ItemContainerScroller"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"itemcontainerscroller"
+		"fieldName"									"ItemContainerScroller"
 		"xpos"										"18"
 		"ypos"										"12"
 		"wide"										"f18"
@@ -108,10 +108,10 @@
 			}
 		}
 	}
-	"itemcontainer"
+	"ItemContainer"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"itemcontainer"
+		"fieldName"									"ItemContainer"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -153,10 +153,10 @@
 		"roundedcorners"							"5"
 		"bgcolor_override"							"TransparentBlack"
 	}
-	"loadout_preset_panel"
+	"Loadout_Preset_Panel"
 	{
 		"ControlName"								"CLoadoutPresetPanel"
-		"FieldName"									"loadout_preset_panel"
+		"FieldName"									"Loadout_Preset_Panel"
 		"xpos"										"-4"
 		"ypos"										"cs-0.5"
 		"zpos"										"20"
@@ -168,10 +168,8 @@
 		"proportionaltoparent"						"1"
 	}
 
-	"NoItemsLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"NoItemsLabel"
-		"xpos"										"9999"
-	}
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+	"NoItemsLabel"{"ControlName" "CExLabel" "fieldName" "NoItemsLabel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

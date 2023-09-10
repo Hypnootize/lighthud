@@ -13,10 +13,10 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-	"criteria"
+	"Criteria"
 	{
 		"ControlName"								"CCasualCriteriaPanel"
-		"fieldName"									"criteria"
+		"fieldName"									"Criteria"
 		"xpos"										"cs-0.5"
 		"ypos"										"10"
 		"zpos"										"100"

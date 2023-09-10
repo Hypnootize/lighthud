@@ -26,7 +26,7 @@
 		{
 			"zpos"									"-1"
 		}
-		"robot_kv"
+		"Robot_KV"
 		{
 			"ControlName"							"CTFHudRobotDestruction_RobotIndicator"
 			"xpos"									"0"
@@ -128,7 +128,6 @@
 			"pin_to_sibling"						"FlagValue"
 		}
 	}
-
 	"ScoreContainer"								// ProportionalToParent breaks this
 	{
 		"fieldName"									"ScoreContainer"
@@ -264,7 +263,6 @@
 
 				"pin_to_sibling"					"EscrowRed"
 			}
-
 			"BlueVictoryContainer"
 			{
 				"fieldName"							"BlueVictoryContainer"
@@ -355,7 +353,6 @@
 					"pin_to_sibling"				"VictoryLabelTime"
 				}
 			}
-
 			"RedVictoryContainer"
 			{
 				"fieldName"							"RedVictoryContainer"
@@ -447,7 +444,6 @@
 				}
 			}
 		}
-
 		"BlueScoreValueContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -498,7 +494,6 @@
 				"pin_to_sibling"					"Score"
 			}
 		}
-
 		"RedScoreValueContainer"
 		{
 			"ControlName"							"EditablePanel"
@@ -551,7 +546,6 @@
 			}
 		}
 	}
-
 	"CountdownContainer"
 	{
 		"ControlName"								"EditablePanel"

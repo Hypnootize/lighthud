@@ -20,7 +20,7 @@
 		"item_backpack_xdelta"						"3"
 		"item_backpack_ydelta"						"3"
 
-		"modelpanels_selection_kv"
+		"ModelPanels_Selection_KV"
 		{
 			"wide"									"92"
 			"tall"									"72"
@@ -37,7 +37,7 @@
 			"deferred_description"					"1"
 			"deferred_icon"							"1"
 		}
-		"modelpanels_kv"
+		"ModelPanels_KV"
 		{
 			"ControlName"							"CItemModelPanel"
 			"xpos"									"c-70"
@@ -63,7 +63,7 @@
 
 			"deferred_description"					"1"
 
-			"itemmodelpanel"
+			"ItemModelPanel"
 			{
 				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
@@ -71,7 +71,7 @@
 
 			"use_item_sounds"						"1"
 		}
-		"duplicatelabels_kv"
+		"DuplicateLabels_KV"
 		{
 			"wide"									"20"
 			"tall"									"15"
@@ -337,7 +337,7 @@
 		"resize_to_text"							"1"
 		"padding_height"							"15"
 
-		"attriblabel"
+		"AttribLabel"
 		{
 			"font"									"ItemFontAttribLarge"
 			"xpos"									"0"

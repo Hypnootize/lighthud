@@ -15,7 +15,7 @@
 		"button_y"									"185"
 		"button_y_delta"							"2"
 
-		"button_kv"
+		"Button_KV"
 		{
 			"xpos"									"0"
 			"ypos"									"0"
@@ -181,59 +181,13 @@
 	//==================================================================================================================================================
 	// PRELOADING
 	//==================================================================================================================================================
-	"MenuThumbMissingFix"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"MenuThumbMissingFix"
-		"xpos"										"9999"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"maps/menu_thumb_missing"
-	}
-	"CPHighlight"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"CPHighlight"
-		"xpos"										"9999"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"../sprites/obj_icons/capture_highlight"
-	}
+	"MenuThumbMissingFix"{"ControlName" "ImagePanel" "fieldName" "MenuThumbMissingFix" "xpos" "9999" "visible" "1" "enabled" "1" "image" "maps/menu_thumb_missing"}
+	"CPHighlight"{"ControlName" "ImagePanel" "fieldName" "CPHighlight" "xpos" "9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/capture_highlight"}
 
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"TooltipPanel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"TooltipPanel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MOTD_Panel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"MOTD_Panel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MouseOverItemPanel"
-	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"MouseOverItemPanel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"TooltipPanel"{"ControlName" "EditablePanel" "fieldName" "TooltipPanel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"MOTD_Panel"{"ControlName" "EditablePanel" "fieldName" "MOTD_Panel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"MouseOverItemPanel"{"ControlName" "CItemModelPanel" "fieldName" "MouseOverItemPanel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

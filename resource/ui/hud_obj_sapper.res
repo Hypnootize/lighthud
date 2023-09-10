@@ -143,42 +143,11 @@
 				"proportionaltoparent"				"1"
 			}
 		}
-		"BuildingPanel"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BuildingPanel"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"Health"
-		{
-			"ControlName"							"CBuildingHealthBar"
-			"fieldName"								"Health"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-	}
 
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"Background"
-	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"Background"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"BuildingPanel"{"ControlName" "EditablePanel" "fieldName" "BuildingPanel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"Health"{"ControlName" "CBuildingHealthBar" "fieldName" "Health" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}}
+	"Background"{"ControlName" "CIconPanel" "fieldName" "Background" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

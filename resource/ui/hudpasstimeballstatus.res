@@ -322,234 +322,234 @@
 			}
 		}
 	}
-	"playericon0"
+	"PlayerIcon0"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon0"
+		"fieldName"									"PlayerIcon0"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon1"
+	"PlayerIcon1"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon1"
+		"fieldName"									"PlayerIcon1"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon2"
+	"PlayerIcon2"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon2"
+		"fieldName"									"PlayerIcon2"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon3"
+	"PlayerIcon3"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon3"
+		"fieldName"									"PlayerIcon3"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon4"
+	"PlayerIcon4"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon4"
+		"fieldName"									"PlayerIcon4"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon5"
+	"PlayerIcon5"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon5"
+		"fieldName"									"PlayerIcon5"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon6"
+	"PlayerIcon6"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon6"
+		"fieldName"									"PlayerIcon6"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon7"
+	"PlayerIcon7"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon7"
+		"fieldName"									"PlayerIcon7"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon8"
+	"PlayerIcon8"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon8"
+		"fieldName"									"PlayerIcon8"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon9"
+	"PlayerIcon9"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon9"
+		"fieldName"									"PlayerIcon9"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon10"
+	"PlayerIcon10"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon10"
+		"fieldName"									"PlayerIcon10"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon11"
+	"PlayerIcon11"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon11"
+		"fieldName"									"PlayerIcon11"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon12"
+	"PlayerIcon12"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon12"
+		"fieldName"									"PlayerIcon12"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon13"
+	"PlayerIcon13"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon13"
+		"fieldName"									"PlayerIcon13"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon14"
+	"PlayerIcon14"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon14"
+		"fieldName"									"PlayerIcon14"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon15"
+	"PlayerIcon15"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon15"
+		"fieldName"									"PlayerIcon15"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon16"
+	"PlayerIcon16"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon16"
+		"fieldName"									"PlayerIcon16"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon17"
+	"PlayerIcon17"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon17"
+		"fieldName"									"PlayerIcon17"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon18"
+	"PlayerIcon18"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon18"
+		"fieldName"									"PlayerIcon18"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon19"
+	"PlayerIcon19"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon19"
+		"fieldName"									"PlayerIcon19"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon20"
+	"PlayerIcon20"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon20"
+		"fieldName"									"PlayerIcon20"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon21"
+	"PlayerIcon21"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon21"
+		"fieldName"									"PlayerIcon21"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon22"
+	"PlayerIcon22"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon22"
+		"fieldName"									"PlayerIcon22"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon23"
+	"PlayerIcon23"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon23"
+		"fieldName"									"PlayerIcon23"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon24"
+	"PlayerIcon24"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon24"
+		"fieldName"									"PlayerIcon24"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon25"
+	"PlayerIcon25"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon25"
+		"fieldName"									"PlayerIcon25"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon26"
+	"PlayerIcon26"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon26"
+		"fieldName"									"PlayerIcon26"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon27"
+	"PlayerIcon27"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon27"
+		"fieldName"									"PlayerIcon27"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon28"
+	"PlayerIcon28"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon28"
+		"fieldName"									"PlayerIcon28"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon29"
+	"PlayerIcon29"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon29"
+		"fieldName"									"PlayerIcon29"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon30"
+	"PlayerIcon30"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon30"
+		"fieldName"									"PlayerIcon30"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon31"
+	"PlayerIcon31"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon31"
+		"fieldName"									"PlayerIcon31"
 		"wide"										"12"
 		"tall"										"12"
 	}
-	"playericon32"
+	"PlayerIcon32"
 	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"playericon32"
+		"fieldName"									"PlayerIcon32"
 		"wide"										"12"
 		"tall"										"12"
 	}

@@ -888,10 +888,10 @@
 	//==================================================================================================================================================
 	// SUB LOADOUT PANELS
 	//==================================================================================================================================================
-	"class_loadout_panel"
+	"Class_Loadout_Panel"
 	{
 		"ControlName"								"CClassLoadoutPanel"
-		"fieldName"									"class_loadout_panel"
+		"fieldName"									"Class_Loadout_Panel"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -899,10 +899,10 @@
 		"zpos"										"500"
 		"visible"									"0"
 	}
-	"backpack_panel"
+	"Backpack_Panel"
 	{
 		"ControlName"								"CBackpackPanel"
-		"fieldName"									"backpack_panel"
+		"fieldName"									"Backpack_Panel"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -910,10 +910,10 @@
 		"zpos"										"500"
 		"visible"									"0"
 	}
-	"armory_panel"
+	"Armory_Panel"
 	{
 		"ControlName"								"CArmoryPanel"
-		"fieldName"									"armory_panel"
+		"fieldName"									"Armory_Panel"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -937,13 +937,5 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"ClassLabel"									// Game crashes if deleted
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ClassLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"ClassLabel"{"ControlName" "CExLabel" "fieldName" "ClassLabel" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"} // Game crashes if deleted
 }

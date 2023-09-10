@@ -13,9 +13,9 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-	"stats"
+	"Stats"
 	{
-		"fieldName"									"stats"
+		"fieldName"									"Stats"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"100"

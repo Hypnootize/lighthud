@@ -166,8 +166,8 @@
 		}
 		"if_mvm"
 		{
-			"xpos"									"cs-0.5-3"
-			"ypos"									"rs1-10"
+			"xpos"									"cs-0.5"
+			"ypos"									"rs1-14"
 		}
 	}
 	"RedFlag"
@@ -275,6 +275,10 @@
 		"fgcolor"									"White"
 
 		"if_hybrid"
+		{
+			"visible"								"0"
+		}
+		"if_mvm"
 		{
 			"visible"								"0"
 		}

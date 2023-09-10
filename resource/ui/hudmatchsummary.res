@@ -13,7 +13,6 @@
 		"AnimBlueTeamScoreDropshadow"				"p.46"
 		"AnimBlueTeamScoreBG"						"p.483"
 		"AnimBluePlayerListBG"						"p.47"
-
 		"AnimRedTeamScoreBGWide"					"p.483"
 		"AnimRedTeamScoreBGXPos"					"r5-p.483"
 		"AnimRedTeamScoreWide"						"p.46"
@@ -24,10 +23,8 @@
 		"AnimRedPlayerListParentXPos"				"r7-p.47"
 		"AnimRedPlayerListBGWide"					"p.47"
 		"AnimRedPlayerListBGXPos"					"r9-p.47"
-
 		"AnimBlueMedalsYPos"						"75"
 		"AnimRedMedalsYPos"							"75"
-
 		"AnimStatsLabelPanel6v6YPos"				"75"
 		"AnimBlueTeamLabel6v6YPos"					"107"
 		"AnimRedTeamLabel6v6YPos"					"107"
@@ -40,6 +37,7 @@
 		{
 			"AnimBlueMedalsYPos"					"50"
 			"AnimRedMedalsYPos"						"50"
+			"AnimStatsContainer12v12YPos"			"60"
 		}
 	}
 	"RankBorder"
@@ -73,6 +71,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"1"
+
 		"matchgroup"								"MatchGroup_Ladder_6v6"
 		"show_name"									"0"
 		"show_sources_when_hidden"					"1"
@@ -95,7 +94,9 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"1"
+
 		"matchgroup"								"MatchGroup_Casual_12v12"
+
 		"show_progress"								"0"
 		"instantly_update"							"0"
 
@@ -116,7 +117,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"PaintBackgroundType"						"1"
-		"bgcolor_override"							"Black"
+		"bgcolor_override"							"0 0 0 250"
 	}
 	"DrawingPanel"
 	{
@@ -130,6 +131,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"keyboardinputenabled"						"0"
+
 		"linecolor"									"RedSolid"
 		"team_colors"								"1"
 	}
@@ -166,6 +168,7 @@
 			"tall"									"15"
 			"visible"								"0"
 			"enabled"								"1"
+			"autoResize"							"0"
 
 			"StatsAndMedals"
 			{
@@ -181,6 +184,7 @@
 				"font"								"HudFontSmall"
 				"labelText"							"#TF_StatsAndMedals"
 				"textAlignment"						"center"
+				"fgcolor"							"White"
 			}
 			"StatsAndMedalsShadow"
 			{
@@ -193,9 +197,9 @@
 				"tall"								"15"
 				"visible"							"1"
 				"enabled"							"1"
-				"textAlignment"						"center"
 				"font"								"HudFontSmall"
 				"labelText"							"#TF_StatsAndMedals"
+				"textAlignment"						"center"
 				"fgcolor"							"Black"
 			}
 		}
@@ -255,6 +259,7 @@
 					"font"							"HudFontBig"
 					"labelText"						"%blueteamscore%"
 					"textAlignment"					"east"
+					"fgcolor"						"White"
 
 					"if_large"
 					{
@@ -273,9 +278,9 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontBig"
-					"fgcolor"						"Black"
 					"labelText"						"%blueteamscore%"
 					"textAlignment"					"east"
+					"fgcolor"						"LabelTransparent"
 
 					"if_large"
 					{
@@ -296,6 +301,7 @@
 					"font"							"HudFontMediumSmall"
 					"labelText"						"%blueteamwinner%"
 					"textAlignment"					"east"
+					"fgcolor"						"White"
 
 					"if_large"
 					{
@@ -314,9 +320,9 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontMediumSmall"
-					"fgcolor"						"Black"
 					"labelText"						"%blueteamwinner%"
 					"textAlignment"					"east"
+					"fgcolor"						"LabelTransparent"
 
 					"if_large"
 					{
@@ -334,9 +340,10 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"HudFontSmallBold"
+					"font"							"HudFontSmall"
 					"labelText"						"%blueteamname%"
 					"textAlignment"					"west"
+					"fgcolor"						"White"
 				}
 				"BlueLeaderAvatar"
 				{
@@ -351,7 +358,7 @@
 					"enabled"						"1"
 					"image"							""
 					"scaleImage"					"1"
-					"color_outline"					"524845255"
+					"color_outline"					"Black"
 
 					"if_large"
 					{
@@ -369,7 +376,7 @@
 					"tall"							"38"
 					"visible"						"1"
 					"PaintBackgroundType"			"2"
-					"bgcolor_override"				"11710794255"
+					"bgcolor_override"				"White"
 
 					"if_large"
 					{
@@ -390,9 +397,10 @@
 
 					"if_large"
 					{
-						"ypos"						"77"
+						"ypos"						"73"
 						"tall"						"340"
 					}
+
 					"BluePlayerList"
 					{
 						"ControlName"				"TFSectionedListPanel"
@@ -404,11 +412,10 @@
 						"tall"						"205"
 						"visible"					"1"
 						"enabled"					"1"
-						"tabPosition"				"0"
-						"autoresize"				"0"
 						"linespacing"				"26"
-						"linegap"					"4"
+						"linegap"					"1"
 						//"show_columns"			"1"
+
 						"medal_width"				"s.08"
 						"avatar_width"				"s.08"
 						"spacer"					"s.01"
@@ -421,7 +428,9 @@
 						"if_large"
 						{
 							"tall"					"340"
+							"linespacing"			"20"
 							"linegap"				"1"
+							"horiz_inset"			"0"
 						}
 					}
 				}
@@ -442,6 +451,7 @@
 					{
 						"ypos"						"57"
 						"tall"						"360"
+						"visible"					"0"
 					}
 				}
 			}
@@ -489,6 +499,7 @@
 					"font"							"HudFontBig"
 					"labelText"						"%redteamscore%"
 					"textAlignment"					"west"
+					"fgcolor"						"White"
 
 					"if_large"
 					{
@@ -507,9 +518,9 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontBig"
-					"fgcolor"						"Black"
 					"labelText"						"%redteamscore%"
 					"textAlignment"					"west"
+					"fgcolor"						"LabelTransparent"
 
 					"if_large"
 					{
@@ -530,6 +541,7 @@
 					"font"							"HudFontMediumSmall"
 					"labelText"						"%redteamwinner%"
 					"textAlignment"					"west"
+					"fgcolor"						"White"
 
 					"if_large"
 					{
@@ -548,9 +560,9 @@
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontMediumSmall"
-					"fgcolor"						"Black"
 					"labelText"						"%redteamwinner%"
 					"textAlignment"					"west"
+					"fgcolor"						"LabelTransparent"
 
 					"if_large"
 					{
@@ -568,9 +580,10 @@
 					"tall"							"20"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"HudFontSmallBold"
+					"font"							"HudFontSmall"
 					"labelText"						"%redteamname%"
 					"textAlignment"					"east"
+					"fgcolor"						"White"
 				}
 				"RedLeaderAvatar"
 				{
@@ -585,7 +598,7 @@
 					"enabled"						"1"
 					"image"							""
 					"scaleImage"					"1"
-					"color_outline"					"524845255"
+					"color_outline"					"Black"
 
 					"if_large"
 					{
@@ -603,7 +616,7 @@
 					"tall"							"38"
 					"visible"						"1"
 					"PaintBackgroundType"			"2"
-					"bgcolor_override"				"11710794255"
+					"bgcolor_override"				"White"
 
 					"if_large"
 					{
@@ -624,9 +637,10 @@
 
 					"if_large"
 					{
-						"ypos"						"77"
+						"ypos"						"73"
 						"tall"						"340"
 					}
+
 					"RedPlayerList"
 					{
 						"ControlName"				"TFSectionedListPanel"
@@ -638,11 +652,10 @@
 						"tall"						"205"
 						"visible"					"1"
 						"enabled"					"1"
-						"tabPosition"				"0"
-						"autoresize"				"0"
 						"linespacing"				"26"
-						"linegap"					"4"
+						"linegap"					"1"
 						//"show_columns"			"1"
+
 						"medal_width"				"s.08"
 						"avatar_width"				"s.08"
 						"spacer"					"s.01"
@@ -655,7 +668,9 @@
 						"if_large"
 						{
 							"tall"					"340"
+							"linespacing"			"20"
 							"linegap"				"1"
+							"horiz_inset"			"0"
 						}
 					}
 				}
@@ -676,6 +691,7 @@
 					{
 						"ypos"						"57"
 						"tall"						"360"
+						"visible"					"0"
 					}
 				}
 			}
@@ -695,6 +711,7 @@
 				{
 					"visible"						"0"
 				}
+
 				"BlueGoldMedal"
 				{
 					"ControlName"					"ImagePanel"
@@ -723,6 +740,7 @@
 					"font"							"HudFontSmall"
 					"labelText"						"%blueteammedals_gold%"
 					"textAlignment"					"center"
+					"fgcolor"						"White"
 				}
 				"BlueSilverMedal"
 				{
@@ -752,6 +770,7 @@
 					"font"							"HudFontSmall"
 					"labelText"						"%blueteammedals_silver%"
 					"textAlignment"					"center"
+					"fgcolor"						"White"
 				}
 				"BlueBronzeMedal"
 				{
@@ -781,6 +800,7 @@
 					"font"							"HudFontSmall"
 					"labelText"						"%blueteammedals_bronze%"
 					"textAlignment"					"center"
+					"fgcolor"						"White"
 				}
 			}
 			"RedMedals"
@@ -828,6 +848,7 @@
 					"font"							"HudFontSmall"
 					"labelText"						"%redteammedals_gold%"
 					"textAlignment"					"center"
+					"fgcolor"						"White"
 				}
 				"RedSilverMedal"
 				{
@@ -857,6 +878,7 @@
 					"font"							"HudFontSmall"
 					"labelText"						"%redteammedals_silver%"
 					"textAlignment"					"center"
+					"fgcolor"						"White"
 				}
 				"RedBronzeMedal"
 				{
@@ -886,6 +908,7 @@
 					"font"							"HudFontSmall"
 					"labelText"						"%redteammedals_bronze%"
 					"textAlignment"					"center"
+					"fgcolor"						"White"
 				}
 			}
 		}

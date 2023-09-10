@@ -1,9 +1,9 @@
 "Resource/UI/Build_Menu/HudMenuEngyBuild.res"
 {
-	"active_item_1"
+	"Active_Item_1"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"active_item_1"
+		"fieldName"									"Active_Item_1"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -11,10 +11,10 @@
 		"tall"										"34"
 		"visible"									"1"
 	}
-	"active_item_2"
+	"Active_Item_2"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"active_item_2"
+		"fieldName"									"Active_Item_2"
 		"xpos"										"0"
 		"ypos"										"36"
 		"zpos"										"1"
@@ -22,10 +22,10 @@
 		"tall"										"26"
 		"visible"									"1"
 	}
-	"active_item_3"
+	"Active_Item_3"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"active_item_3"
+		"fieldName"									"Active_Item_3"
 		"xpos"										"0"
 		"ypos"										"64"
 		"zpos"										"1"
@@ -33,10 +33,10 @@
 		"tall"										"26"
 		"visible"									"1"
 	}
-	"active_item_4"
+	"Active_Item_4"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"active_item_4"
+		"fieldName"									"Active_Item_4"
 		"xpos"										"0"
 		"ypos"										"92"
 		"zpos"										"1"
@@ -44,10 +44,10 @@
 		"tall"										"26"
 		"visible"									"1"
 	}
-	"already_built_item_1"
+	"Already_Built_Item_1"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"already_built_item_1"
+		"fieldName"									"Already_Built_Item_1"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -55,10 +55,10 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	"already_built_item_2"
+	"Already_Built_Item_2"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"already_built_item_2"
+		"fieldName"									"Already_Built_Item_2"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -66,10 +66,10 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	"already_built_item_3"
+	"Already_Built_Item_3"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"already_built_item_3"
+		"fieldName"									"Already_Built_Item_3"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -77,10 +77,10 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	"already_built_item_4"
+	"Already_Built_Item_4"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"already_built_item_4"
+		"fieldName"									"Already_Built_Item_4"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -88,10 +88,10 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	"cant_afford_item_1"
+	"Cant_Afford_Item_1"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"cant_afford_item_1"
+		"fieldName"									"Cant_Afford_Item_1"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -99,10 +99,10 @@
 		"tall"										"34"
 		"visible"									"0"
 	}
-	"cant_afford_item_2"
+	"Cant_Afford_Item_2"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"cant_afford_item_2"
+		"fieldName"									"Cant_Afford_Item_2"
 		"xpos"										"0"
 		"ypos"										"36"
 		"zpos"										"1"
@@ -110,10 +110,10 @@
 		"tall"										"26"
 		"visible"									"0"
 	}
-	"cant_afford_item_3"
+	"Cant_Afford_Item_3"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"cant_afford_item_3"
+		"fieldName"									"Cant_Afford_Item_3"
 		"xpos"										"0"
 		"ypos"										"64"
 		"zpos"										"1"
@@ -121,10 +121,10 @@
 		"tall"										"26"
 		"visible"									"0"
 	}
-	"cant_afford_item_4"
+	"Cant_Afford_Item_4"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"cant_afford_item_4"
+		"fieldName"									"Cant_Afford_Item_4"
 		"xpos"										"0"
 		"ypos"										"92"
 		"zpos"										"1"
@@ -132,10 +132,10 @@
 		"tall"										"26"
 		"visible"									"0"
 	}
-	"unavailable_item_1"
+	"Unavailable_Item_1"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"unavailable_item_1"
+		"fieldName"									"Unavailable_Item_1"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -143,10 +143,10 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	"unavailable_item_2"
+	"Unavailable_Item_2"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"unavailable_item_2"
+		"fieldName"									"Unavailable_Item_2"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -154,10 +154,10 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	"unavailable_item_3"
+	"Unavailable_Item_3"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"unavailable_item_3"
+		"fieldName"									"Unavailable_Item_3"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -165,10 +165,10 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	"unavailable_item_4"
+	"Unavailable_Item_4"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"unavailable_item_4"
+		"fieldName"									"Unavailable_Item_4"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"

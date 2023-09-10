@@ -1,9 +1,9 @@
 "Resource/UI/CharInfoArmorySubPanel.res"
 {
-	"armory_panel"
+	"Armory_Panel"
 	{
 		"ControlName"								"Frame"
-		"fieldName"									"armory_panel"
+		"fieldName"									"Armory_Panel"
 		"wide"										"f0"
 		"zpos"										"501"
 		"visible"									"1"
@@ -26,7 +26,7 @@
 		"thumbnails_delta_x"						"4"
 		"thumbnails_delta_y"						"4"
 
-		"thumbnail_modelpanels_kv"
+		"Thumbnail_Modelpanels_KV"
 		{
 			"ControlName"							"CItemModelPanel"
 			"zpos"									"13"
@@ -49,7 +49,7 @@
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
 
-			"itemmodelpanel"
+			"ItemModelPanel"
 			{
 				"use_item_rendertarget"				"0"
 				"inventory_image_type"				"0"
@@ -269,7 +269,7 @@
 		"text_center"								"1"
 		"resize_to_text"							"0"
 
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
 			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"0"
@@ -300,7 +300,7 @@
 		"model_only"								"1"
 		"paint_icon_hide"							"1"
 
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
 			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"0"
@@ -341,7 +341,7 @@
 		"text_forcesize"							"1"
 		"is_mouseover"								"1"
 
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
 			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"0"

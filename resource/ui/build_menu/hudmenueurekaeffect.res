@@ -22,10 +22,10 @@
 		"paintbackgroundtype"						"2"
 		"bgcolor_override"							"TransparentLightBlack"
 	}
-	"available_target_1"
+	"Available_Target_1"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"available_target_1"
+		"fieldName"									"Available_Target_1"
 		"xpos"										"0"
 		"ypos"										"12"
 		"zpos"										"10"
@@ -33,10 +33,10 @@
 		"tall"										"12"
 		"visible"									"1"
 	}
-	"available_target_2"
+	"Available_Target_2"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"available_target_2"
+		"fieldName"									"Available_Target_2"
 		"xpos"										"0"
 		"ypos"										"25"
 		"zpos"										"1"
@@ -44,10 +44,10 @@
 		"tall"										"12"
 		"visible"									"1"
 	}
-	"unavailable_target_1"
+	"Unavailable_Target_1"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"unavailable_target_1"
+		"fieldName"									"Unavailable_Target_1"
 		"xpos"										"0"
 		"ypos"										"12"
 		"zpos"										"10"
@@ -55,10 +55,10 @@
 		"tall"										"12"
 		"visible"									"1"
 	}
-	"unavailable_target_2"
+	"Unavailable_Target_2"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"unavailable_target_2"
+		"fieldName"									"Unavailable_Target_2"
 		"xpos"										"0"
 		"ypos"										"25"
 		"zpos"										"1"

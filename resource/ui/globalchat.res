@@ -1,8 +1,8 @@
 "Resource/UI/GlobalChat.res"
 {
-	"partychat"
+	"PartyChat"
 	{
-		"fieldName"									"partychat"
+		"fieldName"									"PartyChat"
 		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"0"
@@ -30,9 +30,9 @@
 		"resize_time"								"0.3"
 		"invalidate_parent_on_resize"				"0"
 	}
-	"chatlog"
+	"ChatLog"
 	{
-		"fieldName"									"chatlog"
+		"fieldName"									"ChatLog"
 		"xpos"										"cs-0.5"
 		"ypos"										"5"
 		"zpos"										"1"
@@ -74,9 +74,9 @@
 			}
 		}
 	}
-	"chatentry"
+	"ChatEntry"
 	{
-		"fieldName"									"chatentry"
+		"fieldName"									"ChatEntry"
 		"xpos"										"0"
 		"ypos"										"1"
 		"zpos"										"1"

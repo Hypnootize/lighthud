@@ -1,9 +1,9 @@
 "Resource/UI/Destroy_Menu/HudMenuEngyDestroy.res"
 {
-	"active_item_1"
+	"Active_Item_1"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"active_item_1"
+		"fieldName"									"Active_Item_1"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
@@ -11,10 +11,10 @@
 		"tall"										"34"
 		"visible"									"1"
 	}
-	"active_item_2"
+	"Active_Item_2"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"active_item_2"
+		"fieldName"									"Active_Item_2"
 		"xpos"										"0"
 		"ypos"										"36"
 		"zpos"										"1"
@@ -22,10 +22,10 @@
 		"tall"										"26"
 		"visible"									"1"
 	}
-	"active_item_3"
+	"Active_Item_3"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"active_item_3"
+		"fieldName"									"Active_Item_3"
 		"xpos"										"0"
 		"ypos"										"64"
 		"zpos"										"1"
@@ -33,10 +33,10 @@
 		"tall"										"26"
 		"visible"									"1"
 	}
-	"active_item_4"
+	"Active_Item_4"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"active_item_4"
+		"fieldName"									"Active_Item_4"
 		"xpos"										"0"
 		"ypos"										"92"
 		"zpos"										"1"
@@ -44,11 +44,10 @@
 		"tall"										"26"
 		"visible"									"1"
 	}
-
-	"inactive_item_1"
+	"Inactive_Item_1"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
-		"fieldName"									"inactive_item_1"
+		"fieldName"									"Inactive_Item_1"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -56,10 +55,10 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	"inactive_item_2"
+	"Inactive_Item_2"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
-		"fieldName"									"inactive_item_2"
+		"fieldName"									"Inactive_Item_2"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -67,10 +66,10 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	"inactive_item_3"
+	"Inactive_Item_3"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
-		"fieldName"									"inactive_item_3"
+		"fieldName"									"Inactive_Item_3"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -78,10 +77,10 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	"inactive_item_4"
+	"Inactive_Item_4"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
-		"fieldName"									"inactive_item_4"
+		"fieldName"									"Inactive_Item_4"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -89,10 +88,10 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	"unavailable_item_1"
+	"Unavailable_Item_1"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
-		"fieldName"									"unavailable_item_1"
+		"fieldName"									"Unavailable_Item_1"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -100,10 +99,10 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	"unavailable_item_2"
+	"Unavailable_Item_2"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
-		"fieldName"									"unavailable_item_2"
+		"fieldName"									"Unavailable_Item_2"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -111,10 +110,10 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	"unavailable_item_3"
+	"Unavailable_Item_3"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
-		"fieldName"									"unavailable_item_3"
+		"fieldName"									"Unavailable_Item_3"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -122,10 +121,10 @@
 		"tall"										"0"
 		"visible"									"0"
 	}
-	"unavailable_item_4"
+	"Unavailable_Item_4"
 	{
 		"ControlName"								"CEngyDestroyMenuItem"
-		"fieldName"									"unavailable_item_4"
+		"fieldName"									"Unavailable_Item_4"
 		"xpos"										"9999"
 		"ypos"										"0"
 		"zpos"										"0"

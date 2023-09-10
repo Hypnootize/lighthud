@@ -1,9 +1,9 @@
 "Resource/UI/TeamMenu.res"
 {
-	"team"
+	"Team"
 	{
 		"ControlName"								"CTeamMenu"
-		"fieldName"									"team"
+		"fieldName"									"Team"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -266,31 +266,9 @@
 		"visible"									"1"
 	}
 
-
-
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"CancelButton"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"CancelButton"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MapInfo"
-	{
-		"ControlName"								"HTML"
-		"fieldName"									"MapInfo"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"CancelButton"{"ControlName" "CExButton" "fieldName" "CancelButton" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"MapInfo"{"ControlName" "HTML" "fieldName" "MapInfo" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

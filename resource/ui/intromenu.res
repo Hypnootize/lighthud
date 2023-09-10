@@ -1,9 +1,9 @@
 "Resource/UI/IntroMenu.res"
 {
-	"intro"
+	"Intro"
 	{
 		"ControlName"								"CTFIntroMenu"
-		"fieldName"									"intro"
+		"fieldName"									"Intro"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -84,37 +84,7 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"VideoPanel"
-	{
-		"ControlName"								"CTFVideoPanel"
-		"fieldName"									"VideoPanel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Back"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"Back"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ReplayVideo"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"ReplayVideo"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"VideoPanel"{"ControlName" "CTFVideoPanel" "fieldName" "VideoPanel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"Back"{"ControlName" "CExButton" "fieldName" "Back" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"ReplayVideo"{"ControlName" "CExButton" "fieldName" "ReplayVideo" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

@@ -1,9 +1,9 @@
 "Resource/UI/MapInfoMenu.res"
 {
-	"mapinfo"
+	"MapInfo"
 	{
 		"ControlName"								"Frame"
-		"fieldName"									"mapinfo"
+		"fieldName"									"MapInfo"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -48,10 +48,10 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"TransparentBlack"
 	}
-	"ok"
+	"OK"
 	{
 		"ControlName"								"CExButton"
-		"fieldName"									"ok"
+		"fieldName"									"OK"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -85,37 +85,7 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"MapInfoBack"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"MapInfoBack"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MapInfoContinue"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"MapInfoContinue"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MapInfoWatchIntro"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"MapInfoWatchIntro"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"MapInfoBack"{"ControlName" "CExButton" "fieldName" "MapInfoBack" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"MapInfoContinue"{"ControlName" "CExButton" "fieldName" "MapInfoContinue" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"MapInfoWatchIntro"{"ControlName" "CExButton" "fieldName" "MapInfoWatchIntro" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

@@ -13,9 +13,9 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-	"playlist"
+	"Playlist"
 	{
-		"fieldName"									"playlist"
+		"fieldName"									"Playlist"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"100"

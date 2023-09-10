@@ -26,12 +26,6 @@
 		"label"									"items"
 		"command"								"engine open_charinfo"
 	}
-	"Store"
-	{
-		"label"									"store"
-		"command"								"engine open_store"
-		"OnlyAtMenu"							"1"
-	}
 	"Options"
 	{
 		"label"									"options"

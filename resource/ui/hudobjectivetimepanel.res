@@ -26,15 +26,5 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"ServerTimeLimitLabelBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ServerTimeLimitLabelBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"ServerTimeLimitLabelBG"{"ControlName" "CTFImagePanel" "fieldName" "ServerTimeLimitLabelBG" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

@@ -45,7 +45,7 @@
 		"text_forcesize"							"4"
 		"name_only"									"1"
 
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
 			"use_item_rendertarget"					"0"
 			"allow_rot"								"0"
@@ -74,7 +74,7 @@
 		"use_particle"								"1"
 		"fov"										"75"
 
-		"model"
+		"Model"
 		{
 			"force_pos"								"1"
 			"angles_x"								"7"
@@ -90,15 +90,15 @@
 
 			"modelname"								""
 		}
-		"lights"
+		"Lights"
 		{
-			"default"
+			"Default"
 			{
 				"name"								"directional"
 				"color"								"1 1 1"
 				"direction"							"0 0 -1"
 			}
-			"spot light"
+			"Spot Light"
 			{
 				"name"								"spot"
 				"color"								"1 .9 .9"
@@ -110,7 +110,7 @@
 				"maxDistance"						"1000"
 				"exponent"							"25"
 			}
-			"point light"
+			"Point Light"
 			{
 				"name"								"point"
 				"color"								".7 .8 1"
