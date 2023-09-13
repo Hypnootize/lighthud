@@ -5,7 +5,7 @@
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"c165"
+		"xpos"										"c164"
 		"ypos"										"rs1-60"
 		"wide"										"30"
 		"tall"										"20"
@@ -42,7 +42,7 @@
 		"proportionaltoparent"						"1"
 		"scaleImage"								"1"
 		"image"										"marked_for_death"
-		"drawcolor"									"LabelTransparent"
+		"drawcolor"									"Black"
 		"pin_to_sibling"							"ItemEffectMeterIcon"
 	}
 	"ItemEffectMeterCount"
@@ -50,7 +50,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterCount"
 		"xpos"										"15"
-		"ypos"										"cs-0.5-2"
+		"ypos"										"cs-0.5-1"
 		"zpos"										"2"
 		"wide"										"20"
 		"tall"										"20"
@@ -77,7 +77,7 @@
 		"labelText"									"%progresscount%"
 		"textAlignment"								"west"
 		"font"										"m0re20"
-		"FgColor"									"LabelTransparent"
+		"FgColor"									"Black"
 
 		"pin_to_sibling"							"ItemEffectMeterCount"
 	}
@@ -85,26 +85,6 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"ItemEffectMeter"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ItemEffectMeterLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"ItemEffectMeter"{"ControlName" "ContinuousProgressBar" "fieldName" "ItemEffectMeter" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"ItemEffectMeterLabel"{"ControlName" "CExLabel" "fieldName" "ItemEffectMeterLabel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

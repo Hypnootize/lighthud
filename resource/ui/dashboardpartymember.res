@@ -146,6 +146,6 @@
 
 		"radius"									"26"
 		"velocity"									"60"
-		"fgcolor_override"							"Main"
+		"fgcolor_override"							"TFOrange"
 	}
 }

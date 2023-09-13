@@ -4,8 +4,8 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthBonusImage"
-		"xpos"										"17"
-		"ypos"										"22"
+		"xpos"										"8"
+		"ypos"										"13"
 		"zpos"										"-1"
 		"wide"										"15"
 		"tall"										"15"
@@ -15,15 +15,15 @@
 		"image"										"../hud/health_over_bg"
 		"scaleImage"								"1"
 	}
-	"PlayerStatusHealthValue"
+	"HP_Target"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValue"
-		"xpos"										"5"
-		"ypos"										"3"
+		"fieldName"									"HP_Target"
+		"xpos"										"0"
+		"ypos"										"8"
 		"zpos"										"20"
-		"wide"										"40"
-		"tall"										"50"
+		"wide"										"30"
+		"tall"										"21"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
@@ -31,15 +31,15 @@
 		"font"										"m0re20"
 		"fgcolor"									"White"
 	}
-	"PlayerStatusHealthValueShadow"
+	"HP_Target_Shadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueShadow"
+		"fieldName"									"HP_Target_Shadow"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"19"
-		"wide"										"41"
-		"tall"										"51"
+		"wide"										"31"
+		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
@@ -47,21 +47,11 @@
 		"font"										"m0re20"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling"							"PlayerStatusHealthValue"
+		"pin_to_sibling"							"HP_Target"
 	}
 
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"PlayerStatusHealthImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImage"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"PlayerStatusHealthImage"{"ControlName" "ImagePanel" "fieldName" "PlayerStatusHealthImage" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

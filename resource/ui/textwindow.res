@@ -1,9 +1,9 @@
 "Resource/UI/TextWindow.res"
 {
-	"info"
+	"Info"
 	{
 		"ControlName"								"CTFTextWindow"
-		"fieldName"									"info"
+		"fieldName"									"Info"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -48,10 +48,10 @@
 		"paintbackground"							"1"
 		"bgcolor_override"							"TransparentBlack"
 	}
-	"ok"
+	"OK"
 	{
 		"ControlName"								"CExButton"
-		"fieldName"									"ok"
+		"fieldName"									"OK"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"6"
@@ -98,15 +98,5 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"MessageTitle"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"MessageTitle"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"MessageTitle"{"ControlName" "CExLabel" "fieldName" "MessageTitle" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

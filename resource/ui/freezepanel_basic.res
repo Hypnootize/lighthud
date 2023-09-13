@@ -90,24 +90,10 @@
 			"color_outline"							"Blank"
 			"proportionaltoparent"					"1"
 		}
-		"FreezeLabel"								// Game crashes if deleted
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"FreezeLabel"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-	}
 
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"itempanel"
-	{
-		"alpha"										"0"
-	}
+	"FreezeLabel"{"ControlName" "CExLabel" "fieldName" "FreezeLabel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"} // Game crashes if deleted
+	}"itempanel"{"alpha" "0"}
 }

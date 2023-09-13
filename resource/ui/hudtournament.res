@@ -16,13 +16,13 @@
 		"team1_player_delta_y"						"0"
 		"team2_player_base_offset_x"				"25"
 		"team2_player_base_y"						"0"
-		"team2_player_delta_x"						"26"
+		"team2_player_delta_x"						"43"
 		"team2_player_delta_y"						"0"
-		"teams_player_delta_x_comp"					"26"
+		"teams_player_delta_x_comp"					"43"
 
 		"if_readymode"
 		{
-			"team1_player_base_y"					"1"
+			"team1_player_base_y"					"2"
 		}
 		"if_competitive"
 		{
@@ -38,43 +38,56 @@
 		"name_width"								"57"
 		"horiz_inset"								"2"
 
-		"playerpanels_kv"
+		"PlayerPanels_KV"
 		{
 			"visible"								"0"
-			"wide"									"25"
-			"tall"									"18"
+			"wide"									"42"
+			"tall"									"12"
 			"zpos"									"1"
 
 			"color_ready"							"GreenSolid"
 			"color_notready"						"TransparentBlack"
 
-			"playername"
+			"PlayerName"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"playername"
-				"xpos"								"0"
-				"ypos"								"rs1"
+				"fieldName"							"PlayerName"
+				"xpos"								"rs1-1"
+				"ypos"								"cs-0.5"
 				"zpos"								"5"
-				"wide"								"f0"
-				"tall"								"6"
+				"wide"								"f14"
+				"tall"								"f0"
 				"visible"							"1"
 				"proportionaltoparent"				"1"
 				"font"								"FontStorePriceSmall"
 				"labelText"							"%playername%"
-				"textAlignment"						"north-west"
-				"paintbackground"					"1"
-				"paintbackgroundtype"				"0"
+				"textAlignment"						"west"
+			}
+			"ClassImageBG"
+			{
+				"ControlName"						"Panel"
+				"fieldName"							"ClassImageBG"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"0"
+				"wide"								"o1"
+				"tall"								"f0"
+				"visible"							"1"
+				"enabled"							"1"
+				"proportionaltoparent"				"1"
+				"paintBackground"					"1"
+				"paintBackgroundtype"				"0"
 				"bgcolor_override"					"TransparentLightBlack"
 			}
-			"classimage"
+			"ClassImage"
 			{
 				"ControlName"						"CTFClassImage"
-				"fieldName"							"classimage"
+				"fieldName"							"ClassImage"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"2"
-				"wide"								"12"
-				"tall"								"12"
+				"wide"								"o1"
+				"tall"								"f0"
 				"visible"							"1"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
@@ -85,15 +98,16 @@
 			{
 				"ControlName"						"ImagePanel"
 				"fieldName"							"ReadyImage"
-				"xpos"								"rs1-2"
-				"ypos"								"1"
-				"zpos"								"0"
-				"wide"								"11"
-				"tall"								"11"
+				"xpos"								"cs-0.5"
+				"ypos"								"cs-0.5"
+				"zpos"								"-1"
+				"wide"								"f0"
+				"tall"								"f0"
 				"visible"							"0"
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
-				"image"								"hud/checkmark"
+				"drawcolor"							"GreenSolid"
+				"image"								"white"
 				"scaleImage"						"1"
 			}
 			"HealthIcon"
@@ -128,7 +142,7 @@
 		"ypos"										"0"
 		"zpos"										"0"
 		"wide"										"0"
-		"tall"										"20"
+		"tall"										"15"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -293,64 +307,31 @@
 		{
 			"visible"								"0"
 		}
+		"if_readymode"
+		{
+			"ypos"									"20"
+		}
 	}
 	"CountdownLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CountdownLabel"
 		"xpos"										"cs-0.5"
-		"ypos"										"r55"
+		"ypos"										"100"
 		"wide"										"40"
 		"tall"										"40"
 		"zpos"										"5"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"HudFontMedium"
+		"font"										"HudFontMediumSmallShadow"
 		"labelText"									"%tournamentstatelabel%"
 		"textAlignment"								"center"
-		"proportionaltoparent"						"1"
-	}
-	"CountdownLabelShadow"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"CountdownLabelShadow"
-		"xpos"										"cs-0.5+1"
-		"ypos"										"r54"
-		"wide"										"40"
-		"tall"										"40"
-		"zpos"										"4"
-		"visible"									"0"
-		"enabled"									"1"
-		"font"										"HudFontMedium"
-		"labelText"									"%tournamentstatelabel%"
-		"textAlignment"								"center"
-		"fgcolor"									"Black"
 		"proportionaltoparent"						"1"
 	}
 
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"HudTournamentBG"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"HudTournamentBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"CountdownBG"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"CountdownBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"HudTournamentBG"{"ControlName" "ScalableImagePanel" "fieldName" "HudTournamentBG" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"CountdownBG"{"ControlName" "ScalableImagePanel" "fieldName" "CountdownBG" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

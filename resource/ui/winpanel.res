@@ -153,114 +153,14 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"WinPanelBGBorder"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"WinPanelBGBorder"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Player1Name"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Player1Name"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Player1Score"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Player1Score"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Player2Name"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Player2Name"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Player2Score"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Player2Score"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Player3Name"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Player3Name"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Player3Score"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Player3Score"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Player1Class"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Player1Class"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Player2Class"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Player2Class"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"Player3Class"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"Player3Class"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"WinPanelBGBorder"{"ControlName" "EditablePanel" "fieldName" "WinPanelBGBorder" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"Player1Name"{"ControlName" "CExLabel" "fieldName" "Player1Name" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"Player1Score"{"ControlName" "CExLabel" "fieldName" "Player1Score" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"Player2Name"{"ControlName" "CExLabel" "fieldName" "Player2Name" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"Player2Score"{"ControlName" "CExLabel" "fieldName" "Player2Score" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"Player3Name"{"ControlName" "CExLabel" "fieldName" "Player3Name" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"Player3Score"{"ControlName" "CExLabel" "fieldName" "Player3Score" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"Player1Class"{"ControlName" "CExLabel" "fieldName" "Player1Class" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"Player2Class"{"ControlName" "CExLabel" "fieldName" "Player2Class" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"Player3Class"{"ControlName" "CExLabel" "fieldName" "Player3Class" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

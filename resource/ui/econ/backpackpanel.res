@@ -1,9 +1,9 @@
 "Resource/UI/Econ/BackPackPanel.res"
 {
-	"backpack_panel"
+	"Backpack_Panel"
 	{
 		"ControlName"								"Frame"
-		"fieldName"									"backpack_panel"
+		"fieldName"									"Backpack_Panel"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -36,7 +36,7 @@
 		"page_button_per_row"						"20"
 		"page_button_height"						"13"
 
-		"pagebuttons_kv"
+		"PageButtons_KV"
 		{
 			"ControlName"							"EditablePanel"
 			"wide"									"25"
@@ -84,7 +84,7 @@
 				"border"							"StoreNewBorder"
 			}
 		}
-		"modelpanels_kv"
+		"ModelPanels_KV"
 		{
 			"ControlName"							"CItemModelPanel"
 			"xpos"									"c-70"
@@ -108,7 +108,7 @@
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
 
-			"itemmodelpanel"
+			"ItemModelPanel"
 			{
 				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
@@ -174,10 +174,10 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
-	"tool_icon"
+	"Tool_Icon"
 	{
 		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"tool_icon"
+		"fieldName"									"Tool_Icon"
 		"xpos"										"10"
 		"ypos"										"10"
 		"zpos"										"2"
@@ -369,7 +369,7 @@
 		"resize_to_text"							"1"
 		"padding_height"							"15"
 
-		"attriblabel"
+		"AttribLabel"
 		{
 			"xpos"									"0"
 			"ypos"									"30"
@@ -407,7 +407,7 @@
 		"name_only"									"1"
 		"model_only"								"1"
 
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
 			"use_item_rendertarget"					"0"
 			"allow_rot"								"0"

@@ -32,8 +32,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"DisguiseNameLabel"
-		"xpos"										"c-212"
-		"ypos"										"r68"
+		"xpos"										"cs-0.5"
+		"ypos"										"r85"
 		"zpos"										"1"
 		"wide"										"80"
 		"tall"										"10"
@@ -102,15 +102,5 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"SpectatorGUIHealth"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"SpectatorGUIHealth"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"SpectatorGUIHealth"{"ControlName" "EditablePanel" "fieldName" "SpectatorGUIHealth" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

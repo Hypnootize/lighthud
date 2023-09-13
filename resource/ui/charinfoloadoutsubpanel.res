@@ -54,7 +54,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
+		"armedFgColor_override"						"TFOrange"
 
 		"pin_to_sibling"							"SoldierCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
@@ -83,7 +83,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
+		"armedFgColor_override"						"TFOrange"
 
 		"pin_to_sibling"							"PyroCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
@@ -112,7 +112,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
+		"armedFgColor_override"						"TFOrange"
 
 		"pin_to_sibling"							"DemomanCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
@@ -141,7 +141,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
+		"armedFgColor_override"						"TFOrange"
 
 		"pin_to_sibling"							"HeavyCustom"
 		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
@@ -170,7 +170,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
+		"armedFgColor_override"						"TFOrange"
 	}
 	//==================================================================================================================================================
 	// ENGINEER
@@ -195,7 +195,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
+		"armedFgColor_override"						"TFOrange"
 
 		"pin_to_sibling"							"HeavyCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -224,7 +224,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
+		"armedFgColor_override"						"TFOrange"
 
 		"pin_to_sibling"							"EngineerCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -253,7 +253,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
+		"armedFgColor_override"						"TFOrange"
 
 		"pin_to_sibling"							"MedicCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -282,7 +282,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
+		"armedFgColor_override"						"TFOrange"
 
 		"pin_to_sibling"							"SniperCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -311,7 +311,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
+		"armedFgColor_override"						"TFOrange"
 
 		"pin_to_sibling"							"SpyCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -340,7 +340,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"0"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
+		"armedFgColor_override"						"TFOrange"
 
 		"pin_to_sibling"							"BackpackCustom"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -349,10 +349,10 @@
 	//==================================================================================================================================================
 	// SUB LOADOUT PANELS
 	//==================================================================================================================================================
-	"class_loadout_panel"
+	"Class_Loadout_Panel"
 	{
 		"ControlName"								"CClassLoadoutPanel"
-		"fieldName"									"class_loadout_panel"
+		"fieldName"									"Class_Loadout_Panel"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -360,10 +360,10 @@
 		"zpos"										"500"
 		"visible"									"0"
 	}
-	"backpack_panel"
+	"Backpack_Panel"
 	{
 		"ControlName"								"CBackpackPanel"
-		"fieldName"									"backpack_panel"
+		"fieldName"									"Backpack_Panel"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -371,10 +371,10 @@
 		"zpos"										"500"
 		"visible"									"0"
 	}
-	"armory_panel"
+	"Armory_Panel"
 	{
 		"ControlName"								"CArmoryPanel"
-		"fieldName"									"armory_panel"
+		"fieldName"									"Armory_Panel"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -398,13 +398,5 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"ClassLabel"									// Game crashes if deleted
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ClassLabel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"ClassLabel" { "ControlName" "CExLabel" "fieldName" "ClassLabel" "wide" "0" "tall" "0" "visible" "0" "enabled" "0" }
 }

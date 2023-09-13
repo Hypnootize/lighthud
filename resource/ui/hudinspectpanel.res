@@ -29,9 +29,9 @@
 		"resize_to_text"							"1"
 		"text_forcesize"							"2"
 
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
-			"fieldName"								"itemmodelpanel"
+			"fieldName"								"ItemModelPanel"
 			"use_item_rendertarget"					"0"
 			"useparentbg"							"1"
 		}
@@ -50,16 +50,9 @@
 			"labelText"								"#FreezePanel_Item"
 			"textAlignment"							"west"
 		}
-		"attriblabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"attriblabel"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-	}
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+	"AttribLabel"{"ControlName" "CExLabel""fieldName" "AttribLabel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}}
 }

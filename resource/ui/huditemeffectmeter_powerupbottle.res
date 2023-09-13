@@ -5,7 +5,7 @@
 		"fieldName"									"HudItemEffectMeter"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"-2"
+		"xpos"										"0"
 		"ypos"										"rs1"
 		"wide"										"23"
 		"tall"										"18"
@@ -32,7 +32,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemEffectMeterCount"
 		"xpos"										"rs1"
-		"ypos"										"cs-0.5-1"
+		"ypos"										"cs-0.5"
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"f0"
@@ -59,7 +59,7 @@
 		"labelText"									"%progresscount%"
 		"textAlignment"								"east"
 		"font"										"HudFontMediumSmallBold"
-		"fgcolor"									"Black"
+		"fgcolor"									"LabelTransparent"
 
 		"pin_to_sibling"							"ItemEffectMeterCount"
 	}
@@ -67,26 +67,6 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"ItemEffectMeter"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ItemEffectMeterLabel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"ItemEffectMeter"{"ControlName" "ContinuousProgressBar" "fieldName" "ItemEffectMeter" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"ItemEffectMeterLabel"{"ControlName" "CExLabel" "fieldName" "ItemEffectMeterLabel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

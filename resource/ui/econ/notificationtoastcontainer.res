@@ -1,0 +1,38 @@
+"Resource/UI/Econ/NotificationToastContainer.res"
+{
+	"NotificationToastContainer"
+	{
+		"ControlName"								"CNotificationToastControl"
+		"fieldName"									"NotificationToastContainer"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"150"
+		"tall"										"50"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintborder"								"0"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"2"
+		"bgcolor_override"							"TransparentBlack"
+	}
+	"HelpTextLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"HelpTextLabel"
+		"xpos"										"5"
+		"ypos"										"0"
+		"zpos"										"2"
+		"wide"										"140"
+		"tall"										"38"
+		"visible"									"1"
+		"enabled"									"1"
+		"wrap"										"1"
+		"labelText"									""
+		"textAlignment"								"North"
+		"font"										"TFFontSmall"
+		"textinsetx"								"2"
+		"textinsety"								"7"
+		"fgcolor"									"White"
+	}
+}

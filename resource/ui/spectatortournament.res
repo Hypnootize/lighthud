@@ -2,10 +2,10 @@
 
 "Resource/UI/SpectatorTournament.res"
 {
-	"specgui"
+	"SpecGUI"
 	{
 		"ControlName"								"Frame"
-		"fieldName"									"specgui"
+		"fieldName"									"SpecGUI"
 		"wide"										"f0"
 		"tall"										"f0"
 		"enabled"									"1"
@@ -19,7 +19,7 @@
 		"team2_player_delta_x"						"0"
 		"team2_player_delta_y"						"-12"
 
-		"playerpanels_kv"
+		"PlayerPanels_KV"
 		{
 			"visible"								"0"
 			"wide"									"110"
@@ -43,10 +43,10 @@
 				"painbackgroundtype"				"1"
 				"bgcolor_override"					"TransparentLightBlack"
 			}
-			"playername"
+			"PlayerName"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"playername"
+				"fieldName"							"PlayerName"
 				"xpos"								"16"
 				"ypos"								"0"
 				"zpos"								"5"
@@ -59,10 +59,10 @@
 				"textAlignment"						"west"
 				"fgcolor"							"White"
 			}
-			"classimage"
+			"ClassImage"
 			{
 				"ControlName"						"CTFClassImage"
-				"fieldName"							"classimage"
+				"fieldName"							"ClassImage"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"2"
@@ -107,10 +107,10 @@
 				"HealthDeathWarningColor"			"HUDDeathWarning"
 				"TextColor"							"HudOffWhite"
 			}
-			"respawntime"
+			"RespawnTime"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"respawntime"
+				"fieldName"							"RespawnTime"
 				"xpos"								"rs1"
 				"ypos"								"-1"
 				"zpos"								"5"
@@ -123,10 +123,10 @@
 				"textAlignment"						"center"
 				"fgcolor"							"White"
 			}
-			"chargeamount"
+			"ChargeAmount"
 			{
 				"ControlName"						"CExLabel"
-				"fieldName"							"chargeamount"
+				"fieldName"							"ChargeAmount"
 				"xpos"								"rs1-23"
 				"ypos"								"0"
 				"zpos"								"6"
@@ -189,10 +189,10 @@
 			"visible"								"1"
 		}
 	}
-	"spectator_extras"
+	"Spectator_Extras"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"spectator_extras"
+		"fieldName"									"Spectator_Extras"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -200,26 +200,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
-	"topbar"
-	{
-		"ControlName"								"Panel"
-		"fieldName"									"TopBar"
-		"visible"									"0"
-		"tall"										"0"
-	}
-	"BottomBar"
-	{
-		"ControlName"								"Frame"
-		"fieldName"									"BottomBar"
-		"visible"									"0"
-		"ypos"										"100"
-		"tall"										"0"
-	}
-	"bottombarblank"
-	{
-		"ControlName"								"Panel"
-		"fieldName"									"bottombarblank"
-		"visible"									"0"
-		"ypos"										"480"
-	}
+
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+	"topbar"{"ControlName" "Panel" "fieldName" "TopBar" "visible" "0" "tall" "0"}
+	"BottomBar"{"ControlName" "Frame" "fieldName" "BottomBar" "visible" "0" "ypos" "100" "tall" "0"}
+	"bottombarblank"{"ControlName" "Panel" "fieldName" "bottombarblank" "visible" "0" "ypos" "480"}
 }

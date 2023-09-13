@@ -55,12 +55,12 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
-		"attriblabel"
+		"AttribLabel"
 		{
 			"font"									"StorePromotionsTitle"
 			"visible"								"0"
 		}
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
 			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"0"
@@ -131,12 +131,12 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
-		"attriblabel"
+		"AttribLabel"
 		{
 			"font"									"StorePromotionsTitle"
 			"visible"								"0"
 		}
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
 			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"0"
@@ -208,12 +208,12 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
-		"attriblabel"
+		"AttribLabel"
 		{
 			"font"									"StorePromotionsTitle"
 			"visible"								"0"
 		}
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
 			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"0"
@@ -286,12 +286,12 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
-		"attriblabel"
+		"AttribLabel"
 		{
 			"font"									"StorePromotionsTitle"
 			"visible"								"0"
 		}
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
 			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"0"
@@ -364,12 +364,12 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
-		"attriblabel"
+		"AttribLabel"
 		{
 			"font"									"StorePromotionsTitle"
 			"visible"								"0"
 		}
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
 			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"0"
@@ -442,12 +442,12 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
-		"attriblabel"
+		"AttribLabel"
 		{
 			"font"									"StorePromotionsTitle"
 			"visible"								"0"
 		}
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
 			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"0"
@@ -520,12 +520,12 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
-		"attriblabel"
+		"AttribLabel"
 		{
 			"font"									"StorePromotionsTitle"
 			"visible"								"0"
 		}
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
 			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"0"
@@ -598,12 +598,12 @@
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 		}
-		"attriblabel"
+		"AttribLabel"
 		{
 			"font"									"StorePromotionsTitle"
 			"visible"								"0"
 		}
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
 			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"0"

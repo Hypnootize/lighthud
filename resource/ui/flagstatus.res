@@ -13,6 +13,12 @@
 		"enabled"									"1"
 		"scaleImage"								"1"
 		"proportionaltoparent"						"1"
+
+		"if_mvm"
+		{
+			"wide"									"46"
+			"tall"									"46"
+		}
 	}
 	"Briefcase"
 	{
@@ -31,8 +37,8 @@
 
 		"if_mvm"
 		{
-			"wide"									"18"
-			"tall"									"18"
+			"wide"									"20"
+			"tall"									"20"
 		}
 	}
 	"StatusIcon"

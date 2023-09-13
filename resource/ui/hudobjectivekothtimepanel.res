@@ -42,7 +42,7 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"font"									"HudFontSmallBoldShadow"
+			"font"									"HudFontMediumSmallShadow"
 			"fgcolor"								"White"
 		}
 	}
@@ -89,7 +89,7 @@
 			"proportionaltoparent"					"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"font"									"HudFontSmallBoldShadow"
+			"font"									"HudFontMediumSmallShadow"
 			"fgcolor"								"White"
 		}
 	}

@@ -3,9 +3,10 @@ event HudHealthBonusPulse
 {
 	Animate			PlayerStatusHealthBonusImage	Alpha		"255"					Linear		0.0		0.0
 
-	Animate			PlayerStatusHealthValue			FgColor		"Main"					Linear		0.0		0.0
-	Animate			HPShadow						FgColor		"Main"					Linear		0.0		0.0
+	Animate			PlayerStatusHealthValue			FgColor		"TFOrange"				Linear		0.0		0.0
+	Animate			HPShadow						FgColor		"TFOrange"				Linear		0.0		0.0
 	Animate			HPShadowExtra					Alpha		"255"					Linear		0.0		0.0
+	Animate			HP_Target						FgColor		"TFOrange"				Linear		0.0		0.0
 
 	RunEvent		HudHealthBonusPulseLoop			0.4
 }
@@ -17,13 +18,16 @@ event HudHealthBonusPulseStop
 	Animate			PlayerStatusHealthValue			FgColor		"White"					Linear		0.0		0.0
 	Animate			HPShadow						FgColor		"Black"					Linear		0.0		0.0
 	Animate			HPShadowExtra					Alpha		"0"						Linear		0.0		0.0
+	Animate			HP_Target						FgColor		"White"					Linear		0.0		0.0
 }
 //=====================================================================================================================
 event HudHealthDyingPulse
 {
 	Animate			PlayerStatusHealthBonusImage	Alpha		"200"					Linear		0.0		0.0
 
-	Animate			PlayerStatusHealthValue			FgColor		"Low"					Linear		0.0		0.0
+	Animate			PlayerStatusHealthValue			FgColor		"Red"					Linear		0.0		0.0
+	Animate			HPShadow						FgColor		"Red"					Linear		0.0		0.0
+	Animate			HPShadowExtra					Alpha		"255"					Linear		0.0		0.0
 
 	RunEvent		HudHealthDyingPulseLoop			0.25
 }
@@ -33,13 +37,16 @@ event HudHealthDyingPulseStop
 	StopEvent		HudHealthDyingPulseLoop			0.0
 
 	Animate			PlayerStatusHealthValue			FgColor		"White"					Linear		0.0		0.0
+	Animate			HPShadow						FgColor		"Black"					Linear		0.0		0.0
+	Animate			HPShadowExtra					Alpha		"0"						Linear		0.0		0.0
+	
 }
 //=====================================================================================================================
 event HudLowAmmoPulse
 {
-	Animate			AmmoInClip						FgColor		"Low"					Linear		0.0		0.0
-	Animate			AmmoInReserve					FgColor		"Low"					Linear		0.0		0.0
-	Animate			AmmoNoClip						FgColor		"Low"					Linear		0.0		0.0
+	Animate			AmmoInClipShadow				FgColor		"Red"					Linear		0.0		0.0
+	Animate			AmmoInReserveShadow				FgColor		"Red"					Linear		0.0		0.0
+	Animate			AmmoNoClipShadow				FgColor		"Red"					Linear		0.0		0.0
 
 	RunEvent		HudLowAmmoPulseLoop				0.25
 }
@@ -48,14 +55,14 @@ event HudLowAmmoPulseStop
 	StopEvent		HudLowAmmoPulse					0.0
 	StopEvent		HudLowAmmoPulseLoop				0.0
 
-	Animate			AmmoInClip						FgColor		"White"					Linear		0.0		0.0
-	Animate			AmmoInReserve					FgColor		"White"					Linear		0.0		0.0
-	Animate			AmmoNoClip						FgColor		"White"					Linear		0.0		0.0
+	Animate			AmmoInClipShadow				FgColor		"Black"					Linear		0.0		0.0
+	Animate			AmmoInReserveShadow				FgColor		"Black"					Linear		0.0		0.0
+	Animate			AmmoNoClipShadow				FgColor		"Black"					Linear		0.0		0.0
 }
 //=====================================================================================================================
 event HudMedicCharged
 {
-	Animate			ChargeLabel						FgColor		"Main"					Linear		0.0		0.0
+	Animate			ChargeLabel						FgColor		"TFOrange"				Linear		0.0		0.0
 
 	RunEvent		HudMedicChargedLoop				0.6
 }
@@ -97,7 +104,7 @@ event ActiveTimerBGPulse
 }
 event ActiveTimerHighlight
 {
-	Animate			TimePanelValue					FgColor		"Main"					Linear		0.0		0.0
+	Animate			TimePanelValue					FgColor		"BrightYellow"			Linear		0.0		0.0
 }
 event ActiveTimerDim
 {
@@ -106,7 +113,7 @@ event ActiveTimerDim
 //=====================================================================================================================
 event SurveyShowSequence
 {
-	RunEventChild	Survey	SurveyDelete 0.1
+	RunEventChild	Survey	SurveyDelete	0.1
 }
 //=====================================================================================================================
 event HintMessageShow
@@ -126,6 +133,26 @@ event KeyHintMessageShow
 event KeyHintMessageHide
 {
 	Animate			HudHintKeyDisplay				Alpha		"0"						Linear		0.0		0.5
+}
+//=====================================================================================================================
+event HudTournament_ShowTimerCompetitive
+{
+	Animate			CountdownLabel					ypos		"100"					Linear		0		0
+	Animate			CountdownLabelShadow			ypos		"100"					Linear		0		0
+
+	SetVisible		CountdownBG						1	0
+	SetVisible		CountdownLabel					1	0
+	SetVisible		CountdownLabelShadow			1	0
+}
+
+event HudTournament_ShowTimerDefault
+{
+	Animate			CountdownLabel					ypos		"100"					Linear		0		0
+	Animate			CountdownLabelShadow			ypos		"100"					Linear		0		0
+
+	SetVisible		CountdownBG						1	0
+	SetVisible		CountdownLabel					1	0
+	SetVisible		CountdownLabelShadow			1	0
 }
 //=====================================================================================================================
 
@@ -223,8 +250,6 @@ event PvPRankLevelUpXPBar{}
 event PvPRankLevelUpModel{}
 event PvPRankLevelDownXPBar{}
 event PvPRankLevelDownModel{}
-event CompetitiveGame_ShowPvPRankPanel{}
-event PvPRankPanelShowXPChange{}
 event PyroVsHeavyWar_ShowChooseScene{}
 event PyroVsHeavyWar_PyroWinnerScene{}
 event CasualCategory_Checkbox_Hide{}

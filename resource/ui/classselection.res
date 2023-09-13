@@ -1,9 +1,9 @@
 "Resource/UI/ClassSelection.res"
 {
-	"class"
+	"Class"
 	{
 		"ControlName"								"Frame"
-		"fieldName"									"class"
+		"fieldName"									"Class"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -51,9 +51,9 @@
 		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
-		"depressedFgColor_override"					"Main"
-		"selectedFgColor_override"					"Main"
+		"armedFgColor_override"						"TFOrange"
+		"depressedFgColor_override"					"TFOrange"
+		"selectedFgColor_override"					"TFOrange"
 	}
 	"ScoutShadow"
 	{
@@ -73,10 +73,10 @@
 		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"scout"
 	}
-	"numScout"
+	"NumScout"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numScout"
+		"fieldName"									"NumScout"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"70"
@@ -119,9 +119,9 @@
 		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
-		"depressedFgColor_override"					"Main"
-		"selectedFgColor_override"					"Main"
+		"armedFgColor_override"						"TFOrange"
+		"depressedFgColor_override"					"TFOrange"
+		"selectedFgColor_override"					"TFOrange"
 
 		"pin_to_sibling"							"Scout"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -145,10 +145,10 @@
 		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"Soldier"
 	}
-	"numSoldier"
+	"NumSoldier"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numSoldier"
+		"fieldName"									"NumSoldier"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"70"
@@ -191,9 +191,9 @@
 		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
-		"depressedFgColor_override"					"Main"
-		"selectedFgColor_override"					"Main"
+		"armedFgColor_override"						"TFOrange"
+		"depressedFgColor_override"					"TFOrange"
+		"selectedFgColor_override"					"TFOrange"
 
 		"pin_to_sibling"							"Soldier"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -217,10 +217,10 @@
 		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"Pyro"
 	}
-	"numPyro"
+	"NumPyro"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numPyro"
+		"fieldName"									"NumPyro"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"70"
@@ -263,9 +263,9 @@
 		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
-		"depressedFgColor_override"					"Main"
-		"selectedFgColor_override"					"Main"
+		"armedFgColor_override"						"TFOrange"
+		"depressedFgColor_override"					"TFOrange"
+		"selectedFgColor_override"					"TFOrange"
 
 		"pin_to_sibling"							"Pyro"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -289,10 +289,10 @@
 		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"Demoman"
 	}
-	"numDemoman"
+	"NumDemoman"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numDemoman"
+		"fieldName"									"NumDemoman"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"70"
@@ -335,9 +335,9 @@
 		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
-		"depressedFgColor_override"					"Main"
-		"selectedFgColor_override"					"Main"
+		"armedFgColor_override"						"TFOrange"
+		"depressedFgColor_override"					"TFOrange"
+		"selectedFgColor_override"					"TFOrange"
 
 		"pin_to_sibling"							"Demoman"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -361,10 +361,10 @@
 		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"HeavyWeapons"
 	}
-	"numHeavyWeapons"
+	"NumHeavyWeapons"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numHeavyWeapons"
+		"fieldName"									"NumHeavyWeapons"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"70"
@@ -407,9 +407,9 @@
 		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
-		"depressedFgColor_override"					"Main"
-		"selectedFgColor_override"					"Main"
+		"armedFgColor_override"						"TFOrange"
+		"depressedFgColor_override"					"TFOrange"
+		"selectedFgColor_override"					"TFOrange"
 
 		"pin_to_sibling"							"HeavyWeapons"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -433,10 +433,10 @@
 		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"Engineer"
 	}
-	"numEngineer"
+	"NumEngineer"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numEngineer"
+		"fieldName"									"NumEngineer"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"70"
@@ -479,9 +479,9 @@
 		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
-		"depressedFgColor_override"					"Main"
-		"selectedFgColor_override"					"Main"
+		"armedFgColor_override"						"TFOrange"
+		"depressedFgColor_override"					"TFOrange"
+		"selectedFgColor_override"					"TFOrange"
 
 		"pin_to_sibling"							"Engineer"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -505,10 +505,10 @@
 		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"Medic"
 	}
-	"numMedic"
+	"NumMedic"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numMedic"
+		"fieldName"									"NumMedic"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"70"
@@ -551,9 +551,9 @@
 		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
-		"depressedFgColor_override"					"Main"
-		"selectedFgColor_override"					"Main"
+		"armedFgColor_override"						"TFOrange"
+		"depressedFgColor_override"					"TFOrange"
+		"selectedFgColor_override"					"TFOrange"
 
 		"pin_to_sibling"							"Medic"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -577,10 +577,10 @@
 		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"Sniper"
 	}
-	"numSniper"
+	"NumSniper"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numSniper"
+		"fieldName"									"NumSniper"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"70"
@@ -623,9 +623,9 @@
 		"paintbackground"							"0"
 		"fgcolor"									"White"
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"Main"
-		"depressedFgColor_override"					"Main"
-		"selectedFgColor_override"					"Main"
+		"armedFgColor_override"						"TFOrange"
+		"depressedFgColor_override"					"TFOrange"
+		"selectedFgColor_override"					"TFOrange"
 
 		"pin_to_sibling"							"Sniper"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
@@ -649,10 +649,10 @@
 		"fgcolor"									"LabelTransparent"
 		"pin_to_sibling"							"Spy"
 	}
-	"numSpy"
+	"NumSpy"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"numSpy"
+		"fieldName"									"NumSpy"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"70"
@@ -678,7 +678,7 @@
 		"labelText"									"&E"
 		"Command"									"openloadout"
 	}
-	"random"
+	"Random"
 	{
 		"xpos"										"9999"
 		"visible"									"1"
@@ -689,169 +689,19 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"TFPlayerModel"									// if deleted impacts hover and class selection in a way
-	{
-		"ControlName"								"CTFPlayerModelPanel"
-		"fieldName"									"TFPlayerModel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"localPlayerBG"									// annoying topleft bug when deleted, same for all the others down there
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"localPlayerBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"localPlayerImage"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"localPlayerImage"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"countImage0"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"countImage0"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"countImage1"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"countImage1"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"countImage2"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"countImage2"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"countImage3"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"countImage3"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"countImage4"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"countImage4"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"countImage5"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"countImage5"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"countImage6"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"countImage6"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"countImage7"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"countImage7"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"countImage8"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"countImage8"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"countImage9"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"countImage9"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"countImage10"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"countImage10"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ClassTipsPanel"
-	{
-		"ControlName"								"CTFClassTipsPanel"
-		"fieldName"									"ClassTipsPanel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"TFPlayerModel"{"ControlName" "CTFPlayerModelPanel" "fieldName" "TFPlayerModel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"} // if deleted impacts hover and class selection in a way
+	"localPlayerBG"{"ControlName" "CTFImagePanel" "fieldName" "localPlayerBG" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"} // annoying topleft bug when deleted, same for all the others down there
+	"localPlayerImage"{"ControlName" "CTFImagePanel" "fieldName" "localPlayerImage" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"countImage0"{"ControlName" "CTFImagePanel" "fieldName" "countImage0" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"countImage1"{"ControlName" "CTFImagePanel" "fieldName" "countImage1" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"countImage2"{"ControlName" "CTFImagePanel" "fieldName" "countImage2" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"countImage3"{"ControlName" "CTFImagePanel" "fieldName" "countImage3" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"countImage4"{"ControlName" "CTFImagePanel" "fieldName" "countImage4" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"countImage5"{"ControlName" "CTFImagePanel" "fieldName" "countImage5" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"countImage6"{"ControlName" "CTFImagePanel" "fieldName" "countImage6" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"countImage7"{"ControlName" "CTFImagePanel" "fieldName" "countImage7" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"countImage8"{"ControlName" "CTFImagePanel" "fieldName" "countImage8" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"countImage9"{"ControlName" "CTFImagePanel" "fieldName" "countImage9" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"countImage10"{"ControlName" "CTFImagePanel" "fieldName" "countImage10" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"ClassTipsPanel"{"ControlName" "CTFClassTipsPanel" "fieldName" "ClassTipsPanel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

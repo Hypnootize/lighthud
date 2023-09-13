@@ -1,9 +1,9 @@
 "Resource/UI/CharInfoPanel.res"
 {
-	"character_info"
+	"Character_Info"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"character_info"
+		"fieldName"									"Character_Info"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -38,7 +38,7 @@
 		"transition_time"							"0"
 		"yoffset"									"0"
 
-		"tabskv"
+		"TabsKV"
 		{
 			"textinsetx"							"0"
 			"font"									""
@@ -70,7 +70,7 @@
 
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"FooterBGBlack"
-		"armedBgColor_override"						"Main"
+		"armedBgColor_override"						"TFOrange"
 
 		"armedFgColor_override"						"White"
 		"defaultFgColor_override"					"White"

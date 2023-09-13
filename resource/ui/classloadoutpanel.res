@@ -1,9 +1,9 @@
 "Resource/UI/ClassLoadoutPanel.res"
 {
-	"class_loadout_panel"
+	"Class_Loadout_Panel"
 	{
 		"ControlName"								"Frame"
-		"fieldName"									"class_loadout_panel"
+		"fieldName"									"Class_Loadout_Panel"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -30,7 +30,7 @@
 		"button_ydelta"								"80"
 		"button_override_delete_xpos"				"0"
 
-		"modelpanels_kv"
+		"ModelPanels_KV"
 		{
 			"ControlName"							"CItemModelPanel"
 			"xpos"									"c-70"
@@ -51,20 +51,18 @@
 			"text_center"							"1"
 			"name_only"								"1"
 
-			"attriblabel"
+			"AttribLabel"
 			{
 				"font"								"ItemFontAttribLarge"
 				"visible"							"0"
 			}
-
-			"itemmodelpanel"
+			"ItemModelPanel"
 			{
 				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
 			}
 		}
-
-		"itemoptionpanels_kv"
+		"ItemOptionPanels_KV"
 		{
 			"ControlName"							"CExButton"
 			"xpos"									"0"
@@ -80,10 +78,10 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 		}
 	}
-	"classmodelpanel"
+	"ClassModelPanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
-		"fieldName"									"classmodelpanel"
+		"fieldName"									"ClassModelPanel"
 		"xpos"										"c-135"
 		"ypos"										"20"
 		"zpos"										"-1"
@@ -96,7 +94,7 @@
 		"fov"										"30"
 		"allow_manip"								"1"
 
-		"model"
+		"Model"
 		{
 			"force_pos"								"1"
 
@@ -135,7 +133,7 @@
 		"resize_to_text"							"1"
 		"padding_height"							"15"
 
-		"attriblabel"
+		"AttribLabel"
 		{
 			"xpos"									"0"
 			"ypos"									"0"
@@ -151,10 +149,10 @@
 			"centerwrap"							"1"
 		}
 	}
-	"loadout_preset_panel"
+	"Loadout_Preset_Panel"
 	{
 		"ControlName"								"CLoadoutPresetPanel"
-		"FieldName"									"loadout_preset_panel"
+		"FieldName"									"Loadout_Preset_Panel"
 		"zpos"										"20"
 		"wide"										"150"
 		"tall"										"25"

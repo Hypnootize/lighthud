@@ -1,9 +1,9 @@
 "Resource/UI/Scoreboard.res"
 {
-	"scores"
+	"Scores"
 	{
 		"ControlName"								"CTFClientScoreBoardDialog"
-		"fieldName"									"scores"
+		"fieldName"									"Scores"
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
@@ -59,10 +59,10 @@
 		"ControlName"								"Panel"
 		"fieldName"									"PlayerListBG"
 		"xpos"										"-2"
-		"ypos"										"-3"
+		"ypos"										"0"
 		"zpos"										"-1"
 		"wide"										"492"
-		"tall"										"174"
+		"tall"										"177"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
@@ -120,7 +120,7 @@
 			"ypos"									"0"
 			"zpos"									"0"
 			"wide"									"p0.501"
-			"tall"									"20"
+			"tall"									"f0"
 			"visible"								"1"
 			"enabled"								"1"
 			"proportionaltoparent"					"1"
@@ -293,7 +293,7 @@
 		"font"										"HudFontMediumSmall"
 		"labelText"									"%servertimeleft%"
 		"textAlignment"								"center"
-		"fgcolor"									"Main"
+		"fgcolor"									"TFOrange"
 
 		"if_mvm"
 		{
@@ -451,43 +451,43 @@
 			"textAlignment"							"center"
 			"fgcolor"								"White"
 		}
-		"Killss"
+		"Kills"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"Killss"
+			"fieldName"								"Kills"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"300"
 			"tall"									"f0"
 			"visible"								"1"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
 			"font"									"HudFontSmallest"
 			"labelText"								"%kills%"
 			"textAlignment"							"east"
-			"fgcolor"								"White"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"K/D"
 			"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"					"PIN_TOPLEFT"
 		}
-		"Deathss"
+		"Deaths"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"Deathss"
+			"fieldName"								"Deaths"
 			"xpos"									"0"
 			"ypos"									"0"
 			"zpos"									"3"
 			"wide"									"300"
 			"tall"									"f0"
 			"visible"								"1"
-			"enabled"								"1"
+			"enabled"								"0"
 			"proportionaltoparent"					"1"
 			"font"									"HudFontSmallest"
 			"labelText"								"%deaths%"
 			"textAlignment"							"west"
-			"fgcolor"								"White"
+			"disabledfgcolor2_override"				"White"
 
 			"pin_to_sibling"						"K/D"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -498,8 +498,8 @@
 	{
 		"ControlName"								"CTFHudMannVsMachineScoreboard"
 		"fieldName"									"MvMScoreboard"
-		"xpos"										"c-300"
-		"ypos"										"-8"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"10"
 		"wide"										"f0"
 		"tall"										"f0"
@@ -732,26 +732,6 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"HorizontalLine"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"HorizontalLine"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ClassImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"ClassImage"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"HorizontalLine"{"ControlName" "ImagePanel" "fieldName" "HorizontalLine" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"ClassImage"{"ControlName" "ImagePanel" "fieldName" "ClassImage" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

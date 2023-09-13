@@ -28,7 +28,7 @@
 		"button_ydelta"								"80"
 		"button_override_delete_xpos"				"0"
 
-		"modelpanels_kv"
+		"ModelPanels_KV"
 		{
 			"ControlName"							"CItemModelPanel"
 			"wide"									"71"
@@ -60,7 +60,7 @@
 				"visible"							"1"
 				"bgcolor_override"					"Blank"
 
-				"itemmodelpanel"
+				"ItemModelPanel"
 				{
 					"use_item_rendertarget"			"0"
 					"inventory_image_type"			"0"
@@ -104,9 +104,9 @@
 			"defaultFgColor_override"				"White"
 			"defaultBgColor_override"				"LighterDarkBrown"
 			"armedFgColor_override"					"White"
-			"armedBgColor_override"					"Main"
+			"armedBgColor_override"					"TFOrange"
 			"depressedFgColor_override"				"White"
-			"depressedBgColor_override"				"Main"
+			"depressedBgColor_override"				"TFOrange"
 		}
 
 		"filter_xoffset"							"-204"
@@ -179,10 +179,10 @@
 		"bgcolor_override"							"FooterBGBlack"
 		"proportionaltoparent"						"1"
 	}
-	"recipecontainerscroller"
+	"RecipeContainerScroller"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"recipecontainerscroller"
+		"fieldName"									"RecipeContainerScroller"
 		"xpos"										"c-275"
 		"ypos"										"83"
 		"zpos"										"5"
@@ -210,10 +210,10 @@
 			"nobuttons"								"1"
 		}
 	}
-	"recipecontainer"
+	"RecipeContainer"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"recipecontainer"
+		"fieldName"									"RecipeContainer"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"5"
@@ -221,10 +221,10 @@
 		"tall"										"263"
 		"paintbackground"							"0"
 	}
-	"selectedrecipecontainer"
+	"SelectedRecipeContainer"
 	{
 		"ControlName"								"EditablePanel"
-		"fieldName"									"selectedrecipecontainer"
+		"fieldName"									"SelectedRecipeContainer"
 		"xpos"										"cs+0+3"
 		"ypos"										"0"
 		"zpos"										"5"
@@ -406,7 +406,7 @@
 		"resize_to_text"							"1"
 		"padding_height"							"15"
 
-		"attriblabel"
+		"AttribLabel"
 		{
 			"xpos"									"0"
 			"ypos"									"30"
@@ -443,7 +443,7 @@
 		"text_center"								"1"
 		"name_only"									"1"
 
-		"itemmodelpanel"
+		"ItemModelPanel"
 		{
 			"use_item_rendertarget"					"0"
 			"inventory_image_type"					"0"

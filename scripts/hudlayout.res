@@ -145,9 +145,9 @@
 		"PlaySelectSounds"							"1"
 		"Alpha"										"220"
 		"SelectionAlpha"							"220"
-		"BoxColor"									"0 0 0 220"
-		"SelectedBoxClor"							"0 0 0 220"
-		"SelectionNumberFg"							"200 187 161 255"
+		"BoxColor"									"TransparentBlack"
+		"SelectedBoxClor"							"TransparentBlack"
+		"SelectionNumberFg"							"White"
 		"NumberFont"								"HudFontSmallishBold"
 	}
 	"CHudAccountPanel"
@@ -163,12 +163,12 @@
 	"CHealthAccountPanel"
 	{
 		"fieldName"									"CHealthAccountPanel"
-		"xpos"										"9999"		//0
-		"ypos"										"rs1"
-		"wide"										"100"
-		"tall"										"25"
-		"visible"									"1"
-		"enabled"									"1"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	"CDamageAccountPanel"
 	{
@@ -196,9 +196,9 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"xpos"										"0"
-		"ypos"										"c70"
+		"ypos"										"c65"
 		"wide"										"252"
-		"tall"										"50"
+		"tall"										"42"
 		"priority"									"40"
 	}
 	"CSpectatorTargetID"
@@ -209,7 +209,7 @@
 		"xpos"										"0"
 		"ypos"										"c130"
 		"wide"										"252"
-		"tall"										"50"
+		"tall"										"42"
 		"priority"									"40"
 	}
 	"CSecondaryTargetID"
@@ -218,9 +218,9 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"xpos"										"0"
-		"ypos"										"c108"
+		"ypos"										"c95"
 		"wide"										"252"
-		"tall"										"50"
+		"tall"										"42"
 		"priority"									"35"
 	}
 	"BuildingAnchor"
@@ -274,9 +274,9 @@
 		"ControlName"								"CCurrencyStatusPanel"
 		"fieldName"									"CurrencyStatusPanel"
 		"xpos"										"0"
-		"ypos"										"r100"
-		"wide"										"100"
-		"tall"										"100"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
 		"visible"									"0"
 		"enabled"									"1"
 	}
@@ -330,9 +330,7 @@
 		"text_ypos"									"6"
 		"TextColor"									"White"
 	}
-	"HudDamageIndicator"
-	{
-	}
+	"HudDamageIndicator" {}
 	"HudCommentary"
 	{
 		"fieldName"									"HudCommentary"
@@ -342,7 +340,7 @@
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
-		"BackgroundOverrideColor"					"0 0 0 128"
+		"BackgroundOverrideColor"					"TransparentLightBlack"
 		"bar_xpos"									"50"
 		"bar_ypos"									"20"
 		"bar_height"								"8"
@@ -465,11 +463,11 @@
 		"fieldName"									"HudSpellMenu"
 		"visible"									"1"
 		"enabled"									"1"
-		"wide"										"640"
+		"wide"										"f0"
 		"tall"										"f0"
 		"zpos"										"2"
-		"xpos"										"130"
-		"ypos"										"r61"
+		"xpos"										"0"
+		"ypos"										"0"
 		"TextFont"									"Default"
 		"ItemFont"									"Default"
 		"ItemFontPulsing"							"Default"
@@ -477,18 +475,12 @@
 	"HudCloseCaption"
 	{
 		"fieldName"									"HudCloseCaption"
-		"visible"									"1"
-		"enabled"									"1"
-		"xpos"										"c-250"
-		"ypos"										"276"
-		"wide"										"500"
-		"tall"										"136"
-		"BgAlpha"									"128"
-		"GrowTime"									"0.25"
-		"ItemHiddenTime"							"0.2"
-		"ItemFadeInTime"							"0.15"
-		"ItemFadeOutTime"							"0.3"
-		"topoffset"									"0"
+		"visible"									"0"
+		"enabled"									"0"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
 	}
 	"HudHistoryResource"
 	{
@@ -725,10 +717,10 @@
 		"fieldName"									"PVEWinPanel"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"c-150"
-		"ypos"										"255"
-		"wide"										"300"
-		"tall"										"215"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
 	}
 	"StatPanel"
 	{

@@ -1,63 +1,43 @@
 "Resource/UI/HudMedicCharge.res"
 {
-	"UberAnchor"
-	{
-		"ControlName"								"Panel"
-		"fieldName"									"UberAnchor"
-		"xpos"										"c175"
-		"ypos"										"c95"
-		"zpos"										"0"
-		"wide"										"2"
-		"tall"										"80"
-		"visible"									"0"
-		"enabled"									"1"
-	}
 	"ChargeLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChargeLabel"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"cs-0.5"
+		"ypos"										"c35"
 		"zpos"										"2"
-		"wide"										"150"
-		"tall"										"80"
+		"wide"										"100"
+		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"m0re60Shadow"
+		"font"										"m0re22Shadow"
 		"fgcolor"									"White"
-
-		"pin_to_sibling"							"UberAnchor"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"IndividualChargesLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"IndividualChargesLabel"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"cs-1"
+		"ypos"										"c35"
 		"zpos"										"2"
-		"wide"										"150"
-		"tall"										"80"
+		"wide"										"100"
+		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
-		"textAlignment"								"center"
-		"font"										"m0re60Shadow"
+		"textAlignment"								"east"
+		"font"										"m0re22Shadow"
 		"fgcolor"									"White"
-
-		"pin_to_sibling"							"UberAnchor"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 	"ResistIconAnchor"
 	{
 		"ControlName"								"Panel"
 		"fieldName"									"ResistIconAnchor"
-		"xpos"										"cs-0.5"
-		"ypos"										"c20"
+		"xpos"										"c13"
+		"ypos"										"c43"
 		"wide"										"0"
 		"tall"										"0"
 		"visible"									"0"
@@ -83,59 +63,9 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"ChargeMeter"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ChargeMeter"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ChargeMeter1"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ChargeMeter1"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ChargeMeter2"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ChargeMeter2"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ChargeMeter3"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ChargeMeter3"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"ChargeMeter4"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ChargeMeter4"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"ChargeMeter"{"ControlName" "ContinuousProgressBar" "fieldName" "ChargeMeter" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"ChargeMeter1"{"ControlName" "ContinuousProgressBar" "fieldName" "ChargeMeter1" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"ChargeMeter2"{"ControlName" "ContinuousProgressBar" "fieldName" "ChargeMeter2" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"ChargeMeter3"{"ControlName" "ContinuousProgressBar" "fieldName" "ChargeMeter3" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"ChargeMeter4"{"ControlName" "ContinuousProgressBar" "fieldName" "ChargeMeter4" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

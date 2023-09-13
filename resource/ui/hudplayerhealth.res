@@ -8,7 +8,7 @@
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"f0"
-		"tall"										"480"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"HealthBonusPosAdj"							"35"
@@ -658,13 +658,5 @@
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"PlayerStatusHealthImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthImage"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"PlayerStatusHealthImage"{"ControlName" "ImagePanel" "fieldName" "PlayerStatusHealthImage" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

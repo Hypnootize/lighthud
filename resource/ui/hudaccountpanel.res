@@ -9,7 +9,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"AccountValue"
 		"xpos"										"cs-0.5"
-		"ypos"										"rs1-60"
+		"ypos"										"rs1-85"
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"20"
@@ -18,7 +18,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"font"										"HudFontSmall"
+		"font"										"m0re20"
 		"fgcolor"									"White"
 	}
 	"AccountValueShadow"
@@ -35,8 +35,8 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%metal%"
 		"textAlignment"								"center"
-		"font"										"HudFontSmall"
-		"fgcolor"									"LabelTransparent"
+		"font"										"m0re20"
+		"fgcolor"									"Black"
 		"pin_to_sibling"							"AccountValue"
 	}
 }

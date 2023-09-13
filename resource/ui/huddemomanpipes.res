@@ -5,19 +5,20 @@
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
 		"xpos"										"cs-0.5"
-		"ypos"										"r85"
+		"ypos"										"c135+5"
 		"zpos"										"2"
 		"wide"										"80"
 		"tall"										"4"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 	}
 	"ChargeLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ChargeLabel"
 		"xpos"										"cs-0.5"
-		"ypos"										"r85"
+		"ypos"										"c135+5"
 		"zpos"										"3"
 		"wide"										"80"
 		"tall"										"4"
@@ -39,13 +40,14 @@
 		"wide"										"f0"
 		"tall"										"f0"
 		"visible"									"1"
+		"proportionaltoparent"						"1"
 
 		"NumPipesLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NumPipesLabel"
 			"xpos"									"cs-0.5"
-			"ypos"									"r85"
+			"ypos"									"rs1-85"
 			"zpos"									"2"
 			"wide"									"30"
 			"tall"									"20"
@@ -70,7 +72,7 @@
 			"labelText"								"%activepipes%"
 			"textAlignment"							"center"
 			"font"									"m0re20"
-			"fgcolor"								"LabelTransparent"
+			"fgcolor"								"Black"
 			"pin_to_sibling"						"NumPipesLabel"
 		}
 	}

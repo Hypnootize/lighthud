@@ -42,7 +42,7 @@
 				"paintbackground"					"0"
 
 				"defaultFgColor_override"			"White"
-				"armedFgColor_override"				"Main"
+				"armedFgColor_override"				"TFOrange"
 			}
 		}
 		"SaxxySettings"
@@ -162,7 +162,7 @@
 			"wide"									"210"
 			"tall"									"135"
 			"PaintBackgroundType"					"0"
-			"fgcolor_override"						"117 107 94 255"
+			"fgcolor_override"						"Gray"
 
 			"Notifications_Control"
 			{
@@ -398,87 +398,17 @@
 			}
 		}
 	}
-	// "Contracker"
-	// {
-	//	"ControlName"								"CExImageButton"
-	//	"fieldName"									"Contracker"
-	//	"xpos"										"rs1-71"
-	//	"ypos"										"0"
-	//	"zpos"										"10003"
-	//	"wide"										"35"
-	//	"tall"										"20"
-	//	"visible"									"1"
-	//	"enabled"									"1"
-	//	"labelText"									"Quest"
-	//	"font"										"HudFontSmallest"
-	//	"command"									"questlog"
-	//	"textAlignment"								"center"
-	//	"AllCaps"									"1"
-	//	"default"									"1"
-	//	"sound_depressed"							"UI/buttonclick.wav"
-	//	"proportionaltoparent"						"1"
-
-	//	"paintbackground"							"1"
-	//	"DefaultBGColor_Override"					"Purple"
-	//	"ArmedBGColor_Override"						"Black"
-	// }
 
 	//==================================================================================================================================================
 	// PRELOADING
 	//==================================================================================================================================================
-	"MenuThumbMissingFix"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"MenuThumbMissingFix"
-		"xpos"										"9999"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"maps/menu_thumb_missing"
-	}
-	"CPHighlight"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"CPHighlight"
-		"xpos"										"9999"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"../sprites/obj_icons/capture_highlight"
-	}
+	"MenuThumbMissingFix"{"ControlName" "ImagePanel" "fieldName" "MenuThumbMissingFix" "xpos" "9999" "visible" "1" "enabled" "1" "image" "maps/menu_thumb_missing"}
+	"CPHighlight"{"ControlName" "ImagePanel" "fieldName" "CPHighlight" "xpos" "9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/capture_highlight"}
 
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
-	"TooltipPanel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"TooltipPanel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MOTD_Panel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"MOTD_Panel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"MouseOverItemPanel"
-	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"MouseOverItemPanel"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"TooltipPanel"{"ControlName" "EditablePanel" "fieldName" "TooltipPanel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"MOTD_Panel"{"ControlName" "EditablePanel" "fieldName" "MOTD_Panel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"MouseOverItemPanel"{"ControlName" "CItemModelPanel" "fieldName" "MouseOverItemPanel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

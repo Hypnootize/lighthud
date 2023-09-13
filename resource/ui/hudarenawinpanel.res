@@ -127,85 +127,14 @@
 			"pin_to_sibling"						"RedTeamScore"
 		}
 
-		//================================================================================================================================================
-		// REMOVED ELEMENTS
-		//================================================================================================================================================
-		"BlueScoreBG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BlueScoreBG"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"RedScoreBG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"RedScoreBG"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"BlueTeamLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"BlueTeamLabel"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"RedTeamLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"RedTeamLabel"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"ArenaStreakLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"ArenaStreakLabel"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-		"ArenaStreaksBG"
-		{
-			"ControlName"							"ScalableImagePanel"
-			"fieldName"								"ArenaStreaksBG"
-			"xpos"									"9999"
-			"ypos"									"9999"
-			"wide"									"0"
-			"tall"									"0"
-			"visible"								"0"
-			"enabled"								"0"
-		}
-	}
-	"WinPanelBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"WinPanelBG"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	//================================================================================================================================================
+	// REMOVED ELEMENTS
+	//================================================================================================================================================
+	"BlueScoreBG"{"ControlName" "EditablePanel" "fieldName" "BlueScoreBG" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"RedScoreBG"{"ControlName" "EditablePanel" "fieldName" "RedScoreBG" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"BlueTeamLabel"{"ControlName" "CExLabel" "fieldName" "BlueTeamLabel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"RedTeamLabel"{"ControlName" "CExLabel" "fieldName" "RedTeamLabel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"ArenaStreakLabel"{"ControlName" "CExLabel" "fieldName" "ArenaStreakLabel" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
+	"ArenaStreaksBG"{"ControlName" "ScalableImagePanel" "fieldName" "ArenaStreaksBG" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}}
+	"WinPanelBG"{"ControlName" "ImagePanel" "fieldName" "WinPanelBG" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }

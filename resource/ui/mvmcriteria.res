@@ -284,7 +284,7 @@
 			"paintBackground"						"0"
 			"bgcolor_override"						"Black"
 
-			"items"
+			"Items"
 			{
 				"0"
 				{
@@ -325,7 +325,7 @@
 			"mouseinputenabled"						"1"
 			"paintborder"							"0"
 
-			"items"
+			"Items"
 			{
 				"0"
 				{
