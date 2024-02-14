@@ -12,7 +12,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"fillcolor"									"ProgressBackground"
+		"fillcolor"									"LabelTransparent"
 	}
 	"TargetNameLabel"
 	{

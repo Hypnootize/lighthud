@@ -8,8 +8,8 @@
 		"text_y"									"0"
 		"delta_item_end_y"							"0"
 		"delta_lifetime"							"1"
-		"delta_item_font"							"m0re22Shadow"
-		"delta_item_font_big"						"m0re22Shadow"
+		"delta_item_font"							"Damage"
+		"delta_item_font_big"						"Damage"
 		"alpha"										"255"
 	}
 }

@@ -1,12 +1,11 @@
 //=====================================================================================================================
 event HudHealthBonusPulse
 {
-	Animate			PlayerStatusHealthBonusImage	Alpha		"255"					Linear		0.0		0.0
+	Animate			PlayerStatusHealthBonusImage	Alpha		"200"					Linear		0.0		0.0
 
 	Animate			PlayerStatusHealthValue			FgColor		"TFOrange"				Linear		0.0		0.0
 	Animate			HPShadow						FgColor		"TFOrange"				Linear		0.0		0.0
 	Animate			HPShadowExtra					Alpha		"255"					Linear		0.0		0.0
-	Animate			HP_Target						FgColor		"TFOrange"				Linear		0.0		0.0
 
 	RunEvent		HudHealthBonusPulseLoop			0.4
 }
@@ -18,7 +17,6 @@ event HudHealthBonusPulseStop
 	Animate			PlayerStatusHealthValue			FgColor		"White"					Linear		0.0		0.0
 	Animate			HPShadow						FgColor		"Black"					Linear		0.0		0.0
 	Animate			HPShadowExtra					Alpha		"0"						Linear		0.0		0.0
-	Animate			HP_Target						FgColor		"White"					Linear		0.0		0.0
 }
 //=====================================================================================================================
 event HudHealthDyingPulse

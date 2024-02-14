@@ -1,26 +1,11 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthBonusImage"
-		"xpos"										"9"
-		"ypos"										"13"
-		"zpos"										"-1"
-		"wide"										"15"
-		"tall"										"15"
-		"visible"									"0"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"image"										"../hud/health_over_bg"
-		"scaleImage"								"1"
-	}
-	"HP_Target"
+	"PlayerStatusHealthValue"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"HP_Target"
+		"fieldName"									"PlayerStatusHealthValue"
 		"xpos"										"0"
-		"ypos"										"8"
+		"ypos"										"10"
 		"zpos"										"20"
 		"wide"										"32"
 		"tall"										"21"
@@ -28,13 +13,13 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"m0re20"
+		"font"										"HudFontSmallishBold"
 		"fgcolor"									"White"
 	}
-	"HP_Target_Shadow"
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"HP_Target_Shadow"
+		"fieldName"									"PlayerStatusHealthValueShadow"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"19"
@@ -44,10 +29,10 @@
 		"enabled"									"1"
 		"textAlignment"								"center"
 		"labeltext"									"%Health%"
-		"font"										"m0re20"
+		"font"										"HudFontSmallishBold"
 		"fgcolor"									"Black"
 
-		"pin_to_sibling"							"HP_Target"
+		"pin_to_sibling"							"PlayerStatusHealthValue"
 	}
 
 	//==================================================================================================================================================

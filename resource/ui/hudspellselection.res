@@ -2,8 +2,8 @@
 {
 	"HudSpellMenu"
 	{
-		"xpos"										"c-188"
-		"ypos"										"rs1-45"
+		"xpos"										"c-163"
+		"ypos"										"rs1-60"
 		"wide"										"35"
 		"tall"										"30"
 	}
@@ -12,7 +12,7 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"SpellIcon"
 		"xpos"										"0"
-		"ypos"										"4"
+		"ypos"										"2"
 		"zpos"										"7"
 		"wide"										"16"
 		"tall"										"16"
@@ -33,7 +33,7 @@
 		"wide"										"20"
 		"tall"										"20"
 		"proportionaltoparent"						"1"
-		"font"										"m0re20"
+		"font"										"HudFontMediumSmallBold"
 		"labelText"									"%counttext%"
 		"textAlignment"								"center"
 		"fgcolor"									"White"
@@ -47,7 +47,7 @@
 		"wide"										"20"
 		"tall"										"20"
 		"proportionaltoparent"						"1"
-		"font"										"m0re20"
+		"font"										"HudFontMediumSmallBold"
 		"labelText"									"%counttext%"
 		"textAlignment"								"center"
 		"fgcolor"									"Black"

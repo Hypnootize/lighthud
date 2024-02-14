@@ -196,10 +196,21 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"xpos"										"0"
-		"ypos"										"c65"
+		"ypos"										"c50"
 		"wide"										"252"
 		"tall"										"42"
 		"priority"									"40"
+	}
+	"CSecondaryTargetID"
+	{
+		"fieldName"									"CSecondaryTargetID"
+		"visible"									"0"
+		"enabled"									"1"
+		"xpos"										"0"
+		"ypos"										"c98"
+		"wide"										"252"
+		"tall"										"42"
+		"priority"									"35"
 	}
 	"CSpectatorTargetID"
 	{
@@ -211,17 +222,6 @@
 		"wide"										"252"
 		"tall"										"42"
 		"priority"									"40"
-	}
-	"CSecondaryTargetID"
-	{
-		"fieldName"									"CSecondaryTargetID"
-		"visible"									"0"
-		"enabled"									"1"
-		"xpos"										"0"
-		"ypos"										"c95"
-		"wide"										"252"
-		"tall"										"42"
-		"priority"									"35"
 	}
 	"BuildingAnchor"
 	{
@@ -395,7 +395,7 @@
 		"TeamRed"									"HUDRedTeamSolid"
 		"IconColor"									"White"
 		"LocalPlayerColor"							"HUDBlack"
-		"BaseBackgroundColor"						"TransparentLightBlack"
+		"BaseBackgroundColor"						"LabelTransparent"
 		"LocalBackgroundColor"						"White"
 	}
 	"HudVehicle"
@@ -616,7 +616,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"xpos"										"cs-0.5"
-		"ypos"										"c60"
+		"ypos"										"c80"
 		"wide"										"f0"
 		"tall"										"100"
 		"HintSize"									"1"

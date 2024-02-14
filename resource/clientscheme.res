@@ -290,7 +290,7 @@
 		"HTML.BgColor"										"Blank"
 
 		"ProgressBar.FgColor"								"White"
-		"ProgressBar.BgColor"								"ProgressBackground"
+		"ProgressBar.BgColor"								"LabelTransparent"
 
 		"CircularProgressBar.FgColor"						"White"
 		"CircularProgressBar.BgColor"						"White"
@@ -415,29 +415,21 @@
 
 	"Fonts"
 	{
-		"Seeker"
-		{
-			"1" { "name" "TF2CrossRegular" "tall" "11" "antialias" "1" "dropshadow" "1" }
-		}
-		"m0re11"
-		{
-			"1" { "name" "Surface-Medium" "tall" "11" "antialias" "1" }
-		}
-		"m0re20"
-		{
-			"1" {	"name" "Surface-Medium"	"tall" "20"	"antialias" "1" }
-		}
-		"m0re22Shadow"
+		"Damage"
 		{
 			"1" { "name" "Surface-Medium" "tall" "22" "antialias" "1" "dropshadow" "1" }
 		}
-		"m0re24"
+		"Health_Ammo"
 		{
-			"1" { "name" "Surface-Medium" "tall" "24" "antialias" "1" }
+			"1" { "name" "Surface-Medium" "tall" "48" "antialias" "1" }
 		}
-		"m0re60"
+		"Ammo_Reserve"
 		{
-			"1" { "name" "Surface-Medium" "tall" "60" "antialias" "1" }
+			"1" { "name" "Surface-Medium" "tall" "20" "antialias" "1" }
+		}
+		"Ubercharge"
+		{
+			"1" { "name" "Surface-Medium" "tall" "48" "antialias" "1" "dropshadow" "1" }
 		}
 		"Default"
 		{
@@ -605,7 +597,7 @@
 		}
 		"TargetID"
 		{
-			"1" { "name" "Surface-UberIcons" "tall" "16" "antialias" "1" "dropshadow" "1" "range" "0x000 0xFFFF" }
+			"1" { "name" "Heebo Icons V2" "tall" "12" "antialias" "1" "dropshadow" "1" "range" "0x000 0xFFFF" }
 		}
 		"ChatFont"
 		{
@@ -1743,20 +1735,15 @@
 		}
 		"2"
 		{
-			"font" "resource/fonts/surface.otf"
-			"name" "Surface-Medium"
-		}
-		"3"
-		{
-			"font" "resource/fonts/surface_uber_icons.ttf"
-			"name" "Surface-UberIcons"
+			"font" "resource/fonts/heeboicons.ttf"
+			"name" "Heebo Icons V2"
 
 			"english"	{ "range" "0x000 0xFFFF" }
 		}
-		"4"
+		"3"
 		{
-			"font" "resource/fonts/seeker.ttf"
-			"name" "TF2CrossRegular"
+			"font" "resource/fonts/surface.otf"
+			"name" "Surface-Medium"
 		}
 	}
 }
