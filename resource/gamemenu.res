@@ -1,10 +1,5 @@
 "Resource/GameMenu.res"
 {
-	"MainBG"
-	{
-		"command"								"engine"
-		"OnlyAtMenu"							"1"
-	}
 	"LightHUD"
 	{
 		"label"									"LightHUD"

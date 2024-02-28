@@ -90,6 +90,7 @@
 
 		"MainMenu.TextColor"								"White"
 		"MainMenu.ArmedTextColor"							"White"
+		"MainMenu.Backdrop" 								"Blank"
 
 		"Menu.FgColor"										"White"
 		"Menu.BgColor"										"BlackGray"
