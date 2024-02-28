@@ -11,3 +11,12 @@ To apply any style customization:
 - copy the folders found inside
 - paste the copied folders inside the root folder
 - when the system ask if you want to replace the files you want to selet yes!
+
+//=============================================================================
+// FRIENDS LIST
+//=============================================================================
+
+The friends_list folder features an override version of the main menu
+this version re-enabled the friends list for any user that wish to have it,
+
+You can follow the same instruction above to enable it.
