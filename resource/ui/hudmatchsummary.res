@@ -50,8 +50,11 @@
 		"wide"										"510"
 		"tall"										"43"
 		"visible"									"0"
-		"PaintBackgroundType"						"2"
-		"border"									"MainMenuBGBorder"
+		"PaintBackgroundType"						"0"
+		"PaintBackground"							"1"
+		"bgcolor_override"							"FooterBGBlack"
+		"PaintBorder"								"1"
+		"border"									"TFFatLineBorderClearBG"
 		"proportionaltoparent"						"1"
 
 		"if_uses_xp"
@@ -111,13 +114,13 @@
 		"fieldName"									"StatsBgPanel"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"0"
+		"zpos"										"-1"
 		"wide"										"f0"
 		"tall"										"f0"
-		"visible"									"0"
+		"visible"									"1"
 		"enabled"									"1"
-		"PaintBackgroundType"						"1"
-		"bgcolor_override"							"0 0 0 250"
+		"PaintBackgroundType"						"0"
+		"bgcolor_override"							"DarkBrown"
 	}
 	"DrawingPanel"
 	{
@@ -168,12 +171,14 @@
 			"tall"									"15"
 			"visible"								"0"
 			"enabled"								"1"
-			"autoResize"							"0"
 
 			"StatsAndMedals"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"StatsAndMedals"
+				"font"								"HudFontSmall"
+				"labelText"							"#TF_StatsAndMedals"
+				"textAlignment"						"center"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"4"
@@ -181,15 +186,15 @@
 				"tall"								"15"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"HudFontSmall"
-				"labelText"							"#TF_StatsAndMedals"
-				"textAlignment"						"center"
-				"fgcolor"							"White"
 			}
 			"StatsAndMedalsShadow"
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"StatsAndMedalsShadow"
+				"font"								"HudFontSmall"
+				"labelText"							"#TF_StatsAndMedals"
+				"fgcolor"							"Black"
+				"textAlignment"						"center"
 				"xpos"								"1"
 				"ypos"								"1"
 				"zpos"								"3"
@@ -197,10 +202,6 @@
 				"tall"								"15"
 				"visible"							"1"
 				"enabled"							"1"
-				"font"								"HudFontSmall"
-				"labelText"							"#TF_StatsAndMedals"
-				"textAlignment"						"center"
-				"fgcolor"							"Black"
 			}
 		}
 		"TeamScoresPanel"
@@ -250,10 +251,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamScore"
 					"xpos"							"5"
-					"ypos"							"103"
+					"ypos"							"99"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontBig"
@@ -263,7 +264,7 @@
 
 					"if_large"
 					{
-						"ypos"						"43"
+						"ypos"						"39"
 					}
 				}
 				"BlueTeamScoreDropshadow"
@@ -271,20 +272,20 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamScoreDropshadow"
 					"xpos"							"6"
-					"ypos"							"104"
+					"ypos"							"100"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontBig"
+					"fgcolor"						"LabelTransparent"
 					"labelText"						"%blueteamscore%"
 					"textAlignment"					"east"
-					"fgcolor"						"LabelTransparent"
 
 					"if_large"
 					{
-						"ypos"						"44"
+						"ypos"						"40"
 					}
 				}
 				"BlueTeamWinner"
@@ -292,10 +293,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamWinner"
 					"xpos"							"5"
-					"ypos"							"103"
+					"ypos"							"99"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontMediumSmall"
@@ -305,7 +306,7 @@
 
 					"if_large"
 					{
-						"ypos"						"43"
+						"ypos"						"39"
 					}
 				}
 				"BlueTeamWinnerDropshadow"
@@ -313,37 +314,92 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamWinnerDropshadow"
 					"xpos"							"6"
-					"ypos"							"104"
+					"ypos"							"100"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontMediumSmall"
+					"fgcolor"						"LabelTransparent"
 					"labelText"						"%blueteamwinner%"
 					"textAlignment"					"east"
-					"fgcolor"						"LabelTransparent"
 
 					"if_large"
 					{
-						"ypos"						"44"
+						"ypos"						"40"
+					}
+				}
+				"BlueLabel"
+				{
+					"ControlName"					"CExLabel"
+					"fieldName"						"BlueLabel"
+					"xpos"							"-5"
+					"ypos"							"0"
+					"zpos"							"20"
+					"wide"							"195"
+					"tall"							"20"
+					"visible"						"1"
+					"enabled"						"1"
+					"font"							"HudFontMedium"
+					"labelText"						"%blueteamname%"
+					"textAlignment"					"west"
+					"fgcolor"						"White"
+
+					"pin_to_sibling"				"BlueTeamScoreBG"
+					"pin_corner_to_sibling"			"PIN_CENTER_LEFT"
+					"pin_to_sibling_corner"			"PIN_CENTER_LEFT"
+				}
+				"BlueLabelShadow"
+				{
+					"ControlName"					"CExLabel"
+					"fieldName"						"BlueLabelShadow"
+					"xpos"							"-1"
+					"ypos"							"-1"
+					"zpos"							"19"
+					"wide"							"195"
+					"tall"							"20"
+					"visible"						"1"
+					"enabled"						"1"
+					"font"							"HudFontMedium"
+					"labelText"						"%blueteamname%"
+					"textAlignment"					"west"
+					"fgcolor"						"LabelTransparent"
+					"pin_to_sibling"				"BlueLabel"
+				}
+				"BlueTeamImage"
+				{
+					"ControlName"					"ImagePanel"
+					"fieldName"						"BlueTeamImage"
+					"xpos"							"14"
+					"ypos"							"89"
+					"zpos"							"5"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"1"
+					"enabled"						"1"
+					"image"							"../hud/team_blue"
+					"scaleImage"					"1"
+
+					"if_large"
+					{
+						"ypos"						"29"
 					}
 				}
 				"BlueTeamLabel"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamLabel"
-					"xpos"							"60"
-					"ypos"							"-25"
-					"zpos"							"20"
-					"wide"							"195"
-					"tall"							"20"
-					"visible"						"1"
-					"enabled"						"1"
 					"font"							"HudFontSmall"
 					"labelText"						"%blueteamname%"
 					"textAlignment"					"west"
-					"fgcolor"						"White"
+					"xpos"							"60"
+					"ypos"							"-25"
+					"zpos"							"20"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"1"
+					"enabled"						"1"
 				}
 				"BlueLeaderAvatar"
 				{
@@ -358,7 +414,7 @@
 					"enabled"						"1"
 					"image"							""
 					"scaleImage"					"1"
-					"color_outline"					"Black"
+					"color_outline"					"52 48 45 255"
 
 					"if_large"
 					{
@@ -376,7 +432,7 @@
 					"tall"							"38"
 					"visible"						"1"
 					"PaintBackgroundType"			"2"
-					"bgcolor_override"				"White"
+					"bgcolor_override"				"117 107 94 255"
 
 					"if_large"
 					{
@@ -413,7 +469,7 @@
 						"visible"					"1"
 						"enabled"					"1"
 						"linespacing"				"26"
-						"linegap"					"1"
+						"linegap"					"4"
 						//"show_columns"			"1"
 
 						"medal_width"				"s.08"
@@ -438,20 +494,24 @@
 				{
 					"ControlName"					"EditablePanel"
 					"fieldName"						"BluePlayerListBG"
-					"xpos"							"9"
+					"xpos"							"10"
 					"ypos"							"117"
 					"zpos"							"0"
 					"wide"							"p.2"
 					"tall"							"225"
-					"visible"						"1"
+					"visible"						"0"
 					"enabled"						"1"
+					"PaintBackgroundType"			"0"
+					"PaintBackground"				"1"
+					"bgcolor_override"				"FooterBGBlack"
+					"PaintBorder"					"1"
 					"border"						"TFFatLineBorderClearBG"
 
 					"if_large"
 					{
-						"ypos"						"57"
-						"tall"						"360"
-						"visible"					"0"
+						"ypos"						"72"
+						"tall"						"267"
+						"visible"					"1"
 					}
 				}
 			}
@@ -490,10 +550,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamScore"
 					"xpos"							"r5-p.19"
-					"ypos"							"103"
+					"ypos"							"99"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontBig"
@@ -503,7 +563,7 @@
 
 					"if_large"
 					{
-						"ypos"						"43"
+						"ypos"						"39"
 					}
 				}
 				"RedTeamScoreDropshadow"
@@ -511,20 +571,20 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamScoreDropshadow"
 					"xpos"							"r4-p.19"
-					"ypos"							"104"
+					"ypos"							"100"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontBig"
+					"fgcolor"						"LabelTransparent"
 					"labelText"						"%redteamscore%"
 					"textAlignment"					"west"
-					"fgcolor"						"LabelTransparent"
 
 					"if_large"
 					{
-						"ypos"						"44"
+						"ypos"						"40"
 					}
 				}
 				"RedTeamWinner"
@@ -532,10 +592,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamWinner"
 					"xpos"							"r5-p.19"
-					"ypos"							"103"
+					"ypos"							"99"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontMediumSmall"
@@ -545,7 +605,7 @@
 
 					"if_large"
 					{
-						"ypos"						"43"
+						"ypos"						"39"
 					}
 				}
 				"RedTeamWinnerDropshadow"
@@ -553,37 +613,92 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamWinnerDropshadow"
 					"xpos"							"r4-p.19"
-					"ypos"							"104"
+					"ypos"							"100"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontMediumSmall"
+					"fgcolor"						"LabelTransparent"
 					"labelText"						"%redteamwinner%"
 					"textAlignment"					"west"
-					"fgcolor"						"LabelTransparent"
 
 					"if_large"
 					{
-						"ypos"						"44"
+						"ypos"						"40"
+					}
+				}
+				"RedLabel"
+				{
+					"ControlName"					"CExLabel"
+					"fieldName"						"RedLabel"
+					"xpos"							"-5"
+					"ypos"							"0"
+					"zpos"							"20"
+					"wide"							"195"
+					"tall"							"20"
+					"visible"						"1"
+					"enabled"						"1"
+					"font"							"HudFontMedium"
+					"labelText"						"%redteamname%"
+					"textAlignment"					"east"
+					"fgcolor"						"White"
+
+					"pin_to_sibling"				"RedTeamScoreBG"
+					"pin_corner_to_sibling"			"PIN_CENTER_RIGHT"
+					"pin_to_sibling_corner"			"PIN_CENTER_RIGHT"
+				}
+				"RedLabelShadow"
+				{
+					"ControlName"					"CExLabel"
+					"fieldName"						"RedLabelShadow"
+					"xpos"							"-1"
+					"ypos"							"-1"
+					"zpos"							"19"
+					"wide"							"195"
+					"tall"							"20"
+					"visible"						"1"
+					"enabled"						"1"
+					"font"							"HudFontMedium"
+					"labelText"						"%redteamname%"
+					"textAlignment"					"east"
+					"fgcolor"						"LabelTransparent"
+					"pin_to_sibling"				"RedLabel"
+				}
+				"RedTeamImage"
+				{
+					"ControlName"					"ImagePanel"
+					"fieldName"						"RedTeamImage"
+					"xpos"							"r68"
+					"ypos"							"80"
+					"zpos"							"5"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"1"
+					"enabled"						"1"
+					"image"							"../hud/team_red"
+					"scaleImage"					"1"
+
+					"if_large"
+					{
+						"ypos"						"20"
 					}
 				}
 				"RedTeamLabel"
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamLabel"
-					"xpos"							"r255"
-					"ypos"							"-25"
-					"zpos"							"20"
-					"wide"							"195"
-					"tall"							"20"
-					"visible"						"1"
-					"enabled"						"1"
 					"font"							"HudFontSmall"
 					"labelText"						"%redteamname%"
 					"textAlignment"					"east"
-					"fgcolor"						"White"
+					"xpos"							"r255"
+					"ypos"							"-25"
+					"zpos"							"20"
+					"wide"							"0"
+					"tall"							"0"
+					"visible"						"1"
+					"enabled"						"1"
 				}
 				"RedLeaderAvatar"
 				{
@@ -598,7 +713,7 @@
 					"enabled"						"1"
 					"image"							""
 					"scaleImage"					"1"
-					"color_outline"					"Black"
+					"color_outline"					"52 48 45 255"
 
 					"if_large"
 					{
@@ -616,7 +731,7 @@
 					"tall"							"38"
 					"visible"						"1"
 					"PaintBackgroundType"			"2"
-					"bgcolor_override"				"White"
+					"bgcolor_override"				"117 107 94 255"
 
 					"if_large"
 					{
@@ -653,7 +768,7 @@
 						"visible"					"1"
 						"enabled"					"1"
 						"linespacing"				"26"
-						"linegap"					"1"
+						"linegap"					"4"
 						//"show_columns"			"1"
 
 						"medal_width"				"s.08"
@@ -683,15 +798,19 @@
 					"zpos"							"0"
 					"wide"							"p.2"
 					"tall"							"225"
-					"visible"						"1"
+					"visible"						"0"
 					"enabled"						"1"
+					"PaintBackgroundType"			"0"
+					"PaintBackground"				"1"
+					"bgcolor_override"				"FooterBGBlack"
+					"PaintBorder"					"1"
 					"border"						"TFFatLineBorderClearBG"
 
 					"if_large"
 					{
-						"ypos"						"57"
-						"tall"						"360"
-						"visible"					"0"
+						"ypos"						"72"
+						"tall"						"267"
+						"visible"					"1"
 					}
 				}
 			}
@@ -730,6 +849,9 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueGoldMedalValue"
+					"font"							"HudFontSmall"
+					"labelText"						"%blueteammedals_gold%"
+					"textAlignment"					"center"
 					"xpos"							"15"
 					"ypos"							"0"
 					"zpos"							"6"
@@ -737,10 +859,6 @@
 					"tall"							"15"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"HudFontSmall"
-					"labelText"						"%blueteammedals_gold%"
-					"textAlignment"					"center"
-					"fgcolor"						"White"
 				}
 				"BlueSilverMedal"
 				{
@@ -760,6 +878,9 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueSilverMedalValue"
+					"font"							"HudFontSmall"
+					"labelText"						"%blueteammedals_silver%"
+					"textAlignment"					"center"
 					"xpos"							"70"
 					"ypos"							"0"
 					"zpos"							"6"
@@ -767,10 +888,6 @@
 					"tall"							"15"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"HudFontSmall"
-					"labelText"						"%blueteammedals_silver%"
-					"textAlignment"					"center"
-					"fgcolor"						"White"
 				}
 				"BlueBronzeMedal"
 				{
@@ -790,6 +907,9 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueBronzeMedalValue"
+					"font"							"HudFontSmall"
+					"labelText"						"%blueteammedals_bronze%"
+					"textAlignment"					"center"
 					"xpos"							"125"
 					"ypos"							"0"
 					"zpos"							"6"
@@ -797,10 +917,6 @@
 					"tall"							"15"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"HudFontSmall"
-					"labelText"						"%blueteammedals_bronze%"
-					"textAlignment"					"center"
-					"fgcolor"						"White"
 				}
 			}
 			"RedMedals"
@@ -838,6 +954,9 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedGoldMedalValue"
+					"font"							"HudFontSmall"
+					"labelText"						"%redteammedals_gold%"
+					"textAlignment"					"center"
 					"xpos"							"15"
 					"ypos"							"0"
 					"zpos"							"6"
@@ -845,10 +964,6 @@
 					"tall"							"15"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"HudFontSmall"
-					"labelText"						"%redteammedals_gold%"
-					"textAlignment"					"center"
-					"fgcolor"						"White"
 				}
 				"RedSilverMedal"
 				{
@@ -868,6 +983,9 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedSilverMedalValue"
+					"font"							"HudFontSmall"
+					"labelText"						"%redteammedals_silver%"
+					"textAlignment"					"center"
 					"xpos"							"70"
 					"ypos"							"0"
 					"zpos"							"6"
@@ -875,10 +993,6 @@
 					"tall"							"15"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"HudFontSmall"
-					"labelText"						"%redteammedals_silver%"
-					"textAlignment"					"center"
-					"fgcolor"						"White"
 				}
 				"RedBronzeMedal"
 				{
@@ -898,6 +1012,9 @@
 				{
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedBronzeMedalValue"
+					"font"							"HudFontSmall"
+					"labelText"						"%redteammedals_bronze%"
+					"textAlignment"					"center"
 					"xpos"							"125"
 					"ypos"							"0"
 					"zpos"							"6"
@@ -905,10 +1022,6 @@
 					"tall"							"15"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"HudFontSmall"
-					"labelText"						"%redteammedals_bronze%"
-					"textAlignment"					"center"
-					"fgcolor"						"White"
 				}
 			}
 		}
