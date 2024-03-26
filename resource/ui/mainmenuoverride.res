@@ -50,22 +50,6 @@
 			"xpos"									"9999"
 		}
 	}
-	"MainBG"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"MainBG"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"-1"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"DarkBrown"
-	}
 	"Notifications_ShowButtonPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -402,7 +386,7 @@
 	//==================================================================================================================================================
 	// PRELOADING
 	//==================================================================================================================================================
-	"MenuThumbMissingFix"{"ControlName" "ImagePanel" "fieldName" "MenuThumbMissingFix" "xpos" "9999" "visible" "1" "enabled" "1" "image" "maps/menu_thumb_missing"}
+	"MenuThumbMissingFix"{"ControlName" "ImagePanel" "fieldName" "MenuThumbMissingFix" "xpos" "9999" "visible" "1" "enabled" "1" "image" "../vgui/maps/menu_thumb_missing"}
 	"CPHighlight"{"ControlName" "ImagePanel" "fieldName" "CPHighlight" "xpos" "9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/capture_highlight"}
 
 	//==================================================================================================================================================

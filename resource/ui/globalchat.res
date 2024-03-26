@@ -84,7 +84,7 @@
 		"tall"										"15"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"HudBlack"
+		"bgcolor_override"							"FooterBGBlack"
 		"fgcolor_override"							"White"
 		"RoundedCorners"							"0"
 		"font"										"Default"

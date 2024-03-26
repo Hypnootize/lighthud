@@ -111,7 +111,7 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"42"
 		"zpos"										"0"
-		"wide"										"200"
+		"wide"										"170"
 		"tall"										"50"
 		"MeterFG"									"Red"
 		"MeterBG"									"Gray"

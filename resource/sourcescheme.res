@@ -90,6 +90,7 @@
 
 		"MainMenu.TextColor"								"White"
 		"MainMenu.ArmedTextColor"							"White"
+		"MainMenu.Backdrop" 								"Blank"
 
 		"Menu.FgColor"										"White"
 		"Menu.BgColor"										"BlackGray"
@@ -220,10 +221,10 @@
 	{
 		"FrameBorder"
 		{
-			"Left"		{ "1" { "color" "BlackMedium" } }
-			"Right"		{ "1" { "color" "BlackMedium" } }
-			"Top"		{ "1" { "color" "BlackMedium" } }
-			"Bottom"	{ "1" { "color" "BlackMedium" } }
+			"Left"		{ "1" { "color" "BlackMedium" } "2" { "color" "BlackMedium" } }
+			"Right"		{ "1" { "color" "BlackMedium" } "2" { "color" "BlackMedium" } }
+			"Top"		{ "1" { "color" "BlackMedium" } "2" { "color" "BlackMedium" } }
+			"Bottom"	{ "1" { "color" "BlackMedium" } "2" { "color" "BlackMedium" } }
 		}
 	}
 	"CustomFontFiles"

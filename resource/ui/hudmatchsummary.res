@@ -251,10 +251,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamScore"
 					"xpos"							"5"
-					"ypos"							"103"
+					"ypos"							"99"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontBig"
@@ -264,7 +264,7 @@
 
 					"if_large"
 					{
-						"ypos"						"43"
+						"ypos"						"39"
 					}
 				}
 				"BlueTeamScoreDropshadow"
@@ -272,10 +272,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamScoreDropshadow"
 					"xpos"							"6"
-					"ypos"							"104"
+					"ypos"							"100"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontBig"
@@ -285,7 +285,7 @@
 
 					"if_large"
 					{
-						"ypos"						"44"
+						"ypos"						"40"
 					}
 				}
 				"BlueTeamWinner"
@@ -293,10 +293,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamWinner"
 					"xpos"							"5"
-					"ypos"							"103"
+					"ypos"							"99"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontMediumSmall"
@@ -306,7 +306,7 @@
 
 					"if_large"
 					{
-						"ypos"						"43"
+						"ypos"						"39"
 					}
 				}
 				"BlueTeamWinnerDropshadow"
@@ -314,10 +314,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"BlueTeamWinnerDropshadow"
 					"xpos"							"6"
-					"ypos"							"104"
+					"ypos"							"100"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontMediumSmall"
@@ -327,7 +327,7 @@
 
 					"if_large"
 					{
-						"ypos"						"44"
+						"ypos"						"40"
 					}
 				}
 				"BlueLabel"
@@ -499,7 +499,7 @@
 					"zpos"							"0"
 					"wide"							"p.2"
 					"tall"							"225"
-					"visible"						"1"
+					"visible"						"0"
 					"enabled"						"1"
 					"PaintBackgroundType"			"0"
 					"PaintBackground"				"1"
@@ -511,6 +511,7 @@
 					{
 						"ypos"						"72"
 						"tall"						"267"
+						"visible"					"1"
 					}
 				}
 			}
@@ -549,10 +550,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamScore"
 					"xpos"							"r5-p.19"
-					"ypos"							"103"
+					"ypos"							"99"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontBig"
@@ -562,7 +563,7 @@
 
 					"if_large"
 					{
-						"ypos"						"43"
+						"ypos"						"39"
 					}
 				}
 				"RedTeamScoreDropshadow"
@@ -570,10 +571,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamScoreDropshadow"
 					"xpos"							"r4-p.19"
-					"ypos"							"104"
+					"ypos"							"100"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontBig"
@@ -583,7 +584,7 @@
 
 					"if_large"
 					{
-						"ypos"						"44"
+						"ypos"						"40"
 					}
 				}
 				"RedTeamWinner"
@@ -591,10 +592,10 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamWinner"
 					"xpos"							"r5-p.19"
-					"ypos"							"103"
+					"ypos"							"99"
 					"zpos"							"4"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
 					"font"							"HudFontMediumSmall"
@@ -604,7 +605,7 @@
 
 					"if_large"
 					{
-						"ypos"						"43"
+						"ypos"						"39"
 					}
 				}
 				"RedTeamWinnerDropshadow"
@@ -612,20 +613,20 @@
 					"ControlName"					"CExLabel"
 					"fieldName"						"RedTeamWinnerDropshadow"
 					"xpos"							"r4-p.19"
-					"ypos"							"104"
+					"ypos"							"100"
 					"zpos"							"3"
 					"wide"							"p.19"
-					"tall"							"30"
+					"tall"							"36"
 					"visible"						"1"
 					"enabled"						"1"
-					"font"							"Bold_18_Blur"
+					"font"							"HudFontMediumSmall"
 					"fgcolor"						"LabelTransparent"
 					"labelText"						"%redteamwinner%"
 					"textAlignment"					"west"
 
 					"if_large"
 					{
-						"ypos"						"44"
+						"ypos"						"40"
 					}
 				}
 				"RedLabel"
@@ -797,7 +798,7 @@
 					"zpos"							"0"
 					"wide"							"p.2"
 					"tall"							"225"
-					"visible"						"1"
+					"visible"						"0"
 					"enabled"						"1"
 					"PaintBackgroundType"			"0"
 					"PaintBackground"				"1"
@@ -809,6 +810,7 @@
 					{
 						"ypos"						"72"
 						"tall"						"267"
+						"visible"					"1"
 					}
 				}
 			}

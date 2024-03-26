@@ -11,7 +11,6 @@
 		"Green"												"80 175 115 255"
 		"Blank"												"0 0 0 0"
 	}
-
 	"BaseSettings"
 	{
 		"Border.Bright"										"Blank"
@@ -176,15 +175,10 @@
 		"TFColors.ChatTextTeamBlue"							"153 204 255 255"
 		"TFColors.ChatTextTeamRed"							"255 63 53 255"
 	}
-
 	"BitmapFontFiles"
 	{
 		"Buttons"											"materials/vgui/fonts/buttons_32.vbf"
 	}
-
-	//////////////////////// FONTS /////////////////////////////
-	//
-	// describes all the fonts
 	"Fonts"
 	{
 		"Default"
@@ -233,8 +227,47 @@
 				"antialias"									"1"
 			}
 		}
-
-		// this is the symbol font
+		"DefaultVerySmall"
+		{
+			"1"
+			{
+				"name"										"Verdana"
+				"tall"										"12"
+				"range"										"0x0000 0x017F"
+				"yres"										"480 599"
+			}
+			"2"
+			{
+				"name"										"Verdana"
+				"tall"										"12"
+				"range"										"0x0000 0x017F"
+				"yres"										"600 767"
+			}
+			"3"
+			{
+				"name"										"Verdana"
+				"tall"										"12"
+				"range"										"0x0000 0x017F"
+				"yres"										"768 1023"
+				"antialias"									"1"
+			}
+			"4"
+			{
+				"name"										"Verdana"
+				"tall"										"14"
+				"range"										"0x0000 0x017F"
+				"yres"										"1024 1199"
+				"antialias"									"1"
+			}
+			"5"
+			{
+				"name"										"Verdana"
+				"tall"										"16"
+				"range"										"0x0000 0x017F"
+				"yres"										"1200 6000"
+				"antialias"									"1"
+			}
+		}
 		"Marlett"
 		{
 
@@ -279,7 +312,6 @@
 				"symbol"									"1"
 			}
 		}
-
 		"MarlettSmall"
 		{
 			"1"
@@ -323,7 +355,6 @@
 				"symbol"									"1"
 			}
 		}
-
 		"ChatFont"
 		{
 			"1"
@@ -368,7 +399,6 @@
 			}
 		}
 	}
-
 	"Borders"
 	{
 		BaseBorder		DepressedBorder
@@ -382,7 +412,6 @@
 		{
 			"backgroundtype"								"0"
 		}
-
 		"DepressedBorder"
 		{
 			"inset"											"0 0 1 1"
@@ -419,7 +448,6 @@
 				}
 			}
 		}
-
 		"RaisedBorder"
 		{
 			"inset"											"0 0 1 1"
@@ -456,7 +484,6 @@
 				}
 			}
 		}
-
 		"TitleButtonBorder"
 		{
 			"backgroundtype"								"2"
@@ -473,7 +500,6 @@
 		{
 			"backgroundtype"								"2"
 		}
-
 		"ScrollBarButtonBorder"
 		{
 			"inset"											"2 2 0 0"
@@ -510,7 +536,6 @@
 				}
 			}
 		}
-
 		"ScrollBarButtonDepressedBorder"
 		{
 			"inset"											"2 2 0 0"
@@ -547,7 +572,6 @@
 				}
 			}
 		}
-
 		"TabBorder"
 		{
 			"inset"											"0 0 1 1"
@@ -577,7 +601,6 @@
 			}
 
 		}
-
 		"TabActiveBorder"
 		{
 			"inset"											"0 0 1 0"
@@ -606,7 +629,6 @@
 				}
 			}
 		}
-
 		"ToolTipBorder"
 		{
 			"inset"											"0 0 1 0"
@@ -643,7 +665,6 @@
 				}
 			}
 		}
-
 		"ButtonKeyFocusBorder"
 		{
 			"inset"											"0 0 1 1"
@@ -700,7 +721,6 @@
 				}
 			}
 		}
-
 		"ButtonDepressedBorder"
 		{
 			"inset"											"2 1 1 1"
@@ -738,10 +758,6 @@
 			}
 		}
 	}
-
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	"CustomFontFiles"
 	{
 		"1" "resource/HALFLIFE2.ttf"
