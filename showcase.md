@@ -76,7 +76,7 @@
 ![Ubercharge Surface](../screenshots/24_Ubercharge_Surface.jpg?raw=true)
 
 ## UBERCHARGE TF2
-![Ubercharge TF2](../screenshots/25_Ubercharge_TF2.jpg?raw=true)
+![Ubercharge TF2](../screenshots/25_Ubercharge_TF2.png?raw=true)
 
 ## TARGET ID MEDIGUN ICONS
 ![TargetID Medigun Icons](../screenshots/26_TargetID_Medigun_Icons.png?raw=true)
