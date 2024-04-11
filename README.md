@@ -2,10 +2,10 @@
 
 My personal HUD aimed to be very minimal and light on performance, get's rid of many elements I don't personally feel the need of and with that brings a bit more stability with less freezes and some extra FPS.
 
-![](https://i.imgur.com/aaDrJpN.jpg)
-![](https://i.imgur.com/1kQZ7CG.jpg)
-![](https://i.imgur.com/GO6OKlE.jpg)
-![](https://i.imgur.com/egYDGgP.jpeg)
-![](https://i.imgur.com/hb3bLsK.jpeg)
-![](https://i.imgur.com/mvw9C8e.jpeg)
-![](https://i.imgur.com/LPYCrpj.jpg)
+![](../screenshots/personal/01_Main_Menu.jpg?raw=true)
+![](../screenshots/personal/02_Team_Selection.jpg?raw=true)
+![](../screenshots/personal/03_Class_Selection.jpg?raw=true)
+![](../screenshots/personal/04_Health_Buff.jpg?raw=true)
+![](../screenshots/personal/05_Health_Ammo_Low.jpg?raw=true)
+![](../screenshots/personal/06_Win.jpg?raw=true)
+![](../screenshots/27_Scoreboard.jpg?raw=true)
