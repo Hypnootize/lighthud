@@ -417,7 +417,7 @@
 	{
 		"Damage"
 		{
-			"1" { "name" "Surface-Medium" "tall" "22" "antialias" "1" "dropshadow" "1" }
+			"1" { "name" "Surface-Medium" "tall" "26" "antialias" "1" "outline" "1" }
 		}
 		"Health_Ammo"
 		{
@@ -594,10 +594,6 @@
 		"ScoreboardMedium"
 		{
 			"1" { "name" "Heebo Bold" "tall" "20" "range" "0x0000 0x007F" "antialias" "1" }
-		}
-		"TargetID"
-		{
-			"1" { "name" "Heebo Icons V2" "tall" "12" "antialias" "1" "dropshadow" "1" "range" "0x000 0xFFFF" }
 		}
 		"ChatFont"
 		{

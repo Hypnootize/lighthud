@@ -63,7 +63,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%targetdata%"
 		"textAlignment"								"west"
-		"font"										"TargetID"
+		"font"										"HudFontSmallestShadow"
 		"disabledfgcolor2_override"					"White"
 	}
 	"SpectatorGUIHealth"
