@@ -1731,13 +1731,6 @@
 		}
 		"2"
 		{
-			"font" "resource/fonts/heeboicons.ttf"
-			"name" "Heebo Icons V2"
-
-			"english"	{ "range" "0x000 0xFFFF" }
-		}
-		"3"
-		{
 			"font" "resource/fonts/surface.otf"
 			"name" "Surface-Medium"
 		}
