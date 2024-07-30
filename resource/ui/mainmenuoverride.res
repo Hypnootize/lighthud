@@ -167,6 +167,7 @@
 	//==================================================================================================================================================
 	"MenuThumbMissingFix"{"ControlName" "ImagePanel" "fieldName" "MenuThumbMissingFix" "xpos" "9999" "visible" "1" "enabled" "1" "image" "../vgui/maps/menu_thumb_missing"}
 	"CPHighlight"{"ControlName" "ImagePanel" "fieldName" "CPHighlight" "xpos" "9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/capture_highlight"}
+	"CPWarning"{"ControlName" "ImagePanel" "fieldName" "CPWarning" "xpos" "9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/warning_highlight"}
 
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS

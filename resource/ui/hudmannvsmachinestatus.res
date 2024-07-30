@@ -65,7 +65,7 @@
 		"enabled"									"1"
 		"image"										"../sprites/obj_icons/warning_highlight"
 		"scaleImage"								"1"
-		"time"										"0.3"
+		"time"										"0"
 	}
 	"UpgradeLevelContainer"
 	{
