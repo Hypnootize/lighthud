@@ -27,7 +27,7 @@
 
 		"collapsed_height"							"0"
 		"expanded_height"							"140"
-		"resize_time"								"0.3"
+		"resize_time"								"0"
 		"invalidate_parent_on_resize"				"0"
 	}
 	"ChatLog"

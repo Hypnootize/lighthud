@@ -142,7 +142,6 @@ event HudTournament_ShowTimerCompetitive
 	SetVisible		CountdownLabel					1	0
 	SetVisible		CountdownLabelShadow			1	0
 }
-
 event HudTournament_ShowTimerDefault
 {
 	Animate			CountdownLabel					ypos		"100"					Linear		0		0
@@ -151,6 +150,14 @@ event HudTournament_ShowTimerDefault
 	SetVisible		CountdownBG						1	0
 	SetVisible		CountdownLabel					1	0
 	SetVisible		CountdownLabelShadow			1	0
+}
+//=====================================================================================================================
+event CompetitiveGame_RestoreChatWindow
+{
+	RunEvent		HudHealthDyingPulseStop			0.1
+	RunEvent		HudHealthBonusPulseStop			0.1
+	RunEvent		HudLowAmmoPulseStop				0.1
+	RunEvent		HudMedicChargedStop				0.1
 }
 //=====================================================================================================================
 
@@ -223,7 +230,6 @@ event CollectionCrafting_OKBlink_Repeatable{}
 event CollectionCrafting_OKBlink{}
 event QuestItem_Options_Flash{}
 event CompetitiveGame_LowerChatWindow{}
-event CompetitiveGame_RestoreChatWindow{}
 event HudTournament_MoveChatWindow{}
 event HudTournament_AnimateTeams_In{}
 event HudTournament_AnimateTeams_Out{}

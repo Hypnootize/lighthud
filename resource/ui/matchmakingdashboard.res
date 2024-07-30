@@ -14,7 +14,7 @@
 
 		"collapsed_height"							"0"
 		"expanded_height"							"27"
-		"resize_time"								"0.2"
+		"resize_time"								"0"
 	}
 	"TopBar"
 	{

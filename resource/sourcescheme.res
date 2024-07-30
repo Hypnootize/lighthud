@@ -59,6 +59,8 @@
 		"FrameTitleButton.FgColor"							"Gray"
 		"FrameTitleBar.TextColor"							"Gray"
 		"FrameTitleBar.DisabledTextColor"					"Gray"
+		"Frame.FocusTransitionEffectTime"					"0"
+		"Frame.TransitionEffectTime"						"0"
 
 		"Label.TextDullColor"								"White"
 		"Label.TextColor"									"White"
@@ -100,6 +102,7 @@
 
 		"PropertySheet.TextColor"							"White"
 		"PropertySheet.SelectedTextColor"					"White"
+		"PropertySheet.TransitionEffectTime"				"0"
 
 		"ScrollBarButton.FgColor"							"Gray"
 		"ScrollBarButton.BgColor"							"TransparentBlack"
