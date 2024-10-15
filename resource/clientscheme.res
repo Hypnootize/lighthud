@@ -337,7 +337,7 @@
 
 		"Slider.NobColor"									"White"
 		"Slider.TextColor"									"White"
-		"Slider.TrackColor"									"TanDaker"
+		"Slider.TrackColor"									"Black"
 		"Slider.DisabledTextColor1"							"TanDark"
 		"Slider.DisabledTextColor2"							"TanDarker"
 
@@ -424,15 +424,27 @@
 		}
 		"Default"
 		{
-			"1" { "name" "Heebo Bold" "tall" "11" "antialias" "1" }
+			"1" { "name" "Heebo Bold" "tall" "14" "yres" "480 599" "antialias" "1" }
+			"2" { "name" "Heebo Bold" "tall" "15" "yres" "600 767" "antialias" "1" }
+			"3" { "name" "Heebo Bold" "tall" "16" "yres" "768 1023" "antialias" "1" }
+			"4" { "name" "Heebo Bold" "tall" "22" "yres" "1024 1199" "antialias" "1" }
+			"5" { "name" "Heebo Bold" "tall" "9" "antialias" "1" }
 		}
 		"DefaultSmall"
 		{
-			"1" { "name" "Heebo Bold" "tall" "12" "antialias" "1" }
+			"1" { "name" "Heebo Bold" "tall" "14" "yres" "480 599" "antialias" "1" }
+			"2" { "name" "Heebo Bold" "tall" "15" "yres" "600 767" "antialias" "1" }
+			"3" { "name" "Heebo Bold" "tall" "16" "yres" "768 1023" "antialias" "1" }
+			"4" { "name" "Heebo Bold" "tall" "22" "yres" "1024 1199" "antialias" "1" }
+			"5" { "name" "Heebo Bold" "tall" "9" "antialias" "1" }
 		}
 		"DefaultVerySmall"
 		{
-			"1" { "name" "Verdana" "tall" "7" "antialias" "1" "range" "0x0000 0x017F" }
+			"1" { "name" "Verdana" "tall" "12" "yres" "480 599" "antialias" "1" }
+			"2" { "name" "Verdana" "tall" "12" "yres" "600 767" "antialias" "1" }
+			"3" { "name" "Verdana" "tall" "12" "yres" "768 1023" "antialias" "1" }
+			"4" { "name" "Verdana" "tall" "14" "yres" "1024 1199" "antialias" "1" }
+			"5" { "name" "Verdana" "tall" "9" "antialias" "1" }
 		}
 		"CenterPrintText"
 		{
@@ -440,11 +452,19 @@
 		}
 		"HudHintText"
 		{
-			"1" { "name" "Heebo Bold" "tall" "11" "antialias" "1" }
+			"1" { "name" "Heebo Bold" "tall" "15" "yres" "480 599" "antialias" "1" }
+			"2" { "name" "Heebo Bold" "tall" "16" "yres" "600 767" "antialias" "1" }
+			"3" { "name" "Heebo Bold" "tall" "17" "yres" "768 1023" "antialias" "1" }
+			"4" { "name" "Heebo Bold" "tall" "23" "yres" "1024 1199" "antialias" "1" }
+			"5" { "name" "Heebo Bold" "tall" "12" "antialias" "1" }
 		}
 		"HudFontGiant"
 		{
-			"1" { "name" "Heebo Bold" "tall" "24" "antialias" "1" }
+			"1" { "name" "Heebo Bold" "tall" "24" "yres" "480 599" "antialias" "1" }
+			"2" { "name" "Heebo Bold" "tall" "32" "yres" "600 767" "antialias" "1" }
+			"3" { "name" "Heebo Bold" "tall" "44" "yres" "768 1023" "antialias" "1" }
+			"4" { "name" "Heebo Bold" "tall" "48" "yres" "1024 1199" "antialias" "1" }
+			"5" { "name" "Heebo Bold" "tall" "24" "antialias" "1" }
 		}
 		"HudFontGiantBold"
 		{
@@ -476,7 +496,8 @@
 		}
 		"HudFontMediumSecondary"
 		{
-			"1" { "name" "Heebo Bold" "tall" "24" "antialias" "1" }
+			"1" { "name" "Heebo Bold" "tall" "24" "yres" "1 1199" "antialias" "1" }
+			"2" { "name" "Heebo Bold" "tall" "10" "antialias" "1" }
 		}
 		"HudFontMediumBold"
 		{
@@ -708,7 +729,7 @@
 		}
 		"AdFont_ItemName"
 		{
-			"1" { "name" "Heebo Bold" "tall" "10" "antialias" "1" }
+			"1" { "name" "Heebo Bold" "tall" "12" "antialias" "1" }
 		}
 		"AdFont_AdText"
 		{
