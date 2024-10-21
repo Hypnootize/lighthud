@@ -18,7 +18,7 @@
 		"control_w"									"500"
 		"control_h"									"25"
 		"slider_w"									"500"
-		"slider_h"									"25"
+		"slider_h"									"30"
 	}
 	"TitleBG"
 	{
