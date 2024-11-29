@@ -1,14 +1,14 @@
-"chapters"
+"Chapters"
 {
-	"1"	"background_upward"
-	"2"	"background_upward"
-	"3"	"background_upward"
-	"4"	"background_upward"
+    "1" "main_menu_bg"
+    "2" "main_menu_bg"
+    "3" "main_menu_bg"
+    "3" "main_menu_bg"
 }
 "BackgroundMaps"
 {
-	"1"	"background_upward"
-	"2"	"background_upward"
-	"3"	"background_upward"
-	"4"	"background_upward"
+    "1" "main_menu_bg"
+    "2" "main_menu_bg"
+    "3" "main_menu_bg"
+    "4" "main_menu_bg"
 }

@@ -1,13 +1,26 @@
-# LightHUD
+# AngelHUD
+This hud is almost all lighthud, and a bit of art that I love, all credit to Hypnotize and the artists listed below.  
 
-My personal HUD aimed to be very minimal and light on performance, get's rid of many elements I don't personally feel the need of and with that brings a bit more stability with less freezes and some extra FPS.
+## Art sources
+**In-game**  
+- Low health: [@deceased_bunny](https://twitter.com/Deceased_Bunny/status/1662088501977030656)
+- Overheal: [@deceased_bunny](https://twitter.com/Deceased_Bunny/status/1748408562790105295)
 
-Here are some of the screenshots, full album [HERE](../screenshots/showcase.md)
+**Backgrounds**  
+- Main menu: [@natari_illust](https://twitter.com/natari_illust/status/1854490119413367279)
+- Loading 1: [@natari_illust](https://twitter.com/natari_illust/status/1496393868950003713)
+- Loading 2: [@natari_illust](https://twitter.com/natari_illust/status/1487832689600122882)
+- Loading 3: [@natari_illust](https://twitter.com/natari_illust/status/1487734610960080901)
 
-![](../screenshots/01_Main_Menu.jpg?raw=true)
-![](../screenshots/09_Team_Selection.jpg?raw=true)
-![](../screenshots/10_Class_Selection.jpg?raw=true)
-![](../screenshots/14_Health_Buff_Normal.jpg?raw=true)
-![](../screenshots/15_Health_Buff_Surface.jpg?raw=true)
-![](../screenshots/16_Health_Buff_TF2.png?raw=true)
-![](../screenshots/27_Scoreboard.jpg?raw=true)
+## Customization
+**Loading Screen**  
+- There are 3 loading screens, pick one here: `statsummary.res > Line 25: loading_bg_<1,2,3>`
+
+## TODO
+- **Align koth timer**
+- Minmode overheal/lowhp animations
+- Align main menu buttons better
+- Change highlight color of various elements
+- Randomised loading screens (idk how)
+- Dialog menus: fiddle with width to get messages to align properly (this sucks)
+

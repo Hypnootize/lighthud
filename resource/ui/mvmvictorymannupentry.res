@@ -387,7 +387,7 @@
 				"visible"							"1"
 				"PaintBackground"					"1"
 				"PaintBackgroundType"				"0"
-				"bgcolor_override"					"CreditsGreen"
+				"bgcolor_override"					"Main"
 				"proportionalToParent"				"1"
 			}
 		}

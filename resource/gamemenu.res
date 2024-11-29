@@ -1,9 +1,9 @@
 "Resource/GameMenu.res"
 {
-	"LightHUD"
+	"AngelHUD"
 	{
-		"label"									"LightHUD"
-		"command"								"engine con_enable 1; toggleconsole; echo LightHUD by Hypnotize"
+		"label"									"AngelHUD"
+		"command"								"engine con_enable 1; toggleconsole; echo AngelHUD by Calluna"
 	}
 	"Servers"
 	{

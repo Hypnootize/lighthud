@@ -69,18 +69,8 @@
 		"mouseinputenabled"							"1"
 		"keyboardinputenabled"						"0"
 		"actionsignallevel"							"1"
-
 		"sound_depressed"							"UI/buttonclick.wav"
-
 		"paintbackground"							"1"
-
-		"defaultBgColor_override"					"GreenSolid"
-		"armedBgColor_override"						"StoreGreen"
-		"depressedBgColor_override"					"StoreGreen"
-
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"White"
-		"depressedFgColor_override"					"White"
 	}
 	"BootCampQueueButton"
 	{
@@ -105,16 +95,7 @@
 		"keyboardinputenabled"						"0"
 		"actionsignallevel"							"1"
 		"sound_depressed"							"UI/buttonclick.wav"
-
 		"paintbackground"							"1"
-
-		"defaultBgColor_override"					"GreenSolid"
-		"armedBgColor_override"						"StoreGreen"
-		"depressedBgColor_override"					"StoreGreen"
-
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"White"
-		"depressedFgColor_override"					"White"
 	}
 	"NextButton"
 	{
