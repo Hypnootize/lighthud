@@ -3,7 +3,7 @@
 	"AngelHUD"
 	{
 		"label"									"AngelHUD"
-		"command"								"engine con_enable 1; toggleconsole; echo AngelHUD by Calluna"
+		"command"								"engine con_enable 1; toggleconsole; echo AngelHUD by calluna; echo Based on LightHUD by Hypnotize; echo Art by:; echo \"  @deceased_bunny\"; echo \"  @natari_illust\""
 	}
 	"Servers"
 	{
