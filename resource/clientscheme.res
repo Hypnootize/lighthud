@@ -34,6 +34,7 @@
         "PartyMember6"                                      "255 133 255 255"
 
         "White"                                             "225 220 220 255"
+        "TransparentWhite"                                  "225 220 220 60"
         "TrueWhite"                                         "255 255 255 255"
         "Red"                                               "225 75 75 255"
         "RedSolid"                                          "225 75 75 255"
