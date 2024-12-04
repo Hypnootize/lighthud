@@ -97,7 +97,7 @@ event ActiveTimerBGPulse
 }
 event ActiveTimerHighlight
 {
-    Animate         TimePanelValue                  FgColor     "Main"                  Linear      0.0     0.0
+    Animate         TimePanelValue                  FgColor     "TrueWhite"             Linear      0.0     0.0
 }
 event ActiveTimerDim
 {

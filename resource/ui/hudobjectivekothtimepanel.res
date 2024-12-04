@@ -28,6 +28,7 @@
         "visible"                                   "1"
         "enabled"                                   "1"
         "proportionaltoparent"                      "1"
+
         "TimePanelValue"
         {
             "ControlName"                           "CExLabel"
@@ -106,7 +107,5 @@
         "enabled"                                   "1"
         "proportionaltoparent"                      "1"
         "paintbackground"                           "1"
-        "bgcolor_override"                          "White"
-        "fgcolor_override"                          "255 0 0 255"
     }
 }
