@@ -134,14 +134,25 @@
             }
         }
     }
+    "ReadyUpAnchor"
+    {
+        "ControlName"                               "EditablePanel"
+        "fieldName"                                 "ReadyUpAnchor"
+        "visible"                                   "1"
+        "enabled"                                   "1"
+        "xpos"                                      "cs-0.5"
+        "ypos"                                      "5"
+        "wide"                                      "90"
+        "tall"                                      "20"
+    }
     "ReadyUpBG"
     {
         "ControlName"                               "Panel"
         "fieldName"                                 "ReadyUpBG"
-        "xpos"                                      "c"
-        "ypos"                                      "5"
+        "xpos"                                      "-3"
+        "ypos"                                      "0"
         "zpos"                                      "0"
-        "wide"                                      "43"
+        "wide"                                      "40"
         "tall"                                      "20"
         "visible"                                   "1"
         "enabled"                                   "1"
@@ -149,6 +160,10 @@
         "paintbackground"                           "1"
         "PaintBackgroundType"                       "0"
         "bgcolor_override"                          "21 20 19 200"
+
+        "pin_to_sibling"                            "ReadyUpAnchor"
+        "pin_corner_to_sibling"                     "PIN_TOPRIGHT"
+        "pin_to_sibling_corner"                     "PIN_TOPRIGHT"
 
         "if_competitive"
         {
@@ -167,10 +182,10 @@
     {
         "ControlName"                               "Panel"
         "fieldName"                                 "ReadyUpBG2"
-        "xpos"                                      "c-44"
-        "ypos"                                      "5"
+        "xpos"                                      "-3"
+        "ypos"                                      "0"
         "zpos"                                      "0"
-        "wide"                                      "43"
+        "wide"                                      "40"
         "tall"                                      "20"
         "visible"                                   "1"
         "enabled"                                   "1"
@@ -178,6 +193,10 @@
         "paintbackground"                           "1"
         "PaintBackgroundType"                       "0"
         "bgcolor_override"                          "21 20 19 200"
+
+        "pin_to_sibling"                            "ReadyUpAnchor"
+        "pin_corner_to_sibling"                     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"                     "PIN_TOPLEFT"
 
         "if_competitive"
         {
@@ -196,10 +215,10 @@
     {
         "ControlName"                               "CExLabel"
         "fieldName"                                 "TournamentBLUEStateLabel"
-        "xpos"                                      "c-44"
-        "ypos"                                      "5"
+        "xpos"                                      "0"
+        "ypos"                                      "0"
         "zpos"                                      "5"
-        "wide"                                      "43"
+        "wide"                                      "40"
         "tall"                                      "19"
         "visible"                                   "1"
         "enabled"                                   "1"
@@ -208,6 +227,8 @@
         "labelText"                                 "%bluestate%"
         "textAlignment"                             "center"
         "fgcolor"                                   "White"
+        "pin_to_sibling"                            "ReadyUpBG2"
+
 
         "if_competitive"
         {
@@ -229,7 +250,7 @@
         "xpos"                                      "0"
         "ypos"                                      "0"
         "zpos"                                      "0"
-        "wide"                                      "44"
+        "wide"                                      "41"
         "tall"                                      "20"
         "visible"                                   "1"
         "enabled"                                   "1"
@@ -257,10 +278,10 @@
     {
         "ControlName"                               "CExLabel"
         "fieldName"                                 "TournamentREDStateLabel"
-        "xpos"                                      "c"
-        "ypos"                                      "5"
+        "xpos"                                      "0"
+        "ypos"                                      "0"
         "zpos"                                      "5"
-        "wide"                                      "43"
+        "wide"                                      "40"
         "tall"                                      "19"
         "visible"                                   "1"
         "enabled"                                   "1"
@@ -269,6 +290,7 @@
         "labelText"                                 "%redstate%"
         "textAlignment"                             "center"
         "fgcolor"                                   "White"
+        "pin_to_sibling"                            "ReadyUpBG"
 
         "if_competitive"
         {
@@ -290,7 +312,7 @@
         "xpos"                                      "0"
         "ypos"                                      "0"
         "zpos"                                      "0"
-        "wide"                                      "44"
+        "wide"                                      "41"
         "tall"                                      "20"
         "visible"                                   "1"
         "enabled"                                   "1"

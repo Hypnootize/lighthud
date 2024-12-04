@@ -36,9 +36,9 @@
         "visible"                                   "1"
         "enabled"                                   "1"
         "xpos"                                      "cs-0.5"
-        "ypos"                                      "0"
-        "wide"                                      "86"
-        "tall"                                      "30"
+        "ypos"                                      "5"
+        "wide"                                      "90"
+        "tall"                                      "20"
         "blue_active_xpos"                          "0"
         "red_active_xpos"                           "46"
     }
