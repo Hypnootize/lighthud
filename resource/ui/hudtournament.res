@@ -145,10 +145,10 @@
         "wide"                                      "90"
         "tall"                                      "20"
     }
-    "ReadyUpBG"
+    "RedReadyUpBG"
     {
         "ControlName"                               "Panel"
-        "fieldName"                                 "ReadyUpBG"
+        "fieldName"                                 "RedReadyUpBG"
         "xpos"                                      "-3"
         "ypos"                                      "0"
         "zpos"                                      "0"
@@ -159,11 +159,13 @@
         "proportionaltoparent"                      "1"
         "paintbackground"                           "1"
         "PaintBackgroundType"                       "0"
-        "bgcolor_override"                          "21 20 19 200"
+        "bgcolor_override"                          "HUDRedTeamSolid"
+        "alpha"                                     "200"
 
         "pin_to_sibling"                            "ReadyUpAnchor"
         "pin_corner_to_sibling"                     "PIN_TOPRIGHT"
         "pin_to_sibling_corner"                     "PIN_TOPRIGHT"
+
 
         "if_competitive"
         {
@@ -178,10 +180,10 @@
             "wide"                                  "0"
         }
     }
-    "ReadyUpBG2"
+    "BlueReadyUpBG"
     {
         "ControlName"                               "Panel"
-        "fieldName"                                 "ReadyUpBG2"
+        "fieldName"                                 "BlueReadyUpBG"
         "xpos"                                      "-3"
         "ypos"                                      "0"
         "zpos"                                      "0"
@@ -192,7 +194,8 @@
         "proportionaltoparent"                      "1"
         "paintbackground"                           "1"
         "PaintBackgroundType"                       "0"
-        "bgcolor_override"                          "21 20 19 200"
+        "bgcolor_override"                          "HUDBlueTeamSolid"
+        "alpha"                                     "200"
 
         "pin_to_sibling"                            "ReadyUpAnchor"
         "pin_corner_to_sibling"                     "PIN_TOPLEFT"
@@ -227,7 +230,7 @@
         "labelText"                                 "%bluestate%"
         "textAlignment"                             "center"
         "fgcolor"                                   "White"
-        "pin_to_sibling"                            "ReadyUpBG2"
+        "pin_to_sibling"                            "BlueReadyUpBG"
 
 
         "if_competitive"
@@ -290,7 +293,7 @@
         "labelText"                                 "%redstate%"
         "textAlignment"                             "center"
         "fgcolor"                                   "White"
-        "pin_to_sibling"                            "ReadyUpBG"
+        "pin_to_sibling"                            "RedReadyUpBG"
 
         "if_competitive"
         {
