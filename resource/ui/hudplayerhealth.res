@@ -27,10 +27,10 @@
         "visible"                                   "0"
         "enabled"                                   "1"
     }
-    "PlayerStatusHealthImageBG"
+    "HealthImageBonus"
     {
         "ControlName"                               "ImagePanel"
-        "fieldName"                                 "PlayerStatusHealthImageBG"
+        "fieldName"                                 "HealthImageBonus"
         "xpos"                                      "-18"
         "ypos"                                      "30"
         "zpos"                                      "0"
@@ -48,10 +48,10 @@
         "pin_corner_to_sibling"                     "PIN_CENTER_TOP"
         "pin_to_sibling_corner"                     "PIN_CENTER_TOP"
     }
-    "PlayerStatusHealthImageBG2"
+    "HealthImageDying"
     {
         "ControlName"                               "ImagePanel"
-        "fieldName"                                 "PlayerStatusHealthImageBG2"
+        "fieldName"                                 "HealthImageDying"
         "xpos"                                      "18"
         "ypos"                                      "35"
         "zpos"                                      "0"
@@ -69,10 +69,10 @@
         "pin_corner_to_sibling"                     "PIN_CENTER_TOP"
         "pin_to_sibling_corner"                     "PIN_CENTER_TOP"
     }
-    "PlayerStatusHealthImageBG3"
+    "HealthImageBonusMM"
     {
         "ControlName"                               "ImagePanel"
-        "fieldName"                                 "PlayerStatusHealthImageBG3"
+        "fieldName"                                 "HealthImageBonusMM"
         "xpos"                                      "9999"
         "ypos"                                      "9999"
         "zpos"                                      "10"
@@ -90,10 +90,10 @@
         "pin_corner_to_sibling"                     "PIN_CENTER_TOP"
         "pin_to_sibling_corner"                     "PIN_CENTER_TOP"
     }
-    "PlayerStatusHealthImageBG4"
+    "HealthImageDyingMM"
     {
         "ControlName"                               "ImagePanel"
-        "fieldName"                                 "PlayerStatusHealthImageBG4"
+        "fieldName"                                 "HealthImageDyingMM"
         "xpos"                                      "9999"
         "ypos"                                      "9999"
         "zpos"                                      "10"

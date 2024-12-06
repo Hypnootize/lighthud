@@ -2,8 +2,8 @@
 event HudHealthBonusPulse
 {
     Animate         PlayerStatusHealthValue         FgColor     "Main"                  Linear      0.0     0.0
-    Animate         PlayerStatusHealthImageBG       Alpha       "200"                   Linear      0.0     0.0
-    Animate         PlayerStatusHealthImageBG3      Alpha       "255"                   Linear      0.0     0.0
+    Animate         HealthImageBonus                Alpha       "200"                   Linear      0.0     0.0
+    Animate         HealthImageBonusMM              Alpha       "255"                   Linear      0.0     0.0
 
     RunEvent        HudHealthBonusPulseLoop         0.4
 }
@@ -12,16 +12,16 @@ event HudHealthBonusPulseStop
     StopEvent       HudHealthBonusPulse             0.0
     StopEvent       HudHealthBonusPulseLoop         0.0
 
-    Animate         PlayerStatusHealthImageBG       Alpha       "0"                     Linear      0.0     0.0
-    Animate         PlayerStatusHealthImageBG3      Alpha       "0"                     Linear      0.0     0.0
+    Animate         HealthImageBonus                Alpha       "0"                     Linear      0.0     0.0
+    Animate         HealthImageBonusMM              Alpha       "0"                     Linear      0.0     0.0
     Animate         PlayerStatusHealthValue         FgColor     "White"                 Linear      0.0     0.0
 }
 //=====================================================================================================================
 event HudHealthDyingPulse
 {
     Animate         PlayerStatusHealthValue         FgColor     "Low"                   Linear      0.0     0.0
-    Animate         PlayerStatusHealthImageBG2      Alpha       "200"                   Linear      0.0     0.0
-    Animate         PlayerStatusHealthImageBG4      Alpha       "255"                   Linear      0.0     0.0
+    Animate         HealthImageDying                Alpha       "200"                   Linear      0.0     0.0
+    Animate         HealthImageDyingMM              Alpha       "255"                   Linear      0.0     0.0
 
     RunEvent        HudHealthDyingPulseLoop         0.25
 }
@@ -30,8 +30,8 @@ event HudHealthDyingPulseStop
     StopEvent       HudHealthDyingPulse             0.0
     StopEvent       HudHealthDyingPulseLoop         0.0
 
-    Animate         PlayerStatusHealthImageBG2      Alpha       "0"                     Linear      0.0     0.0
-    Animate         PlayerStatusHealthImageBG4      Alpha       "0"                     Linear      0.0     0.0
+    Animate         HealthImageDying                Alpha       "0"                     Linear      0.0     0.0
+    Animate         HealthImageDyingMM              Alpha       "0"                     Linear      0.0     0.0
     Animate         PlayerStatusHealthValue         FgColor     "White"                 Linear      0.0     0.0
 }
 //=====================================================================================================================
