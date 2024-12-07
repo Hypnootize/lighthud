@@ -13,7 +13,13 @@ This hud is almost all lighthud, and a bit of art that I love, all credit to Hyp
 - Loading 3: [@natari_illust](https://twitter.com/natari_illust/status/1487734610960080901)
 
 ## Customization
-- There are 2 overheal/dying image versions, instructions [here](/%23styles/STYLES.md).
+**Health Images**  
+- There are 2 overheal/dying image styles in `#styles/`.
+  - `no-anims` (DEFAULT): Different overheal/dying images for minmode and non-minmode.
+  - `anims`: Animated versions of the minmode overheal/dying images.
+- To change, copy contents of style you want to root folder.
+
+**Loading Screens**  
 - There are 3 loading screens, pick one here: `statsummary.res > Line 25: loading_bg_<1,2,3>`.
 
 ## TODO
