@@ -13,12 +13,13 @@ This hud is almost all lighthud, and a bit of art that I love, all credit to Hyp
 - Loading 3: [@natari_illust](https://twitter.com/natari_illust/status/1487734610960080901)
 
 ## Customization
-**Loading Screen**  
-- There are 3 loading screens, pick one here: `statsummary.res > Line 25: loading_bg_<1,2,3>`
+- There are 2 overheal/dying version, instructions [here](/\#styles/STYLES.md).
+- There are 3 loading screens, pick one here: `statsummary.res > Line 25: loading_bg_<1,2,3>`.
 
 ## TODO
-- Minmode overheal/lowhp animations
+- Align notification button
 - Align main menu buttons better
+- Dying image animations
 - Change highlight color of various elements
 - Randomised loading screens (idk how)
 - Dialog menus: fiddle with width to get messages to align properly (this sucks)
