@@ -62,6 +62,7 @@
 				"labelText"							"%page%"
 				"font"								"HudFontSmallestBold"
 				"sound_depressed"					"UI/buttonclick.wav"
+				"button_activation_type"			"2"
 			}
 			"New"
 			{
